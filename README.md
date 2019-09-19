@@ -1,10 +1,10 @@
 [![Dependency Status](https://img.shields.io/david/graphql/graphql-landscape.svg?style=flat-square)](https://david-dm.org/graphql/graphql-landscape) [![Netlify Status](https://api.netlify.com/api/v1/badges/9fe8d885-037d-48ce-8bf9-3bfa54152945/deploy-status)](https://app.netlify.com/sites/graphql-landscape/deploys)
 
-# GraphQL Landscape
+# Hyperledger Landscape
 
-![GraphQL Landscape Logo](https://landscape.graphql.org/images/left-logo.svg)
+![Hyperledger Landscape Logo](https://landscape.graphql.org/images/left-logo.svg)
 
-- [GraphQL Landscape](#cloud-native-landscape)
+- [Hyperledger Landscape](#cloud-native-landscape)
   * [Current Version](#current-version)
   * [Interactive Version](#interactive-version)
   * [New Entries](#new-entries)
@@ -20,11 +20,11 @@
   * [Vulnerability reporting](#vulnerability-reporting)
   * [Adjusting the Landscape View](#adjusting-the-landscape-view)
 
-This landscape is intended as a map to explore the GraphQL Ecosystem, and also shows the member companies of the GrapahQL Foundation. It is modelled after the Cloud Native Computing Foundation (CNCF) [landscape](https://landscape.cncf.io) and based on the same open source code.
+This landscape is intended as a map to explore the Hyperledger Ecosystem, and also shows the member companies of the GrapahQL Foundation. It is modelled after the Cloud Native Computing Foundation (CNCF) [landscape](https://landscape.cncf.io) and based on the same open source code.
 
 ## Current Version
 
-[![GraphQL Landscape](https://landscape.graphql.org/images/landscape.png)](https://landscape.graphql.org/images/landscape.png)
+[![Hyperledger Landscape](https://landscape.graphql.org/images/landscape.png)](https://landscape.graphql.org/images/landscape.png)
 
 ## Interactive Version
 
@@ -106,7 +106,7 @@ Everything else is under the Apache License, Version 2.0, except for project and
 
 ## Formats
 
-The GraphQL Landscape is available in these formats:
+The Hyperledger Landscape is available in these formats:
 
 * [PNG](https://landscape.graphql.org/images/landscape.png)
 * [PDF](https://landscape.graphql.org/images/landscape.pdf)
