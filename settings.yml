@@ -1,7 +1,7 @@
 global:
   name: Hyperledger Landscape
   short_name: Hyperledger
-  repo: hyperledger/hl-landscape
+  repo: hyperledger-landscape/hl-landscape
   website: 'https://landscape.hyperledger.org'
   short_domain: l.hyperledger.org
   company_url: 'https://hyperledger.org'
@@ -13,10 +13,10 @@ global:
     twitter: '@hyperledger'
     google_site_verification: u_xqWIf8_EzRP4UF92px16rTSoIP49D_g9i7M-4rXds
     ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
-  membership: Hyperledger Foundation Member Company
+  membership: Hyperledger Project Member Company
   flags:
     cncf_sandbox: false
-    companies: Hyperledger Foundation Member Company
+    companies: Hyperledger Project Member Company
 twitter:
   search: landscape.hyperledger.org
   url: 'https://landscape.hyperledger.org'
@@ -26,25 +26,25 @@ relation:
   url: hyperledger
   values:
     - id: hosted
-      label: Hyperledger Foundation Projects
+      label: Hyperledger Project Projects
       children:
         - id: foundationproject
-          label: Hyperledger Foundation Projects
+          label: Hyperledger Project Projects
           prefix: Hyperledger
-          tag: Foundation Project
+          tag: Project Project
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: Hyperledger Foundation Project
+          big_picture_label: Hyperledger Project Project
           big_picture_color: 'rgb(24,54,114)'
     - id: company
-      label: Hyperledger Foundation Members
+      label: Hyperledger Project Members
       tag: Company
       big_picture_order: 3
     - id: member
-      label: Hyperledger Foundation Member Products/Projects
-      tag: Hyperledger Foundation Member
+      label: Hyperledger Project Member Products/Projects
+      tag: Hyperledger Project Member
     - id: false
-      label: Non-Hyperledger Foundation Member Products/Projects
+      label: Non-Hyperledger Project Member Products/Projects
       url: 'no'
 membership:
   General:
@@ -60,7 +60,7 @@ membership:
     funding: 'No'
 home:
   header: >
-    <h1>Hyperledger Landscape</h1> The Hyperledger Foundation landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
+    <h1>Hyperledger Landscape</h1> The Hyperledger Project landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
     href="images/landscape.pdf">pdf</a>) is dynamically generated below. It is modeled after the <a href="http://landscape.cncf.io">CNCF landscape</a> and based
     on the same open source code.
   footer: |
@@ -133,7 +133,7 @@ big_picture:
         color: 'rgb(108, 135, 75)'
         fit_width: true
       - type: HorizontalCategory
-        category: Hyperledger Foundation Member Company
+        category: Hyperledger Project Member Company
         rows: 6
         width: 730
         height: 200
@@ -149,7 +149,7 @@ big_picture:
         children:
           - type: text
             text: |
-              This landscape is intended as a map to explore the Hyperledger community, and also shows the member organizations of the Hyperledger Foundation.
+              This landscape is intended as a map to explore the Hyperledger community, and also shows the member organizations of the Hyperledger Project.
             top: 45
             left: 100
             right: 120
@@ -177,7 +177,7 @@ big_picture:
             top: 85
 test:
   header: Hyperledger Landscape
-  section: Hyperledger Foundation Members
+  section: Hyperledger Project Members
   logo: twitter.svg
 update_server:
   ip: 147.75.106.211
