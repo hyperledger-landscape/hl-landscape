@@ -8,7 +8,8 @@ landscape:
         items:
           - item:
             name: Accenture
-            homepage_url: 'https://www.accenture.com/'
+            description: 'Accenture, a technology independent HF-CSP and trusted advisor, can help on your path to digital transformation.'
+            homepage_url: 'https://accenture.com/blockchain'
             stock_ticker: ACN
             logo: accenture-horizontal-color.svg
             twitter: 'https://twitter.com/Accenture'
@@ -28,7 +29,7 @@ landscape:
               ticker: CSA
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 118826434560
+              market_cap: 118488866816
               effective_ticker: ACN
             image_data:
               fileName: accenture.svg
@@ -37,7 +38,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-16T13:59:42.000Z
+              latest_tweet_date: 2019-10-17T16:06:40.000Z
           - item:
             name: Alibaba Cloud
             description: >-
@@ -64,7 +65,7 @@ landscape:
               ticker: BABA
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 461144293376
+              market_cap: 460441354240
               effective_ticker: BABA
             image_data:
               fileName: alibaba-cloud.svg
@@ -73,7 +74,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-16T10:09:46.000Z
+              latest_tweet_date: 2019-10-17T09:30:00.000Z
           - item:
             name: Chainyard
             description: >-
@@ -136,20 +137,20 @@ landscape:
               ticker: GOOG
               kind: market_cap
             github_data:
-              stars: 136035
+              stars: 136084
               license: Apache License 2.0
               description: An Open Source Machine Learning Framework for Everyone
-              latest_commit_date: '2019-10-17T04:16:51Z'
-              latest_commit_link: /tensorflow/tensorflow/commit/08cc5a44f3dcd1e404f042375f48ecc6939e441c
+              latest_commit_date: '2019-10-18T04:31:43Z'
+              latest_commit_link: /tensorflow/tensorflow/commit/d758182a15f09e7590c151ea164229d582e835f6
               release_date: '2019-10-16T18:01:52Z'
               release_link: 'https://github.com/tensorflow/tensorflow/releases'
-              contributors_count: 2237
+              contributors_count: 2238
               contributors_link: 'https://github.com/tensorflow/tensorflow/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /tensorflow/tensorflow/commit/f41959ccb2d9d4c722fe8fc3351401d53bcf4900
               start_date: '2015-11-07T00:27:58Z'
             yahoo_finance_data:
-              market_cap: 862071357440
+              market_cap: 868653137920
               effective_ticker: GOOG
             image_data:
               fileName: tensorflow.svg
@@ -158,7 +159,7 @@ landscape:
               badge: 1486
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2019-10-16T23:20:10.000Z
+              latest_tweet_date: 2019-10-17T23:41:04.000Z
   - category:
     name: Tools
     subcategories:
@@ -185,11 +186,11 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/the-apache-software-foundation'
               parents: []
             github_data:
-              stars: 4305
+              stars: 4308
               license: Apache License 2.0
               description: Apache Mesos
-              latest_commit_date: '2019-10-09T18:30:54Z'
-              latest_commit_link: /apache/mesos/commit/558829eb24f4ad636348497075bbc0428a4794a4
+              latest_commit_date: '2019-10-17T09:41:10Z'
+              latest_commit_link: /apache/mesos/commit/b5929429c9638d6c0d03db6d44ac673d67e49a8c
               contributors_count: 297
               contributors_link: 'https://github.com/apache/mesos/graphs/contributors'
             github_start_commit_data:
@@ -232,7 +233,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-10T17:44:56.000Z
+              latest_tweet_date: 2019-10-17T15:35:52.000Z
           - item:
             name: Amazon Web Services (member)
             homepage_url: 'https://aws.amazon.com/'
@@ -254,7 +255,7 @@ landscape:
               ticker: AMZN
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 879216427008
+              market_cap: 884187725824
               effective_ticker: AMZN
             image_data:
               fileName: amazon-web-services-member.svg
@@ -263,7 +264,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-17T04:00:01.000Z
+              latest_tweet_date: 2019-10-18T04:41:01.000Z
           - item:
             name: Hasura (member)
             homepage_url: 'https://hasura.io'
@@ -289,7 +290,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-16T23:30:07.000Z
+              latest_tweet_date: 2019-10-17T23:30:04.000Z
           - item:
             name: IBM (member)
             homepage_url: 'https://www.ibm.com/cloud'
@@ -311,7 +312,7 @@ landscape:
               ticker: IBM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 125891698688
+              market_cap: 118937575424
               effective_ticker: IBM
             image_data:
               fileName: ibm-member.svg
@@ -320,7 +321,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-17T02:16:27.000Z
+              latest_tweet_date: 2019-10-17T23:00:00.000Z
           - item:
             name: Intuit (member)
             homepage_url: 'https://www.intuit.com'
@@ -341,7 +342,7 @@ landscape:
               ticker: INTU
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 69737029632
+              market_cap: 69317525504
               effective_ticker: INTU
             image_data:
               fileName: intuit-member.svg
@@ -372,11 +373,11 @@ landscape:
               kind: funding
               funding: 160100000
             github_data:
-              stars: 6979
+              stars: 6983
               license: Unknown License
               description: Graphs for Everyone
-              latest_commit_date: '2019-10-11T21:59:08Z'
-              latest_commit_link: /neo4j/neo4j/commit/893080350537561f228d527b8039916b957e48d7
+              latest_commit_date: '2019-10-17T13:22:44Z'
+              latest_commit_link: /neo4j/neo4j/commit/9d8e920e9bc48dfa2747ad77fbe4c03a9bb4bc91
               release_date: '2017-09-15T12:28:27Z'
               release_link: 'https://github.com/neo4j/neo4j/releases'
               contributors_count: 178
@@ -391,7 +392,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-17T01:58:00.000Z
+              latest_tweet_date: 2019-10-18T04:04:00.000Z
           - item:
             name: Shopify (member)
             homepage_url: 'https://www.shopify.com'
@@ -413,7 +414,7 @@ landscape:
               ticker: SHOP
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 37224427520
+              market_cap: 38172688384
               effective_ticker: SHOP
             image_data:
               fileName: shopify-member.svg
@@ -422,7 +423,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-16T22:01:42.000Z
+              latest_tweet_date: 2019-10-17T21:53:36.000Z
           - item:
             name: Solo.io (member)
             homepage_url: 'https://www.solo.io'
@@ -449,7 +450,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-16T23:54:59.000Z
+              latest_tweet_date: 2019-10-17T23:47:00.000Z
           - item:
             name: Twitter (member)
             homepage_url: 'https://twitter.com/'
@@ -472,7 +473,7 @@ landscape:
               ticker: TWTR
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 30851147776
+              market_cap: 30619242496
               effective_ticker: TWTR
             image_data:
               fileName: twitter-member.svg
@@ -481,7 +482,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-17T00:38:21.000Z
+              latest_tweet_date: 2019-10-18T03:05:50.000Z
   - category:
     name: Hyperledger Adopter
     subcategories:
@@ -515,7 +516,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-16T20:10:00.000Z
+              latest_tweet_date: 2019-10-17T20:02:00.000Z
           - item:
             name: Buildkite
             homepage_url: 'https://buildkite.com/'
@@ -541,7 +542,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-11T23:56:56.000Z
+              latest_tweet_date: 2019-10-18T03:56:15.000Z
           - item:
             name: Cheddar
             homepage_url: 'https://cheddar.com'
@@ -569,7 +570,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-17T02:55:00.000Z
+              latest_tweet_date: 2019-10-18T02:39:00.000Z
           - item:
             name: Coursera
             homepage_url: 'https://www.coursera.org'
@@ -597,7 +598,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-16T22:47:37.000Z
+              latest_tweet_date: 2019-10-17T21:36:47.000Z
           - item:
             name: DailyMotion
             homepage_url: 'https://www.dailymotion.com/'
@@ -648,7 +649,7 @@ landscape:
               ticker: MSFT
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 1063265959936
+              market_cap: 1066590404608
               effective_ticker: MSFT
             image_data:
               fileName: github.svg
@@ -657,7 +658,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-16T18:02:21.000Z
+              latest_tweet_date: 2019-10-17T18:00:18.000Z
           - item:
             name: Goalify
             homepage_url: 'https://goalify.plus/'
@@ -711,7 +712,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-16T23:30:07.000Z
+              latest_tweet_date: 2019-10-17T23:30:04.000Z
           - item:
             name: Hudl
             homepage_url: 'https://hudl.com'
@@ -739,7 +740,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-16T22:40:00.000Z
+              latest_tweet_date: 2019-10-17T19:25:00.000Z
           - item:
             name: Intuit
             homepage_url: 'https://www.intuit.com/'
@@ -762,7 +763,7 @@ landscape:
               ticker: INTU
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 69737029632
+              market_cap: 69317525504
               effective_ticker: INTU
             image_data:
               fileName: intuit.svg
@@ -797,7 +798,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-17T01:45:14.000Z
+              latest_tweet_date: 2019-10-18T04:16:33.000Z
           - item:
             name: Loggi
             homepage_url: 'https://www.loggi.com'
@@ -825,7 +826,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-16T18:09:05.000Z
+              latest_tweet_date: 2019-10-17T18:16:36.000Z
           - item:
             name: NBC News Digital
             homepage_url: 'https://nbc.com'
@@ -848,7 +849,7 @@ landscape:
               ticker: CMCSA
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 207251554304
+              market_cap: 208751394816
               effective_ticker: CMCSA
             image_data:
               fileName: nbc-news-digital.svg
@@ -857,7 +858,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-16T23:00:10.000Z
+              latest_tweet_date: 2019-10-18T02:24:30.000Z
           - item:
             name: Neo4j
             homepage_url: 'https://www.neo4j.com/'
@@ -885,7 +886,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-17T01:58:00.000Z
+              latest_tweet_date: 2019-10-18T04:04:00.000Z
           - item:
             name: Pinterest
             homepage_url: 'https://www.pinterest.com/'
@@ -908,7 +909,7 @@ landscape:
               ticker: PINS
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 13969355776
+              market_cap: 14105032704
               effective_ticker: PINS
             image_data:
               fileName: pinterest.svg
@@ -917,7 +918,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-16T21:05:50.000Z
+              latest_tweet_date: 2019-10-17T23:03:05.000Z
           - item:
             name: Serverless
             homepage_url: 'https://serverless.com/'
@@ -946,7 +947,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-17T02:17:05.000Z
+              latest_tweet_date: 2019-10-18T03:52:20.000Z
           - item:
             name: Shopify
             homepage_url: 'https://www.shopify.com/'
@@ -969,7 +970,7 @@ landscape:
               ticker: SHOP
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 37224427520
+              market_cap: 38172688384
               effective_ticker: SHOP
             image_data:
               fileName: shopify.svg
@@ -978,7 +979,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-16T22:01:42.000Z
+              latest_tweet_date: 2019-10-17T21:53:36.000Z
           - item:
             name: Twitter
             homepage_url: 'https://twitter.com/'
@@ -1001,7 +1002,7 @@ landscape:
               ticker: TWTR
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 30851147776
+              market_cap: 30619242496
               effective_ticker: TWTR
             image_data:
               fileName: twitter.svg
@@ -1010,7 +1011,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-17T00:38:21.000Z
+              latest_tweet_date: 2019-10-18T03:05:50.000Z
           - item:
             name: Yelp
             homepage_url: 'https://www.yelp.com/'
@@ -1033,7 +1034,7 @@ landscape:
               ticker: YELP
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 2387234560
+              market_cap: 2355271936
               effective_ticker: YELP
             image_data:
               fileName: yelp.svg
@@ -1042,6 +1043,6 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-16T20:48:53.000Z
+              latest_tweet_date: 2019-10-17T17:55:03.000Z
 twitter_options:
   count: 0
