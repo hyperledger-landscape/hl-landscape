@@ -29,7 +29,7 @@ landscape:
               ticker: CSA
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 117234180096
+              market_cap: 117826494464
               effective_ticker: ACN
             image_data:
               fileName: accenture.svg
@@ -38,7 +38,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-24T06:00:23.000Z
+              latest_tweet_date: 2019-10-24T15:00:00.000Z
           - item:
             name: Alibaba Cloud
             description: >-
@@ -64,7 +64,7 @@ landscape:
               ticker: BABA
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 442398605312
+              market_cap: 449246003200
               effective_ticker: BABA
             image_data:
               fileName: alibaba-cloud.svg
@@ -73,7 +73,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-21T07:59:22.000Z
+              latest_tweet_date: 2019-10-25T10:27:18.000Z
           - item:
             name: Chainyard
             description: >-
@@ -132,11 +132,89 @@ landscape:
               ticker: GOOG
               kind: market_cap
             github_data:
-              stars: 136341
+              languages:
+                - name: C++
+                  value: 75209343
+                  color: '#f34b7d'
+                - name: Python
+                  value: 38063902
+                  color: '#3572A5'
+                - name: HTML
+                  value: 4680032
+                  color: '#e34c26'
+                - name: Go
+                  value: 1670421
+                  color: '#00ADD8'
+                - name: MLIR
+                  value: 1118393
+                - name: Java
+                  value: 864735
+                  color: '#b07219'
+                - name: C
+                  value: 748572
+                  color: '#555555'
+                - name: Shell
+                  value: 559859
+                  color: '#89e051'
+                - name: Jupyter Notebook
+                  value: 540773
+                  color: '#DA5B0B'
+                - name: Objective-C++
+                  value: 298405
+                  color: '#6866fb'
+                - name: Objective-C
+                  value: 105732
+                  color: '#438eff'
+                - name: Dockerfile
+                  value: 80604
+                  color: '#384d54'
+                - name: Swift
+                  value: 62814
+                  color: '#ffac45'
+                - name: Makefile
+                  value: 59659
+                  color: '#427819'
+                - name: Smarty
+                  value: 31485
+                - name: PHP
+                  value: 24118
+                  color: '#4F5D95'
+                - name: Batchfile
+                  value: 15272
+                  color: '#C1F12E'
+                - name: Pawn
+                  value: 14529
+                  color: '#dbb284'
+                - name: 'C#'
+                  value: 8562
+                  color: '#178600'
+                - name: Perl
+                  value: 7536
+                  color: '#0298c3'
+                - name: Ruby
+                  value: 7469
+                  color: '#701516'
+                - name: CMake
+                  value: 6545
+                - name: LLVM
+                  value: 6536
+                  color: '#185619'
+                - name: Assembly
+                  value: 4913
+                  color: '#6E4C13'
+                - name: Pascal
+                  value: 3752
+                  color: '#E3F171'
+                - name: RobotFramework
+                  value: 891
+              contributions: >-
+                383;436;505;454;401;554;492;489;263;227;448;544;383;610;583;565;521;660;547;541;613;571;613;572;505;495;529;558;611;567;478;562;597;556;551;563;519;589;592;622;645;614;628;487;482;535;565;514;473;529;507;454
+              firstWeek: 2018-10-28Z
+              stars: 136393
               license: Apache License 2.0
               description: An Open Source Machine Learning Framework for Everyone
-              latest_commit_date: '2019-10-24T06:53:50Z'
-              latest_commit_link: /tensorflow/tensorflow/commit/0e90b26f81f348191f1967b524651e6c9d81a5b2
+              latest_commit_date: '2019-10-25T09:53:16Z'
+              latest_commit_link: /tensorflow/tensorflow/commit/50e6470f7f5289495497e29f871f3104c48c4090
               release_date: '2019-10-16T18:01:52Z'
               release_link: 'https://github.com/tensorflow/tensorflow/releases'
               contributors_count: 2239
@@ -145,7 +223,7 @@ landscape:
               start_commit_link: /tensorflow/tensorflow/commit/f41959ccb2d9d4c722fe8fc3351401d53bcf4900
               start_date: '2015-11-07T00:27:58Z'
             yahoo_finance_data:
-              market_cap: 872517926912
+              market_cap: 873717235712
               effective_ticker: GOOG
             image_data:
               fileName: tensorflow.svg
@@ -154,7 +232,7 @@ landscape:
               badge: 1486
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2019-10-23T22:53:47.000Z
+              latest_tweet_date: 2019-10-24T19:13:12.000Z
   - category:
     name: Tools
     subcategories:
@@ -181,7 +259,54 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/the-apache-software-foundation'
               parents: []
             github_data:
-              stars: 4314
+              languages:
+                - name: C++
+                  value: 14921679
+                  color: '#f34b7d'
+                - name: Python
+                  value: 363304
+                  color: '#3572A5'
+                - name: M4
+                  value: 200965
+                - name: Java
+                  value: 150499
+                  color: '#b07219'
+                - name: Shell
+                  value: 148165
+                  color: '#89e051'
+                - name: Makefile
+                  value: 119561
+                  color: '#427819'
+                - name: CMake
+                  value: 102489
+                - name: HTML
+                  value: 99365
+                  color: '#e34c26'
+                - name: JavaScript
+                  value: 96892
+                  color: '#f1e05a'
+                - name: Dockerfile
+                  value: 17366
+                  color: '#384d54'
+                - name: Ruby
+                  value: 10022
+                  color: '#701516'
+                - name: CSS
+                  value: 8663
+                  color: '#563d7c'
+                - name: Batchfile
+                  value: 8107
+                  color: '#C1F12E'
+                - name: Groovy
+                  value: 3938
+                  color: '#e69f56'
+                - name: PowerShell
+                  value: 2547
+                  color: '#012456'
+              contributions: >-
+                54;36;20;33;23;17;12;33;3;3;32;45;28;47;22;37;37;46;50;23;18;37;56;46;33;26;28;18;32;37;21;23;19;19;39;41;23;51;28;39;22;28;23;31;21;19;27;11;6;22;2;17
+              firstWeek: 2018-10-28Z
+              stars: 4316
               license: Apache License 2.0
               description: Apache Mesos
               latest_commit_date: '2019-10-23T23:44:03Z'
@@ -250,7 +375,7 @@ landscape:
               ticker: AMZN
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 871667990528
+              market_cap: 880873504768
               effective_ticker: AMZN
             image_data:
               fileName: amazon-web-services-member.svg
@@ -259,7 +384,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-24T04:30:01.000Z
+              latest_tweet_date: 2019-10-25T04:00:01.000Z
           - item:
             name: Hasura (member)
             homepage_url: 'https://hasura.io'
@@ -285,7 +410,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-24T05:06:04.000Z
+              latest_tweet_date: 2019-10-25T10:20:37.000Z
           - item:
             name: IBM (member)
             homepage_url: 'https://www.ibm.com/cloud'
@@ -307,7 +432,7 @@ landscape:
               ticker: IBM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 119043891200
+              market_cap: 118769270784
               effective_ticker: IBM
             image_data:
               fileName: ibm-member.svg
@@ -316,7 +441,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-23T21:05:30.000Z
+              latest_tweet_date: 2019-10-25T09:43:03.000Z
           - item:
             name: Intuit (member)
             homepage_url: 'https://www.intuit.com'
@@ -337,7 +462,7 @@ landscape:
               ticker: INTU
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 66571141120
+              market_cap: 67333156864
               effective_ticker: INTU
             image_data:
               fileName: intuit-member.svg
@@ -345,7 +470,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-23T21:52:03.000Z
+              latest_tweet_date: 2019-10-24T21:03:06.000Z
           - item:
             name: Neo4j (member)
             homepage_url: 'https://neo4j.com'
@@ -367,11 +492,41 @@ landscape:
               kind: funding
               funding: 160100000
             github_data:
-              stars: 7005
+              languages:
+                - name: Java
+                  value: 31728845
+                  color: '#b07219'
+                - name: Scala
+                  value: 6129347
+                  color: '#c22d40'
+                - name: PowerShell
+                  value: 172872
+                  color: '#012456'
+                - name: Gherkin
+                  value: 164746
+                  color: '#5B2063'
+                - name: Shell
+                  value: 113674
+                  color: '#89e051'
+                - name: Roff
+                  value: 88633
+                  color: '#ecdebe'
+                - name: M4
+                  value: 7634
+                - name: Batchfile
+                  value: 3640
+                  color: '#C1F12E'
+                - name: Makefile
+                  value: 469
+                  color: '#427819'
+              contributions: >-
+                64;73;28;31;31;23;53;41;10;4;49;42;29;17;38;34;19;37;25;32;29;22;29;15;23;15;25;24;34;29;11;6;11;8;10;13;1;4;3;1;14;28;19;33;39;24;32;25;16;14;25;17
+              firstWeek: 2018-10-28Z
+              stars: 7015
               license: Unknown License
               description: Graphs for Everyone
-              latest_commit_date: '2019-10-22T08:38:38Z'
-              latest_commit_link: /neo4j/neo4j/commit/c0b6bd68402e5afdd32d1a845bbb4c498c339472
+              latest_commit_date: '2019-10-23T14:58:35Z'
+              latest_commit_link: /neo4j/neo4j/commit/189c29a5afeddead173bda09787f74f66cfd275a
               release_date: '2017-09-15T12:28:27Z'
               release_link: 'https://github.com/neo4j/neo4j/releases'
               contributors_count: 176
@@ -386,7 +541,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-24T06:09:00.000Z
+              latest_tweet_date: 2019-10-25T11:03:09.000Z
           - item:
             name: Shopify (member)
             homepage_url: 'https://www.shopify.com'
@@ -407,7 +562,7 @@ landscape:
               ticker: SHOP
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 34247763968
+              market_cap: 37221281792
               effective_ticker: SHOP
             image_data:
               fileName: shopify-member.svg
@@ -442,7 +597,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-23T20:09:14.000Z
+              latest_tweet_date: 2019-10-25T03:08:59.000Z
           - item:
             name: Twitter (member)
             homepage_url: 'https://twitter.com/'
@@ -463,7 +618,7 @@ landscape:
               ticker: TWTR
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 30016288768
+              market_cap: 23770302464
               effective_ticker: TWTR
             image_data:
               fileName: twitter-member.svg
@@ -472,7 +627,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-23T22:16:57.000Z
+              latest_tweet_date: 2019-10-24T15:33:00.000Z
   - category:
     name: Hyperledger Adopter
     subcategories:
@@ -505,7 +660,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-23T20:06:59.000Z
+              latest_tweet_date: 2019-10-24T20:09:00.000Z
           - item:
             name: Buildkite
             homepage_url: 'https://buildkite.com/'
@@ -530,7 +685,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-23T21:03:37.000Z
+              latest_tweet_date: 2019-10-25T09:08:48.000Z
           - item:
             name: Cheddar
             homepage_url: 'https://cheddar.com'
@@ -557,7 +712,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-24T02:10:19.000Z
+              latest_tweet_date: 2019-10-25T02:12:00.000Z
           - item:
             name: Coursera
             homepage_url: 'https://www.coursera.org'
@@ -584,7 +739,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-24T01:20:13.000Z
+              latest_tweet_date: 2019-10-25T00:08:50.000Z
           - item:
             name: DailyMotion
             homepage_url: 'https://www.dailymotion.com/'
@@ -634,7 +789,7 @@ landscape:
               ticker: MSFT
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 1062848364544
+              market_cap: 1088577929216
               effective_ticker: MSFT
             image_data:
               fileName: github.svg
@@ -643,7 +798,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-23T23:05:01.000Z
+              latest_tweet_date: 2019-10-24T21:00:15.000Z
           - item:
             name: Goalify
             homepage_url: 'https://goalify.plus/'
@@ -696,7 +851,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-24T05:06:04.000Z
+              latest_tweet_date: 2019-10-25T10:20:37.000Z
           - item:
             name: Hudl
             homepage_url: 'https://hudl.com'
@@ -723,7 +878,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-23T23:50:59.000Z
+              latest_tweet_date: 2019-10-24T23:02:00.000Z
           - item:
             name: Intuit
             homepage_url: 'https://www.intuit.com/'
@@ -745,7 +900,7 @@ landscape:
               ticker: INTU
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 66571141120
+              market_cap: 67333156864
               effective_ticker: INTU
             image_data:
               fileName: intuit.svg
@@ -754,7 +909,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-23T21:52:03.000Z
+              latest_tweet_date: 2019-10-24T21:03:06.000Z
           - item:
             name: KLM
             homepage_url: 'https://www.klm.com'
@@ -779,7 +934,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-24T07:02:34.000Z
+              latest_tweet_date: 2019-10-25T11:03:05.000Z
           - item:
             name: Loggi
             homepage_url: 'https://www.loggi.com'
@@ -807,7 +962,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-23T17:12:26.000Z
+              latest_tweet_date: 2019-10-24T16:19:07.000Z
           - item:
             name: NBC News Digital
             homepage_url: 'https://nbc.com'
@@ -830,7 +985,7 @@ landscape:
               ticker: CMCSA
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 207796961280
+              market_cap: 203797364736
               effective_ticker: CMCSA
             image_data:
               fileName: nbc-news-digital.svg
@@ -839,7 +994,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-23T21:56:30.000Z
+              latest_tweet_date: 2019-10-24T22:30:12.000Z
           - item:
             name: Neo4j
             homepage_url: 'https://www.neo4j.com/'
@@ -866,7 +1021,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-24T06:09:00.000Z
+              latest_tweet_date: 2019-10-25T11:03:09.000Z
           - item:
             name: Pinterest
             homepage_url: 'https://www.pinterest.com/'
@@ -888,7 +1043,7 @@ landscape:
               ticker: PINS
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 13947648000
+              market_cap: 13985637376
               effective_ticker: PINS
             image_data:
               fileName: pinterest.svg
@@ -897,7 +1052,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-24T02:03:09.000Z
+              latest_tweet_date: 2019-10-25T03:06:24.000Z
           - item:
             name: Serverless
             homepage_url: 'https://serverless.com/'
@@ -925,7 +1080,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-23T19:17:16.000Z
+              latest_tweet_date: 2019-10-24T19:33:41.000Z
           - item:
             name: Shopify
             homepage_url: 'https://www.shopify.com/'
@@ -946,7 +1101,7 @@ landscape:
               ticker: SHOP
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 34247763968
+              market_cap: 37221281792
               effective_ticker: SHOP
             image_data:
               fileName: shopify.svg
@@ -976,7 +1131,7 @@ landscape:
               ticker: TWTR
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 30016288768
+              market_cap: 23770302464
               effective_ticker: TWTR
             image_data:
               fileName: twitter.svg
@@ -985,7 +1140,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-23T22:16:57.000Z
+              latest_tweet_date: 2019-10-24T15:33:00.000Z
           - item:
             name: Yelp
             homepage_url: 'https://www.yelp.com/'
@@ -1007,7 +1162,7 @@ landscape:
               ticker: YELP
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 2381552128
+              market_cap: 2380131584
               effective_ticker: YELP
             image_data:
               fileName: yelp.svg
@@ -1016,6 +1171,6 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-23T23:15:24.000Z
+              latest_tweet_date: 2019-10-24T21:30:31.000Z
 twitter_options:
   count: 0
