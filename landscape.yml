@@ -8,8 +8,7 @@ landscape:
           - item:
             name: Accenture
             description: >-
-              Accenture, a technology independent HF-CSP and trusted advisor, can help on your path to digital transformation.  <a
-              href="http://www.hyperledger.org">Link test</a>
+              Accenture, a technology independent HF-CSP and trusted advisor, can help on your path to digital transformation.
             homepage_url: 'https://accenture.com/blockchain'
             stock_ticker: ACN
             logo: accenture-horizontal-color.svg
@@ -33,6 +32,16 @@ landscape:
             homepage_url: 'https://chainyard.com/'
             logo: chainyard-horizontal-color.svg
             crunchbase: 'https://www.crunchbase.com/organization/chainyard-an-it-people-company'
+      - subcategory:
+        name: Hyperledger Sawtooth - CSP
+        items:
+          - item:
+            name: Apache Mesos
+            homepage_url: 'http://mesos.apache.org/'
+            repo_url: 'https://github.com/apache/mesos'
+            logo: apache-mesos.svg
+            twitter: 'https://twitter.com/ApacheMesos'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'            
   - category:
     name: Services
     subcategories:
