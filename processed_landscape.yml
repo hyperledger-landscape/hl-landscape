@@ -29,7 +29,7 @@ landscape:
               ticker: CSA
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 119700955136
+              market_cap: 119433854976
               effective_ticker: ACN
             image_data:
               fileName: accenture.svg
@@ -38,7 +38,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-11-01T19:00:00.000Z
+              latest_tweet_date: 2019-11-04T20:00:25.000Z
           - item:
             name: Ant Finanical
             description: >-
@@ -64,7 +64,7 @@ landscape:
               ticker: BABA
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 459425972224
+              market_cap: 467835486208
               effective_ticker: BABA
             image_data:
               fileName: ant-finanical.svg
@@ -104,6 +104,42 @@ landscape:
             twitter_data:
               latest_tweet_date: 2019-10-29T02:11:22.000Z
           - item:
+            name: IBM
+            description: >-
+              IBM has several blockchain products and services that will help accelerate a client’s blockchain success. The IBM Blockchain Platform adds
+              enterprise grade production requirements to Hyperledger Fabric helping clients to build, govern, operate and grow their enterprise blockchain
+              solutions throughout their solutions lifecycle.  This platform is available as SaaS on the IBM Cloud or as Software for multicloud (3 party public
+              clouds) or on-premise infrastructures of your choice.
+            homepage_url: 'https://www.ibm.com/blockchain'
+            logo: ibm-horizontal-color.svg
+            twitter: 'https://twitter.com/ibmblockchain'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            crunchbase_data:
+              name: IBM
+              description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.ibm.com/'
+              city: Armonk
+              region: New York
+              country: United States
+              twitter: 'http://twitter.com/IBM'
+              linkedin: 'https://www.linkedin.com/company/ibm/'
+              parents: []
+              ticker: IBM
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 121925640192
+              effective_ticker: IBM
+            image_data:
+              fileName: ibm.svg
+              hash: g6+MDGLKiOcQqhRKanxih/QZ6Px5TFkctXGpGuLTZdE=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-11-05T05:02:00.000Z
+          - item:
             name: Peersafe
             description: >-
               Beijing Peersafe Technology Co., LTD is the first company in China to engage in researching Hyperledger Fabric and its application in finance,
@@ -132,256 +168,6 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2017-10-26T03:53:16.000Z
-      - subcategory:
-        name: Hyperledger Sawtooth - CSP
-        items:
-          - item:
-            name: Test Company
-            homepage_url: 'http://mesos.apache.org/'
-            logo: apache-mesos.svg
-            twitter: 'https://twitter.com/ApacheMesos'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-            crunchbase_data:
-              name: Apache Software Foundation
-              description: 'Apache Software Foundation provides organizational, legal and financial support for Apache open-source software projects.'
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'http://www.apache.org'
-              city: Forest Hill
-              region: Maryland
-              country: United States
-              twitter: 'http://twitter.com/TheASF'
-              linkedin: 'https://www.linkedin.com/company/the-apache-software-foundation'
-              parents: []
-            image_data:
-              fileName: test-company.svg
-              hash: 2xjVr67XeVaCtsz5wrO36pHPz+F3uWKuC++WkkkEVHQ=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-10-22T00:17:00.000Z
-  - category:
-    name: Services
-    subcategories:
-      - subcategory:
-        name: Services
-        items:
-          - item:
-            name: Tensorflow
-            homepage_url: 'https://www.tensorflow.org/'
-            repo_url: 'https://github.com/tensorflow/tensorflow'
-            logo: tensorflow.svg
-            twitter: 'https://twitter.com/TensorFlow'
-            crunchbase: 'https://www.crunchbase.com/organization/google'
-            crunchbase_data:
-              name: Google
-              description: Google is a multinational corporation that is specialized in internet-related services and products.
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.google.com/'
-              city: Mountain View
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/google'
-              linkedin: 'https://www.linkedin.com/company/google'
-              parents:
-                - 'https://www.crunchbase.com/organization/alphabet'
-              ticker: GOOG
-              kind: market_cap
-            github_data:
-              languages:
-                - name: C++
-                  value: 75612626
-                  color: '#f34b7d'
-                - name: Python
-                  value: 38160448
-                  color: '#3572A5'
-                - name: HTML
-                  value: 4680032
-                  color: '#e34c26'
-                - name: Go
-                  value: 1670205
-                  color: '#00ADD8'
-                - name: MLIR
-                  value: 1163459
-                - name: Java
-                  value: 952883
-                  color: '#b07219'
-                - name: C
-                  value: 757324
-                  color: '#555555'
-                - name: Shell
-                  value: 625266
-                  color: '#89e051'
-                - name: Jupyter Notebook
-                  value: 542371
-                  color: '#DA5B0B'
-                - name: Objective-C++
-                  value: 297106
-                  color: '#6866fb'
-                - name: Objective-C
-                  value: 104706
-                  color: '#438eff'
-                - name: Dockerfile
-                  value: 81141
-                  color: '#384d54'
-                - name: Swift
-                  value: 62814
-                  color: '#ffac45'
-                - name: Makefile
-                  value: 61039
-                  color: '#427819'
-                - name: Batchfile
-                  value: 45319
-                  color: '#C1F12E'
-                - name: Smarty
-                  value: 34743
-                - name: PHP
-                  value: 24118
-                  color: '#4F5D95'
-                - name: Pawn
-                  value: 17350
-                  color: '#dbb284'
-                - name: 'C#'
-                  value: 8562
-                  color: '#178600'
-                - name: Perl
-                  value: 7536
-                  color: '#0298c3'
-                - name: Ruby
-                  value: 7469
-                  color: '#701516'
-                - name: CMake
-                  value: 6545
-                - name: LLVM
-                  value: 6536
-                  color: '#185619'
-                - name: Assembly
-                  value: 5003
-                  color: '#6E4C13'
-                - name: Pascal
-                  value: 3752
-                  color: '#E3F171'
-                - name: RobotFramework
-                  value: 891
-              contributions: >-
-                466;510;329;513;554;481;501;197;278;470;528;440;601;624;511;522;669;545;533;608;589;600;562;479;513;535;609;565;565;471;577;566;586;543;453;641;588;563;704;592;613;598;498;489;555;556;469;492;537;526;470;395
-              firstWeek: 2018-11-11Z
-              stars: 136782
-              license: Apache License 2.0
-              description: An Open Source Machine Learning Framework for Everyone
-              latest_commit_date: '2019-11-04T03:54:18Z'
-              latest_commit_link: /tensorflow/tensorflow/commit/82fde44990342551410c40a63806c4c825289c39
-              release_date: '2019-10-16T18:01:52Z'
-              release_link: 'https://github.com/tensorflow/tensorflow/releases'
-              contributors_count: 2260
-              contributors_link: 'https://github.com/tensorflow/tensorflow/graphs/contributors'
-            github_start_commit_data:
-              start_commit_link: /tensorflow/tensorflow/commit/f41959ccb2d9d4c722fe8fc3351401d53bcf4900
-              start_date: '2015-11-07T00:27:58Z'
-            yahoo_finance_data:
-              market_cap: 878024654848
-              effective_ticker: GOOG
-            image_data:
-              fileName: tensorflow.svg
-              hash: w2Ut+Xlvcfub/GC1iEcs/lXYf6fKKAq1uhOGAjgRNcA=
-            best_practice_data:
-              badge: 1486
-              percentage: 100
-            twitter_data:
-              latest_tweet_date: 2019-11-01T23:00:00.000Z
-  - category:
-    name: Tools
-    subcategories:
-      - subcategory:
-        name: Tools
-        items:
-          - item:
-            name: Apache Mesos
-            homepage_url: 'http://mesos.apache.org/'
-            repo_url: 'https://github.com/apache/mesos'
-            logo: apache-mesos.svg
-            twitter: 'https://twitter.com/ApacheMesos'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-            crunchbase_data:
-              name: Apache Software Foundation
-              description: 'Apache Software Foundation provides organizational, legal and financial support for Apache open-source software projects.'
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'http://www.apache.org'
-              city: Forest Hill
-              region: Maryland
-              country: United States
-              twitter: 'http://twitter.com/TheASF'
-              linkedin: 'https://www.linkedin.com/company/the-apache-software-foundation'
-              parents: []
-            github_data:
-              languages:
-                - name: C++
-                  value: 14930913
-                  color: '#f34b7d'
-                - name: Python
-                  value: 363304
-                  color: '#3572A5'
-                - name: M4
-                  value: 200965
-                - name: Java
-                  value: 150499
-                  color: '#b07219'
-                - name: Shell
-                  value: 148165
-                  color: '#89e051'
-                - name: Makefile
-                  value: 119561
-                  color: '#427819'
-                - name: CMake
-                  value: 102489
-                - name: HTML
-                  value: 99365
-                  color: '#e34c26'
-                - name: JavaScript
-                  value: 96892
-                  color: '#f1e05a'
-                - name: Dockerfile
-                  value: 17366
-                  color: '#384d54'
-                - name: Ruby
-                  value: 10022
-                  color: '#701516'
-                - name: CSS
-                  value: 8663
-                  color: '#563d7c'
-                - name: Batchfile
-                  value: 8107
-                  color: '#C1F12E'
-                - name: Groovy
-                  value: 3938
-                  color: '#e69f56'
-                - name: PowerShell
-                  value: 2547
-                  color: '#012456'
-              contributions: >-
-                34;22;31;22;16;17;27;1;9;57;19;24;52;24;46;29;54;44;13;29;37;56;46;26;28;26;19;32;38;15;25;21;32;32;35;31;49;20;38;23;26;35;26;20;15;24;11;23;6;4;15;9
-              firstWeek: 2018-11-11Z
-              stars: 4326
-              license: Apache License 2.0
-              description: Apache Mesos
-              latest_commit_date: '2019-11-01T19:24:47Z'
-              latest_commit_link: /apache/mesos/commit/776b31c6658be234497218a9a33e3961075c83e6
-              contributors_count: 298
-              contributors_link: 'https://github.com/apache/mesos/graphs/contributors'
-            github_start_commit_data:
-              start_commit_link: /apache/mesos/commit/54a6a53e5fc378aa13e75f6686202b3d427684da
-              start_date: '2011-04-27T06:59:39Z'
-            image_data:
-              fileName: apache-mesos.svg
-              hash: 2xjVr67XeVaCtsz5wrO36pHPz+F3uWKuC++WkkkEVHQ=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-10-22T00:17:00.000Z
   - category:
     name: Hyperledger Project Member Company
     subcategories:
@@ -389,91 +175,103 @@ landscape:
         name: General
         items:
           - item:
-            name: Altoros (member)
-            homepage_url: 'https://www.altoros.com/'
-            logo: 'https://landscape.cncf.io/logos/altoros-member.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/altoros-systems'
+            name: Accenture (member)
+            homepage_url: 'https://accenture.com/blockchain'
+            stock_ticker: ACN
+            logo: accenture-horizontal-color.svg
+            twitter: 'https://twitter.com/Accenture'
+            crunchbase: 'https://www.crunchbase.com/organization/accenture'
             crunchbase_data:
-              name: Altoros
-              description: 'Altoros provides consulting and fully-managed services for cloud automation, microservices, blockchain, and AI&ML.'
-              num_employees_min: 251
-              num_employees_max: 500
-              homepage: 'http://www.altoros.com'
-              city: Sunnyvale
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/altoros'
-              linkedin: 'https://www.linkedin.com/company/110487'
-              parents: []
-            image_data:
-              fileName: altoros-member.svg
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-11-01T00:09:00.000Z
-          - item:
-            name: Amazon Web Services (member)
-            homepage_url: 'https://aws.amazon.com/'
-            logo: amazon-web-services.svg
-            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
-            crunchbase_data:
-              name: Amazon Web Services
-              description: Amazon Web Services provides information technology infrastructure services to businesses in the form of web services.
+              name: Accenture
+              description: 'Accenture is a professional services company, providing services and solutions in strategy, consulting, digital, technology and operations.'
               num_employees_min: 10001
               num_employees_max: 1000000
-              homepage: 'http://aws.amazon.com'
-              city: Seattle
-              region: Washington
-              country: United States
-              twitter: 'http://twitter.com/awscloud'
-              linkedin: 'https://www.linkedin.com/company/amazon-web-services/'
-              parents:
-                - 'https://www.crunchbase.com/organization/amazon'
-              ticker: AMZN
+              homepage: 'http://www.accenture.com'
+              city: Dublin
+              region: Dublin
+              country: Ireland
+              twitter: 'http://twitter.com/accenture'
+              linkedin: 'https://www.linkedin.com/company/accenture'
+              parents: []
+              ticker: CSA
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 888190533632
-              effective_ticker: AMZN
+              market_cap: 119433854976
+              effective_ticker: ACN
             image_data:
-              fileName: amazon-web-services-member.svg
-              hash: SAaCDzEl11DXhCLfuUg3THlbYtVlQILQOhezT64IiU8=
+              fileName: accenture-member.svg
+              hash: NWOOhWU3pP4EJVeiNV0ybigfe38+JbrzzrOPQrwsn2s=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-11-04T03:56:42.000Z
+              latest_tweet_date: 2019-11-04T20:00:25.000Z
           - item:
-            name: Hasura (member)
-            homepage_url: 'https://hasura.io'
-            logo: 'https://www.cncf.io/wp-content/uploads/2017/11/hasura-2.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/hasura'
+            name: Ant Finanical (member)
+            homepage_url: 'https://www.alibabacloud.com/products/baas'
+            logo: antfinancial-horizontal-color.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ant-financial'
             crunchbase_data:
-              name: Hasura
-              description: 'Blazing fast, instant realtime GraphQL APIs and eventing on Postgres with fine grained access control'
-              num_employees_min: 11
-              num_employees_max: 50
-              homepage: 'http://hasura.io/'
-              city: Palo Alto
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/hasurahq'
-              linkedin: 'https://www.linkedin.com/company/hasura/'
-              parents: []
-              kind: funding
-              funding: 1600000
+              name: Ant Financial
+              description: Ant Financial is an online payment services provider that enables individuals and businesses to execute payments online in a secure manner.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: 'https://www.antfin.com/'
+              city: Hangzhou
+              region: Zhejiang
+              country: China
+              twitter: 'https://twitter.com/AntFinancial'
+              linkedin: 'https://www.linkedin.com/company/15245628'
+              parents:
+                - 'https://www.crunchbase.com/organization/alibaba'
+              ticker: BABA
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 467835486208
+              effective_ticker: BABA
             image_data:
-              fileName: hasura-member.svg
+              fileName: ant-finanical-member.svg
+              hash: qpWXrd6qtAt1Gl4o2fuo+mbwTOSBgoNm8hQEAYJKLhw=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-11-04T03:45:16.000Z
+              latest_tweet_date: 2019-11-01T05:45:14.000Z
+          - item:
+            name: Chainyard (member)
+            homepage_url: 'https://chainyard.com/'
+            logo: chainyard-horizontal-color.svg
+            crunchbase: 'https://www.crunchbase.com/organization/chainyard-an-it-people-company'
+            crunchbase_data:
+              name: Chainyard - An IT People Company
+              description: Chainyard™ is a leader in developing solutions for enterprises using blockchains and smart contract technology.
+              num_employees_min: 51
+              num_employees_max: 100
+              homepage: 'https://www.chainyard.com'
+              city: Morrisville
+              region: North Carolina
+              country: United States
+              twitter: 'https://twitter.com/chainyard'
+              linkedin: 'https://www.linkedin.com/company/chainyard/'
+              parents: []
+            image_data:
+              fileName: chainyard-member.svg
+              hash: GJX5Sg5Co3YAxl+DxdWrU3aEMOxkZEfsonUup3xiI2w=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-10-29T02:11:22.000Z
           - item:
             name: IBM (member)
-            homepage_url: 'https://www.ibm.com/cloud'
-            logo: ibm-cloud.svg
-            twitter: 'https://twitter.com/IBMcloud'
+            description: >-
+              IBM has several blockchain products and services that will help accelerate a client’s blockchain success. The IBM Blockchain Platform adds
+              enterprise grade production requirements to Hyperledger Fabric helping clients to build, govern, operate and grow their enterprise blockchain
+              solutions throughout their solutions lifecycle.  This platform is available as SaaS on the IBM Cloud or as Software for multicloud (3 party public
+              clouds) or on-premise infrastructures of your choice.
+            homepage_url: 'https://www.ibm.com/blockchain'
+            logo: ibm-horizontal-color.svg
+            twitter: 'https://twitter.com/ibmblockchain'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
             crunchbase_data:
               name: IBM
@@ -490,207 +288,46 @@ landscape:
               ticker: IBM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 120030380032
+              market_cap: 121925640192
               effective_ticker: IBM
             image_data:
               fileName: ibm-member.svg
-              hash: eZxIibwudBXqy3VKTpiGHKR9vnXpA0wXTm0/gOJDssc=
+              hash: g6+MDGLKiOcQqhRKanxih/QZ6Px5TFkctXGpGuLTZdE=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-11-01T14:53:47.000Z
+              latest_tweet_date: 2019-11-05T05:02:00.000Z
           - item:
-            name: Intuit (member)
-            homepage_url: 'https://www.intuit.com'
-            logo: 'https://www.cncf.io/wp-content/uploads/2018/02/intuit.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/intuit'
+            name: Peersafe (member)
+            homepage_url: 'http://wischain.peersafe.cn'
+            logo: peersafe-color.svg
+            crunchbase: 'https://www.crunchbase.com/organization/peersafe'
             crunchbase_data:
-              name: Intuit
-              description: 'Intuit offers business and financial management solutions for SMBs, financial institutions, consumers, and accounting professionals.'
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: 'http://www.intuit.com'
-              city: Mountain View
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/Intuit'
-              linkedin: 'https://www.linkedin.com/company/intuit'
+              name: PeerSafe
+              description: PeerSafe is a industry pioneer in the field of information security with P2P distributed application of Internet technology.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://peersafe.com/'
+              city: Singapore
+              region: Central Region
+              country: Singapore
+              twitter: 'https://twitter.com/Peer_Safe'
+              linkedin: null
               parents: []
-              ticker: INTU
-              kind: market_cap
-            yahoo_finance_data:
-              market_cap: 66703781888
-              effective_ticker: INTU
             image_data:
-              fileName: intuit-member.svg
+              fileName: peersafe-member.svg
+              hash: lHS+l432L78eNCuQyx4XJJqqWIsGVZaq3DZCmsyKa/4=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-11-01T13:12:22.000Z
-          - item:
-            name: Neo4j (member)
-            homepage_url: 'https://neo4j.com'
-            repo_url: 'https://github.com/neo4j/neo4j'
-            logo: neo4j.svg
-            crunchbase: 'https://www.crunchbase.com/organization/neo-technology'
-            crunchbase_data:
-              name: Neo4j
-              description: 'Neo4j graph platform helps organizations make sense of their data by revealing how people, processes and digital systems are interrelated.'
-              num_employees_min: 101
-              num_employees_max: 250
-              homepage: 'https://www.neo4j.com/'
-              city: San Mateo
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/neo4j'
-              linkedin: 'https://www.linkedin.com/company/neo4j'
-              parents: []
-              kind: funding
-              funding: 160100000
-            github_data:
-              languages:
-                - name: Java
-                  value: 31731010
-                  color: '#b07219'
-                - name: Scala
-                  value: 6129852
-                  color: '#c22d40'
-                - name: PowerShell
-                  value: 172872
-                  color: '#012456'
-                - name: Gherkin
-                  value: 164746
-                  color: '#5B2063'
-                - name: Shell
-                  value: 113674
-                  color: '#89e051'
-                - name: Roff
-                  value: 88633
-                  color: '#ecdebe'
-                - name: M4
-                  value: 7634
-                - name: Batchfile
-                  value: 3640
-                  color: '#C1F12E'
-                - name: Makefile
-                  value: 469
-                  color: '#427819'
-              contributions: >-
-                50;25;34;32;24;51;46;1;6;50;47;20;23;32;41;19;40;26;25;31;23;27;15;19;21;24;20;46;19;7;7;11;7;12;11;4;1;3;2;14;35;17;36;39;26;33;14;18;18;25;15;10
-              firstWeek: 2018-11-11Z
-              stars: 7045
-              license: Unknown License
-              description: Graphs for Everyone
-              latest_commit_date: '2019-11-01T14:21:53Z'
-              latest_commit_link: /neo4j/neo4j/commit/fcf2cacf537a5cc4c9b3d371552015a352ff2c4f
-              release_date: '2017-09-15T12:28:27Z'
-              release_link: 'https://github.com/neo4j/neo4j/releases'
-              contributors_count: 176
-              contributors_link: 'https://github.com/neo4j/neo4j/graphs/contributors'
-            github_start_commit_data:
-              start_commit_link: /neo4j/neo4j/commit/6a945ab06a928bbd0f93dc56af279ee35107d7c3
-              start_date: '2007-05-24T01:34:45Z'
-            image_data:
-              fileName: neo4j-member.svg
-              hash: L3FywyQo36HHkBYlC82HHqCqicTV/TrI/PbUAbGK3II=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-11-04T06:00:24.000Z
-          - item:
-            name: Shopify (member)
-            homepage_url: 'https://www.shopify.com'
-            logo: shopify.svg
-            crunchbase: 'https://www.crunchbase.com/organization/shopify'
-            crunchbase_data:
-              name: Shopify
-              description: 'Shopify is a cloud-based, multi-channel commerce platform designed for small and medium-sized businesses.'
-              num_employees_min: 1001
-              num_employees_max: 5000
-              homepage: 'http://www.shopify.com'
-              city: Ottawa
-              region: Ontario
-              country: Canada
-              twitter: 'http://twitter.com/shopify'
-              linkedin: 'https://www.linkedin.com/company/shopify'
-              parents: []
-              ticker: SHOP
-              kind: market_cap
-            yahoo_finance_data:
-              market_cap: 36944670720
-              effective_ticker: SHOP
-            image_data:
-              fileName: shopify-member.svg
-              hash: 9lEs96a9HzjjwqucEJ8iyv44w+MhFqfcQGKl/uUSSf0=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-11-03T19:39:59.000Z
-          - item:
-            name: Solo.io (member)
-            homepage_url: 'https://www.solo.io'
-            logo: 'https://www.cncf.io/wp-content/uploads/2018/10/solo.io_.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/solo-io'
-            crunchbase_data:
-              name: Solo.io
-              description: Solo.io develops tools to help the enterprise adopt and make the most of innovative cloud technologies.
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'https://www.solo.io/'
-              city: Cambridge
-              region: Massachusetts
-              country: United States
-              twitter: 'https://twitter.com/soloio_inc'
-              linkedin: 'https://www.linkedin.com/company/solo.io/about/'
-              parents: []
-              kind: funding
-              funding: 13500000
-            image_data:
-              fileName: solo-io-member.svg
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-11-02T18:08:59.000Z
-          - item:
-            name: Twitter (member)
-            homepage_url: 'https://twitter.com/'
-            logo: twitter.svg
-            crunchbase: 'https://www.crunchbase.com/organization/twitter'
-            crunchbase_data:
-              name: Twitter
-              description: Twitter is a social networking platform that allows its users to send and read micro-blogs of up to 280-characters known as “tweets”.
-              num_employees_min: 1001
-              num_employees_max: 5000
-              homepage: 'http://www.twitter.com/'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/twitter'
-              linkedin: 'https://www.linkedin.com/company/twitter'
-              parents: []
-              ticker: TWTR
-              kind: market_cap
-            yahoo_finance_data:
-              market_cap: 22995695616
-              effective_ticker: TWTR
-            image_data:
-              fileName: twitter-member.svg
-              hash: LyrgBfu7H0tQPoYMoyXUlHwhsGHCGItxNGJj9jbZej4=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-11-01T19:01:16.000Z
+              latest_tweet_date: 2017-10-26T03:53:16.000Z
   - category:
-    name: Hyperledger Adopter
+    name: Hyperledger Training Partner
     subcategories:
       - subcategory:
-        name: Hyperledger Adopter
+        name: Hyperledger Training Partner
         items:
           - item:
             name: Arangodb
@@ -743,7 +380,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-11-01T01:45:23.000Z
+              latest_tweet_date: 2019-11-04T13:26:01.000Z
           - item:
             name: Cheddar
             homepage_url: 'https://cheddar.com'
@@ -770,7 +407,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-11-04T03:14:00.000Z
+              latest_tweet_date: 2019-11-05T06:23:00.000Z
           - item:
             name: Coursera
             homepage_url: 'https://www.coursera.org'
@@ -797,7 +434,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-11-03T18:14:02.000Z
+              latest_tweet_date: 2019-11-04T22:18:41.000Z
           - item:
             name: DailyMotion
             homepage_url: 'https://www.dailymotion.com/'
@@ -847,7 +484,7 @@ landscape:
               ticker: MSFT
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 1096412626944
+              market_cap: 1102744518656
               effective_ticker: MSFT
             image_data:
               fileName: github.svg
@@ -856,7 +493,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-11-04T05:47:53.000Z
+              latest_tweet_date: 2019-11-04T18:47:59.000Z
           - item:
             name: Goalify
             homepage_url: 'https://goalify.plus/'
@@ -909,7 +546,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-11-04T03:45:16.000Z
+              latest_tweet_date: 2019-11-04T21:05:05.000Z
           - item:
             name: Hudl
             homepage_url: 'https://hudl.com'
@@ -936,7 +573,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-11-03T22:05:00.000Z
+              latest_tweet_date: 2019-11-04T23:15:03.000Z
           - item:
             name: Intuit
             homepage_url: 'https://www.intuit.com/'
@@ -958,7 +595,7 @@ landscape:
               ticker: INTU
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 66703781888
+              market_cap: 66074398720
               effective_ticker: INTU
             image_data:
               fileName: intuit.svg
@@ -967,7 +604,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-11-01T13:12:22.000Z
+              latest_tweet_date: 2019-11-05T00:56:03.000Z
           - item:
             name: KLM
             homepage_url: 'https://www.klm.com'
@@ -992,7 +629,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-11-03T06:24:42.000Z
+              latest_tweet_date: 2019-11-05T03:53:38.000Z
           - item:
             name: Loggi
             homepage_url: 'https://www.loggi.com'
@@ -1020,7 +657,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-11-01T13:15:02.000Z
+              latest_tweet_date: 2019-11-04T19:27:46.000Z
           - item:
             name: NBC News Digital
             homepage_url: 'https://nbc.com'
@@ -1043,7 +680,7 @@ landscape:
               ticker: CMCSA
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 203578933248
+              market_cap: 199666581504
               effective_ticker: CMCSA
             image_data:
               fileName: nbc-news-digital.svg
@@ -1052,7 +689,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-11-03T14:30:08.000Z
+              latest_tweet_date: 2019-11-04T22:32:25.000Z
           - item:
             name: Neo4j
             homepage_url: 'https://www.neo4j.com/'
@@ -1079,7 +716,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-11-04T06:00:24.000Z
+              latest_tweet_date: 2019-11-05T06:00:08.000Z
           - item:
             name: Pinterest
             homepage_url: 'https://www.pinterest.com/'
@@ -1101,7 +738,7 @@ landscape:
               ticker: PINS
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 11320931328
+              market_cap: 11168971776
               effective_ticker: PINS
             image_data:
               fileName: pinterest.svg
@@ -1138,7 +775,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-11-01T21:08:11.000Z
+              latest_tweet_date: 2019-11-04T20:01:11.000Z
           - item:
             name: Shopify
             homepage_url: 'https://www.shopify.com/'
@@ -1159,7 +796,7 @@ landscape:
               ticker: SHOP
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 36944670720
+              market_cap: 35912466432
               effective_ticker: SHOP
             image_data:
               fileName: shopify.svg
@@ -1168,7 +805,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-11-03T19:39:59.000Z
+              latest_tweet_date: 2019-11-04T13:32:25.000Z
           - item:
             name: Twitter
             homepage_url: 'https://twitter.com/'
@@ -1189,7 +826,7 @@ landscape:
               ticker: TWTR
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 22995695616
+              market_cap: 23329527808
               effective_ticker: TWTR
             image_data:
               fileName: twitter.svg
@@ -1198,7 +835,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-11-01T19:01:16.000Z
+              latest_tweet_date: 2019-11-05T01:08:54.000Z
           - item:
             name: Yelp
             homepage_url: 'https://www.yelp.com/'
@@ -1220,7 +857,7 @@ landscape:
               ticker: YELP
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 2490224384
+              market_cap: 2393831424
               effective_ticker: YELP
             image_data:
               fileName: yelp.svg
@@ -1229,6 +866,6 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-11-02T00:14:46.000Z
+              latest_tweet_date: 2019-11-05T01:22:35.000Z
 twitter_options:
   count: 0
