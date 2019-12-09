@@ -71,6 +71,7 @@ home:
 ads:
   - url: 'https://events19.linuxfoundation.org/events/hyperledger-global-forum-2020/'
     image: /images/hgf_promo.png
+    title: 'Hyperledger Global Forum 2020'
 presets:
   - url: /format=card-mode&grouping=no&license=open-source&sort=first-commit
     label: Open source cards by age
@@ -105,7 +106,7 @@ big_picture:
         height: 160
         top: 0
         left: 400
-        color: 'rgb(104, 145, 145)'
+        color: 'rgb(19,105,73)'
         fit_width: true
       - type: HorizontalCategory
         category: Hyperledger Training Partner
@@ -114,7 +115,7 @@ big_picture:
         height: 160
         top: 380
         left: 320
-        color: 'rgb(108, 135, 75)'
+        color: 'rgb(126,115,14)'
         fit_width: true
       - type: HorizontalCategory
         category: Hyperledger Project Member Company
@@ -123,7 +124,7 @@ big_picture:
         height: 200
         top: 570
         left: 0
-        color: 'rgb(124, 200, 182)'
+        color: 'rgb(143,66,16)'
         fit_width: true
       - type: LandscapeInfo
         width: 365
@@ -144,6 +145,7 @@ big_picture:
             left: 5
             width: 90
             height: 90
+            title: 'QR Code'
           - type: title
             title: l.hyperledger.org
             top: 129
@@ -154,11 +156,13 @@ big_picture:
             width: 110
             right: 5
             top: 45
+            title: 'Landscape Logo'
           - type: image
             image: right-logo.svg
             width: 109
             right: 5
             top: 85
+            title: 'Hyperledger Logo'
 test:
   header: Hyperledger Landscape
   section: Hyperledger Project Members
