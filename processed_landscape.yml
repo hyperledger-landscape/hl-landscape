@@ -25,11 +25,62 @@ landscape:
               country: Ireland
               twitter: 'http://twitter.com/accenture'
               linkedin: 'https://www.linkedin.com/company/accenture'
+              acquisitions:
+                - price:
+                  date: '2020-02-19'
+                  acquiree:
+                    name: VanBerlo
+                    permalink: vanberlo
+                - price:
+                  date: '2020-02-18'
+                  acquiree:
+                    name: Icon Integration
+                    permalink: icon-integration
+                - price:
+                  date: '2020-02-03'
+                  acquiree:
+                    name: Mudano
+                    permalink: mudano
+                - price: 205000000
+                  date: '2020-01-07'
+                  acquiree:
+                    name: Symantec Cybersecurity Services
+                    permalink: acquire-symantec-cybersecurity-services
+                - price:
+                  date: '2020-01-07'
+                  acquiree:
+                    name: Maihiro
+                    permalink: maihiro
+                - price:
+                  date: '2019-12-13'
+                  acquiree:
+                    name: Clarity Insights
+                    permalink: clarity-insights
+                - price:
+                  date: '2019-12-02'
+                  acquiree:
+                    name: Apis Group
+                    permalink: apis-group
+                - price:
+                  date: '2019-11-14'
+                  acquiree:
+                    name: Silveo
+                    permalink: silveo
+                - price:
+                  date: '2019-10-31'
+                  acquiree:
+                    name: Bow & Arrow
+                    permalink: bow-arrow
+                - price:
+                  date: '2019-10-17'
+                  acquiree:
+                    name: Happen
+                    permalink: happen
               parents: []
               ticker: CSA
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 129961517056
+              market_cap: 125344563200
               effective_ticker: ACN
             image_data:
               fileName: accenture.svg
@@ -38,7 +89,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-24T20:00:00.000Z
+              latest_tweet_date: 2020-02-25T20:00:14.000Z
           - item:
             name: Ant Finanical
             description: >-
@@ -94,6 +145,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/chainyard'
               linkedin: 'https://www.linkedin.com/company/chainyard/'
+              acquisitions: []
               parents: []
             image_data:
               fileName: chainyard.svg
@@ -125,11 +177,62 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/IBM'
               linkedin: 'https://www.linkedin.com/company/ibm/'
+              acquisitions:
+                - price:
+                  date: '2019-01-14'
+                  acquiree:
+                    name: T-Systems - Mainframe Services business
+                    permalink: t-systems-mainframe-services-business
+                - price: 34000000000
+                  date: '2018-10-28'
+                  acquiree:
+                    name: Red Hat
+                    permalink: red-hat
+                - price:
+                  date: '2018-06-15'
+                  acquiree:
+                    name: Oniqua Inc.
+                    permalink: oniqua-inc
+                - price:
+                  date: '2018-05-03'
+                  acquiree:
+                    name: Armanta
+                    permalink: armanta
+                - price:
+                  date: '2017-10-04'
+                  acquiree:
+                    name: Vivant
+                    permalink: vivant-2
+                - price:
+                  date: '2017-09-24'
+                  acquiree:
+                    name: Cloudigo
+                    permalink: cloudigo
+                - price:
+                  date: '2017-05-02'
+                  acquiree:
+                    name: Verizon - Cloud services
+                    permalink: verizon-cloud-services
+                - price:
+                  date: '2017-01-23'
+                  acquiree:
+                    name: Agile 3 Solutions
+                    permalink: agile-3-solutions
+                - price:
+                  date: '2016-11-01'
+                  acquiree:
+                    name: Expert Personal Shopper (XPS)
+                    permalink: expert-personal-shopper-xps
+                - price:
+                  date: '2016-10-27'
+                  acquiree:
+                    name: Sanovi Technologies
+                    permalink: sanovi-technologies
               parents: []
               ticker: IBM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 126732517376
+              market_cap: 125503627264
               effective_ticker: IBM
             image_data:
               fileName: ibm.svg
@@ -138,7 +241,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-25T05:02:00.000Z
+              latest_tweet_date: 2020-02-26T03:10:01.000Z
           - item:
             name: KompiTech
             description: >-
@@ -160,6 +263,7 @@ landscape:
               country: Switzerland
               twitter: 'https://twitter.com/kompitech'
               linkedin: 'https://www.linkedin.com/company/kompitech'
+              acquisitions: []
               parents: []
             image_data:
               fileName: kompi-tech.svg
@@ -190,6 +294,7 @@ landscape:
               country: Bulgaria
               twitter: 'https://twitter.com/LimeChainHQ'
               linkedin: 'https://www.linkedin.com/company/limechain/'
+              acquisitions: []
               parents: []
             image_data:
               fileName: lime-chain.svg
@@ -220,6 +325,32 @@ landscape:
               country: India
               twitter: 'http://twitter.com/Mindtree_Ltd'
               linkedin: 'https://www.linkedin.com/company/mindtree-ltd-'
+              acquisitions:
+                - price: 50000000
+                  date: '2016-01-18'
+                  acquiree:
+                    name: Magnet 360
+                    permalink: magnet-360
+                - price: 66000000
+                  date: '2015-07-16'
+                  acquiree:
+                    name: Bluefin Solutions
+                    permalink: bluefin-solutions
+                - price: 10000000
+                  date: '2015-07-16'
+                  acquiree:
+                    name: RELATIONAL SOLUTIONS
+                    permalink: relational-solutions
+                - price: 15000000
+                  date: '2015-01-19'
+                  acquiree:
+                    name: Discoverture Solutions
+                    permalink: discoverture-solutions
+                - price: 1572636
+                  date: '2010-04-22'
+                  acquiree:
+                    name: 7Strata
+                    permalink: 7strata
               parents: []
             image_data:
               fileName: mindtree.svg
@@ -228,7 +359,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-24T18:36:04.000Z
+              latest_tweet_date: 2020-02-25T19:27:01.000Z
           - item:
             name: Peersafe
             description: >-
@@ -249,6 +380,7 @@ landscape:
               country: Singapore
               twitter: 'https://twitter.com/Peer_Safe'
               linkedin: null
+              acquisitions: []
               parents: []
             image_data:
               fileName: peersafe.svg
@@ -279,6 +411,7 @@ landscape:
               country: China
               twitter: null
               linkedin: null
+              acquisitions: []
               parents: []
             image_data:
               fileName: proinsight.svg
@@ -307,6 +440,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/XooaUSA'
               linkedin: 'https://www.linkedin.com/company/xooa/'
+              acquisitions: []
               parents: []
             image_data:
               fileName: xooa.svg
@@ -337,6 +471,7 @@ landscape:
               country: China
               twitter: null
               linkedin: null
+              acquisitions: []
               parents: []
             image_data:
               fileName: zhigui.svg
@@ -368,11 +503,62 @@ landscape:
               country: Ireland
               twitter: 'http://twitter.com/accenture'
               linkedin: 'https://www.linkedin.com/company/accenture'
+              acquisitions:
+                - price:
+                  date: '2020-02-19'
+                  acquiree:
+                    name: VanBerlo
+                    permalink: vanberlo
+                - price:
+                  date: '2020-02-18'
+                  acquiree:
+                    name: Icon Integration
+                    permalink: icon-integration
+                - price:
+                  date: '2020-02-03'
+                  acquiree:
+                    name: Mudano
+                    permalink: mudano
+                - price: 205000000
+                  date: '2020-01-07'
+                  acquiree:
+                    name: Symantec Cybersecurity Services
+                    permalink: acquire-symantec-cybersecurity-services
+                - price:
+                  date: '2020-01-07'
+                  acquiree:
+                    name: Maihiro
+                    permalink: maihiro
+                - price:
+                  date: '2019-12-13'
+                  acquiree:
+                    name: Clarity Insights
+                    permalink: clarity-insights
+                - price:
+                  date: '2019-12-02'
+                  acquiree:
+                    name: Apis Group
+                    permalink: apis-group
+                - price:
+                  date: '2019-11-14'
+                  acquiree:
+                    name: Silveo
+                    permalink: silveo
+                - price:
+                  date: '2019-10-31'
+                  acquiree:
+                    name: Bow & Arrow
+                    permalink: bow-arrow
+                - price:
+                  date: '2019-10-17'
+                  acquiree:
+                    name: Happen
+                    permalink: happen
               parents: []
               ticker: CSA
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 129961517056
+              market_cap: 125344563200
               effective_ticker: ACN
             image_data:
               fileName: accenture-member.svg
@@ -381,7 +567,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-24T20:00:00.000Z
+              latest_tweet_date: 2020-02-25T20:00:14.000Z
           - item:
             name: Ant Finanical (member)
             homepage_url: 'https://www.alibabacloud.com/products/baas'
@@ -429,6 +615,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/chainyard'
               linkedin: 'https://www.linkedin.com/company/chainyard/'
+              acquisitions: []
               parents: []
             image_data:
               fileName: chainyard-member.svg
@@ -455,11 +642,62 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/IBM'
               linkedin: 'https://www.linkedin.com/company/ibm/'
+              acquisitions:
+                - price:
+                  date: '2019-01-14'
+                  acquiree:
+                    name: T-Systems - Mainframe Services business
+                    permalink: t-systems-mainframe-services-business
+                - price: 34000000000
+                  date: '2018-10-28'
+                  acquiree:
+                    name: Red Hat
+                    permalink: red-hat
+                - price:
+                  date: '2018-06-15'
+                  acquiree:
+                    name: Oniqua Inc.
+                    permalink: oniqua-inc
+                - price:
+                  date: '2018-05-03'
+                  acquiree:
+                    name: Armanta
+                    permalink: armanta
+                - price:
+                  date: '2017-10-04'
+                  acquiree:
+                    name: Vivant
+                    permalink: vivant-2
+                - price:
+                  date: '2017-09-24'
+                  acquiree:
+                    name: Cloudigo
+                    permalink: cloudigo
+                - price:
+                  date: '2017-05-02'
+                  acquiree:
+                    name: Verizon - Cloud services
+                    permalink: verizon-cloud-services
+                - price:
+                  date: '2017-01-23'
+                  acquiree:
+                    name: Agile 3 Solutions
+                    permalink: agile-3-solutions
+                - price:
+                  date: '2016-11-01'
+                  acquiree:
+                    name: Expert Personal Shopper (XPS)
+                    permalink: expert-personal-shopper-xps
+                - price:
+                  date: '2016-10-27'
+                  acquiree:
+                    name: Sanovi Technologies
+                    permalink: sanovi-technologies
               parents: []
               ticker: IBM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 126732517376
+              market_cap: 125503627264
               effective_ticker: IBM
             image_data:
               fileName: ibm-member.svg
@@ -468,7 +706,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-25T05:02:00.000Z
+              latest_tweet_date: 2020-02-26T03:10:01.000Z
           - item:
             name: KompiTech (member)
             homepage_url: 'https://blockchain.kompitech.com'
@@ -485,6 +723,7 @@ landscape:
               country: Switzerland
               twitter: 'https://twitter.com/kompitech'
               linkedin: 'https://www.linkedin.com/company/kompitech'
+              acquisitions: []
               parents: []
             image_data:
               fileName: kompi-tech-member.svg
@@ -510,6 +749,7 @@ landscape:
               country: Bulgaria
               twitter: 'https://twitter.com/LimeChainHQ'
               linkedin: 'https://www.linkedin.com/company/limechain/'
+              acquisitions: []
               parents: []
             image_data:
               fileName: lime-chain-member.svg
@@ -535,6 +775,32 @@ landscape:
               country: India
               twitter: 'http://twitter.com/Mindtree_Ltd'
               linkedin: 'https://www.linkedin.com/company/mindtree-ltd-'
+              acquisitions:
+                - price: 50000000
+                  date: '2016-01-18'
+                  acquiree:
+                    name: Magnet 360
+                    permalink: magnet-360
+                - price: 66000000
+                  date: '2015-07-16'
+                  acquiree:
+                    name: Bluefin Solutions
+                    permalink: bluefin-solutions
+                - price: 10000000
+                  date: '2015-07-16'
+                  acquiree:
+                    name: RELATIONAL SOLUTIONS
+                    permalink: relational-solutions
+                - price: 15000000
+                  date: '2015-01-19'
+                  acquiree:
+                    name: Discoverture Solutions
+                    permalink: discoverture-solutions
+                - price: 1572636
+                  date: '2010-04-22'
+                  acquiree:
+                    name: 7Strata
+                    permalink: 7strata
               parents: []
             image_data:
               fileName: mindtree-member.svg
@@ -543,7 +809,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-24T18:36:04.000Z
+              latest_tweet_date: 2020-02-25T19:27:01.000Z
           - item:
             name: Peersafe (member)
             homepage_url: 'http://wischain.peersafe.cn'
@@ -560,6 +826,7 @@ landscape:
               country: Singapore
               twitter: 'https://twitter.com/Peer_Safe'
               linkedin: null
+              acquisitions: []
               parents: []
             image_data:
               fileName: peersafe-member.svg
@@ -585,6 +852,7 @@ landscape:
               country: China
               twitter: null
               linkedin: null
+              acquisitions: []
               parents: []
             image_data:
               fileName: proinsight-member.svg
@@ -608,6 +876,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/XooaUSA'
               linkedin: 'https://www.linkedin.com/company/xooa/'
+              acquisitions: []
               parents: []
             image_data:
               fileName: xooa-member.svg
@@ -633,6 +902,7 @@ landscape:
               country: China
               twitter: null
               linkedin: null
+              acquisitions: []
               parents: []
             image_data:
               fileName: zhigui-member.svg
@@ -662,6 +932,7 @@ landscape:
               country: Singapore
               twitter: 'https://twitter.com/Peer_Safe'
               linkedin: null
+              acquisitions: []
               parents: []
             image_data:
               fileName: peersafe-htp.svg
