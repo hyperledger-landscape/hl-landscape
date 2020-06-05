@@ -380,7 +380,7 @@ landscape:
               stockExchange: fra
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 132229505024
+              market_cap: 129562976256
               effective_ticker: ACN
             image_data:
               fileName: accenture.svg
@@ -389,7 +389,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-02T18:50:29.000Z
+              latest_tweet_date: 2020-06-04T13:27:17.000Z
           - item:
             name: Ant Finanical
             description: >-
@@ -410,13 +410,23 @@ landscape:
               country: China
               twitter: 'https://twitter.com/AntFinancial'
               linkedin: 'https://www.linkedin.com/company/15245628'
+              acquisitions:
+                - date: '2016-09-13'
+                  acquiree: EyeVerify
+                - date: '2017-04-19'
+                  acquiree: helloPay
+                - date: '2019-02-14'
+                  acquiree: WorldFirst
+                  price: 700000000
               parents:
                 - 'https://www.crunchbase.com/organization/alibaba'
-              ticker: BABA
+              ticker: 9988.HK
+              funding: 22000000000
+              stockExchange: null
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 64956784640
-              effective_ticker: BABA
+              market_cap: 582094562950
+              effective_ticker: 9988.HK
             image_data:
               fileName: ant-finanical.svg
               hash: qpWXrd6qtAt1Gl4o2fuo+mbwTOSBgoNm8hQEAYJKLhw=
@@ -878,7 +888,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-01T12:00:01.000Z
+              latest_tweet_date: 2020-06-04T16:02:03.000Z
           - item:
             name: KompiTech
             description: >-
@@ -989,7 +999,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-03T20:30:13.000Z
+              latest_tweet_date: 2020-06-04T21:00:56.000Z
           - item:
             name: Peersafe
             description: >-
@@ -1492,7 +1502,7 @@ landscape:
               stockExchange: fra
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 132229505024
+              market_cap: 129562976256
               effective_ticker: ACN
             image_data:
               fileName: accenture-member.svg
@@ -1501,7 +1511,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-02T18:50:29.000Z
+              latest_tweet_date: 2020-06-04T13:27:17.000Z
           - item:
             name: Ant Finanical (member)
             homepage_url: 'https://www.alibabacloud.com/products/baas'
@@ -1518,13 +1528,23 @@ landscape:
               country: China
               twitter: 'https://twitter.com/AntFinancial'
               linkedin: 'https://www.linkedin.com/company/15245628'
+              acquisitions:
+                - date: '2016-09-13'
+                  acquiree: EyeVerify
+                - date: '2017-04-19'
+                  acquiree: helloPay
+                - date: '2019-02-14'
+                  acquiree: WorldFirst
+                  price: 700000000
               parents:
                 - 'https://www.crunchbase.com/organization/alibaba'
-              ticker: BABA
+              ticker: 9988.HK
+              funding: 22000000000
+              stockExchange: null
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 64956784640
-              effective_ticker: BABA
+              market_cap: 582094562950
+              effective_ticker: 9988.HK
             image_data:
               fileName: ant-finanical-member.svg
               hash: qpWXrd6qtAt1Gl4o2fuo+mbwTOSBgoNm8hQEAYJKLhw=
@@ -1977,7 +1997,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-01T12:00:01.000Z
+              latest_tweet_date: 2020-06-04T16:02:03.000Z
           - item:
             name: KompiTech (member)
             homepage_url: 'https://blockchain.kompitech.com'
@@ -2073,7 +2093,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-03T20:30:13.000Z
+              latest_tweet_date: 2020-06-04T21:00:56.000Z
           - item:
             name: Peersafe (member)
             homepage_url: 'http://wischain.peersafe.cn'
@@ -2214,4 +2234,4 @@ landscape:
 twitter_options:
   count: 1
   since_id: '1267612886928633858'
-updated_at: 2020-06-04T04:00:25.760Z
+updated_at: 2020-06-05T04:18:48.699Z
