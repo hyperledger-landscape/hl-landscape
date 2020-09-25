@@ -381,13 +381,15 @@ landscape:
                   acquiree: CreativeDrive
                 - date: '2020-09-16'
                   acquiree: SALT Solutions
+                - date: '2020-09-22'
+                  acquiree: N3
               parents: []
               ticker: CSA.F
               funding: 6000000
               stockExchange: fra
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 152026456321
+              market_cap: 130826378613
               effective_ticker: CSA.F
             image_data:
               fileName: accenture.svg
@@ -396,7 +398,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-23T13:00:02.000Z
+              latest_tweet_date: 2020-09-24T20:31:53.000Z
           - item:
             name: Ant Finanical
             description: >-
@@ -432,7 +434,7 @@ landscape:
               stockExchange: null
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 745695565827
+              market_cap: 728939806372
               effective_ticker: 9988.HK
             image_data:
               fileName: ant-finanical.svg
@@ -985,7 +987,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 105827508224
+              market_cap: 105168470016
               effective_ticker: IBM
             image_data:
               fileName: ibm.svg
@@ -994,7 +996,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-23T14:58:35.000Z
+              latest_tweet_date: 2020-09-24T14:30:00.000Z
           - item:
             name: KompiTech
             description: >-
@@ -1028,6 +1030,38 @@ landscape:
             twitter_data:
               latest_tweet_date: 2020-06-17T09:31:23.000Z
           - item:
+            name: LG CNS
+            description: >-
+              LG CNS provides comprehensive consulting, system construction and operation services in Korea and around the world with expertise earned from
+              years of large-scale IT project successes. Monachain, LG CNS’s Blockchain Platform, is specialized for digital authentication, community token,
+              and supply chain management for the enterprise. Monachain is based on the Linux Foundation's Hyperledger Fabric that aims to provide the best
+              support that customers need for the blockchain business.
+            homepage_url: 'https://lgcns.com/En/Platform/Blockchain-Monachain'
+            logo: lgcns-horizontal-color.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lg-cns'
+            crunchbase_data:
+              name: LG CNS
+              description: 'LG CNS is a provider of information technology services including consulting, system integration, network integration.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.lgcns.com'
+              city: Seoul
+              region: Seoul-t'ukpyolsi
+              country: South Korea
+              twitter: 'https://www.twitter.com/lgcns_comm'
+              linkedin: null
+              acquisitions: []
+              parents: []
+              stockExchange: null
+            image_data:
+              fileName: lg-cns.svg
+              hash: 8E+8bGUk8VmkgZ3Hnf0rjcq7CWqEabNUeFuaQMWL0oE=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2010-07-07T09:15:28.000Z
+          - item:
             name: LimeChain
             description: >-
               LimeChain is specialized in helping enterprises and blockchain startups design, build and scale Blockchain & DLT Solutions using Hyperledger
@@ -1058,7 +1092,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-23T14:15:00.000Z
+              latest_tweet_date: 2020-09-24T11:30:01.000Z
           - item:
             name: Mindtree
             description: >-
@@ -1105,7 +1139,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-23T19:31:07.000Z
+              latest_tweet_date: 2020-09-24T20:15:04.000Z
           - item:
             name: NEC Corporation
             description: >-
@@ -1150,7 +1184,7 @@ landscape:
               stockExchange: tyo
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 15212455112
+              market_cap: 15489760270
               effective_ticker: 6701.T
             image_data:
               fileName: nec-corporation.svg
@@ -1159,7 +1193,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-23T22:59:54.000Z
+              latest_tweet_date: 2020-09-24T03:38:57.000Z
           - item:
             name: Peersafe
             description: >-
@@ -1351,7 +1385,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 179999375360
+              market_cap: 185961545728
               effective_ticker: SAP
             image_data:
               fileName: sap-se.svg
@@ -1360,7 +1394,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-23T22:01:00.000Z
+              latest_tweet_date: 2020-09-24T23:58:00.000Z
           - item:
             name: Swisscom AG
             description: >-
@@ -1422,7 +1456,7 @@ landscape:
               stockExchange: swx
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 28134588992
+              market_cap: 27846849138
               effective_ticker: SCMN.SW
             image_data:
               fileName: swisscom-ag.svg
@@ -1498,7 +1532,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-23T15:20:33.000Z
+              latest_tweet_date: 2020-09-24T16:58:19.000Z
           - item:
             name: Tencent
             description: 'We provide blockchain network service based on TBaaS, including Hyperledger Fabric underlying blockchain engine.'
@@ -1554,7 +1588,7 @@ landscape:
               stockExchange: hkg
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 635497221566
+              market_cap: 624371000026
               effective_ticker: 0700.HK
             image_data:
               fileName: tencent.svg
@@ -2006,13 +2040,15 @@ landscape:
                   acquiree: CreativeDrive
                 - date: '2020-09-16'
                   acquiree: SALT Solutions
+                - date: '2020-09-22'
+                  acquiree: N3
               parents: []
               ticker: CSA.F
               funding: 6000000
               stockExchange: fra
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 152026456321
+              market_cap: 130826378613
               effective_ticker: CSA.F
             image_data:
               fileName: accenture-member.svg
@@ -2021,7 +2057,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-23T13:00:02.000Z
+              latest_tweet_date: 2020-09-24T20:31:53.000Z
           - item:
             name: Ant Finanical (member)
             homepage_url: 'https://www.alibabacloud.com/products/baas'
@@ -2053,7 +2089,7 @@ landscape:
               stockExchange: null
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 745695565827
+              market_cap: 728939806372
               effective_ticker: 9988.HK
             image_data:
               fileName: ant-finanical-member.svg
@@ -2583,7 +2619,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 105827508224
+              market_cap: 105168470016
               effective_ticker: IBM
             image_data:
               fileName: ibm-member.svg
@@ -2592,7 +2628,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-23T14:58:35.000Z
+              latest_tweet_date: 2020-09-24T14:30:00.000Z
           - item:
             name: KompiTech (member)
             homepage_url: 'https://blockchain.kompitech.com'
@@ -2621,6 +2657,33 @@ landscape:
             twitter_data:
               latest_tweet_date: 2020-06-17T09:31:23.000Z
           - item:
+            name: LG CNS (member)
+            homepage_url: 'https://lgcns.com/En/Platform/Blockchain-Monachain'
+            logo: lgcns-horizontal-color.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lg-cns'
+            crunchbase_data:
+              name: LG CNS
+              description: 'LG CNS is a provider of information technology services including consulting, system integration, network integration.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.lgcns.com'
+              city: Seoul
+              region: Seoul-t'ukpyolsi
+              country: South Korea
+              twitter: 'https://www.twitter.com/lgcns_comm'
+              linkedin: null
+              acquisitions: []
+              parents: []
+              stockExchange: null
+            image_data:
+              fileName: lg-cns-member.svg
+              hash: 8E+8bGUk8VmkgZ3Hnf0rjcq7CWqEabNUeFuaQMWL0oE=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2010-07-07T09:15:28.000Z
+          - item:
             name: LimeChain (member)
             homepage_url: 'https://limechain.tech/'
             logo: limechain-horizontal-color.svg
@@ -2646,7 +2709,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-23T14:15:00.000Z
+              latest_tweet_date: 2020-09-24T11:30:01.000Z
           - item:
             name: Mindtree (member)
             homepage_url: 'https://www.mindtree.com'
@@ -2688,7 +2751,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-23T19:31:07.000Z
+              latest_tweet_date: 2020-09-24T20:15:04.000Z
           - item:
             name: NEC Corporation (member)
             homepage_url: 'https://www.nec.com/'
@@ -2729,7 +2792,7 @@ landscape:
               stockExchange: tyo
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 15212455112
+              market_cap: 15489760270
               effective_ticker: 6701.T
             image_data:
               fileName: nec-corporation-member.svg
@@ -2738,7 +2801,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-23T22:59:54.000Z
+              latest_tweet_date: 2020-09-24T03:38:57.000Z
           - item:
             name: Peersafe (member)
             homepage_url: 'http://wischain.peersafe.cn'
@@ -2917,7 +2980,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 179999375360
+              market_cap: 185961545728
               effective_ticker: SAP
             image_data:
               fileName: sap-se-member.svg
@@ -2926,7 +2989,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-23T22:01:00.000Z
+              latest_tweet_date: 2020-09-24T23:58:00.000Z
           - item:
             name: Swisscom AG (member)
             homepage_url: 'https://www.swisscom.com/blockchain'
@@ -2985,7 +3048,7 @@ landscape:
               stockExchange: swx
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 28134588992
+              market_cap: 27846849138
               effective_ticker: SCMN.SW
             image_data:
               fileName: swisscom-ag-member.svg
@@ -3055,7 +3118,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-23T15:20:33.000Z
+              latest_tweet_date: 2020-09-24T16:58:19.000Z
           - item:
             name: Tencent (member)
             homepage_url: 'https://cloud.tencent.com/product/tbaas'
@@ -3110,7 +3173,7 @@ landscape:
               stockExchange: hkg
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 635497221566
+              market_cap: 624371000026
               effective_ticker: 0700.HK
             image_data:
               fileName: tencent-member.svg
@@ -3208,4 +3271,4 @@ landscape:
 twitter_options:
   count: 1
   since_id: '1267612886928633858'
-updated_at: 2020-09-24T00:34:14.247Z
+updated_at: 2020-09-25T00:36:03.669Z
