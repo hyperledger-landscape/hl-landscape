@@ -400,7 +400,7 @@ landscape:
               stockExchange: fra
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 148901656215
+              market_cap: 150665059491
               effective_ticker: CSA.F
             image_data:
               fileName: accenture.svg
@@ -639,7 +639,7 @@ landscape:
               stockExchange: tyo
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 33334784849
+              market_cap: 33331399134
               effective_ticker: 6501.T
             image_data:
               fileName: hitachi.svg
@@ -648,7 +648,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-11-06T20:06:37.000Z
+              latest_tweet_date: 2020-11-07T15:00:02.000Z
           - item:
             name: IBM
             description: >-
@@ -1062,8 +1062,10 @@ landscape:
                   acquiree: Spanugo
                 - date: '2020-07-08'
                   acquiree: WDG Automation
-              parents: []
+              parents:
+                - 'https://www.crunchbase.com/organization/terrascale'
               ticker: IBM
+              funding: 4000000
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
@@ -1187,7 +1189,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-11-06T18:07:36.000Z
+              latest_tweet_date: 2020-11-07T15:48:02.000Z
           - item:
             name: NEC Corporation
             description: >-
@@ -1235,7 +1237,7 @@ landscape:
               stockExchange: tyo
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 14841006790
+              market_cap: 14839499433
               effective_ticker: 6701.T
             image_data:
               fileName: nec-corporation.svg
@@ -1447,7 +1449,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-11-06T22:40:50.000Z
+              latest_tweet_date: 2020-11-07T16:18:00.000Z
           - item:
             name: Swisscom AG
             description: >-
@@ -1509,7 +1511,7 @@ landscape:
               stockExchange: swx
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 27173917628
+              market_cap: 27172408636
               effective_ticker: SCMN.SW
             image_data:
               fileName: swisscom-ag.svg
@@ -2126,7 +2128,7 @@ landscape:
               stockExchange: fra
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 148901656215
+              market_cap: 150665059491
               effective_ticker: CSA.F
             image_data:
               fileName: accenture-member.svg
@@ -2338,7 +2340,7 @@ landscape:
               stockExchange: tyo
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 33334784849
+              market_cap: 33331399134
               effective_ticker: 6501.T
             image_data:
               fileName: hitachi-member.svg
@@ -2347,7 +2349,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-11-06T20:06:37.000Z
+              latest_tweet_date: 2020-11-07T15:00:02.000Z
           - item:
             name: IBM (member)
             homepage_url: 'https://www.ibm.com/blockchain'
@@ -2756,8 +2758,10 @@ landscape:
                   acquiree: Spanugo
                 - date: '2020-07-08'
                   acquiree: WDG Automation
-              parents: []
+              parents:
+                - 'https://www.crunchbase.com/organization/terrascale'
               ticker: IBM
+              funding: 4000000
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
@@ -2866,7 +2870,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-11-06T18:07:36.000Z
+              latest_tweet_date: 2020-11-07T15:48:02.000Z
           - item:
             name: NEC Corporation (member)
             homepage_url: 'https://www.nec.com/'
@@ -2910,7 +2914,7 @@ landscape:
               stockExchange: tyo
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 14841006790
+              market_cap: 14839499433
               effective_ticker: 6701.T
             image_data:
               fileName: nec-corporation-member.svg
@@ -3109,7 +3113,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-11-06T22:40:50.000Z
+              latest_tweet_date: 2020-11-07T16:18:00.000Z
           - item:
             name: Swisscom AG (member)
             homepage_url: 'https://www.swisscom.com/blockchain'
@@ -3168,7 +3172,7 @@ landscape:
               stockExchange: swx
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 27173917628
+              market_cap: 27172408636
               effective_ticker: SCMN.SW
             image_data:
               fileName: swisscom-ag-member.svg
@@ -3405,4 +3409,4 @@ landscape:
 twitter_options:
   count: 1
   since_id: '1267612886928633858'
-updated_at: 2020-11-07T07:17:40.110Z
+updated_at: 2020-11-08T07:20:06.114Z
