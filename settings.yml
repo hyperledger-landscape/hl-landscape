@@ -50,10 +50,19 @@ relation:
       label: Non-Hyperledger Project Member Products/Projects
       url: 'no'
 membership:
+  Premier:
+    name: Hyperledger
+    label: Premier Member
+    funding: Premier
+    is_large: true
   General:
     name: Hyperledger
-    label: Member
+    label: General Member
     funding: General
+  Associate:
+    name: Hyperledger
+    label: Associate Member
+    funding: Associate
   linux_foundation:
     name: LF
     label: Project
