@@ -108,7 +108,7 @@ big_picture:
         width: 525
         height: 160
         top: 0
-        left: 400
+        left: 0
         color: rgb(19,105,73)
         fit_width: true
       - type: HorizontalCategory
@@ -116,23 +116,23 @@ big_picture:
         rows: 4
         width: 795
         height: 160
-        top: 380
-        left: 320
+        top: 200
+        left: 0
         color: rgb(126,115,14)
         fit_width: true
       - type: HorizontalCategory
         category: Hyperledger Project Member Company
         rows: 7
         width: 730
-        height: 250
-        top: 570
-        left: 0
+        height: 1200
+        top: 500
+        left: 400
         color: rgb(143,66,16)
         fit_width: true
       - type: LandscapeInfo
         width: 365
         height: 200
-        top: 570
+        top: 0
         left: 745
         children:
           - type: text
