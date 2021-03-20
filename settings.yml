@@ -15,9 +15,9 @@ global:
     twitter: '@hyperledger'
     google_site_verification: 02nZnXMMckSXVC6dBaHQQgMbpymdaQr-2l8zRKLgsaY
     ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
-  membership: Hyperledger Project Member Company
+  membership: Hyperledger Members
   flags:
-    companies: Hyperledger Project Member Company
+    companies: Hyperledger Members
     hide_license_for_categories:
       - Hyperledger Certified Service Providers
 twitter:
@@ -29,7 +29,7 @@ relation:
   url: hyperledger
   values:
     - id: hosted
-      label: Hyperledger Project Projects
+      label: Hyperledger Projects
       children:
         - id: foundationproject
           label: Hyperledger Project Projects
@@ -40,12 +40,12 @@ relation:
           big_picture_label: Hyperledger Project Project
           big_picture_color: rgb(24,54,114)
     - id: company
-      label: Hyperledger Project Members
+      label: Hyperledger Members
       tag: Company
       big_picture_order: 3
     - id: member
       label: Hyperledger Project Member Products/Projects
-      tag: Hyperledger Project Member
+      tag: Hyperledger Member
     - id: false
       label: Non-Hyperledger Project Member Products/Projects
       url: 'no'
@@ -72,7 +72,7 @@ membership:
     funding: 'No'
 home:
   header: >
-    <h1>Hyperledger Landscape</h1> The Hyperledger Project landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
+    <h1>Hyperledger Landscape</h1> The Hyperledger landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
     href="images/landscape.pdf">pdf</a>) is dynamically generated below. It is modeled after the <a href="http://landscape.cncf.io">CNCF landscape</a> and based
     on the same open source code.
   footer: |
@@ -121,7 +121,7 @@ big_picture:
         color: rgb(126,115,14)
         fit_width: true
       - type: HorizontalCategory
-        category: Hyperledger Project Member Company
+        category: Hyperledger Members
         rows: 7
         width: 730
         height: 1200
@@ -137,7 +137,7 @@ big_picture:
         children:
           - type: text
             text: |
-              This landscape is intended as a map to explore the Hyperledger community, and also shows the member organizations of the Hyperledger Project.
+              This landscape is intended as a map to explore the Hyperledger community, and also shows the member organizations of Hyperledger.
             top: 45
             left: 100
             right: 120
@@ -168,7 +168,7 @@ big_picture:
             title: Hyperledger Logo
 test:
   header: Hyperledger Landscape
-  section: Hyperledger Project Members
+  section: Hyperledger Members
   logo: international-business-machines-corporation-ibm.svg
 prerender:
   members: /card-mode?category=hyperledger-fabric-csp&grouping=category&embed=yes
