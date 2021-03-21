@@ -430,7 +430,7 @@ landscape:
               stockExchange: fra
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 166687681771
+              market_cap: 167479137899
               effective_ticker: CSA.F
             image_data:
               fileName: accenture-hcsp.svg
@@ -711,7 +711,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T14:54:19.000Z
+              latest_tweet_date: 2021-03-21T01:02:03.000Z
           - item:
             name: IBM (HCSP)
             description: >-
@@ -1556,7 +1556,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 146886377472
+              market_cap: 145639899136
               effective_ticker: SAP
             image_data:
               fileName: sap-se-hcsp.svg
@@ -1565,7 +1565,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T21:38:33.000Z
+              latest_tweet_date: 2021-03-20T12:00:01.000Z
           - item:
             name: Shanghai TianJi Network (HCSP)
             description: >-
@@ -1887,7 +1887,7 @@ landscape:
               badge: false
               percentage: null
   - category:
-    name: Hyperledger Project Member Company
+    name: Hyperledger Members
     subcategories:
       - subcategory:
         name: Premier
@@ -2315,7 +2315,7 @@ landscape:
               stockExchange: fra
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 166687681771
+              market_cap: 167479137899
               effective_ticker: CSA.F
             image_data:
               fileName: accenture-global-solutions-limited.svg
@@ -2369,7 +2369,6 @@ landscape:
             name: Fujitsu Limited
             homepage_url: https://www.fujitsu.com/global
             logo: fujitsu_limited.svg
-            twitter: https://twitter.com/Fujitsu_Global
             crunchbase: https://www.crunchbase.com/organization/fujitsu
             crunchbase_data:
               name: Fujitsu
@@ -2500,12 +2499,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T14:54:19.000Z
+              latest_tweet_date: 2021-03-21T01:02:03.000Z
           - item:
             name: International Business Machines Corporation (IBM)
             homepage_url: https://www.ibm.com/us-en
             logo: international_business_machines_corporation_ibm.svg
-            twitter: https://twitter.com/IBM
             crunchbase: https://www.crunchbase.com/organization/ibm
             crunchbase_data:
               name: IBM
@@ -2942,7 +2940,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T22:33:04.000Z
+              latest_tweet_date: 2021-03-20T20:09:20.000Z
           - item:
             name: JPMorgan Chase
             homepage_url: https://jpmorganchase.com/
@@ -3064,7 +3062,6 @@ landscape:
             homepage_url: https://aetna.com/
             stock_ticker: null
             logo: aetna_inc.svg
-            twitter: https://twitter.com/Aetna
             crunchbase: https://www.crunchbase.com/organization/aetna
             crunchbase_data:
               name: Aetna
@@ -3124,7 +3121,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-20T01:35:20.000Z
+              latest_tweet_date: 2021-03-20T18:59:37.000Z
           - item:
             name: AGSX Pte. Ltd. (Amihan Global Strategies)
             homepage_url: https://amihan.net/
@@ -3214,12 +3211,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-20T00:15:08.000Z
+              latest_tweet_date: 2021-03-20T15:51:48.000Z
           - item:
             name: Ant Small and Micro Financial Services Group Co., Ltd.
             homepage_url: https://antgroup.com/
             logo: ant_small_and_micro_financial_services_group_co_ltd.svg
-            twitter: https://twitter.com/antgroup
+            enduser: true
             crunchbase: https://www.crunchbase.com/organization/ant-financial
             crunchbase_data:
               name: Ant Group
@@ -3267,7 +3264,6 @@ landscape:
             name: Avanza Innovations IT Solutions LLC
             homepage_url: https://avanzainnovations.com/
             logo: avanza_innovations_it_solutions_llc.svg
-            twitter: https://twitter.com/avanza_ai
             crunchbase: https://www.crunchbase.com/organization/avanza-innovations
             crunchbase_data:
               name: Avanza Innovations
@@ -3294,7 +3290,7 @@ landscape:
           - item:
             name: Baidu Online Network Technology (Beijing) Co., Ltd
             homepage_url: https://baidu.com/
-            stock_ticker: null
+            stock_ticker: BIDU
             logo: baidu_online_network_technology_beijing_co_ltd.svg
             twitter: https://twitter.com/Baidu_Inc
             crunchbase: https://www.crunchbase.com/organization/baidu
@@ -3349,7 +3345,10 @@ landscape:
               ticker: '9888'
               funding: 26200000
               stockExchange: sehk
-              kind: funding
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 86664404992
+              effective_ticker: BIDU
             image_data:
               fileName: baidu-online-network-technology-beijing-co-ltd.svg
               hash: BFQOXO2QWQKOKdA5Mjgd8gEFFV2m+ZrcZYP+WrwXPlw=
@@ -3387,7 +3386,6 @@ landscape:
             name: Blockchain Technology Partners
             homepage_url: https://blockchaintp.com/
             logo: blockchain_technology_partners.svg
-            twitter: https://twitter.com/blockchaintp
             crunchbase: https://www.crunchbase.com/organization/blockchain-technology-partners
             crunchbase_data:
               name: BTP
@@ -3496,7 +3494,6 @@ landscape:
             name: Bosch
             homepage_url: https://bosch.com/
             logo: bosch.svg
-            twitter: https://twitter.com/BoschGlobal
             crunchbase: https://www.crunchbase.com/organization/bosch
             crunchbase_data:
               name: Bosch
@@ -3542,7 +3539,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T17:38:09.000Z
+              latest_tweet_date: 2021-03-20T13:56:57.000Z
           - item:
             name: Broadridge Financial Solutions
             homepage_url: https://broadridge.com/
@@ -3718,7 +3715,6 @@ landscape:
             name: Chainyard
             homepage_url: https://chainyard.com/
             logo: chainyard.svg
-            twitter: https://twitter.com/chainyard
             crunchbase: https://www.crunchbase.com/organization/chainyard-an-it-people-company
             crunchbase_data:
               name: Chainyard - An IT People Company
@@ -3790,12 +3786,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T17:56:36.000Z
+              latest_tweet_date: 2021-03-20T21:22:09.000Z
           - item:
             name: China Systems Holdings Limited
             homepage_url: https://chinasystems.com/
             logo: china_systems_holdings_limited.svg
-            twitter: https://twitter.com/china_systems
             crunchbase: https://www.crunchbase.com/organization/china-systems
             crunchbase_data:
               name: China Systems
@@ -4003,7 +3998,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T23:01:43.000Z
+              latest_tweet_date: 2021-03-21T01:00:00.000Z
           - item:
             name: Creativehill
             homepage_url: https://creativehill.co.kr/
@@ -4074,7 +4069,6 @@ landscape:
             name: Deepdive Digital Technologies International Inc.
             homepage_url: https://deepdive.tech/
             logo: deepdive_digital_technologies_international_inc.svg
-            twitter: https://twitter.com/deepdive_tech
             crunchbase: https://www.crunchbase.com/organization/deepdive-digital-technologies-international
             crunchbase_data:
               name: Deepdive Digital Technologies International
@@ -4102,7 +4096,6 @@ landscape:
             name: Deutsche Telekom AG
             homepage_url: https://www.telekom.com/de
             logo: deutsche_telekom_ag.svg
-            twitter: https://twitter.com/deutschetelekom
             crunchbase: https://www.crunchbase.com/organization/deutsche-telekom
             crunchbase_data:
               name: Deutsche Telekom
@@ -4149,12 +4142,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T21:53:10.000Z
+              latest_tweet_date: 2021-03-20T17:47:54.000Z
           - item:
             name: DigiCert, Inc.
             homepage_url: https://digicert.com/
             logo: digicert_inc.svg
-            twitter: https://twitter.com/digicert
             crunchbase: https://www.crunchbase.com/organization/digicert
             crunchbase_data:
               name: DigiCert
@@ -4185,7 +4177,6 @@ landscape:
             name: Digital Asset Holdings, LLC
             homepage_url: https://digitalasset.com/
             logo: digital_asset_holdings_llc.svg
-            twitter: https://twitter.com/digitalassetcom
             crunchbase: https://www.crunchbase.com/organization/digital-asset-2
             crunchbase_data:
               name: Digital Asset
@@ -4253,7 +4244,6 @@ landscape:
             name: Evernym, Inc.
             homepage_url: https://evernym.com/
             logo: evernym_inc.svg
-            twitter: https://twitter.com/evernym
             crunchbase: https://www.crunchbase.com/organization/evernym
             crunchbase_data:
               name: Evernym
@@ -4359,7 +4349,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 74108551168
+              market_cap: 74184310784
               effective_ticker: FDX
             image_data:
               fileName: federal-express.svg
@@ -4368,7 +4358,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-18T21:42:55.000Z
+              latest_tweet_date: 2021-03-20T14:00:02.000Z
           - item:
             name: Global Peersafe Technology Corp
             homepage_url: https://peersafe.cn/
@@ -4428,7 +4418,6 @@ landscape:
             name: Huawei Technologies Co., Ltd.
             homepage_url: https://www.huawei.com/en
             logo: huawei_technologies_co_ltd.svg
-            twitter: https://twitter.com/Huawei
             crunchbase: https://www.crunchbase.com/organization/huawei
             crunchbase_data:
               name: Huawei Technologies
@@ -4472,7 +4461,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T11:57:55.000Z
+              latest_tweet_date: 2021-03-20T10:17:46.000Z
           - item:
             name: Inspur
             homepage_url: https://en.inspur.com
@@ -4511,7 +4500,6 @@ landscape:
             name: IntellectEU
             homepage_url: https://intellecteu.com/
             logo: intellecteu.svg
-            twitter: https://twitter.com/IntellectEU
             crunchbase: https://www.crunchbase.com/organization/intellecteu
             crunchbase_data:
               name: IntellectEU
@@ -4541,7 +4529,6 @@ landscape:
             name: InwinSTACK
             homepage_url: https://inwinstack.com/
             logo: inwinstack.svg
-            twitter: https://twitter.com/inwinstack
             crunchbase: https://www.crunchbase.com/organization/inwinstack
             crunchbase_data:
               name: inwinSTACK
@@ -4569,7 +4556,7 @@ landscape:
             name: JD Cloud
             homepage_url: https://corporate.jd.com/home
             logo: jd_cloud.svg
-            twitter: https://twitter.com/JD_Corporate
+            enduser: true
             crunchbase: https://www.crunchbase.com/organization/jd-com
             crunchbase_data:
               name: JD.com
@@ -4601,7 +4588,7 @@ landscape:
               stockExchange: vie
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 132449558841
+              market_cap: 130586360336
               effective_ticker: JD.VI
             image_data:
               fileName: jd-cloud.svg
@@ -4643,7 +4630,6 @@ landscape:
             name: Krypc Corporation
             homepage_url: https://krypc.com/
             logo: krypc_corporation.svg
-            twitter: https://twitter.com/krypctalk
             crunchbase: https://www.crunchbase.com/organization/krypc
             crunchbase_data:
               name: KrypC
@@ -4716,7 +4702,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-20T00:53:27.000Z
+              latest_tweet_date: 2021-03-20T23:46:02.000Z
           - item:
             name: LG CNS
             homepage_url: https://lgcns.com/EN/Home
@@ -4749,7 +4735,6 @@ landscape:
             name: Microsoft Corporation
             homepage_url: https://www.microsoft.com/en-us
             logo: microsoft_corporation.svg
-            twitter: https://twitter.com/Microsoft
             crunchbase: https://www.crunchbase.com/organization/microsoft
             crunchbase_data:
               name: Microsoft
@@ -5295,7 +5280,6 @@ landscape:
             name: Mindtree Limited
             homepage_url: https://mindtree.com/
             logo: mindtree_limited.svg
-            twitter: https://twitter.com/Mindtree_Ltd
             crunchbase: https://www.crunchbase.com/organization/mindtree
             crunchbase_data:
               name: MindTree
@@ -5395,7 +5379,6 @@ landscape:
             homepage_url: https://moex.com/
             stock_ticker: MOEX.ME
             logo: moscow_exchange_micex-rts.svg
-            twitter: https://twitter.com/moscow_exchange
             crunchbase: https://www.crunchbase.com/organization/moscow-exchange
             crunchbase_data:
               name: Moscow Exchange
@@ -5414,7 +5397,7 @@ landscape:
               stockExchange: mcx
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 5114338756
+              market_cap: 5111509571
               effective_ticker: MOEX.ME
             image_data:
               fileName: moscow-exchange-micex-rts.svg
@@ -5558,12 +5541,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T17:34:03.000Z
+              latest_tweet_date: 2021-03-20T13:07:00.000Z
           - item:
             name: Oracle America Inc.
             homepage_url: https://www.oracle.com/index.html
             logo: oracle_america_inc.svg
-            twitter: https://twitter.com/Oracle
             crunchbase: https://www.crunchbase.com/organization/oracle
             crunchbase_data:
               name: Oracle
@@ -5905,7 +5887,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T21:00:01.000Z
+              latest_tweet_date: 2021-03-20T14:00:02.000Z
           - item:
             name: Poste Italiane SPA
             homepage_url: https://posteitaliane.it/
@@ -5943,7 +5925,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T14:23:37.000Z
+              latest_tweet_date: 2021-03-20T15:00:42.000Z
           - item:
             name: Precisely Holdings, LLC
             homepage_url: https://precisely.com/
@@ -6008,7 +5990,6 @@ landscape:
             name: R3 LLC
             homepage_url: https://www.r3.com
             logo: r3_llc.svg
-            twitter: https://twitter.com/inside_r3
             crunchbase: https://www.crunchbase.com/organization/r3-cev
             crunchbase_data:
               name: R3
@@ -6033,7 +6014,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T16:18:24.000Z
+              latest_tweet_date: 2021-03-20T14:12:03.000Z
           - item:
             name: Red Hat Inc.
             homepage_url: https://www.redhat.com/en
@@ -6123,7 +6104,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T21:30:02.000Z
+              latest_tweet_date: 2021-03-20T23:00:02.000Z
           - item:
             name: Ripple, Inc.
             homepage_url: https://ripple.com/
@@ -6155,7 +6136,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T17:30:09.000Z
+              latest_tweet_date: 2021-03-20T18:50:03.000Z
           - item:
             name: Samsung SDS Co., Ltd.
             homepage_url: https://www.samsungsds.com/en/index.html
@@ -6187,7 +6168,6 @@ landscape:
             name: SAP
             homepage_url: https://www.sap.com/index.html
             logo: sap.svg
-            twitter: https://twitter.com/SAP
             crunchbase: https://www.crunchbase.com/organization/sap
             crunchbase_data:
               name: SAP
@@ -6316,7 +6296,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 146886377472
+              market_cap: 145639899136
               effective_ticker: SAP
             image_data:
               fileName: sap.svg
@@ -6325,12 +6305,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T21:38:33.000Z
+              latest_tweet_date: 2021-03-20T12:00:01.000Z
           - item:
             name: SBERBANK
             homepage_url: https://www.sberbank.com/index
             logo: sberbank.svg
-            twitter: https://twitter.com/sberbank
             crunchbase: https://www.crunchbase.com/organization/sberbank
             crunchbase_data:
               name: Sberbank
@@ -6395,7 +6374,7 @@ landscape:
               stockExchange: moex
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 158346767614
+              market_cap: 158183212889
               effective_ticker: SBER.ME
             image_data:
               fileName: sberbank.svg
@@ -6404,12 +6383,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-20T00:05:08.000Z
+              latest_tweet_date: 2021-03-21T01:21:14.000Z
           - item:
             name: SecureKey Technologies, Inc.
             homepage_url: https://securekey.com/
             logo: securekey_technologies_inc.svg
-            twitter: https://twitter.com/SecureKey
             crunchbase: https://www.crunchbase.com/organization/securekey-technologies
             crunchbase_data:
               name: SecureKey Technologies
@@ -6517,12 +6495,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T13:21:00.000Z
+              latest_tweet_date: 2021-03-20T14:30:03.000Z
           - item:
             name: Splunk Inc.
             homepage_url: https://splunk.com/
             logo: splunk_inc.svg
-            twitter: https://twitter.com/splunk
             crunchbase: https://www.crunchbase.com/organization/splunk
             crunchbase_data:
               name: Splunk
@@ -6583,12 +6560,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T21:30:00.000Z
+              latest_tweet_date: 2021-03-20T18:36:08.000Z
           - item:
             name: SWIFT, INC.
             homepage_url: https://swift.com/
             logo: swift_inc.svg
-            twitter: https://twitter.com/swiftcommunity
             crunchbase: https://www.crunchbase.com/organization/swift
             crunchbase_data:
               name: SWIFT
@@ -6681,12 +6657,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T18:09:31.000Z
+              latest_tweet_date: 2021-03-20T11:51:52.000Z
           - item:
             name: Tangem AG
             homepage_url: https://tangem.com/
             logo: tangem_ag.svg
-            twitter: https://twitter.com/Tangem
             crunchbase: https://www.crunchbase.com/organization/tangem
             crunchbase_data:
               name: Tangem
@@ -6790,7 +6765,6 @@ landscape:
             name: Telefonica
             homepage_url: https://www.telefonica.com/es/home
             logo: telefonica.svg
-            twitter: https://twitter.com/Telefonica
             crunchbase: https://www.crunchbase.com/organization/telefonica
             crunchbase_data:
               name: Telefonica
@@ -6852,7 +6826,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 26913570816
+              market_cap: 26582024192
               effective_ticker: TEF
             image_data:
               fileName: telefonica.svg
@@ -6861,7 +6835,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T18:42:00.000Z
+              latest_tweet_date: 2021-03-20T19:25:19.000Z
           - item:
             name: Tencent Holdings Limited
             homepage_url: https://tencent.com/
@@ -6942,7 +6916,6 @@ landscape:
             homepage_url: https://www.thalesgroup.com/en
             stock_ticker: null
             logo: thales.svg
-            twitter: https://twitter.com/thalesgroup
             crunchbase: https://www.crunchbase.com/organization/thales-group
             crunchbase_data:
               name: Thales Group
@@ -7009,7 +6982,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T20:35:50.000Z
+              latest_tweet_date: 2021-03-20T22:00:10.000Z
           - item:
             name: Unbound Tech Ltd.
             homepage_url: https://www.unboundsecurity.com
@@ -7108,7 +7081,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T22:01:39.000Z
+              latest_tweet_date: 2021-03-20T23:29:14.000Z
           - item:
             name: VitalHub Corp.
             homepage_url: https://vitalhub.com/
@@ -7232,12 +7205,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-20T01:14:04.000Z
+              latest_tweet_date: 2021-03-20T22:51:18.000Z
           - item:
             name: We.Trade Innovation DAC
             homepage_url: https://we-trade.com/
             logo: wetrade_innovation_dac.svg
-            twitter: https://twitter.com/we_dot_trade
             crunchbase: https://www.crunchbase.com/organization/we-trade
             crunchbase_data:
               name: we.trade
@@ -7267,7 +7239,6 @@ landscape:
             name: Wipro Limited
             homepage_url: https://wipro.com/
             logo: wipro_limited.svg
-            twitter: https://twitter.com/Wipro
             crunchbase: https://www.crunchbase.com/organization/wipro
             crunchbase_data:
               name: Wipro Technologies
@@ -7367,7 +7338,7 @@ landscape:
               stockExchange: nse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 30934606263
+              market_cap: 30942145523
               effective_ticker: WIPRO.NS
             image_data:
               fileName: wipro-limited.svg
@@ -7406,7 +7377,6 @@ landscape:
             name: Xilinx, Inc.
             homepage_url: https://xilinx.com/
             logo: xilinx_inc.svg
-            twitter: https://twitter.com/XilinxInc
             crunchbase: https://www.crunchbase.com/organization/xilinx
             crunchbase_data:
               name: Xilinx
@@ -7455,7 +7425,7 @@ landscape:
               stockExchange: vie
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 29421555079
+              market_cap: 30164349722
               effective_ticker: XLNX.VI
             image_data:
               fileName: xilinx-inc.svg
@@ -7525,7 +7495,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-20T00:26:00.000Z
+              latest_tweet_date: 2021-03-20T23:00:34.000Z
           - item:
             name: Auburn University RFID Lab
             homepage_url: https://auburn.edu/
@@ -7553,12 +7523,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T21:40:14.000Z
+              latest_tweet_date: 2021-03-20T16:11:44.000Z
           - item:
             name: Bank of England
             homepage_url: https://bankofengland.co.uk/
             logo: bank_of_england.svg
-            twitter: https://twitter.com/bankofengland
             crunchbase: https://www.crunchbase.com/organization/bank-of-england
             crunchbase_data:
               name: Bank of England
@@ -7586,7 +7555,6 @@ landscape:
             name: Blockchain at Berkeley
             homepage_url: https://berkeley.edu/
             logo: blockchain_at_berkeley.svg
-            twitter: https://twitter.com/UCBerkeley
             crunchbase: https://www.crunchbase.com/organization/university-of-california-berkeley
             crunchbase_data:
               name: University of California, Berkeley
@@ -7724,12 +7692,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T17:37:01.000Z
+              latest_tweet_date: 2021-03-20T15:52:01.000Z
           - item:
             name: Chamber of Digital Commerce
             homepage_url: https://digitalchamber.org/
             logo: chamber_of_digital_commerce.svg
-            twitter: https://twitter.com/DigitalChamber
             crunchbase: https://www.crunchbase.com/organization/chamber-of-digital-commerce
             crunchbase_data:
               name: Chamber of Digital Commerce
@@ -7782,7 +7749,6 @@ landscape:
             name: Cloud Security Alliance
             homepage_url: https://cloudsecurityalliance.org/
             logo: cloud_security_alliance.svg
-            twitter: https://twitter.com/cloudsa
             crunchbase: https://www.crunchbase.com/organization/cloud-security-alliance
             crunchbase_data:
               name: Cloud Security Alliance
@@ -7805,12 +7771,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-20T00:00:33.000Z
+              latest_tweet_date: 2021-03-21T01:00:17.000Z
           - item:
             name: Colored Coins
             homepage_url: https://colu.com/
             logo: colored_coins.svg
-            twitter: https://twitter.com/ColuApp
             crunchbase: https://www.crunchbase.com/organization/colu
             crunchbase_data:
               name: Colu
@@ -7840,7 +7805,6 @@ landscape:
             name: CPqD
             homepage_url: https://cpqd.com.br/
             logo: cpqd.svg
-            twitter: https://twitter.com/cpqd
             crunchbase: https://www.crunchbase.com/organization/cpqd
             crunchbase_data:
               name: CPQD
@@ -7868,7 +7832,6 @@ landscape:
             name: Ethereum Foundation
             homepage_url: https://ethereum.org/en
             logo: ethereum_foundation.svg
-            twitter: https://twitter.com/ethereum
             crunchbase: https://www.crunchbase.com/organization/ethereum
             crunchbase_data:
               name: Ethereum Foundation
@@ -7893,7 +7856,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T18:03:01.000Z
+              latest_tweet_date: 2021-03-20T15:21:07.000Z
           - item:
             name: GS1 US
             homepage_url: https://gs1us.org/
@@ -7921,12 +7884,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-20T01:00:27.000Z
+              latest_tweet_date: 2021-03-20T22:00:56.000Z
           - item:
             name: InterWork Alliance, Inc.
             homepage_url: https://interwork.org/
             logo: interwork_alliance_inc.svg
-            twitter: https://twitter.com/IntWorkAll
             crunchbase: https://www.crunchbase.com/organization/interwork-alliance-e317
             crunchbase_data:
               name: InterWork Alliance
@@ -7979,7 +7941,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T15:00:27.000Z
+              latest_tweet_date: 2021-03-20T12:40:02.000Z
           - item:
             name: Mercy Corps
             homepage_url: https://mercycorps.org/
@@ -8008,7 +7970,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T22:53:22.000Z
+              latest_tweet_date: 2021-03-20T20:43:55.000Z
           - item:
             name: Ministry of Citizens Services
             homepage_url: https://gov.bc.ca/
@@ -8036,12 +7998,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T23:15:07.000Z
+              latest_tweet_date: 2021-03-20T15:00:08.000Z
           - item:
             name: MIT Connection Science
             homepage_url: https://web.mit.edu
             logo: mit_connection_science.svg
-            twitter: https://twitter.com/MIT
             crunchbase: https://www.crunchbase.com/organization/massachusetts-institute-of-technology-mit
             crunchbase_data:
               name: Massachusetts Institute of Technology
@@ -8066,7 +8027,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T20:00:20.000Z
+              latest_tweet_date: 2021-03-20T13:05:12.000Z
           - item:
             name: Monetary Authority of Singapore
             homepage_url: https://mas.gov.sg/
@@ -8121,7 +8082,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T13:03:19.000Z
+              latest_tweet_date: 2021-03-20T13:45:19.000Z
           - item:
             name: Portland State University
             homepage_url: https://pdx.edu/
@@ -8179,7 +8140,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T10:17:32.000Z
+              latest_tweet_date: 2021-03-20T23:30:00.000Z
           - item:
             name: Sovrin Foundation
             homepage_url: https://sovrin.org/
@@ -8242,7 +8203,6 @@ landscape:
             name: Substra Foundation
             homepage_url: https://www.substra.ai
             logo: substra_foundation.svg
-            twitter: https://twitter.com/Substra_org
             crunchbase: https://www.crunchbase.com/organization/substra-foundation
             crunchbase_data:
               name: Substra Foundation
@@ -8295,7 +8255,6 @@ landscape:
             name: Tecnalia Corporation
             homepage_url: https://www.tecnalia.com/
             logo: tecnalia_corporation.svg
-            twitter: https://twitter.com/tecnalia
             crunchbase: https://www.crunchbase.com/organization/tecnalia
             crunchbase_data:
               name: Tecnalia
@@ -8346,7 +8305,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T10:15:51.000Z
+              latest_tweet_date: 2021-03-15T06:31:00.000Z
           - item:
             name: TNO, the Netherlands Organisation for Applied Scientific Research
             homepage_url: https://www.tno.nl/en
@@ -8379,7 +8338,6 @@ landscape:
             name: UCLA Blockchain Lab
             homepage_url: https://ucla.edu/
             logo: ucla_blockchain_lab.svg
-            twitter: https://twitter.com/UCLA
             crunchbase: https://www.crunchbase.com/organization/university-of-california-los-angeles
             crunchbase_data:
               name: University of California, Los Angeles
@@ -8404,12 +8362,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-20T01:06:35.000Z
+              latest_tweet_date: 2021-03-21T00:22:28.000Z
           - item:
             name: University College London
             homepage_url: https://ucl.ac.uk/
             logo: university_college_london.svg
-            twitter: https://twitter.com/uclnews
             crunchbase: https://www.crunchbase.com/organization/university-college-london-u-of-london
             crunchbase_data:
               name: University College London (UCL)
@@ -8494,7 +8451,6 @@ landscape:
             name: University of Southern California
             homepage_url: https://usc.edu/
             logo: university_of_southern_california.svg
-            twitter: https://twitter.com/USC
             crunchbase: https://www.crunchbase.com/organization/university-of-southern-california
             crunchbase_data:
               name: University of Southern California
@@ -8517,7 +8473,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-20T00:24:22.000Z
+              latest_tweet_date: 2021-03-20T20:39:00.000Z
           - item:
             name: Vilnius Gediminas Technical University
             homepage_url: https://vgtu.it/
@@ -8608,7 +8564,6 @@ landscape:
             name: XPRIZE
             homepage_url: https://xprize.org/
             logo: xprize.svg
-            twitter: https://twitter.com/xprize
             crunchbase: https://www.crunchbase.com/organization/x-prize-foundation
             crunchbase_data:
               name: XPRIZE
@@ -8633,7 +8588,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-19T19:30:07.000Z
+              latest_tweet_date: 2021-03-20T22:01:44.000Z
   - category:
     name: Hyperledger Training Partner
     subcategories:
@@ -8670,4 +8625,4 @@ landscape:
 twitter_options:
   count: 1
   since_id: '1267612886928633858'
-updated_at: 2021-03-20T01:53:03.972Z
+updated_at: 2021-03-21T01:40:37.178Z
