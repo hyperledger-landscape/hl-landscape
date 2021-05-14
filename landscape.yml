@@ -1,9 +1,264 @@
 landscape:
   - category:
+    name: Distributed Ledgers
+    subcategories:
+      - subcategory:
+        name: Distributed Ledgers
+        items:
+          - item:
+            name: Hyperledger Besu
+            description: >-
+              Hyperledger Besu is an Ethereum client designed to be enterprise-friendly for both public and private permissioned network use cases. It can also
+              be ran on test networks such as Rinkeby, Ropsten, and Görli. Hyperledger Besu includes several consensus algorithms including PoW, and PoA (IBFT,
+              IBFT 2.0, Etherhash, and Clique). Its comprehensive permissioning schemes are designed specifically for use in a consortium environment.
+            homepage_url: https://www.hyperledger.org/use/besu
+            logo: hyperledger-besu-logo-color.svg
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            repo_url: https://github.com/hyperledger/besu
+            additional_repos:
+              - repo_url: https://wiki.hyperledger.org/display/besu
+              - repo_url: https://chat.hyperledger.org/channel/besu
+              - repo_url: https://besu.hyperledger.org/en/stable/
+            project: graduated
+          - item:
+            name: Hyperledger Burrow
+            description: >-
+              Hyperledger Burrow is a complete single-binary blockchain distribution focussed on simplicity, speed, and developer ergonomics. It supports both
+              EVM and WASM based smart contracts and uses BFT consensus via the Tendermint algorithm. It has a sophisticated event system and can maintain a
+              relational database mapping of on-chain data. Governance and permissioning is built in and can be amended by on-chain proposal transactions. It is
+              optimised for public permissioned proof-of-stake use cases but can also be used for private/consortium networks.
+            homepage_url: https://www.hyperledger.org/use/hyperledger-burrow
+            logo: hyperledger-logo-color.svg
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            repo_url: https://github.com/hyperledger/burrow
+            additional_repos:
+              - repo_url: https://wiki.hyperledger.org/display/burrow
+              - repo_url: https://chat.hyperledger.org/channel/burrow
+            project: incubating
+          - item:
+            name: Hyperledger Fabric
+            description: >-
+              Hyperledger Fabric is intended as a foundation for developing applications or solutions with a modular architecture. Hyperledger Fabric allows
+              components, such as consensus and membership services, to be plug-and-play. Its modular and versatile design satisfies a broad range of industry
+              use cases. It offers a unique approach to consensus that enables performance at scale while preserving privacy.
+            homepage_url: https://www.hyperledger.org/use/fabric
+            logo: hyperledger-fabric-logo-color.svg
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            repo_url: https://github.com/hyperledger/fabric
+            additional_repos:
+              - repo_url: https://wiki.hyperledger.org/display/fabric
+              - repo_url: https://chat.hyperledger.org/channel/fabric
+              - repo_url: https://hyperledger-fabric.readthedocs.io/en/latest/
+            project: graduated
+          - item:
+            name: Hyperledger Indy
+            description: >-
+              Hyperledger Indy provides tools, libraries, and reusable components for providing digital identities rooted on blockchains or other distributed
+              ledgers so that they are interoperable across administrative domains, applications, and any other silo. Indy is interoperable with other
+              blockchains or can be used standalone powering the decentralization of identity.
+            homepage_url: https://www.hyperledger.org/use/hyperledger-indy
+            logo: hyperledger-indy-logo-color.svg
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            repo_url: https://github.com/hyperledger/indy-node
+            additional_repos:
+              - repo_url: https://wiki.hyperledger.org/display/indy
+              - repo_url: https://chat.hyperledger.org/channel/indy
+              - repo_url: https://indy.readthedocs.io/en/latest/
+            project: graduated
+          - item:
+            name: Hyperledger Iroha
+            description: >-
+              Hyperledger Iroha is designed to be simple and easy to incorporate into infrastructural or IoT projects requiring distributed ledger technology.
+              Hyperledger Iroha features a simple construction, modular, domain-driven C++ design, emphasis on client application development and a new, crash
+              fault tolerant consensus algorithm, called YAC.
+            homepage_url: https://www.hyperledger.org/use/iroha
+            logo: hyperledger-iroha-logo-color.svg
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            repo_url: https://github.com/hyperledger/iroha
+            additional_repos:
+              - repo_url: https://wiki.hyperledger.org/display/iroha
+              - repo_url: https://chat.hyperledger.org/channel/iroha
+              - repo_url: https://iroha.readthedocs.io/en/main/
+            project: graduated
+          - item:
+            name: Hyperledger Sawtooth
+            description: >-
+              Hyperledger Sawtooth offers a flexible and modular architecture separates the core system from the application domain, so smart contracts can
+              specify the business rules for applications without needing to know the underlying design of the core system. Hyperledger Sawtooth supports a
+              variety of consensus algorithms, including Practical Byzantine Fault Tolerance (PBFT) and Proof of Elapsed Time (PoET).
+            homepage_url: https://www.hyperledger.org/use/sawtooth
+            logo: hyperledger-sawtooth-logo-color.svg
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            repo_url: https://github.com/hyperledger/sawtooth-core
+            additional_repos:
+              - repo_url: https://wiki.hyperledger.org/display/sawtooth
+              - repo_url: https://chat.hyperledger.org/channel/sawtooth
+              - repo_url: https://sawtooth.hyperledger.org/docs/core/releases/latest/
+            project: graduated
+  - category:
+    name: Libraries
+    subcategories:
+      - subcategory:
+        name: Libraries
+        items:
+          - item:
+            name: Hyperledger Aries
+            description: >-
+              Hyperledger Aries provides a shared, reusable, interoperable tool kit designed for initiatives and solutions focused on creating, transmitting and
+              storing verifiable digital credentials. It is infrastructure for blockchain-rooted, peer-to-peer interactions. This project consumes the
+              cryptographic support provided by Hyperledger Ursa, to provide secure secret management and decentralized key management functionality.
+            homepage_url: https://www.hyperledger.org/use/aries
+            logo: hyperledger-aries-logo-color.svg
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            repo_url: https://github.com/hyperledger/aries
+            additional_repos:
+              - repo_url: https://wiki.hyperledger.org/display/aries
+              - repo_url: https://chat.hyperledger.org/channel/aries
+              - repo_url: https://www.edx.org/course/introduction-to-hyperledger-sovereign-identity-blockchain-solutions-indy-aries-and-ursa
+              - repo_url: https://www.edx.org/course/becoming-a-hyperledger-aries-developer
+            project: graduated
+          - item:
+            name: Hyperledger Quilt
+            description: >-
+              Hyperledger Quilt is a Java implementation of the Interledger protocol, enabling payments across any payment network — fiat or crypto. Quilt
+              provides an implementation of all core primitives required for sending and receiving payments in a ledger-agnostic manner, allowing developers to
+              write application payments logic once while gaining access to any other payment system that is Interledger-enabled.
+            homepage_url: https://www.hyperledger.org/use/quilt
+            logo: hyperledger-logo-color.svg
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            repo_url: https://github.com/hyperledger/quilt
+            additional_repos:
+              - repo_url: https://wiki.hyperledger.org/display/quilt
+              - repo_url: https://chat.hyperledger.org/channel/quilt
+            project: incubating
+          - item:
+            name: Hyperledger Transact
+            description: >-
+              Hyperledger Transact aims to reduce the development effort in writing distributed ledger software by providing a standard interface for executing
+              smart contracts that is separate from the distributed ledger implementation. Hyperledger Transact takes an extensible approach to implementing new
+              smart contract languages called “smart contract engines,” that implement a virtual machine or interpreter that processes smart contracts.
+            homepage_url: https://www.hyperledger.org/use/transact
+            logo: hyperledger-transact-logo-color.svg
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            repo_url: https://github.com/hyperledger/transact
+            additional_repos:
+              - repo_url: https://wiki.hyperledger.org/display/transact
+              - repo_url: https://chat.hyperledger.org/channel/transact
+            project: incubating
+          - item:
+            name: Hyperledger Ursa
+            description: >-
+              Hyperledger Ursa is a shared cryptographic library, it enables implementations to avoid duplicating other cryptographic work and hopefully
+              increase security in the process. The library is an opt-in repository (for Hyperledger and non Hyperledger projects) to place and use crypto.
+              Hyperledger Ursa consists of sub-projects, which are cohesive implementations of cryptographic code or interfaces to cryptographic code.
+            homepage_url: https://www.hyperledger.org/use/ursa
+            logo: hyperledger-ursa-logo-color.svg
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            repo_url: https://github.com/hyperledger/ursa
+            additional_repos:
+              - repo_url: https://wiki.hyperledger.org/display/ursa
+              - repo_url: https://chat.hyperledger.org/channel/ursa
+            project: incubating
+  - category:
+    name: Tools
+    subcategories:
+      - subcategory:
+        name: Tools
+        items:
+          - item:
+            name: Hyperledger Avalon
+            description: >-
+              Hyperledger Avalon is a ledger independent implementation of the Trusted Compute Specifications published by the Enterprise Ethereum Alliance. It
+              aims to enable the secure movement of blockchain processing off the main chain to dedicated computing resources. Avalon is designed to help
+              developers gain the benefits of computational trust and mitigate its drawbacks.
+            homepage_url: https://www.hyperledger.org/use/avalon
+            logo: hyperledger-logo-color.svg
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            repo_url: https://github.com/hyperledger/avalon
+            additional_repos:
+              - repo_url: https://wiki.hyperledger.org/display/avalon
+              - repo_url: https://chat.hyperledger.org/channel/avalon
+            project: incubating
+          - item:
+            name: Hyperledger Cactus
+            description: Hyperledger Cactus is a blockchain integration tool designed to allow users to securely integrate different blockchains.
+            homepage_url: https://www.hyperledger.org/use/cactus
+            logo: hyperledger-cactus-logo-color.svg
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            repo_url: https://github.com/hyperledger/cactus
+            additional_repos:
+              - repo_url: https://wiki.hyperledger.org/display/cactus
+              - repo_url: https://chat.hyperledger.org/channel/cactus
+            project: incubating
+          - item:
+            name: Hyperledger Caliper
+            description: >-
+              Hyperledger Caliper is a blockchain benchmark tool, it allows users to measure the performance of a blockchain implementation with a set of
+              predefined use cases. Hyperledger Caliper will produce reports containing a number of performance indicators to serve as a reference when using
+              the following blockchain solutions: Hyperledger Besu, Hyperledger Burrow, Ethereum, Hyperledger Fabric, FISCO BCOS, Hyperledger Iroha, and
+              Hyperledger Sawtooth.
+            homepage_url: https://www.hyperledger.org/use/caliper
+            logo: hyperledger-logo-color.svg
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            repo_url: https://github.com/hyperledger/caliper
+            additional_repos:
+              - repo_url: https://wiki.hyperledger.org/display/caliper
+              - repo_url: https://chat.hyperledger.org/channel/caliper
+            project: incubating
+          - item:
+            name: Hyperledger Cello
+            description: >-
+              Hyperledger Cello aims to serve as the operational dashboard for Blockchain, which reduces the effort required for creating, managing and using
+              blockchains. Besides, it can also be used to facilitate creating Blockchain as a Service. Cello provides an operational console  for managing
+              blockchain’s efficiently and running on top of various infrastructures, e.g., baremetal, virtual machine, and various container platforms.
+            homepage_url: https://www.hyperledger.org/use/cello
+            logo: hyperledger-logo-color.svg
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            repo_url: https://github.com/hyperledger/cello
+            additional_repos:
+              - repo_url: https://wiki.hyperledger.org/display/cello
+              - repo_url: https://chat.hyperledger.org/channel/cello
+            project: incubating
+          - item:
+            name: Hyperledger Explorer
+            description: >-
+              Hyperledger Explorer is a user-friendly Web application tool used to view, invoke, deploy or query blocks, transactions and associated data,
+              network information (name, status, list of nodes), chain codes and transaction families, as well as any other relevant information stored in the
+              ledger.
+            homepage_url: https://www.hyperledger.org/use/explorer
+            logo: hyperledger-logo-color.svg
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            repo_url: https://github.com/hyperledger/blockchain-explorer
+            additional_repos:
+              - repo_url: https://wiki.hyperledger.org/display/explorer
+              - repo_url: https://chat.hyperledger.org/channel/hyperledger-explorer
+            project: incubating
+  - category:
+    name: Domain Specific
+    subcategories:
+      - subcategory:
+        name: Domain Specific
+        items:
+          - item:
+            name: Hyperledger Grid
+            description: >-
+              Hyperledger Grid intends to provide reference implementations of supply chain-centric data types, data models, and smart contract based business
+              logic – all anchored on existing, open standards and industry best practices. It showcases in authentic and practical ways how to combine
+              components from the Hyperledger stack into a single, effective business solution.
+            homepage_url: https://www.hyperledger.org/use/grid
+            logo: hyperledger-grid-logo-color.svg
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            repo_url: https://github.com/hyperledger/grid
+            additional_repos:
+              - repo_url: https://wiki.hyperledger.org/display/grid
+              - repo_url: https://chat.hyperledger.org/channel/grid
+              - repo_url: https://grid.hyperledger.org/docs
+            project: incubating
+  - category:
     name: Hyperledger Certified Service Providers
     subcategories:
       - subcategory:
-        name: Hyperledger Fabric - CSP
+        name: Hyperledger Fabric Certified Service Providers
         items:
           - item:
             name: Accenture (HCSP)
@@ -1030,7 +1285,6 @@ landscape:
             name: Blockchain Education Network
             homepage_url: https://blockchainedu.org/
             logo: blockchain_education_network.svg
-            twitter: https://twitter.com/education_ben
             crunchbase: https://www.crunchbase.com/organization/blockchain-education-network-7e38
           - item:
             name: Blockchain Research Institute (Tapscott Group)
@@ -1072,6 +1326,12 @@ landscape:
             logo: cloud_security_alliance.svg
             twitter: https://twitter.com/cloudsa
             crunchbase: https://www.crunchbase.com/organization/cloud-security-alliance
+          - item:
+            name: Colored Coins
+            homepage_url: https://colu.com/
+            logo: colored_coins.svg
+            twitter: https://twitter.com/ColuApp
+            crunchbase: https://www.crunchbase.com/organization/colu
           - item:
             name: Construction Blockchain Consortium
             homepage_url: https://constructionblockchain.org/
@@ -1201,6 +1461,12 @@ landscape:
             twitter: https://twitter.com/NAFCU
             crunchbase: https://www.crunchbase.com/organization/nafcu-national-association-of-federally-insured-credit-unions
           - item:
+            name: National Association of Realtors
+            homepage_url: https://realtors.org/
+            logo: national_association_of_realtors.svg
+            twitter: https://twitter.com/nardotrealtor
+            crunchbase: https://www.crunchbase.com/organization/national-association-of-realtors
+          - item:
             name: Peking University
             homepage_url: https://pku.edu.cn/
             logo: peking_university.svg
@@ -1254,6 +1520,12 @@ landscape:
             logo: stellar_development_foundation.svg
             twitter: https://twitter.com/StellarOrg
             crunchbase: https://www.crunchbase.com/organization/stellar
+          - item:
+            name: Substra Foundation
+            homepage_url: https://substra.org/
+            logo: substra_foundation.svg
+            twitter: https://twitter.com/Substra_org
+            crunchbase: https://www.crunchbase.com/organization/substra-foundation
           - item:
             name: Sun Yat-sen University
             homepage_url: https://sysu.edu.cn/
@@ -1319,6 +1591,12 @@ landscape:
             twitter: https://twitter.com/VGTU_university
             crunchbase: https://www.crunchbase.com/organization/vilnius-gediminas-technical-university
           - item:
+            name: Vision Service Plan dba VSP Global
+            homepage_url: https://vsp.com/
+            logo: vision_service_plan_dba_vsp_global.svg
+            twitter: https://twitter.com/VSPVisionCare
+            crunchbase: https://www.crunchbase.com/organization/vsp-vision-care
+          - item:
             name: Wall Street Blockchain Alliance
             homepage_url: https://wsba.co/
             logo: wall_street_blockchain_alliance.svg
@@ -1336,10 +1614,10 @@ landscape:
             logo: zhejiang_block_chain_technology_application_association.svg
             crunchbase: https://www.crunchbase.com/organization/zhejiang-block-chain-technology-application-association
   - category:
-    name: Hyperledger Training Partner
+    name: Hyperledger Training Partners
     subcategories:
       - subcategory:
-        name: Hyperledger Training Partner
+        name: Hyperledger Training Partners
         items:
           - item:
             name: Peersafe (HTP)

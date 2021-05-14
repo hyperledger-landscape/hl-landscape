@@ -31,14 +31,22 @@ relation:
     - id: hosted
       label: Hyperledger Projects
       children:
-        - id: foundationproject
-          label: Hyperledger Project Projects
+        - id: graduated
+          label: Graduated Hyperledger Projects
           prefix: Hyperledger
-          tag: Project Project
+          tag: Graduated
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: Hyperledger Project Project
+          big_picture_label: Graduated
           big_picture_color: rgb(24,54,114)
+        - id: incubating
+          label: Incubating Hyperledger Projects
+          prefix: Hyperledger
+          tag: Incubating
+          color: '#00cbff'
+          big_picture_order: 2
+          big_picture_label: Incubating
+          big_picture_color: rgb(83, 113, 189)
     - id: company
       label: Hyperledger Members
       tag: Company
@@ -99,35 +107,44 @@ big_picture:
     tab_index: -1
     url: landscape
     name: Landscape
-    title: Hyperledger Landscape
+    title: Projects
     fullscreen_header: See the interactive landscape at l.hyperledger.org
     elements:
       - type: HorizontalCategory
-        category: Hyperledger Certified Service Providers
-        rows: 3
-        width: 525
+        category: Distributed Ledgers
+        rows: 4
+        width: 470
         height: 160
         top: 0
         left: 0
-        color: rgb(19,105,73)
+        color: rgb(4,81,49)
         fit_width: true
       - type: HorizontalCategory
-        category: Hyperledger Training Partner
+        category: Libraries
         rows: 4
-        width: 795
+        width: 450
         height: 160
-        top: 200
-        left: 0
+        top: 0
+        left: 490
+        color: rgb(7,136,62)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Tools
+        rows: 4
+        width: 185
+        height: 160
+        top: 0
+        left: 960
         color: rgb(126,115,14)
         fit_width: true
       - type: HorizontalCategory
-        category: Hyperledger Members
-        rows: 7
-        width: 730
-        height: 1200
-        top: 500
-        left: 400
-        color: rgb(143,66,16)
+        category: Domain Specific
+        rows: 4
+        width: 240
+        height: 160
+        top: 0
+        left: 1165
+        color: rgb(87,43,10)
         fit_width: true
       - type: LandscapeInfo
         width: 365
@@ -166,6 +183,67 @@ big_picture:
             right: 5
             top: 85
             title: Hyperledger Logo
+  third:
+    tab_index: 1
+    url: members
+    name: Hyperledger Members
+    title: Hyperledger Members
+    fullscreen_header: Become an Hyperledger member at https://www.hyperledger.org/about/join
+    elements:
+      - type: HorizontalCategory
+        category: Premier
+        width: 700
+        height: 180
+        top: 0
+        left: 0
+        color: '#e5e4e2'
+        fit_width: true
+        is_large: true
+      - type: HorizontalCategory
+        category: General
+        width: 700
+        height: 180
+        top: 175
+        left: 0
+        color: '#d4af37'
+        fit_width: true
+        is_large: true
+      - type: HorizontalCategory
+        category: Associate
+        cols: 30
+        width: 700
+        height: 270
+        top: 350
+        left: 0
+        color: '#C0C0C0'
+        fit_width: true
+        is_large: true
+    category: Hyperledger Members
+  fourth:
+    tab_index: 2
+    url: providers
+    name: Service Providers and Training Partners
+    title: Service Providers and Training Partners
+    fullscreen_header: Service Providers and Training Partners for Hyperledger
+    elements:
+      - type: HorizontalCategory
+        category: Hyperledger Certified Service Providers
+        rows: 3
+        width: 525
+        height: 160
+        top: 0
+        left: 0
+        color: rgb(19,105,73)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Hyperledger Training Partners
+        rows: 4
+        width: 795
+        height: 160
+        top: 200
+        left: 0
+        color: rgb(126,115,14)
+        fit_width: true
 test:
   header: Hyperledger Landscape
   section: Hyperledger Members
