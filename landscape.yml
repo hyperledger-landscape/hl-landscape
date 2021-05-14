@@ -19,7 +19,7 @@ landscape:
               - repo_url: https://wiki.hyperledger.org/display/besu
               - repo_url: https://chat.hyperledger.org/channel/besu
               - repo_url: https://besu.hyperledger.org/en/stable/
-            project: project
+            project: graduated
           - item:
             name: Hyperledger Burrow
             description: >-
@@ -34,7 +34,7 @@ landscape:
             additional_repos:
               - repo_url: https://wiki.hyperledger.org/display/burrow
               - repo_url: https://chat.hyperledger.org/channel/burrow
-            project: project
+            project: incubating
           - item:
             name: Hyperledger Fabric
             description: >-
@@ -49,7 +49,7 @@ landscape:
               - repo_url: https://wiki.hyperledger.org/display/fabric
               - repo_url: https://chat.hyperledger.org/channel/fabric
               - repo_url: https://hyperledger-fabric.readthedocs.io/en/latest/
-            project: project
+            project: graduated
           - item:
             name: Hyperledger Indy
             description: >-
@@ -64,7 +64,7 @@ landscape:
               - repo_url: https://wiki.hyperledger.org/display/indy
               - repo_url: https://chat.hyperledger.org/channel/indy
               - repo_url: https://indy.readthedocs.io/en/latest/
-            project: project
+            project: graduated
           - item:
             name: Hyperledger Iroha
             description: >-
@@ -79,7 +79,7 @@ landscape:
               - repo_url: https://wiki.hyperledger.org/display/iroha
               - repo_url: https://chat.hyperledger.org/channel/iroha
               - repo_url: https://iroha.readthedocs.io/en/main/
-            project: project
+            project: graduated
           - item:
             name: Hyperledger Sawtooth
             description: >-
@@ -94,7 +94,7 @@ landscape:
               - repo_url: https://wiki.hyperledger.org/display/sawtooth
               - repo_url: https://chat.hyperledger.org/channel/sawtooth
               - repo_url: https://sawtooth.hyperledger.org/docs/core/releases/latest/
-            project: project
+            project: graduated
       - subcategory:
         name: Libraries
         items:
@@ -113,7 +113,7 @@ landscape:
               - repo_url: https://chat.hyperledger.org/channel/aries
               - repo_url: https://www.edx.org/course/introduction-to-hyperledger-sovereign-identity-blockchain-solutions-indy-aries-and-ursa
               - repo_url: https://www.edx.org/course/becoming-a-hyperledger-aries-developer
-            project: project
+            project: graduated
           - item:
             name: Hyperledger Quilt
             description: >-
@@ -127,7 +127,7 @@ landscape:
             additional_repos:
               - repo_url: https://wiki.hyperledger.org/display/quilt
               - repo_url: https://chat.hyperledger.org/channel/quilt
-            project: project
+            project: incubating
           - item:
             name: Hyperledger Transact
             description: >-
@@ -141,7 +141,7 @@ landscape:
             additional_repos:
               - repo_url: https://wiki.hyperledger.org/display/transact
               - repo_url: https://chat.hyperledger.org/channel/transact
-            project: project
+            project: incubating
           - item:
             name: Hyperledger Ursa
             description: >-
@@ -155,7 +155,7 @@ landscape:
             additional_repos:
               - repo_url: https://wiki.hyperledger.org/display/ursa
               - repo_url: https://chat.hyperledger.org/channel/ursa
-            project: project
+            project: incubating
       - subcategory:
         name: Tools
         items:
@@ -172,7 +172,7 @@ landscape:
             additional_repos:
               - repo_url: https://wiki.hyperledger.org/display/avalon
               - repo_url: https://chat.hyperledger.org/channel/avalon
-            project: project
+            project: incubating
           - item:
             name: Hyperledger Cactus
             description: Hyperledger Cactus is a blockchain integration tool designed to allow users to securely integrate different blockchains.
@@ -183,7 +183,7 @@ landscape:
             additional_repos:
               - repo_url: https://wiki.hyperledger.org/display/cactus
               - repo_url: https://chat.hyperledger.org/channel/cactus
-            project: project
+            project: incubating
           - item:
             name: Hyperledger Caliper
             description: >-
@@ -198,7 +198,7 @@ landscape:
             additional_repos:
               - repo_url: https://wiki.hyperledger.org/display/caliper
               - repo_url: https://chat.hyperledger.org/channel/caliper
-            project: project
+            project: incubating
           - item:
             name: Hyperledger Cello
             description: >-
@@ -212,7 +212,7 @@ landscape:
             additional_repos:
               - repo_url: https://wiki.hyperledger.org/display/cello
               - repo_url: https://chat.hyperledger.org/channel/cello
-            project: project
+            project: incubating
           - item:
             name: Hyperledger Explorer
             description: >-
@@ -226,7 +226,7 @@ landscape:
             additional_repos:
               - repo_url: https://wiki.hyperledger.org/display/explorer
               - repo_url: https://chat.hyperledger.org/channel/hyperledger-explorer
-            project: project
+            project: incubating
       - subcategory:
         name: Domain Specific
         items:
@@ -244,7 +244,7 @@ landscape:
               - repo_url: https://wiki.hyperledger.org/display/grid
               - repo_url: https://chat.hyperledger.org/channel/grid
               - repo_url: https://grid.hyperledger.org/docs
-            project: project
+            project: incubating
   - category:
     name: Hyperledger Certified Service Providers
     subcategories:

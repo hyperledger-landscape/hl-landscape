@@ -31,14 +31,22 @@ relation:
     - id: hosted
       label: Hyperledger Projects
       children:
-        - id: foundationproject
-          label: Hyperledger Project Projects
+        - id: graduated
+          label: Graduated Hyperledger Projects
           prefix: Hyperledger
-          tag: Project Project
+          tag: Graduated
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: Hyperledger Project Project
+          big_picture_label: Graduated
           big_picture_color: rgb(24,54,114)
+        - id: incubating
+          label: Incubating Hyperledger Projects
+          prefix: Hyperledger
+          tag: Incubating
+          color: '#00cbff'
+          big_picture_order: 2
+          big_picture_label: Incubating
+          big_picture_color: rgb(83, 113, 189)
     - id: company
       label: Hyperledger Members
       tag: Company
@@ -102,6 +110,16 @@ big_picture:
     title: Hyperledger Landscape
     fullscreen_header: See the interactive landscape at l.hyperledger.org
     elements:
+    elements:
+      - type: HorizontalCategory
+        category: Hyperledger Projects
+        rows: 1
+        width: 800
+        height: 1200
+        top: 0
+        left: 0
+        color: rgb(4,81,49)
+        fit_width: true
       - type: HorizontalCategory
         category: Hyperledger Certified Service Providers
         rows: 3
