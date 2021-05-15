@@ -155,34 +155,35 @@ big_picture:
           - type: text
             text: |
               This landscape is intended as a map to explore the Hyperledger community, and also shows the member organizations of Hyperledger.
-            top: 45
+            top: 185
             left: 100
             right: 120
             font_size: 10
           - type: image
             image: qr.svg
-            top: 40
+            top: 180
             left: 5
             width: 90
             height: 90
             title: QR Code
           - type: title
             title: l.hyperledger.org
-            top: 129
+            top: 269
             left: 19
             font_size: 21
           - type: image
             image: left-logo.svg
             width: 110
             right: 5
-            top: 45
+            top: 185
             title: Landscape Logo
           - type: image
             image: right-logo.svg
             width: 109
             right: 5
-            top: 85
+            top: 225
             title: Hyperledger Logo
+    category: Hyperledger Projects
   third:
     tab_index: 1
     url: members
@@ -248,7 +249,7 @@ big_picture:
         rows: 4
         width: 795
         height: 160
-        top: 200
+        top: 0
         left: 0
         color: rgb(126,115,14)
         fit_width: true
