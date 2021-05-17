@@ -193,19 +193,19 @@ big_picture:
       - type: HorizontalCategory
         category: Libraries
         rows: 4
-        width: 450
+        width: 470
         height: 160
-        top: 0
-        left: 490
+        top: 170
+        left: 0
         color: rgb(7,136,62)
         fit_width: true
       - type: HorizontalCategory
         category: Tools
         rows: 4
-        width: 185
+        width: 470
         height: 160
-        top: 0
-        left: 960
+        top: 340
+        left: 0
         color: rgb(126,115,14)
         fit_width: true
       - type: HorizontalCategory
@@ -213,8 +213,8 @@ big_picture:
         rows: 4
         width: 240
         height: 160
-        top: 0
-        left: 1165
+        top: 510
+        left: 0
         color: rgb(87,43,10)
         fit_width: true
     category: Hyperledger Projects
@@ -237,7 +237,7 @@ big_picture:
       - type: HorizontalCategory
         category: General
         width: 700
-        height: 180
+        height: 800
         top: 175
         left: 0
         color: '#d4af37'
@@ -281,7 +281,7 @@ big_picture:
       - type: HorizontalCategory
         category: Hyperledger Training Partners
         rows: 4
-        width: 795
+        width: 240
         height: 160
         top: 200
         left: 0
