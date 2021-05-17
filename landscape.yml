@@ -1,6 +1,6 @@
 landscape:
   - category:
-    name: Distributed Ledgers
+    name: Hyperledger Projects
     subcategories:
       - subcategory:
         name: Distributed Ledgers
@@ -95,9 +95,6 @@ landscape:
               - repo_url: https://chat.hyperledger.org/channel/sawtooth
               - repo_url: https://sawtooth.hyperledger.org/docs/core/releases/latest/
             project: graduated
-  - category:
-    name: Libraries
-    subcategories:
       - subcategory:
         name: Libraries
         items:
@@ -159,9 +156,6 @@ landscape:
               - repo_url: https://wiki.hyperledger.org/display/ursa
               - repo_url: https://chat.hyperledger.org/channel/ursa
             project: incubating
-  - category:
-    name: Tools
-    subcategories:
       - subcategory:
         name: Tools
         items:
@@ -233,9 +227,6 @@ landscape:
               - repo_url: https://wiki.hyperledger.org/display/explorer
               - repo_url: https://chat.hyperledger.org/channel/hyperledger-explorer
             project: incubating
-  - category:
-    name: Domain Specific
-    subcategories:
       - subcategory:
         name: Domain Specific
         items:
