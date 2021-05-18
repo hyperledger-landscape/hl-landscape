@@ -113,7 +113,7 @@ big_picture:
       - type: HorizontalCategory
         category: Hyperledger Certified Service Providers
         rows: 3
-        width: 525
+        width: 730
         height: 160
         top: 0
         left: 0
@@ -122,9 +122,9 @@ big_picture:
       - type: HorizontalCategory
         category: Hyperledger Training Partners
         rows: 4
-        width: 795
+        width: 730
         height: 160
-        top: 200
+        top: 165
         left: 0
         color: rgb(126,115,14)
         fit_width: true
@@ -133,7 +133,7 @@ big_picture:
         rows: 7
         width: 730
         height: 1200
-        top: 500
+        top: 330
         left: 0
         color: rgb(143,66,16)
         fit_width: true
@@ -142,7 +142,7 @@ big_picture:
         rows: 6
         width: 730
         height: 600
-        top: 1800
+        top: 1535
         left: 0
         color: rgb(4,81,49)
         fit_width: true
@@ -230,7 +230,7 @@ big_picture:
   fourth:
     tab_index: 2
     url: members
-    name: Hyperledger Members
+    name: Members
     title: Hyperledger Members
     fullscreen_header: Become an Hyperledger member at https://www.hyperledger.org/about/join
     elements:
@@ -266,7 +266,7 @@ big_picture:
   fifth:
     tab_index: 3
     url: providers
-    name: Hyperledger Certified Service Providers
+    name: CSPs
     title: Hyperledger Certified Service Providers
     fullscreen_header: Hyperledger Certified Service Providers
     elements:
@@ -283,7 +283,7 @@ big_picture:
   sixth:
     tab_index: 4
     url: training
-    name: Hyperledger Training Partners
+    name: Training Partners
     title: Hyperledger Training Partners
     fullscreen_header: Hyperledger Training Partners
     elements:
@@ -292,7 +292,7 @@ big_picture:
         rows: 4
         width: 240
         height: 160
-        top: 200
+        top: 0
         left: 0
         color: rgb(126,115,14)
         fit_width: true
