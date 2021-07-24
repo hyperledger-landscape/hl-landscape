@@ -15,9 +15,13 @@ landscape:
             project: graduated
             repo_url: https://github.com/hyperledger/besu
             additional_repos:
-              - repo_url: https://wiki.hyperledger.org/display/besu
-              - repo_url: https://chat.hyperledger.org/channel/besu
-              - repo_url: https://besu.hyperledger.org/en/stable/
+              - repo_url: https://github.com/hyperledger/besu-docs
+              - repo_url: https://github.com/hyperledger/homebrew-besu
+              - repo_url: https://github.com/hyperledger/besu-native
+            extra:
+              wiki: https://wiki.hyperledger.org/display/besu
+              chat: https://chat.hyperledger.org/channel/besu
+              documentation: https://besu.hyperledger.org/en/stable/
             logo: hyperledger-besu.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
@@ -30,9 +34,9 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/hyperledger-burrow
             project: incubating
             repo_url: https://github.com/hyperledger/burrow
-            additional_repos:
-              - repo_url: https://wiki.hyperledger.org/display/burrow
-              - repo_url: https://chat.hyperledger.org/channel/burrow
+            extra:
+              wiki: https://wiki.hyperledger.org/display/burrow
+              chat: https://chat.hyperledger.org/channel/burrow
             logo: hyperledger-burrow.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
@@ -45,9 +49,35 @@ landscape:
             project: graduated
             repo_url: https://github.com/hyperledger/fabric
             additional_repos:
-              - repo_url: https://wiki.hyperledger.org/display/fabric
-              - repo_url: https://chat.hyperledger.org/channel/fabric
-              - repo_url: https://hyperledger-fabric.readthedocs.io/en/latest/
+              - repo_url: https://github.com/hyperledger/fabric-private-chaincode
+              - repo_url: https://github.com/hyperledger/fabric-gateway
+              - repo_url: https://github.com/hyperledger/fabric-docs-i18n
+              - repo_url: https://github.com/hyperledger/fabric-chaincode-java
+              - repo_url: https://github.com/hyperledger/fabric-samples
+              - repo_url: https://github.com/hyperledger/fabric-protos-go
+              - repo_url: https://github.com/hyperledger/fabric-protos
+              - repo_url: https://github.com/hyperledger/fabric-chaincode-go
+              - repo_url: https://github.com/hyperledger/fabric-ca
+              - repo_url: https://github.com/hyperledger/fabric-sdk-py
+              - repo_url: https://github.com/hyperledger/fabric-chaincode-node
+              - repo_url: https://github.com/hyperledger/fabric-test
+              - repo_url: https://github.com/hyperledger/fabric-sdk-go
+              - repo_url: https://github.com/hyperledger/fabric-sdk-node
+              - repo_url: https://github.com/hyperledger/fabric-sdk-java
+              - repo_url: https://github.com/hyperledger/fabric-rfcs
+              - repo_url: https://github.com/hyperledger/fabric-amcl
+              - repo_url: https://github.com/hyperledger/fabric-gateway-java
+              - repo_url: https://github.com/hyperledger/fabric-lib-go
+              - repo_url: https://github.com/hyperledger/fabric-chaincode-evm
+              - repo_url: https://github.com/hyperledger/fabric-baseimage
+              - repo_url: https://github.com/hyperledger/fabric-contract-api-go
+              - repo_url: https://github.com/hyperledger/fabric-config
+              - repo_url: https://github.com/hyperledger/fabric-cli
+              - repo_url: https://github.com/hyperledger/fabric-website
+            extra:
+              wiki: https://wiki.hyperledger.org/display/fabric
+              chat: https://chat.hyperledger.org/channel/fabric
+              documentation: https://hyperledger-fabric.readthedocs.io/en/latest/
             logo: hyperledger-fabric.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
@@ -60,9 +90,20 @@ landscape:
             project: graduated
             repo_url: https://github.com/hyperledger/indy-node
             additional_repos:
-              - repo_url: https://wiki.hyperledger.org/display/indy
-              - repo_url: https://chat.hyperledger.org/channel/indy
-              - repo_url: https://indy.readthedocs.io/en/latest/
+              - repo_url: https://github.com/hyperledger/indy-plenum
+              - repo_url: https://github.com/hyperledger/indy-sdk-react-native
+              - repo_url: https://github.com/hyperledger/indy-sdk
+              - repo_url: https://github.com/hyperledger/indy-vdr
+              - repo_url: https://github.com/hyperledger/indy-test-automation
+              - repo_url: https://github.com/hyperledger/indy-node-monitor
+              - repo_url: https://github.com/hyperledger/indy-did-method
+              - repo_url: https://github.com/hyperledger/indy-shared-rs
+              - repo_url: https://github.com/hyperledger/indy-hipe
+              - repo_url: https://github.com/hyperledger/indy-docs
+            extra:
+              wiki: https://wiki.hyperledger.org/display/indy
+              chat: https://chat.hyperledger.org/channel/indy
+              documentation: https://indy.readthedocs.io/en/latest/
             logo: hyperledger-indy.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
@@ -75,9 +116,19 @@ landscape:
             project: graduated
             repo_url: https://github.com/hyperledger/iroha
             additional_repos:
-              - repo_url: https://wiki.hyperledger.org/display/iroha
-              - repo_url: https://chat.hyperledger.org/channel/iroha
-              - repo_url: https://iroha.readthedocs.io/en/main/
+              - repo_url: https://github.com/hyperledger/iroha-javascript
+              - repo_url: https://github.com/hyperledger/iroha-java
+              - repo_url: https://github.com/hyperledger/iroha-python
+              - repo_url: https://github.com/hyperledger/iroha-ios
+              - repo_url: https://github.com/hyperledger/iroha-deploy
+              - repo_url: https://github.com/hyperledger/iroha-tui-client
+              - repo_url: https://github.com/hyperledger/iroha-state-migration-tool
+              - repo_url: https://github.com/hyperledger/iroha-ed25519
+              - repo_url: https://github.com/hyperledger/iroha-docs-l10n
+            extra:
+              wiki: https://wiki.hyperledger.org/display/iroha
+              chat: https://chat.hyperledger.org/channel/iroha
+              documentation: https://iroha.readthedocs.io/en/main/
             logo: hyperledger-iroha.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
@@ -90,9 +141,31 @@ landscape:
             project: graduated
             repo_url: https://github.com/hyperledger/sawtooth-core
             additional_repos:
-              - repo_url: https://wiki.hyperledger.org/display/sawtooth
-              - repo_url: https://chat.hyperledger.org/channel/sawtooth
-              - repo_url: https://sawtooth.hyperledger.org/docs/core/releases/latest/
+              - repo_url: https://github.com/hyperledger/sawtooth-lib
+              - repo_url: https://github.com/hyperledger/sawtooth-sdk-dotnet
+              - repo_url: https://github.com/hyperledger/sawtooth-sdk-java
+              - repo_url: https://github.com/hyperledger/sawtooth-sabre
+              - repo_url: https://github.com/hyperledger/sawtooth-sdk-go
+              - repo_url: https://github.com/hyperledger/sawtooth-pbft
+              - repo_url: https://github.com/hyperledger/sawtooth-docs
+              - repo_url: https://github.com/hyperledger/sawtooth-marketplace
+              - repo_url: https://github.com/hyperledger/sawtooth-contrib
+              - repo_url: https://github.com/hyperledger/sawtooth-sdk-swift
+              - repo_url: https://github.com/hyperledger/sawtooth-sdk-cxx
+              - repo_url: https://github.com/hyperledger/education-sawtooth-simple-supply
+              - repo_url: https://github.com/hyperledger/sawtooth-sdk-rust
+              - repo_url: https://github.com/hyperledger/sawtooth-seth
+              - repo_url: https://github.com/hyperledger/sawtooth-raft
+              - repo_url: https://github.com/hyperledger/sawtooth-sdk-python
+              - repo_url: https://github.com/hyperledger/sawtooth-poet
+              - repo_url: https://github.com/hyperledger/sawtooth-sdk-javascript
+              - repo_url: https://github.com/hyperledger/sawtooth-devmode
+              - repo_url: https://github.com/hyperledger/sawtooth-rfcs
+              - repo_url: https://github.com/hyperledger/sawtooth-explorer
+            extra:
+              wiki: https://wiki.hyperledger.org/display/sawtooth
+              chat: https://chat.hyperledger.org/channel/sawtooth
+              documentation: https://sawtooth.hyperledger.org/docs/core/releases/latest/
             logo: hyperledger-sawtooth.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
       - subcategory:
@@ -108,10 +181,31 @@ landscape:
             project: graduated
             repo_url: https://github.com/hyperledger/aries
             additional_repos:
-              - repo_url: https://wiki.hyperledger.org/display/aries
-              - repo_url: https://chat.hyperledger.org/channel/aries
-              - repo_url: https://www.edx.org/course/introduction-to-hyperledger-sovereign-identity-blockchain-solutions-indy-aries-and-ursa
-              - repo_url: https://www.edx.org/course/becoming-a-hyperledger-aries-developer
+              - repo_url: https://github.com/hyperledger/aries-agent-test-harness
+              - repo_url: https://github.com/hyperledger/aries-framework-javascript
+              - repo_url: https://github.com/hyperledger/aries-cloudagent-python
+              - repo_url: https://github.com/hyperledger/aries-askar
+              - repo_url: https://github.com/hyperledger/aries-vcx
+              - repo_url: https://github.com/hyperledger/aries-framework-go
+              - repo_url: https://github.com/hyperledger/aries-mobile-agent-react-native
+              - repo_url: https://github.com/hyperledger/aries-framework-go-ext
+              - repo_url: https://github.com/hyperledger/aries-rfcs
+              - repo_url: https://github.com/hyperledger/aries-acapy-plugin-toolbox
+              - repo_url: https://github.com/hyperledger/aries-toolbox
+              - repo_url: https://github.com/hyperledger/aries-staticagent-python
+              - repo_url: https://github.com/hyperledger/aries-mobile-agent-xamarin
+              - repo_url: https://github.com/hyperledger/aries-acapy-controllers
+              - repo_url: https://github.com/hyperledger/aries-sdk-java
+              - repo_url: https://github.com/hyperledger/aries-framework-dotnet
+              - repo_url: https://github.com/hyperledger/aries-protocol-test-suite
+              - repo_url: https://github.com/hyperledger/aries-sdk-ruby
+              - repo_url: https://github.com/hyperledger/aries-sdk-android
+              - repo_url: https://github.com/hyperledger/aries-sdk-javascript
+            extra:
+              wiki: https://wiki.hyperledger.org/display/aries
+              chat: https://chat.hyperledger.org/channel/aries
+              introduction_course: https://www.edx.org/course/introduction-to-hyperledger-sovereign-identity-blockchain-solutions-indy-aries-and-ursa
+              developer_course: https://www.edx.org/course/becoming-a-hyperledger-aries-developer
             logo: hyperledger-aries.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
@@ -123,9 +217,9 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/quilt
             project: incubating
             repo_url: https://github.com/hyperledger/quilt
-            additional_repos:
-              - repo_url: https://wiki.hyperledger.org/display/quilt
-              - repo_url: https://chat.hyperledger.org/channel/quilt
+            extra:
+              wiki: https://wiki.hyperledger.org/display/quilt
+              chat: https://chat.hyperledger.org/channel/quilt
             logo: hyperledger-quilt.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
@@ -138,8 +232,13 @@ landscape:
             project: incubating
             repo_url: https://github.com/hyperledger/transact
             additional_repos:
-              - repo_url: https://wiki.hyperledger.org/display/transact
-              - repo_url: https://chat.hyperledger.org/channel/transact
+              - repo_url: https://github.com/hyperledger/transact-rfcs
+              - repo_url: https://github.com/hyperledger/transact-contrib
+              - repo_url: https://github.com/hyperledger/transact-sdk-javascript
+              - repo_url: https://github.com/hyperledger/transact-sdk-go
+            extra:
+              wiki: https://wiki.hyperledger.org/display/transact
+              chat: https://chat.hyperledger.org/channel/transact
             logo: hyperledger-transact.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
@@ -152,8 +251,13 @@ landscape:
             project: incubating
             repo_url: https://github.com/hyperledger/ursa
             additional_repos:
-              - repo_url: https://wiki.hyperledger.org/display/ursa
-              - repo_url: https://chat.hyperledger.org/channel/ursa
+              - repo_url: https://github.com/hyperledger/ursa-python
+              - repo_url: https://github.com/hyperledger/ursa-docs
+              - repo_url: https://github.com/hyperledger/ursa-wrapper-go
+              - repo_url: https://github.com/hyperledger/ursa-rfcs
+            extra:
+              wiki: https://wiki.hyperledger.org/display/ursa
+              chat: https://chat.hyperledger.org/channel/ursa
             logo: hyperledger-ursa.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
       - subcategory:
@@ -168,9 +272,9 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/avalon
             project: incubating
             repo_url: https://github.com/hyperledger/avalon
-            additional_repos:
-              - repo_url: https://wiki.hyperledger.org/display/avalon
-              - repo_url: https://chat.hyperledger.org/channel/avalon
+            extra:
+              wiki: https://wiki.hyperledger.org/display/avalon
+              chat: https://chat.hyperledger.org/channel/avalon
             logo: hyperledger-avalon.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
@@ -179,9 +283,9 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/cactus
             project: incubating
             repo_url: https://github.com/hyperledger/cactus
-            additional_repos:
-              - repo_url: https://wiki.hyperledger.org/display/cactus
-              - repo_url: https://chat.hyperledger.org/channel/cactus
+            extra:
+              wiki: https://wiki.hyperledger.org/display/cactus
+              chat: https://chat.hyperledger.org/channel/cactus
             logo: hyperledger-cactus.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
@@ -195,8 +299,10 @@ landscape:
             project: incubating
             repo_url: https://github.com/hyperledger/caliper
             additional_repos:
-              - repo_url: https://wiki.hyperledger.org/display/caliper
-              - repo_url: https://chat.hyperledger.org/channel/caliper
+              - repo_url: https://github.com/hyperledger/caliper-benchmarks
+            extra:
+              wiki: https://wiki.hyperledger.org/display/caliper
+              chat: https://chat.hyperledger.org/channel/caliper
             logo: hyperledger-caliper.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
@@ -209,8 +315,10 @@ landscape:
             project: incubating
             repo_url: https://github.com/hyperledger/cello
             additional_repos:
-              - repo_url: https://wiki.hyperledger.org/display/cello
-              - repo_url: https://chat.hyperledger.org/channel/cello
+              - repo_url: https://github.com/hyperledger/cello-analytics
+            extra:
+              wiki: https://wiki.hyperledger.org/display/cello
+              chat: https://chat.hyperledger.org/channel/cello
             logo: hyperledger-cello.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
@@ -222,9 +330,9 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/explorer
             project: incubating
             repo_url: https://github.com/hyperledger/blockchain-explorer
-            additional_repos:
-              - repo_url: https://wiki.hyperledger.org/display/explorer
-              - repo_url: https://chat.hyperledger.org/channel/hyperledger-explorer
+            extra:
+              wiki: https://wiki.hyperledger.org/display/explorer
+              chat: https://chat.hyperledger.org/channel/hyperledger-explorer
             logo: hyperledger-explorer.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
       - subcategory:
@@ -240,9 +348,13 @@ landscape:
             project: incubating
             repo_url: https://github.com/hyperledger/grid
             additional_repos:
-              - repo_url: https://wiki.hyperledger.org/display/grid
-              - repo_url: https://chat.hyperledger.org/channel/grid
-              - repo_url: https://grid.hyperledger.org/docs
+              - repo_url: https://github.com/hyperledger/grid-docs
+              - repo_url: https://github.com/hyperledger/grid-rfcs
+              - repo_url: https://github.com/hyperledger/grid-contrib
+            extra:
+              wiki: https://wiki.hyperledger.org/display/grid
+              chat: https://chat.hyperledger.org/channel/grid
+              documentation: https://grid.hyperledger.org/docs
             logo: hyperledger-grid.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
   - category:
