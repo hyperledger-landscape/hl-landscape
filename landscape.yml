@@ -6,6 +6,10 @@ landscape:
         name: Distributed Ledgers
         items:
           - item:
+            extra:
+              wiki: https://wiki.hyperledger.org/display/besu
+              chat: https://chat.hyperledger.org/channel/besu
+              documentation: https://besu.hyperledger.org/en/stable/
             name: Hyperledger Besu
             description: >-
               Hyperledger Besu is an Ethereum client designed to be enterprise-friendly for both public and private permissioned network use cases. It can also
@@ -18,13 +22,12 @@ landscape:
               - repo_url: https://github.com/hyperledger/besu-docs
               - repo_url: https://github.com/hyperledger/homebrew-besu
               - repo_url: https://github.com/hyperledger/besu-native
-            extra:
-              wiki: https://wiki.hyperledger.org/display/besu
-              chat: https://chat.hyperledger.org/channel/besu
-              documentation: https://besu.hyperledger.org/en/stable/
             logo: hyperledger-besu.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
+            extra:
+              wiki: https://wiki.hyperledger.org/display/burrow
+              chat: https://chat.hyperledger.org/channel/burrow
             name: Hyperledger Burrow
             description: >-
               Hyperledger Burrow is a complete single-binary blockchain distribution focussed on simplicity, speed, and developer ergonomics. It supports both
@@ -34,12 +37,13 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/hyperledger-burrow
             project: incubating
             repo_url: https://github.com/hyperledger/burrow
-            extra:
-              wiki: https://wiki.hyperledger.org/display/burrow
-              chat: https://chat.hyperledger.org/channel/burrow
             logo: hyperledger-burrow.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
+            extra:
+              wiki: https://wiki.hyperledger.org/display/fabric
+              chat: https://chat.hyperledger.org/channel/fabric
+              documentation: https://hyperledger-fabric.readthedocs.io/en/latest/
             name: Hyperledger Fabric
             description: >-
               Hyperledger Fabric is intended as a foundation for developing applications or solutions with a modular architecture. Hyperledger Fabric allows
@@ -74,13 +78,13 @@ landscape:
               - repo_url: https://github.com/hyperledger/fabric-config
               - repo_url: https://github.com/hyperledger/fabric-cli
               - repo_url: https://github.com/hyperledger/fabric-website
-            extra:
-              wiki: https://wiki.hyperledger.org/display/fabric
-              chat: https://chat.hyperledger.org/channel/fabric
-              documentation: https://hyperledger-fabric.readthedocs.io/en/latest/
             logo: hyperledger-fabric.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
+            extra:
+              wiki: https://wiki.hyperledger.org/display/indy
+              chat: https://chat.hyperledger.org/channel/indy
+              documentation: https://indy.readthedocs.io/en/latest/
             name: Hyperledger Indy
             description: >-
               Hyperledger Indy provides tools, libraries, and reusable components for providing digital identities rooted on blockchains or other distributed
@@ -100,13 +104,13 @@ landscape:
               - repo_url: https://github.com/hyperledger/indy-shared-rs
               - repo_url: https://github.com/hyperledger/indy-hipe
               - repo_url: https://github.com/hyperledger/indy-docs
-            extra:
-              wiki: https://wiki.hyperledger.org/display/indy
-              chat: https://chat.hyperledger.org/channel/indy
-              documentation: https://indy.readthedocs.io/en/latest/
             logo: hyperledger-indy.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
+            extra:
+              wiki: https://wiki.hyperledger.org/display/iroha
+              chat: https://chat.hyperledger.org/channel/iroha
+              documentation: https://iroha.readthedocs.io/en/main/
             name: Hyperledger Iroha
             description: >-
               Hyperledger Iroha is designed to be simple and easy to incorporate into infrastructural or IoT projects requiring distributed ledger technology.
@@ -125,13 +129,13 @@ landscape:
               - repo_url: https://github.com/hyperledger/iroha-state-migration-tool
               - repo_url: https://github.com/hyperledger/iroha-ed25519
               - repo_url: https://github.com/hyperledger/iroha-docs-l10n
-            extra:
-              wiki: https://wiki.hyperledger.org/display/iroha
-              chat: https://chat.hyperledger.org/channel/iroha
-              documentation: https://iroha.readthedocs.io/en/main/
             logo: hyperledger-iroha.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
+            extra:
+              wiki: https://wiki.hyperledger.org/display/sawtooth
+              chat: https://chat.hyperledger.org/channel/sawtooth
+              documentation: https://sawtooth.hyperledger.org/docs/core/releases/latest/
             name: Hyperledger Sawtooth
             description: >-
               Hyperledger Sawtooth offers a flexible and modular architecture separates the core system from the application domain, so smart contracts can
@@ -162,16 +166,17 @@ landscape:
               - repo_url: https://github.com/hyperledger/sawtooth-devmode
               - repo_url: https://github.com/hyperledger/sawtooth-rfcs
               - repo_url: https://github.com/hyperledger/sawtooth-explorer
-            extra:
-              wiki: https://wiki.hyperledger.org/display/sawtooth
-              chat: https://chat.hyperledger.org/channel/sawtooth
-              documentation: https://sawtooth.hyperledger.org/docs/core/releases/latest/
             logo: hyperledger-sawtooth.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
       - subcategory:
         name: Libraries
         items:
           - item:
+            extra:
+              wiki: https://wiki.hyperledger.org/display/aries
+              chat: https://chat.hyperledger.org/channel/aries
+              introduction_course: https://www.edx.org/course/introduction-to-hyperledger-sovereign-identity-blockchain-solutions-indy-aries-and-ursa
+              developer_course: https://www.edx.org/course/becoming-a-hyperledger-aries-developer
             name: Hyperledger Aries
             description: >-
               Hyperledger Aries provides a shared, reusable, interoperable tool kit designed for initiatives and solutions focused on creating, transmitting and
@@ -201,14 +206,12 @@ landscape:
               - repo_url: https://github.com/hyperledger/aries-sdk-ruby
               - repo_url: https://github.com/hyperledger/aries-sdk-android
               - repo_url: https://github.com/hyperledger/aries-sdk-javascript
-            extra:
-              wiki: https://wiki.hyperledger.org/display/aries
-              chat: https://chat.hyperledger.org/channel/aries
-              introduction_course: https://www.edx.org/course/introduction-to-hyperledger-sovereign-identity-blockchain-solutions-indy-aries-and-ursa
-              developer_course: https://www.edx.org/course/becoming-a-hyperledger-aries-developer
             logo: hyperledger-aries.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
+            extra:
+              wiki: https://wiki.hyperledger.org/display/quilt
+              chat: https://chat.hyperledger.org/channel/quilt
             name: Hyperledger Quilt
             description: >-
               Hyperledger Quilt is a Java implementation of the Interledger protocol, enabling payments across any payment network — fiat or crypto. Quilt
@@ -217,12 +220,12 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/quilt
             project: incubating
             repo_url: https://github.com/hyperledger/quilt
-            extra:
-              wiki: https://wiki.hyperledger.org/display/quilt
-              chat: https://chat.hyperledger.org/channel/quilt
             logo: hyperledger-quilt.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
+            extra:
+              wiki: https://wiki.hyperledger.org/display/transact
+              chat: https://chat.hyperledger.org/channel/transact
             name: Hyperledger Transact
             description: >-
               Hyperledger Transact aims to reduce the development effort in writing distributed ledger software by providing a standard interface for executing
@@ -236,12 +239,12 @@ landscape:
               - repo_url: https://github.com/hyperledger/transact-contrib
               - repo_url: https://github.com/hyperledger/transact-sdk-javascript
               - repo_url: https://github.com/hyperledger/transact-sdk-go
-            extra:
-              wiki: https://wiki.hyperledger.org/display/transact
-              chat: https://chat.hyperledger.org/channel/transact
             logo: hyperledger-transact.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
+            extra:
+              wiki: https://wiki.hyperledger.org/display/ursa
+              chat: https://chat.hyperledger.org/channel/ursa
             name: Hyperledger Ursa
             description: >-
               Hyperledger Ursa is a shared cryptographic library, it enables implementations to avoid duplicating other cryptographic work and hopefully
@@ -255,15 +258,15 @@ landscape:
               - repo_url: https://github.com/hyperledger/ursa-docs
               - repo_url: https://github.com/hyperledger/ursa-wrapper-go
               - repo_url: https://github.com/hyperledger/ursa-rfcs
-            extra:
-              wiki: https://wiki.hyperledger.org/display/ursa
-              chat: https://chat.hyperledger.org/channel/ursa
             logo: hyperledger-ursa.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
       - subcategory:
         name: Tools
         items:
           - item:
+            extra:
+              wiki: https://wiki.hyperledger.org/display/avalon
+              chat: https://chat.hyperledger.org/channel/avalon
             name: Hyperledger Avalon
             description: >-
               Hyperledger Avalon is a ledger independent implementation of the Trusted Compute Specifications published by the Enterprise Ethereum Alliance. It
@@ -272,23 +275,23 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/avalon
             project: incubating
             repo_url: https://github.com/hyperledger/avalon
-            extra:
-              wiki: https://wiki.hyperledger.org/display/avalon
-              chat: https://chat.hyperledger.org/channel/avalon
             logo: hyperledger-avalon.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
+            extra:
+              wiki: https://wiki.hyperledger.org/display/cactus
+              chat: https://chat.hyperledger.org/channel/cactus
             name: Hyperledger Cactus
             description: Hyperledger Cactus is a blockchain integration tool designed to allow users to securely integrate different blockchains.
             homepage_url: https://www.hyperledger.org/use/cactus
             project: incubating
             repo_url: https://github.com/hyperledger/cactus
-            extra:
-              wiki: https://wiki.hyperledger.org/display/cactus
-              chat: https://chat.hyperledger.org/channel/cactus
             logo: hyperledger-cactus.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
+            extra:
+              wiki: https://wiki.hyperledger.org/display/caliper
+              chat: https://chat.hyperledger.org/channel/caliper
             name: Hyperledger Caliper
             description: >-
               Hyperledger Caliper is a blockchain benchmark tool, it allows users to measure the performance of a blockchain implementation with a set of
@@ -300,12 +303,12 @@ landscape:
             repo_url: https://github.com/hyperledger/caliper
             additional_repos:
               - repo_url: https://github.com/hyperledger/caliper-benchmarks
-            extra:
-              wiki: https://wiki.hyperledger.org/display/caliper
-              chat: https://chat.hyperledger.org/channel/caliper
             logo: hyperledger-caliper.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
+            extra:
+              wiki: https://wiki.hyperledger.org/display/cello
+              chat: https://chat.hyperledger.org/channel/cello
             name: Hyperledger Cello
             description: >-
               Hyperledger Cello aims to serve as the operational dashboard for Blockchain, which reduces the effort required for creating, managing and using
@@ -316,12 +319,12 @@ landscape:
             repo_url: https://github.com/hyperledger/cello
             additional_repos:
               - repo_url: https://github.com/hyperledger/cello-analytics
-            extra:
-              wiki: https://wiki.hyperledger.org/display/cello
-              chat: https://chat.hyperledger.org/channel/cello
             logo: hyperledger-cello.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
+            extra:
+              wiki: https://wiki.hyperledger.org/display/explorer
+              chat: https://chat.hyperledger.org/channel/hyperledger-explorer
             name: Hyperledger Explorer
             description: >-
               Hyperledger Explorer is a user-friendly Web application tool used to view, invoke, deploy or query blocks, transactions and associated data,
@@ -330,15 +333,16 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/explorer
             project: incubating
             repo_url: https://github.com/hyperledger/blockchain-explorer
-            extra:
-              wiki: https://wiki.hyperledger.org/display/explorer
-              chat: https://chat.hyperledger.org/channel/hyperledger-explorer
             logo: hyperledger-explorer.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
       - subcategory:
         name: Domain Specific
         items:
           - item:
+            extra:
+              wiki: https://wiki.hyperledger.org/display/grid
+              chat: https://chat.hyperledger.org/channel/grid
+              documentation: https://grid.hyperledger.org/docs
             name: Hyperledger Grid
             description: >-
               Hyperledger Grid intends to provide reference implementations of supply chain-centric data types, data models, and smart contract based business
@@ -351,10 +355,6 @@ landscape:
               - repo_url: https://github.com/hyperledger/grid-docs
               - repo_url: https://github.com/hyperledger/grid-rfcs
               - repo_url: https://github.com/hyperledger/grid-contrib
-            extra:
-              wiki: https://wiki.hyperledger.org/display/grid
-              chat: https://chat.hyperledger.org/channel/grid
-              documentation: https://grid.hyperledger.org/docs
             logo: hyperledger-grid.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
   - category:
