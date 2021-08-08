@@ -18,10 +18,14 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/besu
             project: graduated
             repo_url: https://github.com/hyperledger/besu
+            branch: main
             additional_repos:
               - repo_url: https://github.com/hyperledger/besu-docs
+                branch: main
               - repo_url: https://github.com/hyperledger/homebrew-besu
+                branch: main
               - repo_url: https://github.com/hyperledger/besu-native
+                branch: main
             logo: hyperledger-besu.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
@@ -37,6 +41,7 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/hyperledger-burrow
             project: incubating
             repo_url: https://github.com/hyperledger/burrow
+            branch: main
             logo: hyperledger-burrow.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
@@ -52,32 +57,58 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/fabric
             project: graduated
             repo_url: https://github.com/hyperledger/fabric
+            branch: main
             additional_repos:
               - repo_url: https://github.com/hyperledger/fabric-private-chaincode
+                branch: main
               - repo_url: https://github.com/hyperledger/fabric-gateway
+                branch: main
               - repo_url: https://github.com/hyperledger/fabric-docs-i18n
+                branch: main
               - repo_url: https://github.com/hyperledger/fabric-chaincode-java
+                branch: main
               - repo_url: https://github.com/hyperledger/fabric-samples
+                branch: main
               - repo_url: https://github.com/hyperledger/fabric-protos-go
+                branch: main
               - repo_url: https://github.com/hyperledger/fabric-protos
+                branch: main
               - repo_url: https://github.com/hyperledger/fabric-chaincode-go
+                branch: main
               - repo_url: https://github.com/hyperledger/fabric-ca
+                branch: main
               - repo_url: https://github.com/hyperledger/fabric-sdk-py
+                branch: main
               - repo_url: https://github.com/hyperledger/fabric-chaincode-node
+                branch: main
               - repo_url: https://github.com/hyperledger/fabric-test
+                branch: main
               - repo_url: https://github.com/hyperledger/fabric-sdk-go
+                branch: main
               - repo_url: https://github.com/hyperledger/fabric-sdk-node
+                branch: main
               - repo_url: https://github.com/hyperledger/fabric-sdk-java
+                branch: main
               - repo_url: https://github.com/hyperledger/fabric-rfcs
+                branch: main
               - repo_url: https://github.com/hyperledger/fabric-amcl
+                branch: main
               - repo_url: https://github.com/hyperledger/fabric-gateway-java
+                branch: main
               - repo_url: https://github.com/hyperledger/fabric-lib-go
+                branch: main
               - repo_url: https://github.com/hyperledger/fabric-chaincode-evm
+                branch: main
               - repo_url: https://github.com/hyperledger/fabric-baseimage
+                branch: main
               - repo_url: https://github.com/hyperledger/fabric-contract-api-go
+                branch: main
               - repo_url: https://github.com/hyperledger/fabric-config
+                branch: main
               - repo_url: https://github.com/hyperledger/fabric-cli
+                branch: main
               - repo_url: https://github.com/hyperledger/fabric-website
+                branch: main
             logo: hyperledger-fabric.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
@@ -93,17 +124,28 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/hyperledger-indy
             project: graduated
             repo_url: https://github.com/hyperledger/indy-node
+            branch: main
             additional_repos:
               - repo_url: https://github.com/hyperledger/indy-plenum
+                branch: main
               - repo_url: https://github.com/hyperledger/indy-sdk-react-native
+                branch: main
               - repo_url: https://github.com/hyperledger/indy-sdk
+                branch: main
               - repo_url: https://github.com/hyperledger/indy-vdr
+                branch: main
               - repo_url: https://github.com/hyperledger/indy-test-automation
+                branch: main
               - repo_url: https://github.com/hyperledger/indy-node-monitor
+                branch: main
               - repo_url: https://github.com/hyperledger/indy-did-method
+                branch: main
               - repo_url: https://github.com/hyperledger/indy-shared-rs
+                branch: main
               - repo_url: https://github.com/hyperledger/indy-hipe
+                branch: main
               - repo_url: https://github.com/hyperledger/indy-docs
+                branch: main
             logo: hyperledger-indy.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
@@ -119,16 +161,26 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/iroha
             project: graduated
             repo_url: https://github.com/hyperledger/iroha
+            branch: main
             additional_repos:
               - repo_url: https://github.com/hyperledger/iroha-javascript
+                branch: main
               - repo_url: https://github.com/hyperledger/iroha-java
+                branch: main
               - repo_url: https://github.com/hyperledger/iroha-python
+                branch: main
               - repo_url: https://github.com/hyperledger/iroha-ios
+                branch: main
               - repo_url: https://github.com/hyperledger/iroha-deploy
+                branch: main
               - repo_url: https://github.com/hyperledger/iroha-tui-client
+                branch: main
               - repo_url: https://github.com/hyperledger/iroha-state-migration-tool
+                branch: main
               - repo_url: https://github.com/hyperledger/iroha-ed25519
+                branch: main
               - repo_url: https://github.com/hyperledger/iroha-docs-l10n
+                branch: main
             logo: hyperledger-iroha.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
@@ -144,28 +196,50 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/sawtooth
             project: graduated
             repo_url: https://github.com/hyperledger/sawtooth-core
+            branch: main
             additional_repos:
               - repo_url: https://github.com/hyperledger/sawtooth-lib
+                branch: main
               - repo_url: https://github.com/hyperledger/sawtooth-sdk-dotnet
+                branch: main
               - repo_url: https://github.com/hyperledger/sawtooth-sdk-java
+                branch: main
               - repo_url: https://github.com/hyperledger/sawtooth-sabre
+                branch: main
               - repo_url: https://github.com/hyperledger/sawtooth-sdk-go
+                branch: main
               - repo_url: https://github.com/hyperledger/sawtooth-pbft
+                branch: main
               - repo_url: https://github.com/hyperledger/sawtooth-docs
+                branch: main
               - repo_url: https://github.com/hyperledger/sawtooth-marketplace
+                branch: main
               - repo_url: https://github.com/hyperledger/sawtooth-contrib
+                branch: main
               - repo_url: https://github.com/hyperledger/sawtooth-sdk-swift
+                branch: main
               - repo_url: https://github.com/hyperledger/sawtooth-sdk-cxx
+                branch: main
               - repo_url: https://github.com/hyperledger/education-sawtooth-simple-supply
+                branch: main
               - repo_url: https://github.com/hyperledger/sawtooth-sdk-rust
+                branch: main
               - repo_url: https://github.com/hyperledger/sawtooth-seth
+                branch: main
               - repo_url: https://github.com/hyperledger/sawtooth-raft
+                branch: main
               - repo_url: https://github.com/hyperledger/sawtooth-sdk-python
+                branch: main
               - repo_url: https://github.com/hyperledger/sawtooth-poet
+                branch: main
               - repo_url: https://github.com/hyperledger/sawtooth-sdk-javascript
+                branch: main
               - repo_url: https://github.com/hyperledger/sawtooth-devmode
+                branch: main
               - repo_url: https://github.com/hyperledger/sawtooth-rfcs
+                branch: main
               - repo_url: https://github.com/hyperledger/sawtooth-explorer
+                branch: main
             logo: hyperledger-sawtooth.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
       - subcategory:
@@ -185,27 +259,48 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/aries
             project: graduated
             repo_url: https://github.com/hyperledger/aries
+            branch: main
             additional_repos:
               - repo_url: https://github.com/hyperledger/aries-agent-test-harness
+                branch: main
               - repo_url: https://github.com/hyperledger/aries-framework-javascript
+                branch: main
               - repo_url: https://github.com/hyperledger/aries-cloudagent-python
+                branch: main
               - repo_url: https://github.com/hyperledger/aries-askar
+                branch: main
               - repo_url: https://github.com/hyperledger/aries-vcx
+                branch: main
               - repo_url: https://github.com/hyperledger/aries-framework-go
+                branch: main
               - repo_url: https://github.com/hyperledger/aries-mobile-agent-react-native
+                branch: main
               - repo_url: https://github.com/hyperledger/aries-framework-go-ext
+                branch: main
               - repo_url: https://github.com/hyperledger/aries-rfcs
+                branch: main
               - repo_url: https://github.com/hyperledger/aries-acapy-plugin-toolbox
+                branch: main
               - repo_url: https://github.com/hyperledger/aries-toolbox
+                branch: main
               - repo_url: https://github.com/hyperledger/aries-staticagent-python
+                branch: main
               - repo_url: https://github.com/hyperledger/aries-mobile-agent-xamarin
+                branch: main
               - repo_url: https://github.com/hyperledger/aries-acapy-controllers
+                branch: main
               - repo_url: https://github.com/hyperledger/aries-sdk-java
+                branch: main
               - repo_url: https://github.com/hyperledger/aries-framework-dotnet
+                branch: main
               - repo_url: https://github.com/hyperledger/aries-protocol-test-suite
+                branch: main
               - repo_url: https://github.com/hyperledger/aries-sdk-ruby
+                branch: main
               - repo_url: https://github.com/hyperledger/aries-sdk-android
+                branch: main
               - repo_url: https://github.com/hyperledger/aries-sdk-javascript
+                branch: main
             logo: hyperledger-aries.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
@@ -220,6 +315,7 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/quilt
             project: incubating
             repo_url: https://github.com/hyperledger/quilt
+            branch: main
             logo: hyperledger-quilt.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
@@ -234,11 +330,16 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/transact
             project: incubating
             repo_url: https://github.com/hyperledger/transact
+            branch: main
             additional_repos:
               - repo_url: https://github.com/hyperledger/transact-rfcs
+                branch: main
               - repo_url: https://github.com/hyperledger/transact-contrib
+                branch: main
               - repo_url: https://github.com/hyperledger/transact-sdk-javascript
+                branch: main
               - repo_url: https://github.com/hyperledger/transact-sdk-go
+                branch: main
             logo: hyperledger-transact.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
@@ -253,11 +354,16 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/ursa
             project: incubating
             repo_url: https://github.com/hyperledger/ursa
+            branch: main
             additional_repos:
               - repo_url: https://github.com/hyperledger/ursa-python
+                branch: main
               - repo_url: https://github.com/hyperledger/ursa-docs
+                branch: main
               - repo_url: https://github.com/hyperledger/ursa-wrapper-go
+                branch: main
               - repo_url: https://github.com/hyperledger/ursa-rfcs
+                branch: main
             logo: hyperledger-ursa.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
       - subcategory:
@@ -275,6 +381,7 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/avalon
             project: incubating
             repo_url: https://github.com/hyperledger/avalon
+            branch: main
             logo: hyperledger-avalon.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
@@ -286,6 +393,7 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/cactus
             project: incubating
             repo_url: https://github.com/hyperledger/cactus
+            branch: main
             logo: hyperledger-cactus.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
@@ -301,8 +409,10 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/caliper
             project: incubating
             repo_url: https://github.com/hyperledger/caliper
+            branch: main
             additional_repos:
               - repo_url: https://github.com/hyperledger/caliper-benchmarks
+                branch: main
             logo: hyperledger-caliper.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
@@ -317,8 +427,10 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/cello
             project: incubating
             repo_url: https://github.com/hyperledger/cello
+            branch: main
             additional_repos:
               - repo_url: https://github.com/hyperledger/cello-analytics
+                branch: main
             logo: hyperledger-cello.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
           - item:
@@ -333,6 +445,7 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/explorer
             project: incubating
             repo_url: https://github.com/hyperledger/blockchain-explorer
+            branch: main
             logo: hyperledger-explorer.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
       - subcategory:
@@ -351,10 +464,14 @@ landscape:
             homepage_url: https://www.hyperledger.org/use/grid
             project: incubating
             repo_url: https://github.com/hyperledger/grid
+            branch: main
             additional_repos:
               - repo_url: https://github.com/hyperledger/grid-docs
+                branch: main
               - repo_url: https://github.com/hyperledger/grid-rfcs
+                branch: main
               - repo_url: https://github.com/hyperledger/grid-contrib
+                branch: main
             logo: hyperledger-grid.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
   - category:
