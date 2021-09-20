@@ -7,10 +7,6 @@ landscape:
         name: Distributed Ledgers
         items:
           - item:
-            extra:
-              wiki: https://wiki.hyperledger.org/display/besu
-              chat: https://chat.hyperledger.org/channel/besu
-              documentation: https://besu.hyperledger.org/en/stable/
             name: Hyperledger Besu
             description: >-
               Hyperledger Besu is an Ethereum client designed to be enterprise-friendly for both public and private permissioned network use cases. It can also
@@ -21,6 +17,10 @@ landscape:
             repo_url: https://github.com/hyperledger/besu
             logo: hyperledger-besu.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            extra:
+              wiki: https://wiki.hyperledger.org/display/besu
+              chat: https://chat.hyperledger.org/channel/besu
+              documentation: https://besu.hyperledger.org/en/stable/
             crunchbase_data:
               name: Hyperledger
               description: Hyperledger is an open source collaborative effort created to advance cross-industry blockchain technologies.
@@ -74,7 +74,7 @@ landscape:
                   value: 490
                   color: '#701516'
               contributions: >-
-                11;11;19;15;8;12;19;15;23;15;24;16;32;3;0;22;25;15;18;14;18;18;17;12;24;27;20;19;26;19;25;18;16;13;24;21;22;18;14;17;14;15;9;4;17;19;11;24;13;19;12;16
+                11;11;19;15;8;12;19;15;23;17;23;17;30;3;0;22;25;15;18;14;18;18;18;11;29;23;20;18;26;19;25;18;16;13;26;19;23;18;13;17;14;16;8;5;17;18;11;24;14;18;13;15
               firstWeek: 2020-09-27Z
               stars: 545
               license: Apache License 2.0
@@ -83,7 +83,7 @@ landscape:
               latest_commit_link: /hyperledger/besu/commit/181d566f9ad6523fee8b2ab171617cb1777be2a7
               release_date: '2021-09-16T16:45:19Z'
               release_link: https://github.com/hyperledger/besu/releases
-              contributors_count: 110
+              contributors_count: 109
               contributors_link: https://github.com/hyperledger/besu/graphs/contributors
             repos:
               - url: https://github.com/hyperledger/besu
@@ -106,9 +106,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-09-18T15:16:00.000Z
           - item:
-            extra:
-              wiki: https://wiki.hyperledger.org/display/burrow
-              chat: https://chat.hyperledger.org/channel/burrow
             name: Hyperledger Burrow
             description: >-
               Hyperledger Burrow is a complete single-binary blockchain distribution focussed on simplicity, speed, and developer ergonomics. It supports both
@@ -120,6 +117,9 @@ landscape:
             repo_url: https://github.com/hyperledger/burrow
             logo: hyperledger-burrow.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            extra:
+              wiki: https://wiki.hyperledger.org/display/burrow
+              chat: https://chat.hyperledger.org/channel/burrow
             crunchbase_data:
               name: Hyperledger
               description: Hyperledger is an open source collaborative effort created to advance cross-industry blockchain technologies.
@@ -165,9 +165,9 @@ landscape:
                   color: '#384d54'
                 - name: Mustache
                   value: 2403
-              contributions: 0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;3;2;21;19;0;4;0;2;37;14;14;5;3;11;0;0;0;14;8;10;2;2;0;0;0;7;0;6;0;4;2;0;3;2;0;0
+              contributions: 0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;4;1;21;19;0;4;0;2;37;14;14;5;9;5;0;0;0;16;6;10;2;2;0;0;0;7;0;6;0;4;2;0;3;2;0;0
               firstWeek: 2020-09-27Z
-              stars: 927
+              stars: 928
               license: Apache License 2.0
               description: https://wiki.hyperledger.org/display/burrow
               latest_commit_date: '2021-09-03T15:55:26Z'
@@ -178,7 +178,7 @@ landscape:
               contributors_link: https://github.com/hyperledger/burrow/graphs/contributors
             repos:
               - url: https://github.com/hyperledger/burrow
-                stars: 927
+                stars: 928
             github_start_commit_data:
               start_commit_link: /hyperledger/burrow/commit/83e2ce9cd1d93d6015c68eab7975977ad7958aea
               start_date: '2015-06-08T21:14:25Z'
@@ -191,10 +191,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-09-18T15:16:00.000Z
           - item:
-            extra:
-              wiki: https://wiki.hyperledger.org/display/fabric
-              chat: https://chat.hyperledger.org/channel/fabric
-              documentation: https://hyperledger-fabric.readthedocs.io/en/latest/
             name: Hyperledger Fabric
             description: >-
               Hyperledger Fabric is intended as a foundation for developing applications or solutions with a modular architecture. Hyperledger Fabric allows
@@ -205,6 +201,10 @@ landscape:
             repo_url: https://github.com/hyperledger/fabric
             logo: hyperledger-fabric.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            extra:
+              wiki: https://wiki.hyperledger.org/display/fabric
+              chat: https://chat.hyperledger.org/channel/fabric
+              documentation: https://hyperledger-fabric.readthedocs.io/en/latest/
             crunchbase_data:
               name: Hyperledger
               description: Hyperledger is an open source collaborative effort created to advance cross-industry blockchain technologies.
@@ -272,9 +272,9 @@ landscape:
                   value: 103
                   color: '#c065db'
               contributions: >-
-                33;38;48;41;47;43;49;60;51;37;38;30;40;38;25;34;46;37;40;46;44;55;32;51;61;55;51;21;14;12;37;36;12;21;27;20;20;19;16;23;27;12;29;27;33;17;21;30;22;32;24;14
+                33;40;47;43;45;43;48;63;50;37;37;30;39;40;23;35;45;37;40;51;40;55;32;51;62;55;49;22;13;15;36;34;13;20;29;19;19;20;16;23;26;12;29;28;32;17;21;30;22;32;24;14
               firstWeek: 2020-09-27Z
-              stars: 18885
+              stars: 18890
               license: Apache License 2.0
               description: >-
                 Hyperledger Fabric is an enterprise-grade permissioned distributed ledger framework for developing solutions and applications. Its modular and
@@ -288,15 +288,15 @@ landscape:
               contributors_link: https://github.com/hyperledger/fabric/graphs/contributors
             repos:
               - url: https://github.com/hyperledger/fabric
-                stars: 12551
+                stars: 12554
               - url: https://github.com/hyperledger/fabric-samples
-                stars: 1843
+                stars: 1844
               - url: https://github.com/hyperledger/fabric-sdk-java
                 stars: 1022
               - url: https://github.com/hyperledger/fabric-sdk-go
                 stars: 758
               - url: https://github.com/hyperledger/fabric-sdk-node
-                stars: 708
+                stars: 709
               - url: https://github.com/hyperledger/fabric-ca
                 stars: 354
               - url: https://github.com/hyperledger/fabric-sdk-py
@@ -351,10 +351,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-09-18T15:16:00.000Z
           - item:
-            extra:
-              wiki: https://wiki.hyperledger.org/display/indy
-              chat: https://chat.hyperledger.org/channel/indy
-              documentation: https://indy.readthedocs.io/en/latest/
             name: Hyperledger Indy
             description: >-
               Hyperledger Indy provides tools, libraries, and reusable components for providing digital identities rooted on blockchains or other distributed
@@ -365,6 +361,10 @@ landscape:
             repo_url: https://github.com/hyperledger/indy-node
             logo: hyperledger-indy.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            extra:
+              wiki: https://wiki.hyperledger.org/display/indy
+              chat: https://chat.hyperledger.org/channel/indy
+              documentation: https://indy.readthedocs.io/en/latest/
             crunchbase_data:
               name: Hyperledger
               description: Hyperledger is an open source collaborative effort created to advance cross-industry blockchain technologies.
@@ -455,9 +455,9 @@ landscape:
                   color: '#C1F12E'
                 - name: Jinja
                   value: 1587
-              contributions: 20;11;6;7;20;36;14;24;47;30;12;9;16;9;2;5;20;10;28;17;28;21;28;10;18;15;8;9;2;2;3;15;1;8;13;4;2;2;10;2;2;10;8;3;2;3;2;5;0;5;12;11
+              contributions: 21;8;6;10;19;35;13;26;50;26;11;9;16;9;3;10;14;13;25;20;26;20;28;10;18;15;8;9;2;3;2;15;1;8;13;4;2;4;8;2;2;10;8;3;2;3;2;5;0;5;14;9
               firstWeek: 2020-09-27Z
-              stars: 1419
+              stars: 1421
               license: Apache License 2.0
               description: The server portion of a distributed ledger purpose-built for decentralized identity.
               latest_commit_date: '2021-09-14T12:36:54Z'
@@ -468,9 +468,9 @@ landscape:
               contributors_link: https://github.com/hyperledger/indy-node/graphs/contributors
             repos:
               - url: https://github.com/hyperledger/indy-node
-                stars: 563
+                stars: 564
               - url: https://github.com/hyperledger/indy-sdk
-                stars: 559
+                stars: 560
               - url: https://github.com/hyperledger/indy-plenum
                 stars: 188
               - url: https://github.com/hyperledger/indy-hipe
@@ -501,10 +501,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-09-18T15:16:00.000Z
           - item:
-            extra:
-              wiki: https://wiki.hyperledger.org/display/iroha
-              chat: https://chat.hyperledger.org/channel/iroha
-              documentation: https://iroha.readthedocs.io/en/main/
             name: Hyperledger Iroha
             description: >-
               Hyperledger Iroha is designed to be simple and easy to incorporate into infrastructural or IoT projects requiring distributed ledger technology.
@@ -515,6 +511,10 @@ landscape:
             repo_url: https://github.com/hyperledger/iroha
             logo: hyperledger-iroha.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            extra:
+              wiki: https://wiki.hyperledger.org/display/iroha
+              chat: https://chat.hyperledger.org/channel/iroha
+              documentation: https://iroha.readthedocs.io/en/main/
             crunchbase_data:
               name: Hyperledger
               description: Hyperledger is an open source collaborative effort created to advance cross-industry blockchain technologies.
@@ -602,7 +602,7 @@ landscape:
                 - name: Makefile
                   value: 774
                   color: '#427819'
-              contributions: 1;0;4;2;6;9;2;3;4;5;1;3;0;4;1;3;7;0;1;1;3;0;1;5;5;2;16;10;5;2;2;8;10;7;3;6;2;3;3;4;0;6;6;8;4;6;4;5;21;7;4;1
+              contributions: 1;0;4;3;5;10;1;3;5;4;1;3;0;4;1;3;7;0;1;1;3;0;1;5;5;2;16;10;6;1;3;7;10;7;3;7;2;2;5;2;0;6;6;8;4;6;4;5;21;7;4;1
               firstWeek: 2020-09-27Z
               stars: 567
               license: Apache License 2.0
@@ -646,10 +646,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-09-18T15:16:00.000Z
           - item:
-            extra:
-              wiki: https://wiki.hyperledger.org/display/sawtooth
-              chat: https://chat.hyperledger.org/channel/sawtooth
-              documentation: https://sawtooth.hyperledger.org/docs/core/releases/latest/
             name: Hyperledger Sawtooth
             description: >-
               Hyperledger Sawtooth offers a flexible and modular architecture separates the core system from the application domain, so smart contracts can
@@ -660,6 +656,10 @@ landscape:
             repo_url: https://github.com/hyperledger/sawtooth-core
             logo: hyperledger-sawtooth.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            extra:
+              wiki: https://wiki.hyperledger.org/display/sawtooth
+              chat: https://chat.hyperledger.org/channel/sawtooth
+              documentation: https://sawtooth.hyperledger.org/docs/core/releases/latest/
             crunchbase_data:
               name: Hyperledger
               description: Hyperledger is an open source collaborative effort created to advance cross-industry blockchain technologies.
@@ -743,7 +743,7 @@ landscape:
                 - name: Objective-C
                   value: 1074
                   color: '#438eff'
-              contributions: 26;18;17;9;2;4;0;12;4;1;0;4;0;10;0;10;0;0;0;1;5;1;3;3;15;24;10;54;10;2;2;7;2;1;2;9;5;3;7;10;0;0;2;5;8;15;7;3;13;11;7;20
+              contributions: 26;18;17;9;2;4;0;12;4;1;0;4;0;10;0;10;0;0;0;1;5;1;3;3;15;24;10;54;10;3;2;6;2;1;2;9;5;3;7;10;0;0;2;5;8;15;7;3;13;11;7;20
               firstWeek: 2020-09-27Z
               stars: 1853
               license: Apache License 2.0
@@ -812,11 +812,6 @@ landscape:
         name: Libraries
         items:
           - item:
-            extra:
-              wiki: https://wiki.hyperledger.org/display/aries
-              chat: https://chat.hyperledger.org/channel/aries
-              introduction_course: https://www.edx.org/course/introduction-to-hyperledger-sovereign-identity-blockchain-solutions-indy-aries-and-ursa
-              developer_course: https://www.edx.org/course/becoming-a-hyperledger-aries-developer
             name: Hyperledger Aries
             description: >-
               Hyperledger Aries provides a shared, reusable, interoperable tool kit designed for initiatives and solutions focused on creating, transmitting and
@@ -827,6 +822,11 @@ landscape:
             repo_url: https://github.com/hyperledger/aries
             logo: hyperledger-aries.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            extra:
+              wiki: https://wiki.hyperledger.org/display/aries
+              chat: https://chat.hyperledger.org/channel/aries
+              introduction_course: https://www.edx.org/course/introduction-to-hyperledger-sovereign-identity-blockchain-solutions-indy-aries-and-ursa
+              developer_course: https://www.edx.org/course/becoming-a-hyperledger-aries-developer
             crunchbase_data:
               name: Hyperledger
               description: Hyperledger is an open source collaborative effort created to advance cross-industry blockchain technologies.
@@ -877,7 +877,7 @@ landscape:
                   value: 179396
                   color: '#2c3e50'
                 - name: Shell
-                  value: 177327
+                  value: 177328
                   color: '#89e051'
                 - name: Gherkin
                   value: 173797
@@ -923,18 +923,18 @@ landscape:
                   value: 158
                   color: '#ffac45'
               contributions: >-
-                101;83;84;70;107;95;66;89;113;108;130;212;207;75;41;121;139;86;92;148;132;119;125;148;145;93;163;86;136;188;118;179;182;169;152;86;74;115;110;79;130;133;99;65;73;42;63;121;51;103;67;72
+                85;82;82;69;107;95;68;94;137;84;125;214;204;76;40;130;135;82;102;141;132;120;122;147;144;98;161;86;141;182;115;183;183;165;151;87;79;112;115;71;141;127;94;66;74;40;64;123;48;103;67;73
               firstWeek: 2020-09-27Z
-              stars: 1099
+              stars: 1101
               license: Apache License 2.0
               description: Hyperledger Aries is infrastructure for blockchain-rooted, peer-to-peer interactions
               latest_commit_date: '2020-01-12T06:29:30Z'
               latest_commit_link: /hyperledger/aries/commit/f77960a146507976a3cfb4ce1f1e4d8d271308f6
-              contributors_count: 248
+              contributors_count: 249
               contributors_link: https://github.com/hyperledger/aries/graphs/contributors
             repos:
               - url: https://github.com/hyperledger/aries
-                stars: 158
+                stars: 159
               - url: https://github.com/hyperledger/aries-rfcs
                 stars: 220
               - url: https://github.com/hyperledger/aries-cloudagent-python
@@ -942,7 +942,7 @@ landscape:
               - url: https://github.com/hyperledger/aries-framework-go
                 stars: 148
               - url: https://github.com/hyperledger/aries-framework-javascript
-                stars: 76
+                stars: 77
               - url: https://github.com/hyperledger/aries-framework-dotnet
                 stars: 53
               - url: https://github.com/hyperledger/aries-mobile-agent-react-native
@@ -987,9 +987,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-09-18T15:16:00.000Z
           - item:
-            extra:
-              wiki: https://wiki.hyperledger.org/display/quilt
-              chat: https://chat.hyperledger.org/channel/quilt
             name: Hyperledger Quilt
             description: >-
               Hyperledger Quilt is a Java implementation of the Interledger protocol, enabling payments across any payment network — fiat or crypto. Quilt
@@ -1000,6 +997,9 @@ landscape:
             repo_url: https://github.com/hyperledger/quilt
             logo: hyperledger-quilt.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            extra:
+              wiki: https://wiki.hyperledger.org/display/quilt
+              chat: https://chat.hyperledger.org/channel/quilt
             crunchbase_data:
               name: Hyperledger
               description: Hyperledger is an open source collaborative effort created to advance cross-industry blockchain technologies.
@@ -1051,9 +1051,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-09-18T15:16:00.000Z
           - item:
-            extra:
-              wiki: https://wiki.hyperledger.org/display/transact
-              chat: https://chat.hyperledger.org/channel/transact
             name: Hyperledger Transact
             description: >-
               Hyperledger Transact aims to reduce the development effort in writing distributed ledger software by providing a standard interface for executing
@@ -1064,6 +1061,9 @@ landscape:
             repo_url: https://github.com/hyperledger/transact
             logo: hyperledger-transact.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            extra:
+              wiki: https://wiki.hyperledger.org/display/transact
+              chat: https://chat.hyperledger.org/channel/transact
             crunchbase_data:
               name: Hyperledger
               description: Hyperledger is an open source collaborative effort created to advance cross-industry blockchain technologies.
@@ -1144,9 +1144,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-09-18T15:16:00.000Z
           - item:
-            extra:
-              wiki: https://wiki.hyperledger.org/display/ursa
-              chat: https://chat.hyperledger.org/channel/ursa
             name: Hyperledger Ursa
             description: >-
               Hyperledger Ursa is a shared cryptographic library, it enables implementations to avoid duplicating other cryptographic work and hopefully
@@ -1157,6 +1154,9 @@ landscape:
             repo_url: https://github.com/hyperledger/ursa
             logo: hyperledger-ursa.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            extra:
+              wiki: https://wiki.hyperledger.org/display/ursa
+              chat: https://chat.hyperledger.org/channel/ursa
             crunchbase_data:
               name: Hyperledger
               description: Hyperledger is an open source collaborative effort created to advance cross-industry blockchain technologies.
@@ -1246,9 +1246,6 @@ landscape:
         name: Tools
         items:
           - item:
-            extra:
-              wiki: https://wiki.hyperledger.org/display/avalon
-              chat: https://chat.hyperledger.org/channel/avalon
             name: Hyperledger Avalon
             description: >-
               Hyperledger Avalon is a ledger independent implementation of the Trusted Compute Specifications published by the Enterprise Ethereum Alliance. It
@@ -1259,6 +1256,9 @@ landscape:
             repo_url: https://github.com/hyperledger/avalon
             logo: hyperledger-avalon.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            extra:
+              wiki: https://wiki.hyperledger.org/display/avalon
+              chat: https://chat.hyperledger.org/channel/avalon
             crunchbase_data:
               name: Hyperledger
               description: Hyperledger is an open source collaborative effort created to advance cross-industry blockchain technologies.
@@ -1315,7 +1315,7 @@ landscape:
                 - name: JavaScript
                   value: 5388
                   color: '#f1e05a'
-              contributions: 1;8;5;4;5;0;0;1;6;2;4;0;1;1;0;0;0;0;3;3;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 2;7;5;4;5;0;0;1;6;2;4;0;1;1;0;0;0;0;3;3;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2020-09-27Z
               stars: 133
               license: Apache License 2.0
@@ -1343,9 +1343,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-09-18T15:16:00.000Z
           - item:
-            extra:
-              wiki: https://wiki.hyperledger.org/display/cactus
-              chat: https://chat.hyperledger.org/channel/cactus
             name: Hyperledger Cactus
             description: Hyperledger Cactus is a blockchain integration tool designed to allow users to securely integrate different blockchains.
             homepage_url: https://www.hyperledger.org/use/cactus
@@ -1353,6 +1350,9 @@ landscape:
             repo_url: https://github.com/hyperledger/cactus
             logo: hyperledger-cactus.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            extra:
+              wiki: https://wiki.hyperledger.org/display/cactus
+              chat: https://chat.hyperledger.org/channel/cactus
             crunchbase_data:
               name: Hyperledger
               description: Hyperledger is an open source collaborative effort created to advance cross-industry blockchain technologies.
@@ -1415,9 +1415,9 @@ landscape:
                 - name: CSS
                   value: 127
                   color: '#563d7c'
-              contributions: 6;3;5;2;4;4;5;48;4;4;13;8;8;2;3;13;13;2;8;6;7;6;7;8;16;8;29;34;11;15;25;16;22;1;18;22;8;3;21;18;12;2;12;11;8;7;13;8;4;9;12;6
+              contributions: 6;3;5;2;4;4;5;48;4;4;13;8;8;2;3;14;12;2;8;6;7;6;7;8;16;8;31;32;11;18;23;16;21;1;18;22;8;3;24;16;11;5;9;11;8;7;13;8;5;8;12;6
               firstWeek: 2020-09-27Z
-              stars: 186
+              stars: 187
               license: Apache License 2.0
               description: Hyperledger Cactus is a new approach to the blockchain interoperability problem
               latest_commit_date: '2021-09-18T18:13:41Z'
@@ -1428,7 +1428,7 @@ landscape:
               contributors_link: https://github.com/hyperledger/cactus/graphs/contributors
             repos:
               - url: https://github.com/hyperledger/cactus
-                stars: 186
+                stars: 187
             github_start_commit_data:
               start_commit_link: /hyperledger/cactus/commit/e066337ba1ca43902479a1a2163b74eeabffe4b7
               start_date: '2019-10-21T16:06:39Z'
@@ -1441,9 +1441,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-09-18T15:16:00.000Z
           - item:
-            extra:
-              wiki: https://wiki.hyperledger.org/display/caliper
-              chat: https://chat.hyperledger.org/channel/caliper
             name: Hyperledger Caliper
             description: >-
               Hyperledger Caliper is a blockchain benchmark tool, it allows users to measure the performance of a blockchain implementation with a set of
@@ -1455,6 +1452,9 @@ landscape:
             repo_url: https://github.com/hyperledger/caliper
             logo: hyperledger-caliper.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            extra:
+              wiki: https://wiki.hyperledger.org/display/caliper
+              chat: https://chat.hyperledger.org/channel/caliper
             crunchbase_data:
               name: Hyperledger
               description: Hyperledger is an open source collaborative effort created to advance cross-industry blockchain technologies.
@@ -1531,9 +1531,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-09-18T15:16:00.000Z
           - item:
-            extra:
-              wiki: https://wiki.hyperledger.org/display/cello
-              chat: https://chat.hyperledger.org/channel/cello
             name: Hyperledger Cello
             description: >-
               Hyperledger Cello aims to serve as the operational dashboard for Blockchain, which reduces the effort required for creating, managing and using
@@ -1544,6 +1541,9 @@ landscape:
             repo_url: https://github.com/hyperledger/cello
             logo: hyperledger-cello.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            extra:
+              wiki: https://wiki.hyperledger.org/display/cello
+              chat: https://chat.hyperledger.org/channel/cello
             crunchbase_data:
               name: Hyperledger
               description: Hyperledger is an open source collaborative effort created to advance cross-industry blockchain technologies.
@@ -1590,7 +1590,7 @@ landscape:
                   color: '#427819'
                 - name: EJS
                   value: 4678
-              contributions: 1;0;1;0;0;0;1;0;10;0;0;2;3;0;2;1;0;8;12;3;0;0;1;9;2;5;0;6;3;0;0;0;0;3;2;7;3;3;12;0;7;1;2;7;24;5;10;8;9;14;10;2
+              contributions: 0;0;1;0;0;0;1;0;10;0;0;2;3;0;2;1;0;8;12;3;0;0;1;9;4;3;2;4;3;0;0;0;0;3;2;8;2;5;10;0;7;2;1;7;24;9;6;8;9;17;7;2
               firstWeek: 2020-09-27Z
               stars: 759
               license: Apache License 2.0
@@ -1616,9 +1616,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-09-18T15:16:00.000Z
           - item:
-            extra:
-              wiki: https://wiki.hyperledger.org/display/explorer
-              chat: https://chat.hyperledger.org/channel/hyperledger-explorer
             name: Hyperledger Explorer
             description: >-
               Hyperledger Explorer is a user-friendly Web application tool used to view, invoke, deploy or query blocks, transactions and associated data,
@@ -1629,6 +1626,9 @@ landscape:
             repo_url: https://github.com/hyperledger/blockchain-explorer
             logo: hyperledger-explorer.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            extra:
+              wiki: https://wiki.hyperledger.org/display/explorer
+              chat: https://chat.hyperledger.org/channel/hyperledger-explorer
             crunchbase_data:
               name: Hyperledger
               description: Hyperledger is an open source collaborative effort created to advance cross-industry blockchain technologies.
@@ -1672,7 +1672,7 @@ landscape:
                 - name: HTML
                   value: 1767
                   color: '#e34c26'
-              contributions: 3;3;5;1;2;0;0;0;0;3;1;3;0;0;3;0;0;1;4;1;0;0;0;2;4;1;1;2;1;1;1;3;1;1;1;3;3;3;1;0;3;3;0;0;1;1;1;1;0;0;0;0
+              contributions: 4;2;5;2;1;0;0;0;0;3;1;3;0;0;3;0;0;1;4;1;0;0;0;2;4;1;1;2;2;0;1;3;1;1;1;5;3;1;1;1;3;2;0;0;1;1;1;1;0;0;0;0
               firstWeek: 2020-09-27Z
               stars: 1081
               license: Apache License 2.0
@@ -1701,10 +1701,6 @@ landscape:
         name: Domain Specific
         items:
           - item:
-            extra:
-              wiki: https://wiki.hyperledger.org/display/grid
-              chat: https://chat.hyperledger.org/channel/grid
-              documentation: https://grid.hyperledger.org/docs
             name: Hyperledger Grid
             description: >-
               Hyperledger Grid intends to provide reference implementations of supply chain-centric data types, data models, and smart contract based business
@@ -1715,6 +1711,10 @@ landscape:
             repo_url: https://github.com/hyperledger/grid
             logo: hyperledger-grid.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            extra:
+              wiki: https://wiki.hyperledger.org/display/grid
+              chat: https://chat.hyperledger.org/channel/grid
+              documentation: https://grid.hyperledger.org/docs
             crunchbase_data:
               name: Hyperledger
               description: Hyperledger is an open source collaborative effort created to advance cross-industry blockchain technologies.
@@ -1765,7 +1765,7 @@ landscape:
                 - name: PLpgSQL
                   value: 1145
               contributions: >-
-                7;42;44;51;24;16;15;23;51;9;15;14;12;2;0;10;6;6;19;28;19;14;20;28;15;19;124;18;17;22;36;23;13;17;25;55;14;53;29;32;43;31;55;15;18;21;15;15;18;12;8;20
+                7;42;44;51;24;16;15;24;50;9;15;14;12;2;0;10;6;6;19;28;19;14;20;28;15;19;124;18;17;22;36;23;13;17;25;55;14;53;29;32;43;31;55;15;18;21;15;15;18;12;8;20
               firstWeek: 2020-09-27Z
               stars: 187
               license: Apache License 2.0
@@ -2290,7 +2290,7 @@ landscape:
                 - Outsourcing
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 216498327802
+              market_cap: 216270047683
               effective_ticker: CSA.F
             image_data:
               fileName: accenture-hcsp.svg
@@ -2347,7 +2347,7 @@ landscape:
                 - Payments
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 431667087762
+              market_cap: 423351074845
               effective_ticker: 9988.HK
             image_data:
               fileName: antchain-hcsp.svg
@@ -2599,7 +2599,7 @@ landscape:
                   acquiree: Archivas
                   price: 120000000
                 - date: '2008-04-07'
-                  acquiree: Hitachi ID Systems, Inc.
+                  acquiree: Hitachi ID Systems
                 - date: '2010-08-20'
                   acquiree: Parascale
                 - date: '2011-06-22'
@@ -2638,7 +2638,7 @@ landscape:
                 - Public Relations
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 58050972767
+              market_cap: 58070251171
               effective_ticker: 6501.T
             image_data:
               fileName: hitachi-hcsp.svg
@@ -2647,7 +2647,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-17T14:00:50.000Z
+              latest_tweet_date: 2021-09-20T02:30:05.000Z
           - item:
             name: IBM (HCSP)
             description: >-
@@ -3095,7 +3095,8 @@ landscape:
                   acquiree: BoxBoat Technologies
                 - date: '2021-07-15'
                   acquiree: Bluetab
-              parents: []
+              parents:
+                - https://www.crunchbase.com/organization/attitude-status
               ticker: IBM
               stockExchange: nyse
               company_type: For Profit
@@ -3417,7 +3418,7 @@ landscape:
                 - Telecommunications
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 15837283899
+              market_cap: 15842543373
               effective_ticker: 6701.T
             image_data:
               fileName: nec-corporation-hcsp.svg
@@ -3649,7 +3650,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T15:09:00.000Z
+              latest_tweet_date: 2021-09-20T04:26:10.000Z
           - item:
             name: Shanghai TianJi Network (HCSP)
             description: >-
@@ -3793,7 +3794,7 @@ landscape:
                 - Telecommunications
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 29770311172
+              market_cap: 29779254659
               effective_ticker: SCMN.SW
             image_data:
               fileName: swisscom-ag-hcsp.svg
@@ -3975,7 +3976,7 @@ landscape:
                 - Social Media Marketing
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 569499326206
+              market_cap: 558337790808
               effective_ticker: 0700.HK
             image_data:
               fileName: tencent-hcsp.svg
@@ -3984,7 +3985,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-17T14:06:16.000Z
+              latest_tweet_date: 2021-09-19T23:51:21.000Z
           - item:
             name: Zhigui (HCSP)
             description: >-
@@ -4511,7 +4512,7 @@ landscape:
                 - Outsourcing
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 216498327802
+              market_cap: 216270047683
               effective_ticker: CSA.F
             image_data:
               fileName: accenture-global-solutions-limited.svg
@@ -4567,7 +4568,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T22:53:53.000Z
+              latest_tweet_date: 2021-09-19T18:02:00.000Z
           - item:
             name: Depository Trust and Clearing Corporation (DTCC)
             homepage_url: https://dtcc.com/
@@ -4681,7 +4682,7 @@ landscape:
                 - Information and Communications Technology (ICT)
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 38586762288
+              market_cap: 38599576737
               effective_ticker: 6702.T
             image_data:
               fileName: fujitsu-limited.svg
@@ -4690,7 +4691,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T09:15:03.000Z
+              latest_tweet_date: 2021-09-19T10:26:04.000Z
           - item:
             name: Hitachi, Ltd.
             homepage_url: https://hitachi.com/
@@ -4713,7 +4714,7 @@ landscape:
                   acquiree: Archivas
                   price: 120000000
                 - date: '2008-04-07'
-                  acquiree: Hitachi ID Systems, Inc.
+                  acquiree: Hitachi ID Systems
                 - date: '2010-08-20'
                   acquiree: Parascale
                 - date: '2011-06-22'
@@ -4752,7 +4753,7 @@ landscape:
                 - Public Relations
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 58050972767
+              market_cap: 58070251171
               effective_ticker: 6501.T
             image_data:
               fileName: hitachi-ltd.svg
@@ -4761,7 +4762,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-17T14:00:50.000Z
+              latest_tweet_date: 2021-09-20T02:30:05.000Z
           - item:
             name: International Business Machines Corporation
             homepage_url: https://www.ibm.com/us-en
@@ -5204,7 +5205,8 @@ landscape:
                   acquiree: BoxBoat Technologies
                 - date: '2021-07-15'
                   acquiree: Bluetab
-              parents: []
+              parents:
+                - https://www.crunchbase.com/organization/attitude-status
               ticker: IBM
               stockExchange: nyse
               company_type: For Profit
@@ -5224,7 +5226,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T20:10:39.000Z
+              latest_tweet_date: 2021-09-20T02:38:19.000Z
           - item:
             name: JPMorgan Chase
             homepage_url: https://jpmorganchase.com/
@@ -5358,7 +5360,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T15:53:30.000Z
+              latest_tweet_date: 2021-09-19T15:14:41.000Z
           - item:
             name: Amihan Global Strategies (AGSX)
             homepage_url: https://amihan.net/
@@ -5434,7 +5436,7 @@ landscape:
                 - Payments
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 431667087762
+              market_cap: 423351074845
               effective_ticker: 9988.HK
             image_data:
               fileName: ant-small-and-micro-financial-services-group-co-ltd.svg
@@ -5538,7 +5540,7 @@ landscape:
                 - Mobile
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 73901278016
+              market_cap: 71933574930
               effective_ticker: 1810.HK
             image_data:
               fileName: beijing-xiaomi-mobile-software-co-ltd.svg
@@ -5678,7 +5680,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-17T05:17:53.000Z
+              latest_tweet_date: 2021-09-20T05:36:32.000Z
           - item:
             name: Bonifii
             homepage_url: https://bonifii.com/
@@ -5775,7 +5777,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-19T03:22:10.000Z
+              latest_tweet_date: 2021-09-19T13:06:00.000Z
           - item:
             name: Broadridge Financial Solutions
             homepage_url: https://broadridge.com/
@@ -6604,7 +6606,7 @@ landscape:
                 - Manufacturing
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 89533722526
+              market_cap: 89439316399
               effective_ticker: DAI.DE
             image_data:
               fileName: daimler-tss-gmb-h.svg
@@ -6696,7 +6698,7 @@ landscape:
                 - Telecommunications
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 96532591089
+              market_cap: 96430805216
               effective_ticker: DTE.DE
             image_data:
               fileName: deutsche-telekom-ag.svg
@@ -6705,7 +6707,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T18:01:07.000Z
+              latest_tweet_date: 2021-09-19T20:39:06.000Z
           - item:
             name: Digital Asset Holdings, LLC
             homepage_url: https://digitalasset.com/
@@ -6875,7 +6877,7 @@ landscape:
                 - Oil and Gas
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 39448178962
+              market_cap: 39406584022
               effective_ticker: EDF.PA
             image_data:
               fileName: edf.svg
@@ -7114,7 +7116,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-19T00:09:00.000Z
+              latest_tweet_date: 2021-09-19T19:24:00.000Z
           - item:
             name: Flowchain
             homepage_url: https://flowchain.co/
@@ -7292,7 +7294,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T11:38:11.000Z
+              latest_tweet_date: 2021-09-20T04:59:16.000Z
           - item:
             name: Information Data Systems
             homepage_url: https://idssoft.com/
@@ -7354,7 +7356,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-19T02:00:06.000Z
+              latest_tweet_date: 2021-09-20T05:29:15.000Z
           - item:
             name: IntellectEU
             homepage_url: https://intellecteu.com/
@@ -7508,7 +7510,7 @@ landscape:
                 - Wholesale
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 122740726873
+              market_cap: 122611306623
               effective_ticker: JD.VI
             image_data:
               fileName: jd-com-inc.svg
@@ -7581,7 +7583,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-16T16:58:10.000Z
+              latest_tweet_date: 2021-09-19T20:06:42.000Z
           - item:
             name: KompiTech
             homepage_url: https://kompitech.com/
@@ -7769,7 +7771,7 @@ landscape:
                 - Mobile
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 13059370964
+              market_cap: 12603669234
               effective_ticker: 0992.HK
             image_data:
               fileName: lenovo-united-states-inc.svg
@@ -7778,7 +7780,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T21:21:21.000Z
+              latest_tweet_date: 2021-09-20T00:02:40.000Z
           - item:
             name: LG CNS
             homepage_url: https://lgcns.com/EN/Home
@@ -8597,7 +8599,7 @@ landscape:
                 - Trading Platform
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 5663379119
+              market_cap: 5625083160
               effective_ticker: MOEX.ME
             image_data:
               fileName: moscow-exchange-micex-rts.svg
@@ -8657,7 +8659,7 @@ landscape:
                 - Telecommunications
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 15837283899
+              market_cap: 15842543373
               effective_ticker: 6701.T
             image_data:
               fileName: nec-corporation.svg
@@ -8775,7 +8777,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 28217106723
+              market_cap: 28226477467
               effective_ticker: 9613.T
             image_data:
               fileName: ntt-data.svg
@@ -8784,7 +8786,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T17:00:03.000Z
+              latest_tweet_date: 2021-09-19T17:00:02.000Z
           - item:
             name: OCTO Technology
             homepage_url: https://octo.com/
@@ -9170,7 +9172,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T14:15:18.000Z
+              latest_tweet_date: 2021-09-20T05:00:15.000Z
           - item:
             name: Paramount Software Solutions Inc.
             homepage_url: https://paramountsoft.net/
@@ -9277,7 +9279,7 @@ landscape:
                 - Packaging Services
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 17911606479
+              market_cap: 17892720127
               effective_ticker: PST.MI
             image_data:
               fileName: poste-italiane-spa.svg
@@ -9457,7 +9459,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-19T01:00:07.000Z
+              latest_tweet_date: 2021-09-19T19:30:03.000Z
           - item:
             name: Red Date (Hong Kong) Technology Limited
             homepage_url: https://bsnbase.io/
@@ -9566,6 +9568,7 @@ landscape:
                   acquiree: StackRox
               parents:
                 - https://www.crunchbase.com/organization/ibm
+                - https://www.crunchbase.com/organization/attitude-status
               ticker: IBM
               funding: 0
               stockExchange: nyse
@@ -9585,7 +9588,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T20:00:19.000Z
+              latest_tweet_date: 2021-09-19T18:00:05.000Z
           - item:
             name: Revelry Labs
             homepage_url: https://revelry.co/
@@ -9663,7 +9666,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T17:04:01.000Z
+              latest_tweet_date: 2021-09-19T16:43:00.000Z
           - item:
             name: Samsung SDS
             homepage_url: https://www.samsungsds.com/en/index.html
@@ -9846,7 +9849,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T15:09:00.000Z
+              latest_tweet_date: 2021-09-20T04:26:10.000Z
           - item:
             name: SBERBANK
             homepage_url: https://www.sberbank.com/index
@@ -9939,7 +9942,7 @@ landscape:
                 - Payments
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 102614650063
+              market_cap: 101643322139
               effective_ticker: SBER.ME
             image_data:
               fileName: sberbank.svg
@@ -9948,7 +9951,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-19T01:15:40.000Z
+              latest_tweet_date: 2021-09-19T21:26:49.000Z
           - item:
             name: Scalably Co.,Ltd.
             homepage_url: https://binary-star.business/
@@ -10129,7 +10132,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 814879207
+              market_cap: 814910713
               effective_ticker: 300468.SZ
             image_data:
               fileName: shenzhen-forms-syntron-information-co-ltd.svg
@@ -10346,7 +10349,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T18:00:01.000Z
+              latest_tweet_date: 2021-09-19T18:00:04.000Z
           - item:
             name: Surge
             homepage_url: https://surgetech.eu/
@@ -10473,7 +10476,7 @@ landscape:
                 - Telecommunications
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 29770311172
+              market_cap: 29779254659
               effective_ticker: SCMN.SW
             image_data:
               fileName: swisscom.svg
@@ -10482,7 +10485,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T09:56:55.000Z
+              latest_tweet_date: 2021-09-19T08:51:09.000Z
           - item:
             name: Symbridge LLC
             homepage_url: https://symbridge.com/
@@ -10718,7 +10721,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T17:25:00.000Z
+              latest_tweet_date: 2021-09-19T17:42:00.000Z
           - item:
             name: Tencent Holdings Limited
             homepage_url: https://tencent.com/
@@ -10798,7 +10801,7 @@ landscape:
                 - Social Media Marketing
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 569499326206
+              market_cap: 558337790808
               effective_ticker: 0700.HK
             image_data:
               fileName: tencent-holdings-limited.svg
@@ -10807,7 +10810,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-17T14:06:16.000Z
+              latest_tweet_date: 2021-09-19T23:51:21.000Z
           - item:
             name: Tokentrust AG
             homepage_url: https://atomyze.com/
@@ -10942,7 +10945,7 @@ landscape:
               description: Verizon Wireless offers wireless telecommunications services, devices, and solutions.
               num_employees_min: 10001
               num_employees_max: 1000000
-              homepage: null
+              homepage: http://www.verizonwireless.com
               city: Washington
               region: District of Columbia
               country: United States
@@ -10976,7 +10979,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-19T00:58:58.000Z
+              latest_tweet_date: 2021-09-19T22:39:26.000Z
           - item:
             name: Visa Inc.
             homepage_url: https://usa.visa.com
@@ -11194,7 +11197,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T21:26:45.000Z
+              latest_tweet_date: 2021-09-19T21:18:24.000Z
           - item:
             name: We.Trade Innovation DAC
             homepage_url: https://we-trade.com/
@@ -11348,7 +11351,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 49283911259
+              market_cap: 49282609326
               effective_ticker: WIPRO.NS
             image_data:
               fileName: wipro-limited.svg
@@ -11357,7 +11360,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T17:36:02.000Z
+              latest_tweet_date: 2021-09-19T17:57:07.000Z
           - item:
             name: WISeKey SA
             homepage_url: https://wisekey.com/
@@ -11398,7 +11401,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 169056204
+              market_cap: 169106991
               effective_ticker: WIHN.SW
             image_data:
               fileName: wi-se-key-sa.svg
@@ -11407,7 +11410,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T21:35:36.000Z
+              latest_tweet_date: 2021-09-19T16:39:58.000Z
           - item:
             name: Xi'an Zhigui Internet Technology Ltd.
             homepage_url: https://zhigui.com/
@@ -11499,7 +11502,7 @@ landscape:
                 - Wireless
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 38154159536
+              market_cap: 38113929035
               effective_ticker: XLNX.VI
             image_data:
               fileName: xilinx-inc.svg
@@ -11508,7 +11511,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-17T16:45:07.000Z
+              latest_tweet_date: 2021-09-19T15:54:35.000Z
       - subcategory:
         name: Associate
         items:
@@ -11608,7 +11611,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T08:32:59.000Z
+              latest_tweet_date: 2021-09-19T06:30:18.000Z
           - item:
             name: Alliance of Blockchain Industry, Z-park
             homepage_url: https://zgc-blockchain.cn/
@@ -11671,7 +11674,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-19T01:00:22.000Z
+              latest_tweet_date: 2021-09-20T01:30:07.000Z
           - item:
             name: Association of Blockchain Developers of Saint-Petersburg
             homepage_url: http://www.spblockchain.ru/ru
@@ -11801,7 +11804,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-17T23:52:03.000Z
+              latest_tweet_date: 2021-09-20T00:36:21.000Z
           - item:
             name: Blockchain Education Network
             homepage_url: https://blockchainedu.org/
@@ -11831,7 +11834,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-16T21:09:32.000Z
+              latest_tweet_date: 2021-09-19T17:01:29.000Z
           - item:
             name: Blockchain Research Institute (Tapscott Group)
             homepage_url: https://dontapscott.com
@@ -11955,7 +11958,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T12:22:00.000Z
+              latest_tweet_date: 2021-09-19T10:55:00.000Z
           - item:
             name: Chamber of Digital Commerce
             homepage_url: https://digitalchamber.org/
@@ -12245,7 +12248,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T01:04:09.000Z
+              latest_tweet_date: 2021-09-19T23:49:27.000Z
           - item:
             name: Federal Reserve Bank of Boston
             homepage_url: https://bostonfed.org/
@@ -12398,7 +12401,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-19T00:30:02.000Z
+              latest_tweet_date: 2021-09-20T01:45:02.000Z
           - item:
             name: Initiative for CryptoCurrencies and Contracts (IC3)
             homepage_url: https://initc3.org/
@@ -12563,7 +12566,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T21:12:01.000Z
+              latest_tweet_date: 2021-09-20T00:44:02.000Z
           - item:
             name: Mercy Corps
             homepage_url: https://mercycorps.org/
@@ -12693,7 +12696,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T15:05:04.000Z
+              latest_tweet_date: 2021-09-19T16:25:58.000Z
           - item:
             name: Mobility Open Blockchain Initiative (MOBI)
             homepage_url: https://dlt.mobi/
@@ -12818,7 +12821,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-17T17:39:48.000Z
+              latest_tweet_date: 2021-09-19T15:11:39.000Z
           - item:
             name: Peking University
             homepage_url: https://pku.edu.cn/
@@ -12851,7 +12854,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T11:25:00.000Z
+              latest_tweet_date: 2021-09-20T05:04:09.000Z
           - item:
             name: Penn Blockchain Club
             homepage_url: https://pennblockchain.com/
@@ -12916,7 +12919,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-17T19:00:11.000Z
+              latest_tweet_date: 2021-09-19T18:51:20.000Z
           - item:
             name: Produce Marketing Association
             homepage_url: https://pma.com/
@@ -13248,7 +13251,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-19T03:00:29.000Z
+              latest_tweet_date: 2021-09-20T02:01:34.000Z
           - item:
             name: United Nations (International Computing Centre)
             homepage_url: https://unicc.org/
@@ -13409,7 +13412,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T04:55:15.000Z
+              latest_tweet_date: 2021-09-19T22:44:56.000Z
           - item:
             name: Vilnius Gediminas Technical University
             homepage_url: https://vgtu.it/
@@ -13618,7 +13621,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T22:53:53.000Z
+              latest_tweet_date: 2021-09-19T18:02:00.000Z
           - item:
             name: EMURGO (HTP)
             homepage_url: https://emurgo.io/
@@ -14123,7 +14126,8 @@ landscape:
                   acquiree: BoxBoat Technologies
                 - date: '2021-07-15'
                   acquiree: Bluetab
-              parents: []
+              parents:
+                - https://www.crunchbase.com/organization/attitude-status
               ticker: IBM
               stockExchange: nyse
               company_type: For Profit
@@ -14143,7 +14147,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-09-18T20:10:39.000Z
+              latest_tweet_date: 2021-09-20T02:38:19.000Z
           - item:
             name: Kerala Blockchain Academy (HTP)
             homepage_url: https://kba.ai/
@@ -14280,4 +14284,4 @@ landscape:
 twitter_options:
   count: 5
   since_id: '1420712596467032065'
-updated_at: 2021-09-19T05:41:37.337Z
+updated_at: 2021-09-20T05:42:03.144Z
