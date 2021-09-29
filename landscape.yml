@@ -335,6 +335,33 @@ landscape:
             extra:
               wiki: https://wiki.hyperledger.org/display/explorer
               chat: https://chat.hyperledger.org/channel/hyperledger-explorer
+          - item:
+            name: Hyperledger Firefly
+            description: >-
+              Hyperledger FireFly is a multiparty system for enterprise data
+              flows, powered by blockchain. It solves all of the layers of
+              complexity that sit between the low level blockchain and high
+              level business processes and user interfaces. FireFly enables
+              developers to build blockchain apps for enterprise radically
+              faster by allowing them to focus on business logic instead of
+              infrastructure.
+            homepage_url: https://www.hyperledger.org/use/firefly
+            project: incubating
+            repo_url: https://github.com/hyperledger/firefly
+            additional_repos:
+              - repo_url: https://github.com/hyperledger/firefly-cli
+              - repo_url: https://github.com/hyperledger/firefly-cordaconnect
+              - repo_url: https://github.com/hyperledger/firefly-dataexchange-https
+              - repo_url: https://github.com/hyperledger/firefly-ethconnect
+              - repo_url: https://github.com/hyperledger/firefly-fabconnect
+              - repo_url: https://github.com/hyperledger/firefly-samples
+              - repo_url: https://github.com/hyperledger/firefly-tokens-erc1155
+              - repo_url: https://github.com/hyperledger/firefly-ui
+            logo: hyperledger-firefly.svg
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            extra:
+              wiki: https://wiki.hyperledger.org/display/fir
+              chat: https://chat.hyperledger.org/channel/firefly
       - subcategory:
         name: Domain Specific
         items:
