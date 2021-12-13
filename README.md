@@ -1,4 +1,4 @@
-[![Dependency Status](https://img.shields.io/david/hyperledger-landscape/hl-landscape.svg?style=flat-square)](https://david-dm.org/hyperledger-landscape/hl-landscape) [![Netlify Status](https://api.netlify.com/api/v1/badges/e1406ffe-c3a1-451d-9ff5-9d607e286881/deploy-status)](https://app.netlify.com/sites/hl-landscape/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e1406ffe-c3a1-451d-9ff5-9d607e286881/deploy-status)](https://app.netlify.com/sites/hl-landscape/deploys)
 
 # Hyperledger Landscape
 
