@@ -19,6 +19,7 @@ landscape:
               - repo_url: https://github.com/hyperledger/homebrew-besu
               - repo_url: https://github.com/hyperledger/besu-native
             logo: hyperledger-besu.svg
+            twitter: '@hyperledgerbesu'
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
             extra:
               wiki: https://wiki.hyperledger.org/display/besu
@@ -277,6 +278,17 @@ landscape:
             extra:
               wiki: https://wiki.hyperledger.org/display/avalon
               chat: https://chat.hyperledger.org/channel/avalon
+          - item:
+            name: Hyperledger Bevel
+            description: Hyperledger Bevel is an accelerator that helps developers rapidly set-up and deploy secure, scalable and production ready DLT network(s) that also allows new organizations to be easily onboarded on the network.
+            homepage_url: https://www.hyperledger.org/use/bevel
+            project: incubating
+            repo_url: https://github.com/hyperledger/bevel
+            logo: hyperledger-bevel.svg
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            extra:
+              wiki: https://wiki.hyperledger.org/display/bevel
+              chat: https://chat.hyperledger.org/channel/bevel
           - item:
             name: Hyperledger Cactus
             description: Hyperledger Cactus is a blockchain integration tool designed to allow users to securely integrate different blockchains.
