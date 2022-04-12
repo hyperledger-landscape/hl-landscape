@@ -15,8 +15,9 @@ landscape:
             repo_url: https://github.com/hyperledger/besu
             additional_repos:
               - repo_url: https://github.com/hyperledger/besu-docs
-              - repo_url: https://github.com/hyperledger/homebrew-besu
+              - repo_url: https://github.com/hyperledger/besu-errorprone-checks
               - repo_url: https://github.com/hyperledger/besu-native
+              - repo_url: https://github.com/hyperledger/homebrew-besu
             logo: hyperledger-besu.svg
             twitter: https://twitter.com/hyperledgerbesu
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
@@ -84,16 +85,18 @@ landscape:
             project: graduated
             repo_url: https://github.com/hyperledger/indy-node
             additional_repos:
-              - repo_url: https://github.com/hyperledger/indy-plenum
-              - repo_url: https://github.com/hyperledger/indy-sdk-react-native
-              - repo_url: https://github.com/hyperledger/indy-sdk
-              - repo_url: https://github.com/hyperledger/indy-vdr
-              - repo_url: https://github.com/hyperledger/indy-test-automation
-              - repo_url: https://github.com/hyperledger/indy-node-monitor
               - repo_url: https://github.com/hyperledger/indy-did-method
-              - repo_url: https://github.com/hyperledger/indy-shared-rs
-              - repo_url: https://github.com/hyperledger/indy-hipe
               - repo_url: https://github.com/hyperledger/indy-docs
+              - repo_url: https://github.com/hyperledger/indy-hipe
+              - repo_url: https://github.com/hyperledger/indy-node-container
+              - repo_url: https://github.com/hyperledger/indy-node-monitor
+              - repo_url: https://github.com/hyperledger/indy-plenum
+              - repo_url: https://github.com/hyperledger/indy-sdk
+              - repo_url: https://github.com/hyperledger/indy-sdk-react-native
+              - repo_url: https://github.com/hyperledger/indy-shared-gha
+              - repo_url: https://github.com/hyperledger/indy-shared-rs
+              - repo_url: https://github.com/hyperledger/indy-test-automation
+              - repo_url: https://github.com/hyperledger/indy-vdr
             logo: hyperledger-indy.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
             extra:
@@ -109,15 +112,15 @@ landscape:
             project: graduated
             repo_url: https://github.com/hyperledger/iroha
             additional_repos:
-              - repo_url: https://github.com/hyperledger/iroha-javascript
-              - repo_url: https://github.com/hyperledger/iroha-java
-              - repo_url: https://github.com/hyperledger/iroha-python
-              - repo_url: https://github.com/hyperledger/iroha-ios
+              - repo_url: https://github.com/hyperledger/iroha-2-docs
               - repo_url: https://github.com/hyperledger/iroha-deploy
-              - repo_url: https://github.com/hyperledger/iroha-tui-client
-              - repo_url: https://github.com/hyperledger/iroha-state-migration-tool
               - repo_url: https://github.com/hyperledger/iroha-ed25519
-              - repo_url: https://github.com/hyperledger/iroha-docs-l10n
+              - repo_url: https://github.com/hyperledger/iroha-ios
+              - repo_url: https://github.com/hyperledger/iroha-java
+              - repo_url: https://github.com/hyperledger/iroha-javascript
+              - repo_url: https://github.com/hyperledger/iroha-python
+              - repo_url: https://github.com/hyperledger/iroha-state-migration-tool
+              - repo_url: https://github.com/hyperledger/iroha-tui-client
             logo: hyperledger-iroha.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
             extra:
@@ -216,10 +219,10 @@ landscape:
             project: incubating
             repo_url: https://github.com/hyperledger/transact
             additional_repos:
-              - repo_url: https://github.com/hyperledger/transact-rfcs
               - repo_url: https://github.com/hyperledger/transact-contrib
-              - repo_url: https://github.com/hyperledger/transact-sdk-javascript
+              - repo_url: https://github.com/hyperledger/transact-rfcs
               - repo_url: https://github.com/hyperledger/transact-sdk-go
+              - repo_url: https://github.com/hyperledger/transact-sdk-javascript
             logo: hyperledger-transact.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
             extra:
@@ -234,10 +237,10 @@ landscape:
             project: incubating
             repo_url: https://github.com/hyperledger/ursa
             additional_repos:
-              - repo_url: https://github.com/hyperledger/ursa-python
               - repo_url: https://github.com/hyperledger/ursa-docs
-              - repo_url: https://github.com/hyperledger/ursa-wrapper-go
+              - repo_url: https://github.com/hyperledger/ursa-python
               - repo_url: https://github.com/hyperledger/ursa-rfcs
+              - repo_url: https://github.com/hyperledger/ursa-wrapper-go
             logo: hyperledger-ursa.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
             extra:
@@ -353,9 +356,9 @@ landscape:
             project: incubating
             repo_url: https://github.com/hyperledger/grid
             additional_repos:
+              - repo_url: https://github.com/hyperledger/grid-contrib
               - repo_url: https://github.com/hyperledger/grid-docs
               - repo_url: https://github.com/hyperledger/grid-rfcs
-              - repo_url: https://github.com/hyperledger/grid-contrib
             logo: hyperledger-grid.svg
             crunchbase: https://www.crunchbase.com/organization/hyperledger-2
             extra:
