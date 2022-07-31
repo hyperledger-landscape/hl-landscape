@@ -45,7 +45,7 @@ landscape:
             github_data:
               languages:
                 - name: Java
-                  value: 16456173
+                  value: 16458449
                   color: '#b07219'
                 - name: Shell
                   value: 48115
@@ -75,13 +75,13 @@ landscape:
                   value: 498
                   color: '#701516'
               contributions: >-
-                19;11;22;15;21;12;16;14;14;16;22;21;11;14;26;27;17;10;24;20;16;1;18;21;18;21;14;8;38;28;11;34;31;9;23;19;13;8;12;17;21;24;23;10;19;20;13;15;18;19;21;22
-              firstWeek: 2021-08-01Z
+                19;11;24;13;21;12;16;14;14;16;23;20;12;13;26;27;17;11;23;20;16;1;18;21;19;20;14;8;38;28;11;36;30;8;23;20;12;9;11;17;21;24;24;9;19;20;13;16;17;19;21;22
+              firstWeek: 2021-08-08Z
               stars: 931
               license: Apache License 2.0
               description: An enterprise-grade Java-based, Apache 2.0 licensed Ethereum client https://wiki.hyperledger.org/display/besu
-              latest_commit_date: '2022-07-29T16:14:17Z'
-              latest_commit_link: /hyperledger/besu/commit/992534e417dd45c072f2ba6a1ec7521c16ba03a8
+              latest_commit_date: '2022-07-31T03:45:35Z'
+              latest_commit_link: /hyperledger/besu/commit/826648b2deecc40bf3eef731c7f7fed9ee60411c
               release_date: '2022-07-27T19:14:00Z'
               release_link: https://github.com/hyperledger/besu/releases
               contributors_count: 140
@@ -190,9 +190,9 @@ landscape:
                   value: 103
                   color: '#c065db'
               contributions: >-
-                27;24;34;22;33;28;30;16;35;25;17;26;22;34;30;34;19;18;22;34;9;0;12;19;19;24;31;23;12;22;12;22;18;18;26;15;11;29;32;34;28;30;22;16;29;32;36;22;29;15;24;8
-              firstWeek: 2021-08-01Z
-              stars: 20874
+                23;23;35;22;32;30;29;15;36;25;20;22;24;32;31;33;19;19;21;37;6;0;12;21;17;26;29;23;13;21;12;24;16;18;26;17;13;25;34;32;30;28;22;16;29;33;36;22;28;15;24;8
+              firstWeek: 2021-08-08Z
+              stars: 20879
               license: Apache License 2.0
               description: >-
                 Hyperledger Fabric is an enterprise-grade permissioned distributed ledger framework for developing solutions and applications. Its modular and
@@ -206,11 +206,11 @@ landscape:
               contributors_link: https://github.com/hyperledger/fabric/graphs/contributors
             repos:
               - url: https://github.com/hyperledger/fabric
-                stars: 13829
+                stars: 13832
               - url: https://github.com/hyperledger/fabric-samples
-                stars: 2251
+                stars: 2252
               - url: https://github.com/hyperledger/fabric-sdk-java
-                stars: 1075
+                stars: 1076
               - url: https://github.com/hyperledger/fabric-sdk-go
                 stars: 830
               - url: https://github.com/hyperledger/fabric-sdk-node
@@ -261,7 +261,7 @@ landscape:
               badge: 955
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2022-07-29T13:05:00.000Z
+              latest_tweet_date: 2022-07-31T13:21:00.000Z
           - item:
             name: Hyperledger Indy
             description: >-
@@ -371,9 +371,9 @@ landscape:
                   value: 1587
                 - name: CMake
                   value: 1282
-              contributions: 3;2;7;8;10;18;15;14;1;3;6;0;15;18;8;5;17;7;0;2;12;2;29;19;9;5;19;6;32;20;9;1;8;11;16;18;15;9;6;11;3;5;2;1;4;6;3;6;4;0;1;0
-              firstWeek: 2021-08-01Z
-              stars: 1614
+              contributions: 3;3;7;7;10;18;15;14;1;3;6;0;15;18;8;5;19;5;0;2;12;2;29;19;9;5;19;7;31;20;9;2;7;11;16;19;15;8;6;12;2;5;2;1;4;6;3;6;4;0;1;0
+              firstWeek: 2021-08-08Z
+              stars: 1615
               license: Apache License 2.0
               description: The server portion of a distributed ledger purpose-built for decentralized identity.
               latest_commit_date: '2022-03-25T11:00:27Z'
@@ -386,7 +386,7 @@ landscape:
               - url: https://github.com/hyperledger/indy-node
                 stars: 618
               - url: https://github.com/hyperledger/indy-sdk
-                stars: 626
+                stars: 627
               - url: https://github.com/hyperledger/indy-plenum
                 stars: 200
               - url: https://github.com/hyperledger/indy-hipe
@@ -419,7 +419,7 @@ landscape:
               badge: 1983
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2022-07-29T13:05:00.000Z
+              latest_tweet_date: 2022-07-31T13:21:00.000Z
           - item:
             name: Hyperledger Iroha
             description: >-
@@ -519,9 +519,9 @@ landscape:
                   color: '#427819'
                 - name: SCSS
                   value: 770
-              contributions: 6;4;5;21;7;5;2;4;0;2;0;3;5;8;17;0;9;0;5;1;2;8;1;0;2;2;25;8;16;12;9;6;5;9;8;12;1;1;7;1;5;27;27;19;19;2;8;4;6;3;0;3
-              firstWeek: 2021-08-01Z
-              stars: 679
+              contributions: 6;4;5;21;7;5;2;4;0;2;0;3;5;9;16;1;8;0;5;1;2;8;1;0;2;3;24;8;16;12;9;9;2;9;8;12;1;1;7;1;5;27;27;19;19;2;8;4;6;3;0;3
+              firstWeek: 2021-08-08Z
+              stars: 680
               license: Apache License 2.0
               description: Iroha - A simple, enterprise-grade decentralized ledger
               latest_commit_date: '2022-07-26T09:26:37Z'
@@ -532,7 +532,7 @@ landscape:
               contributors_link: https://github.com/hyperledger/iroha/graphs/contributors
             repos:
               - url: https://github.com/hyperledger/iroha
-                stars: 345
+                stars: 346
               - url: https://github.com/hyperledger/iroha-python
                 stars: 98
               - url: https://github.com/hyperledger/iroha-ios
@@ -561,7 +561,7 @@ landscape:
               badge: 960
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2022-07-29T13:05:00.000Z
+              latest_tweet_date: 2022-07-31T13:21:00.000Z
           - item:
             name: Hyperledger Sawtooth
             description: >-
@@ -654,9 +654,9 @@ landscape:
                   color: '#438eff'
                 - name: SCSS
                   value: 77
-              contributions: 15;7;3;13;11;8;20;17;9;17;5;2;4;11;18;5;27;23;6;9;1;2;4;217;8;42;171;15;22;3;7;1;0;0;0;1;0;3;9;2;0;5;4;2;1;1;1;8;24;14;9;0
-              firstWeek: 2021-08-01Z
-              stars: 1750
+              contributions: 15;7;3;13;11;8;20;17;9;17;5;2;4;11;19;4;27;23;6;9;1;2;4;217;8;42;171;15;22;3;7;1;0;0;0;1;0;3;9;2;0;5;4;2;1;1;1;8;25;13;9;0
+              firstWeek: 2021-08-08Z
+              stars: 1751
               license: Apache License 2.0
               description: Core repository for Sawtooth Distributed Ledger
               latest_commit_date: '2022-07-20T15:38:35Z'
@@ -665,7 +665,7 @@ landscape:
               contributors_link: https://github.com/hyperledger/sawtooth-core/graphs/contributors
             repos:
               - url: https://github.com/hyperledger/sawtooth-core
-                stars: 1393
+                stars: 1394
               - url: https://github.com/hyperledger/sawtooth-seth
                 stars: 73
               - url: https://github.com/hyperledger/sawtooth-pbft
@@ -708,7 +708,7 @@ landscape:
               badge: 954
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2022-07-29T13:05:00.000Z
+              latest_tweet_date: 2022-07-31T13:21:00.000Z
       - subcategory:
         name: Libraries
         items:
@@ -819,9 +819,9 @@ landscape:
                   value: 158
                   color: '#ffac45'
               contributions: >-
-                46;66;118;63;144;102;102;123;148;118;150;83;103;152;106;122;109;136;105;137;53;9;46;62;138;136;97;131;116;81;99;114;110;93;152;146;167;81;91;79;96;79;83;73;95;87;110;60;44;28;57;47
-              firstWeek: 2021-08-01Z
-              stars: 1462
+                45;64;124;75;127;102;105;134;137;119;152;76;107;148;115;120;104;139;114;126;50;9;49;61;148;137;89;127;117;83;96;118;109;92;150;147;165;86;86;83;95;78;83;72;96;87;108;63;41;28;61;43
+              firstWeek: 2021-08-08Z
+              stars: 1463
               license: Apache License 2.0
               description: Hyperledger Aries is infrastructure for blockchain-rooted, peer-to-peer interactions
               latest_commit_date: '2022-07-06T02:54:16Z'
@@ -832,7 +832,7 @@ landscape:
               - url: https://github.com/hyperledger/aries
                 stars: 200
               - url: https://github.com/hyperledger/aries-cloudagent-python
-                stars: 271
+                stars: 272
               - url: https://github.com/hyperledger/aries-rfcs
                 stars: 268
               - url: https://github.com/hyperledger/aries-framework-go
@@ -881,7 +881,7 @@ landscape:
               badge: 4088
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2022-07-29T13:05:00.000Z
+              latest_tweet_date: 2022-07-31T13:21:00.000Z
           - item:
             name: Hyperledger Transact
             description: >-
@@ -942,8 +942,8 @@ landscape:
                 - name: Shell
                   value: 2128
                   color: '#89e051'
-              contributions: 3;7;25;2;10;14;19;27;9;24;16;19;37;29;42;34;61;26;6;10;0;0;3;7;3;20;3;11;0;0;4;5;4;0;0;8;10;9;1;16;1;18;14;1;9;2;0;0;6;1;12;1
-              firstWeek: 2021-08-01Z
+              contributions: 3;7;25;2;10;14;19;27;9;24;16;19;37;29;46;31;60;26;6;10;0;0;3;7;3;20;3;11;0;0;4;5;4;0;0;8;10;9;1;16;1;18;14;1;9;2;0;0;6;1;12;1
+              firstWeek: 2021-08-08Z
               stars: 69
               license: Apache License 2.0
               description: >-
@@ -974,7 +974,7 @@ landscape:
               badge: 4092
               percentage: 15
             twitter_data:
-              latest_tweet_date: 2022-07-29T13:05:00.000Z
+              latest_tweet_date: 2022-07-31T13:21:00.000Z
           - item:
             name: Hyperledger Ursa
             description: >-
@@ -1044,7 +1044,7 @@ landscape:
                   value: 258
                   color: '#C1F12E'
               contributions: 0;0;0;7;2;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;10;0;0;0;1;0;0;0;1;0;0;0;0;0
-              firstWeek: 2021-08-01Z
+              firstWeek: 2021-08-08Z
               stars: 315
               license: Apache License 2.0
               description: Hyperledger Ursa is a shared cryptography library
@@ -1073,7 +1073,7 @@ landscape:
               badge: 2447
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2022-07-29T13:05:00.000Z
+              latest_tweet_date: 2022-07-31T13:21:00.000Z
       - subcategory:
         name: Tools
         items:
@@ -1142,8 +1142,8 @@ landscape:
                   color: '#e34c26'
                 - name: Mustache
                   value: 1992
-              contributions: 29;16;15;1;26;22;6;10;31;19;14;12;8;16;11;10;6;0;15;3;2;5;3;4;14;5;9;5;40;4;17;8;4;3;0;7;26;4;6;1;10;0;11;9;9;10;5;7;2;0;0;5
-              firstWeek: 2021-08-01Z
+              contributions: 29;16;15;1;26;22;6;10;31;19;14;12;8;16;11;10;6;0;15;3;2;5;3;5;13;5;9;6;39;4;17;8;4;3;0;7;26;5;5;1;10;0;11;9;9;10;5;7;2;0;0;5
+              firstWeek: 2021-08-08Z
               stars: 282
               license: Apache License 2.0
               description: An automation framework for rapidly and consistently deploying production-ready DLT platforms
@@ -1166,7 +1166,7 @@ landscape:
               badge: 3548
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2022-07-29T13:05:00.000Z
+              latest_tweet_date: 2022-07-31T13:21:00.000Z
           - item:
             name: Hyperledger Cactus
             description: Hyperledger Cactus is a blockchain integration tool designed to allow users to securely integrate different blockchains.
@@ -1240,8 +1240,8 @@ landscape:
                 - name: CSS
                   value: 127
                   color: '#563d7c'
-              contributions: 7;10;11;7;9;14;14;6;7;25;10;11;4;5;7;12;23;12;9;11;5;16;2;7;17;6;7;9;6;6;5;5;20;3;7;6;8;3;8;1;9;6;8;2;0;0;1;3;0;6;4;1
-              firstWeek: 2021-08-01Z
+              contributions: 7;13;9;6;10;13;14;7;7;25;9;12;3;6;7;11;23;12;9;11;5;16;2;7;19;4;7;9;6;6;5;5;20;3;7;7;7;3;8;1;9;6;9;1;0;0;1;3;0;7;4;0
+              firstWeek: 2021-08-08Z
               stars: 231
               license: Apache License 2.0
               description: Hyperledger Cactus is a new approach to the blockchain interoperability problem
@@ -1264,7 +1264,7 @@ landscape:
               badge: 4089
               percentage: 97
             twitter_data:
-              latest_tweet_date: 2022-07-29T13:05:00.000Z
+              latest_tweet_date: 2022-07-31T13:21:00.000Z
           - item:
             name: Hyperledger Caliper
             description: >-
@@ -1328,7 +1328,7 @@ landscape:
                   value: 3318
                   color: '#384d54'
               contributions: 0;0;0;0;1;0;0;0;1;0;0;0;1;2;2;0;0;3;2;1;0;1;3;0;2;1;1;4;3;8;8;7;0;3;1;5;4;0;12;0;10;5;2;2;0;1;4;11;11;1;7;2
-              firstWeek: 2021-08-01Z
+              firstWeek: 2021-08-08Z
               stars: 604
               license: Apache License 2.0
               description: ' A blockchain benchmark framework to measure performance of multiple blockchain solutions https://wiki.hyperledger.org/display/caliper'
@@ -1353,7 +1353,7 @@ landscape:
               badge: 2381
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2022-07-29T13:05:00.000Z
+              latest_tweet_date: 2022-07-31T13:21:00.000Z
           - item:
             name: Hyperledger Cello
             description: >-
@@ -1414,8 +1414,8 @@ landscape:
                   color: '#427819'
                 - name: EJS
                   value: 4678
-              contributions: 17;10;4;12;12;15;6;6;1;3;8;3;0;2;3;13;1;1;8;8;3;4;0;12;7;7;0;1;7;7;1;1;5;13;2;4;3;3;0;1;1;5;0;9;2;5;1;5;6;4;5;2
-              firstWeek: 2021-08-01Z
+              contributions: 5;10;8;9;14;13;5;6;1;3;8;3;0;2;9;8;0;1;9;7;5;2;6;7;6;7;1;3;6;6;0;2;10;7;2;4;3;3;0;2;1;4;0;9;4;3;3;3;7;3;5;2
+              firstWeek: 2021-08-08Z
               stars: 815
               license: Apache License 2.0
               description: Operating System for Enterprise Blockchain
@@ -1440,7 +1440,7 @@ landscape:
               badge: 4090
               percentage: 21
             twitter_data:
-              latest_tweet_date: 2022-07-29T13:05:00.000Z
+              latest_tweet_date: 2022-07-31T13:21:00.000Z
           - item:
             name: Hyperledger Firefly
             description: >-
@@ -1512,9 +1512,9 @@ landscape:
                   value: 2110
                   color: '#563d7c'
               contributions: >-
-                65;65;59;69;57;27;42;64;82;68;113;40;140;58;33;50;91;46;50;49;29;72;119;57;78;80;101;131;93;79;87;70;166;101;192;258;320;289;221;127;56;74;54;55;49;50;76;41;53;59;19;45
-              firstWeek: 2021-08-01Z
-              stars: 421
+                65;66;59;69;56;27;42;65;81;70;112;39;140;59;33;51;89;46;50;51;27;72;122;63;72;85;95;142;88;74;85;69;167;105;200;253;326;277;230;116;56;74;54;56;48;50;76;41;58;55;18;45
+              firstWeek: 2021-08-08Z
+              stars: 424
               license: Apache License 2.0
               description: >-
                 Hyperledger FireFly is the first open source Supernode: a complete stack for enterprises to build and scale secure Web3 applications. The
@@ -1528,7 +1528,7 @@ landscape:
               contributors_link: https://github.com/hyperledger/firefly/graphs/contributors
             repos:
               - url: https://github.com/hyperledger/firefly
-                stars: 215
+                stars: 218
               - url: https://github.com/hyperledger/firefly-ethconnect
                 stars: 63
               - url: https://github.com/hyperledger/firefly-cli
@@ -1569,7 +1569,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-29T13:05:00.000Z
+              latest_tweet_date: 2022-07-31T13:21:00.000Z
       - subcategory:
         name: Domain Specific
         items:
@@ -1641,8 +1641,8 @@ landscape:
                 - name: HCL
                   value: 1725
               contributions: >-
-                21;16;17;19;19;17;27;24;34;38;23;36;22;39;39;25;20;18;24;25;23;12;29;24;37;43;67;16;7;16;15;4;12;9;14;11;3;16;9;15;12;14;10;19;11;5;17;6;5;6;14;14
-              firstWeek: 2021-08-01Z
+                21;16;17;19;19;17;27;24;34;38;23;36;22;39;39;25;20;18;24;26;22;12;29;24;37;43;67;16;7;16;15;4;12;9;14;11;3;16;9;15;12;14;10;19;11;5;17;6;5;6;14;14
+              firstWeek: 2021-08-08Z
               stars: 227
               license: Apache License 2.0
               description: >-
@@ -1671,7 +1671,7 @@ landscape:
               badge: 4091
               percentage: 16
             twitter_data:
-              latest_tweet_date: 2022-07-29T13:05:00.000Z
+              latest_tweet_date: 2022-07-31T13:21:00.000Z
   - category:
     name: Hyperledger Certified Service Providers
     subcategories:
@@ -2216,7 +2216,7 @@ landscape:
                 - Outsourcing
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 195284180171
+              market_cap: 194503969752
               effective_ticker: CSA.F
             image_data:
               fileName: accenture-hcsp.svg
@@ -3214,7 +3214,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T05:00:08.000Z
+              latest_tweet_date: 2022-07-31T04:49:00.000Z
           - item:
             name: Proinsight (HCSP)
             description: >-
@@ -3399,7 +3399,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T10:14:01.000Z
+              latest_tweet_date: 2022-07-31T08:20:54.000Z
           - item:
             name: Wipro Limited (HCSP)
             homepage_url: https://wipro.com/
@@ -3529,7 +3529,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 29191732852
+              market_cap: 29195686813
               effective_ticker: WIPRO.NS
             image_data:
               fileName: wipro-limited-hcsp.svg
@@ -4082,7 +4082,7 @@ landscape:
                 - Outsourcing
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 195284180171
+              market_cap: 194503969752
               effective_ticker: CSA.F
             image_data:
               fileName: accenture-global-solutions-limited.svg
@@ -4134,6 +4134,7 @@ landscape:
             name: Fujitsu Limited
             homepage_url: https://fujitsu.com/
             logo: fujitsu_limited.svg
+            twitter: https://twitter.com/Fujitsu_Global
             crunchbase: https://www.crunchbase.com/organization/fujitsu
             crunchbase_data:
               name: Fujitsu
@@ -4215,6 +4216,7 @@ landscape:
             name: Hitachi, Ltd.
             homepage_url: https://hitachi.com/
             logo: hitachi_ltd.svg
+            twitter: https://twitter.com/HitachiGlobal
             crunchbase: https://www.crunchbase.com/organization/hitachi
             crunchbase_data:
               name: Hitachi
@@ -4285,6 +4287,7 @@ landscape:
             name: International Business Machines Corporation
             homepage_url: https://ibm.com/
             logo: international_business_machines_corporation.svg
+            twitter: https://twitter.com/IBM
             crunchbase: https://www.crunchbase.com/organization/ibm
             crunchbase_data:
               name: IBM
@@ -4761,11 +4764,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T15:05:41.000Z
+              latest_tweet_date: 2022-07-31T11:00:19.000Z
           - item:
             name: JPMorgan Chase
             homepage_url: https://jpmorganchase.com/
             logo: jpmorgan_chase.svg
+            twitter: https://twitter.com/jpmorgan
             crunchbase: https://www.crunchbase.com/organization/jpmorgan-chase-co
             crunchbase_data:
               name: JP Morgan Chase
@@ -4936,11 +4940,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-29T19:33:06.000Z
+              latest_tweet_date: 2022-07-31T16:33:35.000Z
           - item:
             name: Avanza Innovations IT Solutions LLC
             homepage_url: https://avanzainnovations.com/
             logo: avanza_innovations_it_solutions_llc.svg
+            twitter: https://twitter.com/avanza_ai
             crunchbase: https://www.crunchbase.com/organization/avanza-innovations
             crunchbase_data:
               name: Avanza Innovations
@@ -5107,11 +5112,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T14:32:31.000Z
+              latest_tweet_date: 2022-07-31T15:23:23.000Z
           - item:
             name: Blockchain Technology Partners
             homepage_url: https://blockchaintp.com/
             logo: blockchain_technology_partners.svg
+            twitter: https://twitter.com/blockchaintp
             crunchbase: https://www.crunchbase.com/organization/blockchain-technology-partners
             crunchbase_data:
               name: BTP
@@ -5246,6 +5252,7 @@ landscape:
             name: Bosch
             homepage_url: https://bosch.com/
             logo: bosch.svg
+            twitter: https://twitter.com/BoschGlobal
             crunchbase: https://www.crunchbase.com/organization/bosch
             crunchbase_data:
               name: Bosch
@@ -5306,11 +5313,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T14:24:14.000Z
+              latest_tweet_date: 2022-07-31T12:27:32.000Z
           - item:
             name: Chainyard
             homepage_url: https://chainyard.com/
             logo: chainyard.svg
+            twitter: https://twitter.com/chainyard
             crunchbase: https://www.crunchbase.com/organization/chainyard-an-it-people-company
             crunchbase_data:
               name: Chainyard - An IT People Company
@@ -5403,6 +5411,7 @@ landscape:
             name: China Systems Holdings Limited
             homepage_url: https://chinasystems.com/
             logo: china_systems_holdings_limited.svg
+            twitter: https://twitter.com/china_systems
             crunchbase: https://www.crunchbase.com/organization/china-systems
             crunchbase_data:
               name: China Systems
@@ -5686,7 +5695,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T12:29:59.000Z
+              latest_tweet_date: 2022-07-31T12:30:01.000Z
           - item:
             name: Corsha
             homepage_url: https://corsha.com/
@@ -5767,6 +5776,7 @@ landscape:
             name: CVS Health
             homepage_url: https://cvshealth.com/
             logo: cvs_health.svg
+            twitter: https://twitter.com/CVSHealth
             crunchbase: https://www.crunchbase.com/organization/cvs-caremark
             crunchbase_data:
               name: CVSHealth
@@ -5912,11 +5922,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T05:22:58.000Z
+              latest_tweet_date: 2022-07-31T06:54:18.000Z
           - item:
             name: Deutsche Telekom AG
             homepage_url: https://telekom.com/
             logo: deutsche_telekom_ag.svg
+            twitter: https://twitter.com/deutschetelekom
             crunchbase: https://www.crunchbase.com/organization/deutsche-telekom
             crunchbase_data:
               name: T-mobile Deutsche Telekom
@@ -5971,11 +5982,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T08:23:33.000Z
+              latest_tweet_date: 2022-07-31T16:53:01.000Z
           - item:
             name: Digital Asset Holdings, LLC
             homepage_url: https://digitalasset.com/
             logo: digital_asset_holdings_llc.svg
+            twitter: https://twitter.com/digitalassetcom
             crunchbase: https://www.crunchbase.com/organization/digital-asset-2
             crunchbase_data:
               name: Digital Asset
@@ -6141,6 +6153,7 @@ landscape:
             name: Estateably Inc.
             homepage_url: https://estateably.com/
             logo: estateably_inc.svg
+            twitter: https://twitter.com/estateably
             crunchbase: https://www.crunchbase.com/organization/estateably-inc
             crunchbase_data:
               name: Estateably
@@ -6267,7 +6280,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-29T14:12:45.000Z
+              latest_tweet_date: 2022-07-31T15:00:29.000Z
           - item:
             name: Filecoin Foundation
             homepage_url: https://fil.org/
@@ -6298,7 +6311,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T14:00:10.000Z
+              latest_tweet_date: 2022-07-31T14:00:03.000Z
           - item:
             name: Flowchain
             homepage_url: https://flowchain.co/
@@ -6390,11 +6403,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T12:09:36.000Z
+              latest_tweet_date: 2022-07-30T23:59:46.000Z
           - item:
             name: Huawei Technologies Co., Ltd
             homepage_url: https://huawei.com/
             logo: huawei_technologies_co_ltd.svg
+            twitter: https://twitter.com/Huawei
             crunchbase: https://www.crunchbase.com/organization/huawei
             crunchbase_data:
               name: Huawei Technologies
@@ -6445,11 +6459,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T01:40:54.000Z
+              latest_tweet_date: 2022-07-31T07:44:04.000Z
           - item:
             name: IDnow GmbH
             homepage_url: https://idnow.io/
             logo: idnow_gmbh.svg
+            twitter: https://twitter.com/IDnowGmbH
             crunchbase: https://www.crunchbase.com/organization/idnow
             crunchbase_data:
               name: IDnow
@@ -6662,6 +6677,7 @@ landscape:
             name: IntellectEU
             homepage_url: https://intellecteu.com/
             logo: intellecteu.svg
+            twitter: https://twitter.com/IntellectEU
             crunchbase: https://www.crunchbase.com/organization/intellecteu
             crunchbase_data:
               name: IntellectEU
@@ -6702,6 +6718,7 @@ landscape:
             name: IO Builders Blockchain Technologies & Ventures
             homepage_url: https://io.builders/
             logo: io_builders_blockchain_technologies__ventures.svg
+            twitter: https://twitter.com/iobuilders
             crunchbase: https://www.crunchbase.com/organization/iobuilders
             crunchbase_data:
               name: Iobuilders
@@ -6794,6 +6811,7 @@ landscape:
             name: IPwe
             homepage_url: https://ipwe.com/
             logo: ipwe.svg
+            twitter: https://twitter.com/ipwe_
             crunchbase: https://www.crunchbase.com/organization/ipwe
             crunchbase_data:
               name: IPwe
@@ -6861,6 +6879,7 @@ landscape:
             name: Kaleido
             homepage_url: https://kaleido.io/
             logo: kaleido.svg
+            twitter: https://twitter.com/Kaleido_io
             crunchbase: https://www.crunchbase.com/organization/kaleido
             crunchbase_data:
               name: Kaleido
@@ -6898,6 +6917,7 @@ landscape:
             name: Krypc Corporation
             homepage_url: https://krypc.com/
             logo: krypc_corporation.svg
+            twitter: https://twitter.com/krypctalk
             crunchbase: https://www.crunchbase.com/organization/krypc
             crunchbase_data:
               name: KrypC
@@ -6930,6 +6950,7 @@ landscape:
             name: LedgerDomain Inc
             homepage_url: https://ledgerdomain.com/
             logo: ledgerdomain_inc.svg
+            twitter: https://twitter.com/LedgerDomain
             crunchbase: https://www.crunchbase.com/organization/ledgerdomain
             crunchbase_data:
               name: LedgerDomain
@@ -7021,7 +7042,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T14:23:11.000Z
+              latest_tweet_date: 2022-07-31T16:18:52.000Z
           - item:
             name: Marketnode
             homepage_url: https://marketnode.com/
@@ -7089,6 +7110,7 @@ landscape:
             name: MediConCen Limited
             homepage_url: https://mediconcen.com/
             logo: mediconcen_limited.svg
+            twitter: https://twitter.com/mediconcen
             crunchbase: https://www.crunchbase.com/organization/mediconcen
             crunchbase_data:
               name: MediConCen
@@ -7195,6 +7217,7 @@ landscape:
             name: Mindtree Limited
             homepage_url: https://mindtree.com/
             logo: mindtree_limited.svg
+            twitter: https://twitter.com/Mindtree_Ltd
             crunchbase: https://www.crunchbase.com/organization/mindtree
             crunchbase_data:
               name: MindTree
@@ -7277,6 +7300,7 @@ landscape:
             name: Moscow Exchange (MICEX-RTS)
             homepage_url: https://moex.com/
             logo: moscow_exchange_micex-rts.svg
+            twitter: https://twitter.com/moscow_exchange
             crunchbase: https://www.crunchbase.com/organization/moscow-exchange
             crunchbase_data:
               name: Moscow Exchange
@@ -7530,6 +7554,7 @@ landscape:
             name: Oracle America Inc.
             homepage_url: https://oracle.com/
             logo: oracle_america_inc.svg
+            twitter: https://twitter.com/Oracle
             crunchbase: https://www.crunchbase.com/organization/oracle
             crunchbase_data:
               name: Oracle
@@ -7885,7 +7910,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T14:29:00.000Z
+              latest_tweet_date: 2022-07-31T14:44:44.000Z
           - item:
             name: Palm NFT Studio
             homepage_url: https://palm.io/
@@ -8037,6 +8062,7 @@ landscape:
             name: Quant Network
             homepage_url: https://quant.network/
             logo: quant_network.svg
+            twitter: https://twitter.com/quant_network
             crunchbase: https://www.crunchbase.com/organization/quant-network
             crunchbase_data:
               name: Quant Network
@@ -8067,11 +8093,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T07:58:02.000Z
+              latest_tweet_date: 2022-07-31T12:42:02.000Z
           - item:
             name: R3 LLC
             homepage_url: https://r3cev.com/
             logo: r3_llc.svg
+            twitter: https://twitter.com/inside_r3
             crunchbase: https://www.crunchbase.com/organization/r3-cev
             crunchbase_data:
               name: R3
@@ -8104,11 +8131,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-29T14:45:04.000Z
+              latest_tweet_date: 2022-07-31T14:46:03.000Z
           - item:
             name: Red Date (Hong Kong) Technology Limited
             homepage_url: https://bsnbase.io/
             logo: red_date_hong_kong_technology_limited.svg
+            twitter: https://twitter.com/bsnbase
             crunchbase: https://www.crunchbase.com/organization/red-date-technology
             crunchbase_data:
               name: Red Date Technology
@@ -8174,7 +8202,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-29T22:02:00.000Z
+              latest_tweet_date: 2022-07-31T01:00:05.000Z
           - item:
             name: Rootchain Technology Co., Ltd
             homepage_url: https://rootchain.com.cn/
@@ -8206,6 +8234,7 @@ landscape:
             name: SBERBANK
             homepage_url: https://sberbank.com/
             logo: sberbank.svg
+            twitter: https://twitter.com/sberbank
             crunchbase: https://www.crunchbase.com/organization/sberbank
             crunchbase_data:
               name: Sberbank
@@ -8302,11 +8331,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T09:46:42.000Z
+              latest_tweet_date: 2022-07-31T16:22:50.000Z
           - item:
             name: SecureKey Technologies, Inc.
             homepage_url: https://securekey.com/
             logo: securekey_technologies_inc.svg
+            twitter: https://twitter.com/SecureKey
             crunchbase: https://www.crunchbase.com/organization/securekey-technologies
             crunchbase_data:
               name: SecureKey Technologies
@@ -8406,6 +8436,7 @@ landscape:
             name: Siemens AG
             homepage_url: https://siemens.com/
             logo: siemens_ag.svg
+            twitter: https://twitter.com/Siemens
             crunchbase: https://www.crunchbase.com/organization/siemens
             crunchbase_data:
               name: Siemens
@@ -8800,6 +8831,7 @@ landscape:
             name: SWIFT, INC.
             homepage_url: https://swift.com/
             logo: swift_inc.svg
+            twitter: https://twitter.com/swiftcommunity
             crunchbase: https://www.crunchbase.com/organization/swift
             crunchbase_data:
               name: SWIFT
@@ -8864,6 +8896,7 @@ landscape:
             name: Tangem AG
             homepage_url: https://tangem.com/
             logo: tangem_ag.svg
+            twitter: https://twitter.com/Tangem
             crunchbase: https://www.crunchbase.com/organization/tangem
             crunchbase_data:
               name: Tangem
@@ -9002,7 +9035,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T10:14:01.000Z
+              latest_tweet_date: 2022-07-31T08:20:54.000Z
           - item:
             name: The Medium
             homepage_url: https://themedium.io/
@@ -9122,11 +9155,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-29T20:39:03.000Z
+              latest_tweet_date: 2022-07-30T23:53:29.000Z
           - item:
             name: Visa Inc.
             homepage_url: https://visa.com/
             logo: visa_inc.svg
+            twitter: https://twitter.com/Visa
             crunchbase: https://www.crunchbase.com/organization/visa
             crunchbase_data:
               name: Visa
@@ -9188,7 +9222,7 @@ landscape:
                 - Payments
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 446813962240
+              market_cap: 447734513664
               effective_ticker: V
             image_data:
               fileName: visa-inc.svg
@@ -9197,7 +9231,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-29T14:00:01.000Z
+              latest_tweet_date: 2022-07-31T14:00:02.000Z
           - item:
             name: Walmart Inc.
             homepage_url: https://walmart.com/
@@ -9274,11 +9308,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T16:54:49.000Z
+              latest_tweet_date: 2022-07-31T16:59:22.000Z
           - item:
             name: We.Trade Innovation DAC
             homepage_url: https://we-trade.com/
             logo: wetrade_innovation_dac.svg
+            twitter: https://twitter.com/we_dot_trade
             crunchbase: https://www.crunchbase.com/organization/we-trade
             crunchbase_data:
               name: we.trade
@@ -9314,6 +9349,7 @@ landscape:
             name: Wipro Limited
             homepage_url: https://wipro.com/
             logo: wipro_limited.svg
+            twitter: https://twitter.com/Wipro
             crunchbase: https://www.crunchbase.com/organization/wipro
             crunchbase_data:
               name: Wipro Technologies
@@ -9439,7 +9475,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 29191732852
+              market_cap: 29195686813
               effective_ticker: WIPRO.NS
             image_data:
               fileName: wipro-limited.svg
@@ -9454,6 +9490,7 @@ landscape:
             homepage_url: https://xilinx.com/
             stock_ticker: null
             logo: xilinx_inc.svg
+            twitter: https://twitter.com/XilinxInc
             crunchbase: https://www.crunchbase.com/organization/xilinx
             crunchbase_data:
               name: Xilinx
@@ -9594,6 +9631,7 @@ landscape:
             name: Accord Project, LLC
             homepage_url: https://accordproject.org/
             logo: accord_project_llc.svg
+            twitter: https://twitter.com/AccordHQ
             crunchbase: https://www.crunchbase.com/organization/accord-project
             crunchbase_data:
               name: Accord Project
@@ -9716,7 +9754,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T16:02:15.000Z
+              latest_tweet_date: 2022-07-31T16:01:47.000Z
           - item:
             name: Association of Blockchain Developers of Saint-Petersburg
             homepage_url: https://spblockchain.ru/
@@ -9784,6 +9822,7 @@ landscape:
             name: Bank of England
             homepage_url: https://bankofengland.co.uk/
             logo: bank_of_england.svg
+            twitter: https://twitter.com/bankofengland
             crunchbase: https://www.crunchbase.com/organization/bank-of-england
             crunchbase_data:
               name: Bank of England
@@ -9816,6 +9855,7 @@ landscape:
             name: Blockchain at Berkeley
             homepage_url: https://blockchain.berkeley.edu/
             logo: blockchain_at_berkeley.svg
+            twitter: https://twitter.com/UCBerkeley
             crunchbase: https://www.crunchbase.com/organization/university-of-california-berkeley
             crunchbase_data:
               name: University of California Berkeley
@@ -9907,7 +9947,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-29T17:22:37.000Z
+              latest_tweet_date: 2022-07-30T23:45:06.000Z
           - item:
             name: Budapest University of Technology and Economics
             homepage_url: https://mit.bme.hu/
@@ -10005,6 +10045,7 @@ landscape:
             name: Chamber of Digital Commerce
             homepage_url: https://digitalchamber.org/
             logo: chamber_of_digital_commerce.svg
+            twitter: https://twitter.com/DigitalChamber
             crunchbase: https://www.crunchbase.com/organization/chamber-of-digital-commerce
             crunchbase_data:
               name: Chamber of Digital Commerce
@@ -10065,6 +10106,7 @@ landscape:
             name: Cloud Security Alliance
             homepage_url: https://cloudsecurityalliance.org/
             logo: cloud_security_alliance.svg
+            twitter: https://twitter.com/cloudsa
             crunchbase: https://www.crunchbase.com/organization/cloud-security-alliance
             crunchbase_data:
               name: Cloud Security Alliance
@@ -10092,7 +10134,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T16:05:26.000Z
+              latest_tweet_date: 2022-07-31T16:04:26.000Z
           - item:
             name: Construction Blockchain Consortium
             homepage_url: https://constructionblockchain.org/
@@ -10128,6 +10170,7 @@ landscape:
             name: CPQD
             homepage_url: https://cpqd.com.br/
             logo: cpqd.svg
+            twitter: https://twitter.com/cpqd
             crunchbase: https://www.crunchbase.com/organization/cpqd
             crunchbase_data:
               name: CPQD
@@ -10159,6 +10202,7 @@ landscape:
             name: Decentralized Identity Foundation
             homepage_url: https://identity.foundation/
             logo: decentralized_identity_foundation.svg
+            twitter: https://twitter.com/DecentralizedID
             crunchbase: https://www.crunchbase.com/organization/decentralized-identity-foundation
             crunchbase_data:
               name: Decentralized Identity Foundation
@@ -10215,7 +10259,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T16:00:07.000Z
+              latest_tweet_date: 2022-07-30T19:00:05.000Z
           - item:
             name: ETC Cooperative (The Ethereum Classic Cooperative)
             homepage_url: https://etccooperative.org/
@@ -10250,6 +10294,7 @@ landscape:
             name: Ethereum Foundation
             homepage_url: https://ethereum.org/
             logo: ethereum_foundation.svg
+            twitter: https://twitter.com/ethereum
             crunchbase: https://www.crunchbase.com/organization/ethereum
             crunchbase_data:
               name: Ethereum Foundation
@@ -10286,7 +10331,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T12:07:54.000Z
+              latest_tweet_date: 2022-07-30T19:13:30.000Z
           - item:
             name: Federal Reserve Bank of Boston
             homepage_url: https://bostonfed.org/
@@ -10318,7 +10363,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T13:39:01.000Z
+              latest_tweet_date: 2022-07-31T15:46:02.000Z
           - item:
             name: Fujian Blockchain Association
             homepage_url: https://fjchain.net/
@@ -10352,6 +10397,7 @@ landscape:
             name: Global Blockchain Business Council
             homepage_url: https://gbbcouncil.org/
             logo: global_blockchain_business_council.svg
+            twitter: https://twitter.com/GBBCouncil
             crunchbase: https://www.crunchbase.com/organization/global-blockchain-business-council
             crunchbase_data:
               name: Global Blockchain Business Council
@@ -10438,7 +10484,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T15:45:10.000Z
+              latest_tweet_date: 2022-07-31T16:01:21.000Z
           - item:
             name: Initiative for CryptoCurrencies and Contracts (IC3)
             homepage_url: https://initc3.org/
@@ -10507,6 +10553,7 @@ landscape:
             name: InterWork Alliance, Inc.
             homepage_url: https://interwork.org/
             logo: interwork_alliance_inc.svg
+            twitter: https://twitter.com/IntWorkAll
             crunchbase: https://www.crunchbase.com/organization/interwork-alliance-e317
             crunchbase_data:
               name: InterWork Alliance
@@ -10536,6 +10583,7 @@ landscape:
             name: Kerala Blockchain Academy
             homepage_url: https://kba.ai/
             logo: kerala_blockchain_academy.svg
+            twitter: https://twitter.com/kbaiiitmk
             crunchbase: https://www.crunchbase.com/organization/kerala-blockchain-academy
             crunchbase_data:
               name: Kerala Blockchain Academy
@@ -10665,7 +10713,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T00:14:14.000Z
+              latest_tweet_date: 2022-07-31T15:37:43.000Z
           - item:
             name: Ministry of Finance of the Republic of Lithuania
             homepage_url: https://finmin.lrv.lt/
@@ -10701,6 +10749,7 @@ landscape:
             name: MIT Connection Science
             homepage_url: https://mit.edu/
             logo: mit_connection_science.svg
+            twitter: https://twitter.com/MIT
             crunchbase: https://www.crunchbase.com/organization/massachusetts-institute-of-technology-mit
             crunchbase_data:
               name: Massachusetts Institute of Technology
@@ -10730,7 +10779,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T15:05:13.000Z
+              latest_tweet_date: 2022-07-31T15:05:11.000Z
           - item:
             name: Mobility Open Blockchain Initiative (MOBI)
             homepage_url: https://dlt.mobi/
@@ -10827,6 +10876,7 @@ landscape:
             name: Open Earth Foundation
             homepage_url: https://openfoundation.earth/
             logo: open_earth_foundation.svg
+            twitter: https://twitter.com/Open__Earth
             crunchbase: https://www.crunchbase.com/organization/open-earth-foundation
             crunchbase_data:
               name: Open Earth Foundation
@@ -10887,7 +10937,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T15:56:06.000Z
+              latest_tweet_date: 2022-07-31T12:54:01.000Z
           - item:
             name: Penn Blockchain Club
             homepage_url: https://pennblockchain.com/
@@ -10917,7 +10967,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-29T23:30:12.000Z
+              latest_tweet_date: 2022-07-31T12:32:28.000Z
           - item:
             name: Portland State University
             homepage_url: https://pdx.edu/
@@ -10990,6 +11040,7 @@ landscape:
             name: Saintgits College of Engineering
             homepage_url: https://saintgits.org/
             logo: saintgits_college_of_engineering.svg
+            twitter: https://twitter.com/SaintgitsGroup
             crunchbase: https://www.crunchbase.com/organization/saintgits-college-of-engineering
             crunchbase_data:
               name: Saintgits College of Engineering
@@ -11153,6 +11204,7 @@ landscape:
             name: Tecnalia Corporation
             homepage_url: https://tecnalia.com/
             logo: tecnalia_corporation.svg
+            twitter: https://twitter.com/tecnalia
             crunchbase: https://www.crunchbase.com/organization/tecnalia
             crunchbase_data:
               name: Tecnalia
@@ -11200,6 +11252,7 @@ landscape:
             name: The National FinTech Center at Morgan State University
             homepage_url: https://fintech.morgan.edu/
             logo: the_national_fintech_center_at_morgan_state_university.svg
+            twitter: https://twitter.com/MorganStateU
             crunchbase: https://www.crunchbase.com/organization/morgan-state-university
             crunchbase_data:
               name: Morgan State University
@@ -11296,6 +11349,7 @@ landscape:
             name: UCLA Blockchain Lab
             homepage_url: https://humnet.ucla.edu/
             logo: ucla_blockchain_lab.svg
+            twitter: https://twitter.com/UCLA
             crunchbase: https://www.crunchbase.com/organization/university-of-california-los-angeles
             crunchbase_data:
               name: University of California, Los Angeles
@@ -11325,7 +11379,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-29T23:00:21.000Z
+              latest_tweet_date: 2022-07-30T17:00:06.000Z
           - item:
             name: United Nations (International Computing Centre)
             homepage_url: https://unicc.org/
@@ -11373,8 +11427,8 @@ landscape:
               city: Buenos Aires
               region: Distrito Federal
               country: Argentina
-              twitter: https://www.twitter.com/utn_frre
-              linkedin: null
+              twitter: https://twitter.com/SomosLaSEU
+              linkedin: https://www.linkedin.com/company/universidad-tecnol-gica-nacional---facultad-regional-c-rdoba/
               acquisitions: []
               parents: []
               funding: 20000000
@@ -11397,11 +11451,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-04-26T01:38:51.000Z
+              latest_tweet_date: 2021-09-15T17:52:50.000Z
           - item:
             name: University College London
             homepage_url: https://ucl.ac.uk/
             logo: university_college_london.svg
+            twitter: https://twitter.com/uclnews
             crunchbase: https://www.crunchbase.com/organization/university-college-london-u-of-london
             crunchbase_data:
               name: University College London (UCL)
@@ -11497,6 +11552,7 @@ landscape:
             name: University of Southern California
             homepage_url: https://usc.edu/
             logo: university_of_southern_california.svg
+            twitter: https://twitter.com/USC
             crunchbase: https://www.crunchbase.com/organization/university-of-southern-california
             crunchbase_data:
               name: University of Southern California
@@ -11526,7 +11582,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-29T22:10:56.000Z
+              latest_tweet_date: 2022-07-30T18:30:01.000Z
           - item:
             name: Vilnius Gediminas Technical University
             homepage_url: https://vgtu.it/
@@ -11592,6 +11648,7 @@ landscape:
             name: XPRIZE
             homepage_url: https://xprize.org/
             logo: xprize.svg
+            twitter: https://twitter.com/xprize
             crunchbase: https://www.crunchbase.com/organization/x-prize-foundation
             crunchbase_data:
               name: XPRIZE
@@ -11656,6 +11713,7 @@ landscape:
             name: Zhejiang University
             homepage_url: https://www.zju.edu.cn/
             logo: zhejiang_university.svg
+            twitter: https://twitter.com/ZJU_China
             crunchbase: https://www.crunchbase.com/organization/zhejiang-university
             crunchbase_data:
               name: Zhejiang University
@@ -11680,7 +11738,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T12:19:01.000Z
+              latest_tweet_date: 2022-07-31T12:20:06.000Z
   - category:
     name: Hyperledger Training Partners
     subcategories:
@@ -11736,7 +11794,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T12:29:59.000Z
+              latest_tweet_date: 2022-07-31T12:30:01.000Z
           - item:
             name: EMURGO (HTP)
             homepage_url: https://emurgo.io/
@@ -12280,7 +12338,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-07-30T15:05:41.000Z
+              latest_tweet_date: 2022-07-31T11:00:19.000Z
           - item:
             name: Kerala Blockchain Academy (HTP)
             homepage_url: https://kba.ai/
@@ -12417,4 +12475,4 @@ landscape:
 twitter_options:
   count: 8
   since_id: '1456476546764447749'
-updated_at: 2022-07-30T17:10:10.312Z
+updated_at: 2022-07-31T17:13:28.192Z
