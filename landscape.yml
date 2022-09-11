@@ -317,6 +317,18 @@ landscape:
             extra:
               wiki: https://wiki.hyperledger.org/display/fir
               chat: https://discord.com/channels/905194001349627914/928377875827154984
+          - item:
+            name: Hyperledger Solang
+            description: >-
+                   Hyperledger Solang is a compiler for Solidity source code and targets different blockchains. The Solidity programming language is the most popular language for smart contracts, and there is clear interest from many blockchains to have support for it.
+            homepage_url: https://www.hyperledger.org/use/solang
+            project: incubating
+            repo_url: https://github.com/hyperledger/solang
+            additional_repos:
+              - repo_url: https://github.com/hyperledger/homebrew-solang
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            extra:
+              chat: https://discord.com/channels/905194001349627914/905834552965103638
       - subcategory:
         name: Domain Specific
         items:
