@@ -317,6 +317,18 @@ landscape:
             extra:
               wiki: https://wiki.hyperledger.org/display/fir
               chat: https://discord.com/channels/905194001349627914/928377875827154984
+          - item:
+            name: Hyperledger Solang
+            description: >-
+              Hyperledger Solang is a Solidity compiler written in rust which uses llvm as the compiler backend. Solang can compile Solidity for Solana and Substrate.
+            homepage_url: https://www.hyperledger.org/use/solang
+            project: incubating
+            repo_url: https://github.com/hyperledger/solang
+            logo: hyperledger-solang.svg
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            extra:
+              wiki: https://wiki.hyperledger.org/display/SOL/Hyperledger+Solang
+              chat: https://discord.com/channels/905194001349627914/905834552965103638
       - subcategory:
         name: Domain Specific
         items:
