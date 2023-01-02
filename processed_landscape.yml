@@ -82,9 +82,9 @@ landscape:
                   value: 492
                   color: '#701516'
               contributions: >-
-                18;21;19;20;14;8;38;28;11;36;30;8;23;20;12;9;11;17;21;24;24;9;19;20;13;16;17;19;21;22;19;11;22;31;8;22;16;26;10;38;20;17;9;16;18;24;18;23;25;13;32;3
+                19;20;20;20;13;9;39;26;13;34;30;8;23;21;11;9;11;17;21;24;25;10;17;20;14;17;16;18;21;23;19;10;22;31;9;21;17;26;9;38;20;17;10;16;18;23;19;22;29;9;32;3
               firstWeek: 2022-01-09Z
-              stars: 1096
+              stars: 1097
               license: Apache License 2.0
               description: An enterprise-grade Java-based, Apache 2.0 licensed Ethereum client https://wiki.hyperledger.org/display/besu
               latest_commit_date: '2022-12-30T19:25:15Z'
@@ -95,7 +95,7 @@ landscape:
               contributors_link: https://github.com/hyperledger/besu/graphs/contributors
             repos:
               - url: https://github.com/hyperledger/besu
-                stars: 1045
+                stars: 1046
               - url: https://github.com/hyperledger/besu-docs
                 stars: 38
               - url: https://github.com/hyperledger/besu-native
@@ -153,40 +153,32 @@ landscape:
             github_data:
               languages:
                 - name: Go
-                  value: 20737851
+                  value: 20489816
                   color: '#00ADD8'
                 - name: JavaScript
                   value: 5733138
                   color: '#f1e05a'
                 - name: Java
-                  value: 3655898
+                  value: 4032394
                   color: '#b07219'
                 - name: TypeScript
                   value: 1270463
                   color: '#2b7489'
                 - name: Shell
-                  value: 1237650
+                  value: 1136557
                   color: '#89e051'
                 - name: Python
                   value: 699293
                   color: '#3572A5'
                 - name: Gherkin
-                  value: 122003
+                  value: 141614
                   color: '#5B2063'
-                - name: C
-                  value: 117006
-                  color: '#555555'
                 - name: Makefile
-                  value: 116557
+                  value: 77216
                   color: '#427819'
-                - name: C++
-                  value: 111436
-                  color: '#f34b7d'
                 - name: Dockerfile
-                  value: 46309
+                  value: 28950
                   color: '#384d54'
-                - name: CMake
-                  value: 26535
                 - name: Jupyter Notebook
                   value: 15503
                   color: '#DA5B0B'
@@ -201,9 +193,9 @@ landscape:
                   value: 103
                   color: '#c065db'
               contributions: >-
-                10;21;17;26;28;22;14;20;12;24;16;18;26;17;13;25;34;32;30;28;22;15;30;33;36;22;26;17;26;11;17;7;18;16;3;20;10;10;11;16;12;28;19;12;14;22;11;16;6;32;0;1
+                12;18;18;20;28;24;12;23;8;24;15;18;22;15;12;25;34;30;24;25;21;15;26;23;33;22;26;17;20;11;17;8;14;12;4;19;10;12;11;15;13;25;21;9;10;18;8;17;8;31;0;1
               firstWeek: 2022-01-09Z
-              stars: 21461
+              stars: 21477
               license: Apache License 2.0
               description: >-
                 Hyperledger Fabric is an enterprise-grade permissioned distributed ledger framework for developing solutions and applications. Its modular and
@@ -213,15 +205,15 @@ landscape:
               latest_commit_link: /hyperledger/fabric/commit/c12cd0cdc9ba29a311c8263e234750042a833646
               release_date: '2022-12-15T19:48:17Z'
               release_link: https://github.com/hyperledger/fabric/releases
-              contributors_count: 619
+              contributors_count: 606
               contributors_link: https://github.com/hyperledger/fabric/graphs/contributors
             repos:
               - url: https://github.com/hyperledger/fabric
-                stars: 14268
+                stars: 14270
               - url: https://github.com/hyperledger/fabric-samples
-                stars: 2378
+                stars: 2380
               - url: https://github.com/hyperledger/fabric-sdk-java
-                stars: 1093
+                stars: 1092
               - url: https://github.com/hyperledger/fabric-sdk-go
                 stars: 856
               - url: https://github.com/hyperledger/fabric-sdk-node
@@ -231,15 +223,15 @@ landscape:
               - url: https://github.com/hyperledger/fabric-sdk-py
                 stars: 376
               - url: https://github.com/hyperledger/fabric-chaincode-java
-                stars: 273
+                stars: 274
               - url: https://github.com/hyperledger/fabric-chaincode-node
                 stars: 210
+              - url: https://github.com/hyperledger/fabric-gateway-java
+                stars: 179
               - url: https://github.com/hyperledger/fabric-contract-api-go
                 stars: 160
               - url: https://github.com/hyperledger/fabric-test
                 stars: 148
-              - url: https://github.com/hyperledger/fabric-private-chaincode
-                stars: 130
               - url: https://github.com/hyperledger/fabric-chaincode-go
                 stars: 103
               - url: https://github.com/hyperledger/fabric-gateway
@@ -248,8 +240,6 @@ landscape:
                 stars: 69
               - url: https://github.com/hyperledger/fabric-protos-go
                 stars: 39
-              - url: https://github.com/hyperledger/fabric-protos
-                stars: 37
               - url: https://github.com/hyperledger/fabric-rfcs
                 stars: 28
               - url: https://github.com/hyperledger/fabric-config
@@ -270,7 +260,7 @@ landscape:
               badge: 955
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2022-12-29T16:00:01.000Z
+              latest_tweet_date: 2023-01-01T19:47:19.000Z
           - item:
             name: Hyperledger Indy
             description: >-
@@ -380,7 +370,7 @@ landscape:
                   value: 1795
                 - name: Jinja
                   value: 1587
-              contributions: 29;19;13;6;19;8;31;21;9;2;7;11;17;19;15;9;6;13;2;5;3;2;5;7;3;6;4;0;2;1;12;6;13;5;18;8;10;4;0;1;5;15;6;9;4;15;0;7;6;1;1;2
+              contributions: 29;19;13;6;19;8;31;21;9;2;7;11;17;19;15;9;6;13;2;5;3;2;5;7;5;5;3;0;2;6;7;6;13;5;18;8;10;4;0;2;4;15;6;9;4;15;0;7;6;1;1;2
               firstWeek: 2022-01-09Z
               stars: 1676
               license: Apache License 2.0
@@ -428,7 +418,7 @@ landscape:
               badge: 1983
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2022-12-29T16:00:01.000Z
+              latest_tweet_date: 2023-01-01T19:47:19.000Z
           - item:
             name: Hyperledger Iroha
             description: >-
@@ -534,7 +524,7 @@ landscape:
                 - name: Rust
                   value: 88
                   color: '#dea584'
-              contributions: 1;0;2;3;24;8;16;12;9;9;2;9;8;12;1;1;7;1;5;32;27;19;19;3;8;4;8;9;0;9;8;5;2;17;13;6;26;5;2;4;2;18;5;4;2;0;4;1;2;0;5;2
+              contributions: 1;0;2;5;22;8;16;12;9;9;3;8;9;11;1;1;7;1;5;32;27;19;19;3;8;4;9;8;0;9;8;5;2;18;12;6;27;4;3;3;2;18;5;4;2;0;4;1;2;0;5;2
               firstWeek: 2022-01-09Z
               stars: 702
               license: Apache License 2.0
@@ -576,7 +566,7 @@ landscape:
               badge: 960
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2022-12-29T16:00:01.000Z
+              latest_tweet_date: 2023-01-01T19:47:19.000Z
           - item:
             name: Hyperledger Sawtooth
             description: >-
@@ -723,7 +713,7 @@ landscape:
               badge: 954
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2022-12-29T16:00:01.000Z
+              latest_tweet_date: 2023-01-01T19:47:19.000Z
       - subcategory:
         name: Libraries
         items:
@@ -782,7 +772,7 @@ landscape:
                 - name: Shell
                   value: 3043
                   color: '#89e051'
-              contributions: 6;2;0;0;0;0;15;8;3;0;2;6;13;4;11;0;8;4;10;6;0;5;3;3;4;10;5;13;7;3;11;4;1;9;2;1;2;6;13;1;5;21;16;33;22;10;17;2;16;14;3;4
+              contributions: 6;2;0;0;0;0;21;3;2;0;3;5;13;8;7;0;10;4;11;3;0;5;3;3;5;9;7;14;4;4;10;4;1;9;2;1;2;6;13;1;5;21;16;33;22;11;16;2;16;14;4;3
               firstWeek: 2022-01-09Z
               stars: 45
               license: Apache License 2.0
@@ -808,7 +798,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-29T16:00:01.000Z
+              latest_tweet_date: 2023-01-01T19:47:19.000Z
           - item:
             name: Hyperledger Aries
             description: >-
@@ -921,9 +911,9 @@ landscape:
                   value: 158
                   color: '#ffac45'
               contributions: >-
-                49;61;148;137;89;127;118;83;96;118;109;93;150;149;166;86;86;96;103;92;88;73;102;116;126;90;48;32;73;79;74;68;84;99;71;59;41;77;64;67;52;112;76;56;85;29;56;46;26;43;69;12
+                49;61;148;139;88;128;119;81;95;120;109;91;159;153;153;91;82;99;99;92;88;74;101;117;134;84;45;32;78;76;74;66;84;99;71;60;40;82;60;67;59;106;75;55;85;29;56;50;23;43;68;12
               firstWeek: 2022-01-09Z
-              stars: 1678
+              stars: 1680
               license: Apache License 2.0
               description: Hyperledger Aries is infrastructure for blockchain-rooted, peer-to-peer interactions
               latest_commit_date: '2022-07-06T02:54:16Z'
@@ -932,9 +922,9 @@ landscape:
               contributors_link: https://github.com/hyperledger/aries/graphs/contributors
             repos:
               - url: https://github.com/hyperledger/aries
-                stars: 228
+                stars: 229
               - url: https://github.com/hyperledger/aries-cloudagent-python
-                stars: 314
+                stars: 315
               - url: https://github.com/hyperledger/aries-rfcs
                 stars: 278
               - url: https://github.com/hyperledger/aries-framework-go
@@ -983,7 +973,7 @@ landscape:
               badge: 4088
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2022-12-29T16:00:01.000Z
+              latest_tweet_date: 2023-01-01T19:47:19.000Z
           - item:
             name: Hyperledger Transact
             description: >-
@@ -1076,7 +1066,7 @@ landscape:
               badge: 4092
               percentage: 15
             twitter_data:
-              latest_tweet_date: 2022-12-29T16:00:01.000Z
+              latest_tweet_date: 2023-01-01T19:47:19.000Z
           - item:
             name: Hyperledger Ursa
             description: >-
@@ -1175,7 +1165,7 @@ landscape:
               badge: 2447
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2022-12-29T16:00:01.000Z
+              latest_tweet_date: 2023-01-01T19:47:19.000Z
       - subcategory:
         name: Tools
         items:
@@ -1244,7 +1234,7 @@ landscape:
                   color: '#e34c26'
                 - name: Mustache
                   value: 1992
-              contributions: 3;5;13;5;9;6;39;4;17;8;4;3;0;7;26;5;5;1;10;0;11;9;9;10;5;7;2;0;0;6;2;7;2;1;3;2;6;9;0;4;4;4;4;4;9;2;5;0;4;22;0;0
+              contributions: 3;5;13;5;9;6;40;3;17;8;4;3;0;7;26;5;5;1;10;0;11;9;9;10;5;7;2;0;1;5;3;6;2;1;3;2;6;9;0;4;4;4;4;4;9;2;5;2;2;22;0;0
               firstWeek: 2022-01-09Z
               stars: 291
               license: Apache License 2.0
@@ -1268,7 +1258,7 @@ landscape:
               badge: 3548
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2022-12-29T16:00:01.000Z
+              latest_tweet_date: 2023-01-01T19:47:19.000Z
           - item:
             name: Hyperledger Cacti
             description: Hyperledger Cacti is a blockchain integration tool designed to allow users to securely integrate different blockchains.
@@ -1342,7 +1332,7 @@ landscape:
                 - name: CSS
                   value: 127
                   color: '#563d7c'
-              contributions: 2;7;19;4;7;9;6;6;5;5;20;4;7;7;7;3;8;1;9;6;10;1;0;3;1;5;0;8;5;2;2;1;2;2;2;2;0;0;0;1;0;2;0;7;5;5;6;3;3;1;1;2
+              contributions: 2;7;19;4;7;9;6;6;5;7;18;4;7;7;7;3;8;1;10;7;8;1;0;3;1;5;0;8;5;2;2;1;2;2;2;2;0;0;0;1;0;2;0;7;5;5;6;3;3;1;2;1
               firstWeek: 2022-01-09Z
               stars: 250
               license: Apache License 2.0
@@ -1366,7 +1356,7 @@ landscape:
               badge: 4089
               percentage: 97
             twitter_data:
-              latest_tweet_date: 2022-12-29T16:00:01.000Z
+              latest_tweet_date: 2023-01-01T19:47:19.000Z
           - item:
             name: Hyperledger Caliper
             description: >-
@@ -1432,9 +1422,9 @@ landscape:
                 - name: TypeScript
                   value: 1988
                   color: '#2b7489'
-              contributions: 3;0;2;1;1;4;3;8;8;7;0;3;1;5;4;0;12;0;10;5;2;2;0;1;4;11;11;1;7;2;17;3;0;0;0;0;0;1;1;1;2;8;2;0;0;0;0;0;0;0;0;0
+              contributions: 3;0;2;1;1;4;3;8;8;7;0;3;1;5;4;0;12;0;10;5;2;2;0;1;6;9;11;1;7;2;17;3;0;0;0;0;0;1;1;1;2;8;2;0;0;0;0;0;0;0;0;0
               firstWeek: 2022-01-09Z
-              stars: 635
+              stars: 634
               license: Apache License 2.0
               description: ' A blockchain benchmark framework to measure performance of multiple blockchain solutions https://wiki.hyperledger.org/display/caliper'
               latest_commit_date: '2022-10-28T17:16:53Z'
@@ -1445,7 +1435,7 @@ landscape:
               contributors_link: https://github.com/hyperledger/caliper/graphs/contributors
             repos:
               - url: https://github.com/hyperledger/caliper
-                stars: 557
+                stars: 556
               - url: https://github.com/hyperledger/caliper-benchmarks
                 stars: 78
             github_start_commit_data:
@@ -1458,7 +1448,7 @@ landscape:
               badge: 2381
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2022-12-29T16:00:01.000Z
+              latest_tweet_date: 2023-01-01T19:47:19.000Z
           - item:
             name: Hyperledger Cello
             description: >-
@@ -1519,7 +1509,7 @@ landscape:
                   color: '#427819'
                 - name: EJS
                   value: 4678
-              contributions: 6;7;6;7;1;3;6;6;0;2;10;7;2;4;3;3;0;2;1;4;0;9;4;3;3;3;7;3;5;2;0;5;4;3;1;3;2;8;0;2;3;2;6;8;3;4;0;2;4;1;0;4
+              contributions: 7;6;6;7;1;3;6;6;0;2;11;6;4;2;3;3;0;2;2;3;2;7;4;3;3;3;8;2;5;2;0;5;4;3;1;3;2;8;0;2;3;2;6;8;3;4;0;2;4;1;0;4
               firstWeek: 2022-01-09Z
               stars: 843
               license: Apache License 2.0
@@ -1545,7 +1535,7 @@ landscape:
               badge: 4090
               percentage: 21
             twitter_data:
-              latest_tweet_date: 2022-12-29T16:00:01.000Z
+              latest_tweet_date: 2023-01-01T19:47:19.000Z
           - item:
             name: Hyperledger Firefly
             description: >-
@@ -1617,7 +1607,7 @@ landscape:
                   value: 2110
                   color: '#563d7c'
               contributions: >-
-                122;63;72;85;95;142;88;74;85;69;167;105;200;253;326;277;230;126;64;77;54;61;53;67;92;46;63;62;36;70;109;104;116;84;136;27;39;41;27;21;21;27;1;18;35;22;2;5;16;11;10;5
+                122;64;80;76;101;136;88;74;86;96;154;105;186;265;313;277;237;119;64;77;54;61;53;68;92;46;63;61;36;73;109;101;118;82;137;29;36;41;27;21;21;27;1;18;35;22;3;4;17;10;10;5
               firstWeek: 2022-01-09Z
               stars: 530
               license: Apache License 2.0
@@ -1674,7 +1664,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-29T16:00:01.000Z
+              latest_tweet_date: 2023-01-01T19:47:19.000Z
           - item:
             name: Hyperledger Solang
             description: >-
@@ -1731,7 +1721,7 @@ landscape:
                 - name: C++
                   value: 462
                   color: '#f34b7d'
-              contributions: 16;5;0;4;12;10;9;4;9;5;6;3;6;4;10;14;21;12;22;14;7;9;11;8;8;6;12;12;14;7;5;16;5;8;8;7;11;7;4;10;4;10;1;5;2;10;7;4;5;9;9;1
+              contributions: 16;5;1;4;11;10;9;4;9;5;6;3;6;4;10;14;21;14;20;14;9;7;13;6;8;7;11;12;14;7;5;17;4;8;8;7;11;8;3;10;4;10;1;5;3;9;7;4;5;9;9;1
               firstWeek: 2022-01-09Z
               stars: 931
               license: Apache License 2.0
@@ -1755,7 +1745,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-29T16:00:01.000Z
+              latest_tweet_date: 2023-01-01T19:47:19.000Z
       - subcategory:
         name: Domain Specific
         items:
@@ -1826,7 +1816,7 @@ landscape:
                   color: '#2b7489'
                 - name: HCL
                   value: 1725
-              contributions: 29;24;37;43;67;16;7;16;15;4;12;9;14;11;3;16;9;15;12;14;10;19;11;5;17;6;5;6;14;14;0;2;0;5;4;0;2;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0
+              contributions: 29;24;37;43;69;14;7;16;15;4;12;9;14;11;3;16;9;15;12;14;10;19;11;5;17;6;5;6;14;14;0;2;0;5;4;0;2;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0
               firstWeek: 2022-01-09Z
               stars: 242
               license: Apache License 2.0
@@ -1856,7 +1846,7 @@ landscape:
               badge: 4091
               percentage: 16
             twitter_data:
-              latest_tweet_date: 2022-12-29T16:00:01.000Z
+              latest_tweet_date: 2023-01-01T19:47:19.000Z
   - category:
     name: Hyperledger Certified Service Providers
     subcategories:
@@ -2417,7 +2407,7 @@ landscape:
                 - Outsourcing
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 170189990965
+              market_cap: 168796297839
               effective_ticker: CSA.F
             image_data:
               fileName: accenture-hcsp.svg
@@ -2576,7 +2566,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-23T17:57:54.000Z
+              latest_tweet_date: 2023-01-01T18:30:00.000Z
           - item:
             name: Espeo Software (HCSP)
             description: >-
@@ -2683,7 +2673,7 @@ landscape:
                 - Public Relations
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 47853380645
+              market_cap: 47975578795
               effective_ticker: 6501.T
             image_data:
               fileName: hitachi-hcsp.svg
@@ -2692,7 +2682,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-01-01T07:00:07.000Z
+              latest_tweet_date: 2023-01-02T10:00:05.000Z
           - item:
             name: IBM (HCSP)
             description: >-
@@ -3262,7 +3252,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-23T15:51:49.000Z
+              latest_tweet_date: 2023-01-02T08:46:42.000Z
           - item:
             name: Kaleido (HCSP)
             description: >-
@@ -3342,7 +3332,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-27T07:19:08.000Z
+              latest_tweet_date: 2023-01-02T08:30:13.000Z
           - item:
             name: Mindtree (HCSP)
             description: >-
@@ -3455,7 +3445,7 @@ landscape:
                 - Telecommunications
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 9444258869
+              market_cap: 9468375681
               effective_ticker: 6701.T
             image_data:
               fileName: nec-corporation-hcsp.svg
@@ -3649,7 +3639,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-01-01T03:30:31.000Z
+              latest_tweet_date: 2023-01-02T10:28:40.000Z
           - item:
             name: Wipro Limited (HCSP)
             homepage_url: https://wipro.com/
@@ -3774,7 +3764,7 @@ landscape:
                 - Information Technology
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 25983828504
+              market_cap: 25997574930
               effective_ticker: WIPRO.NS
             image_data:
               fileName: wipro-limited-hcsp.svg
@@ -4343,7 +4333,7 @@ landscape:
                 - Outsourcing
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 170189990965
+              market_cap: 168796297839
               effective_ticker: CSA.F
             image_data:
               fileName: accenture-global-solutions-limited.svg
@@ -4465,7 +4455,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 26155713969
+              market_cap: 26222505067
               effective_ticker: 6702.T
             image_data:
               fileName: fujitsu-limited.svg
@@ -4538,7 +4528,7 @@ landscape:
                 - Public Relations
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 47853380645
+              market_cap: 47975578795
               effective_ticker: 6501.T
             image_data:
               fileName: hitachi-ltd.svg
@@ -4547,7 +4537,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-01-01T07:00:07.000Z
+              latest_tweet_date: 2023-01-02T10:00:05.000Z
           - item:
             name: International Business Machines Corporation
             homepage_url: https://ibm.com/
@@ -5033,81 +5023,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-01-01T05:23:54.000Z
-          - item:
-            name: JPMorgan Chase
-            homepage_url: https://jpmorganchase.com/
-            logo: jpmorgan_chase.svg
-            twitter: https://twitter.com/jpmorgan
-            crunchbase: https://www.crunchbase.com/organization/jpmorgan-chase-co
-            crunchbase_data:
-              name: JP Morgan Chase
-              description: JP Morgan Chase is a global financial services provider that offers investment banking, asset management, treasury, and other services.
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: http://www.jpmorganchase.com
-              city: New York
-              region: New York
-              country: United States
-              twitter: https://twitter.com/jpmorgan
-              linkedin: https://www.linkedin.com/company/jpmorgan-chase?trk=top_nav_home
-              acquisitions:
-                - date: '1999-09-28'
-                  acquiree: Hambrecht & Quist
-                  price: 1350000000
-                - date: '2004-01-15'
-                  acquiree: Bank One
-                  price: 58000000000
-                - date: '2005-06-23'
-                  acquiree: Neovest Holdings
-                - date: '2005-12-15'
-                  acquiree: Collegiate Funding Services
-                - date: '2007-05-17'
-                  acquiree: Xign Corporation
-                - date: '2008-03-01'
-                  acquiree: Xspand
-                - date: '2008-03-17'
-                  acquiree: Bear Stearns
-                - date: '2008-09-26'
-                  acquiree: Washington Mutual
-                - date: '2009-11-19'
-                  acquiree: J.P. Morgan Cazenove
-                - date: '2017-10-17'
-                  acquiree: WePay
-                  price: 400000000
-                - date: '2019-05-17'
-                  acquiree: InstaMed
-                - date: '2020-12-28'
-                  acquiree: cxLoyalty Group-Global Loyalty business
-                - date: '2021-09-09'
-                  acquiree: The Infatuation
-                - date: '2021-09-21'
-                  acquiree: Frank Financial Aid
-                - date: '2022-02-17'
-                  acquiree: FROSCH
-                - date: '2022-03-01'
-                  acquiree: Global Shares
-              parents: []
-              ticker: JPM
-              funding: 3000000
-              stockExchange: nyse
-              company_type: For Profit
-              industries:
-                - Asset Management
-                - Banking
-                - Financial Services
-              kind: market_cap
-            yahoo_finance_data:
-              market_cap: 393342124032
-              effective_ticker: JPM
-            image_data:
-              fileName: jp-morgan-chase.svg
-              hash: hPdxL2i1uuLbLvhAUdAgwL6KG8rpBJ7kbIrH1GhyK6A=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-12-28T13:14:42.000Z
+              latest_tweet_date: 2023-01-02T10:03:55.000Z
       - subcategory:
         name: General
         items:
@@ -5211,7 +5127,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-31T00:34:00.000Z
+              latest_tweet_date: 2023-01-01T16:08:52.000Z
           - item:
             name: Avanza Innovations IT Solutions LLC
             homepage_url: https://avanzainnovations.com/
@@ -5265,111 +5181,6 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2022-12-21T02:42:25.000Z
-          - item:
-            name: Beijing Proinsight Technology Co., Ltd.
-            homepage_url: https://proinsight.cn/
-            logo: beijing_proinsight_technology_co_ltd.svg
-            crunchbase: https://www.crunchbase.com/organization/beijing-proinsight-technology
-            crunchbase_data:
-              name: Beijing Proinsight Technology
-              description: Beijing Proinsight Technology is a corporation devoted to providing professional blockchain technological services for enterprise clients.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: http://proinsight.io
-              city: Beijing
-              region: Beijing
-              country: China
-              twitter: null
-              linkedin: null
-              acquisitions: []
-              parents: []
-              stockExchange: null
-              company_type: For Profit
-              industries: []
-            image_data:
-              fileName: beijing-proinsight-technology-co-ltd.svg
-              hash: NfwOz9LkD36an1w37b+jtctcJol9yb++NQcHKCrr2Vk=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: Beijing Xiaomi Mobile Software Co., Ltd
-            homepage_url: https://mi.com/
-            logo: beijing_xiaomi_mobile_software_co_ltd.svg
-            twitter: https://twitter.com/Xiaomi
-            crunchbase: https://www.crunchbase.com/organization/xiaomi
-            crunchbase_data:
-              name: Xiaomi
-              description: Xiaomi is an electronics and software company that focuses on mobile devices and technology.
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: http://www.mi.com/en/
-              city: Beijing
-              region: Beijing
-              country: China
-              twitter: https://twitter.com/xiaomi
-              linkedin: https://www.linkedin.com/company/xiaomi-technology
-              acquisitions:
-                - date: '2021-08-26'
-                  acquiree: DeepMotion
-                  price: 77300000
-              parents: []
-              ticker: 1810.HK
-              funding: 7389800000
-              stockExchange: hkg
-              company_type: For Profit
-              industries:
-                - Consumer Electronics
-                - Internet
-                - Mobile
-              kind: market_cap
-            yahoo_finance_data:
-              market_cap: 34961519413
-              effective_ticker: 1810.HK
-            image_data:
-              fileName: beijing-xiaomi-mobile-software-co-ltd.svg
-              hash: EpyfNYjJT7ZxAUkNs3mLiq6JRzfk2hRWEPsX8HXtblA=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-01-01T10:00:33.000Z
-          - item:
-            name: Blockchain Technology Partners, Inc.
-            homepage_url: https://blockchaintp.com/
-            logo: blockchain_technology_partners_inc.svg
-            twitter: https://twitter.com/blockchaintp
-            crunchbase: https://www.crunchbase.com/organization/blockchain-technology-partners
-            crunchbase_data:
-              name: BTP
-              description: BTP is a digital provenance company with a mission to make assets trustworthy
-              num_employees_min: 11
-              num_employees_max: 50
-              homepage: https://btp.works
-              city: Edinburgh
-              region: Edinburgh, City of
-              country: United Kingdom
-              twitter: https://twitter.com/blockchaintp
-              linkedin: https://www.linkedin.com/company/btpworks
-              acquisitions: []
-              parents: []
-              funding: 2765674
-              stockExchange: null
-              company_type: For Profit
-              industries:
-                - Blockchain
-                - Enterprise Software
-                - Information Services
-                - Information Technology
-              kind: funding
-            image_data:
-              fileName: blockchain--technology--partners---inc.svg
-              hash: 2FQnJmSX1oE9H6jcn56610mARIGDAPtJfVkL2hm+5Mo=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-12-22T13:09:16.000Z
           - item:
             name: BONbLOC Inc
             homepage_url: https://bonbloc.com/
@@ -5540,7 +5351,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-01-01T08:40:20.000Z
+              latest_tweet_date: 2023-01-02T06:31:25.000Z
           - item:
             name: CasperLabs LLC
             homepage_url: https://casperlabs.io/
@@ -5575,7 +5386,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-31T17:57:03.000Z
+              latest_tweet_date: 2023-01-01T19:15:00.000Z
           - item:
             name: Chainyard
             homepage_url: https://chainyard.com/
@@ -5741,180 +5552,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2022-12-22T08:07:14.000Z
           - item:
-            name: Cognizant Technology Solutions
-            homepage_url: https://cognizant.com/
-            logo: cognizant_technology_solutions.svg
-            twitter: https://twitter.com/Cognizant
-            crunchbase: https://www.crunchbase.com/organization/cognizant-technology-solutions
-            crunchbase_data:
-              name: Cognizant
-              description: Cognizant is a professional services company, transforming clients’ business, operating and technology models for the digital era.
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: https://www.cognizant.com
-              city: Teaneck
-              region: New Jersey
-              country: United States
-              twitter: https://twitter.com/cognizant
-              linkedin: https://www.linkedin.com/company/cognizant
-              acquisitions:
-                - date: '2003-04-01'
-                  acquiree: Aces International
-                - date: '2003-12-02'
-                  acquiree: Infopulse
-                - date: '2004-02-23'
-                  acquiree: Ygyan Consulting
-                - date: '2005-04-18'
-                  acquiree: Fathom Solutions
-                - date: '2006-09-05'
-                  acquiree: AimNet
-                - date: '2007-10-20'
-                  acquiree: marketRx
-                  price: 1235000000
-                - date: '2008-06-09'
-                  acquiree: Strategic Vision Consulting
-                - date: '2009-02-11'
-                  acquiree: Active Intelligence
-                - date: '2009-09-08'
-                  acquiree: Pepperweed Advisors
-                - date: '2009-12-31'
-                  acquiree: UBS Service Centre (India) Private Limited
-                - date: '2010-05-10'
-                  acquiree: PIPC
-                - date: '2010-06-16'
-                  acquiree: Galileo Performance
-                - date: '2011-07-26'
-                  acquiree: CoreLogic Global Services
-                  price: 50000000
-                - date: '2011-09-27'
-                  acquiree: Zaffera
-                - date: '2012-02-07'
-                  acquiree: MediCall Philippines, Inc.
-                - date: '2012-06-14'
-                  acquiree: ING U.S.
-                - date: '2013-08-08'
-                  acquiree: SourceNet Solutions
-                - date: '2013-10-02'
-                  acquiree: Equinox Consulting
-                - date: '2013-10-03'
-                  acquiree: ValueSource Technologies
-                - date: '2014-04-23'
-                  acquiree: itaas
-                - date: '2014-09-15'
-                  acquiree: TriZetto
-                  price: 2700000000
-                - date: '2014-10-07'
-                  acquiree: Cadient Group
-                  price: 30000000
-                - date: '2014-10-12'
-                  acquiree: Odecee
-                - date: '2015-11-06'
-                  acquiree: Storebrand Baltic
-                - date: '2016-01-28'
-                  acquiree: KBACE Technologies
-                - date: '2016-05-01'
-                  acquiree: Quick Left
-                  price: 1750000
-                - date: '2016-07-29'
-                  acquiree: Idea Couture
-                - date: '2016-10-03'
-                  acquiree: Frontica Business Solutions
-                  price: 128000000
-                - date: '2016-11-29'
-                  acquiree: Mirabeau
-                - date: '2016-12-01'
-                  acquiree: KIS Information Services (KIS)
-                - date: '2016-12-01'
-                  acquiree: Nova IT
-                - date: '2016-12-16'
-                  acquiree: Adaptra
-                - date: '2017-03-01'
-                  acquiree: Brilliant Service
-                - date: '2017-06-13'
-                  acquiree: TMG Health
-                - date: '2017-10-24'
-                  acquiree: Netcentric, A Cognizant Digital Business
-                - date: '2017-10-26'
-                  acquiree: Zone
-                - date: '2018-03-12'
-                  acquiree: Bolder Healthcare Solutions
-                - date: '2018-05-02'
-                  acquiree: Hedera Consulting
-                - date: '2018-08-23'
-                  acquiree: SaaSFocus
-                - date: '2018-09-18'
-                  acquiree: Advanced Technology Group Inc
-                - date: '2018-10-04'
-                  acquiree: Softvision
-                  price: 550000000
-                - date: '2018-12-11'
-                  acquiree: '- Mustache -'
-                - date: '2019-01-23'
-                  acquiree: Samlink
-                - date: '2019-03-05'
-                  acquiree: Meritsoft
-                - date: '2019-06-18'
-                  acquiree: Zenith Technologies
-                - date: '2019-10-16'
-                  acquiree: Contino
-                - date: '2020-02-03'
-                  acquiree: Code Zero
-                - date: '2020-02-05'
-                  acquiree: EI-Technologies
-                - date: '2020-03-24'
-                  acquiree: Lev plus
-                - date: '2020-05-07'
-                  acquiree: Collaborative Solutions
-                - date: '2020-07-28'
-                  acquiree: New Signature
-                - date: '2020-08-25'
-                  acquiree: Tin Roof Software
-                - date: '2020-09-01'
-                  acquiree: 10th Magnitude
-                - date: '2020-10-22'
-                  acquiree: Bright Wolf
-                - date: '2020-12-21'
-                  acquiree: Inawisdom
-                - date: '2021-01-10'
-                  acquiree: Servian
-                - date: '2021-01-11'
-                  acquiree: Linium LLC
-                - date: '2021-01-19'
-                  acquiree: Magenic
-                - date: '2021-03-25'
-                  acquiree: ESG Mobility
-                - date: '2021-07-20'
-                  acquiree: TQS Integration
-                - date: '2021-08-17'
-                  acquiree: HUNTER Technical Resources - htrjobs.com
-                - date: '2022-11-01'
-                  acquiree: OneSource Virtual
-                - date: '2022-11-29'
-                  acquiree: AustinCSI
-                - date: '2022-12-07'
-                  acquiree: Utegration
-              parents: []
-              ticker: CTSH
-              funding: 241000
-              stockExchange: nasdaq
-              company_type: For Profit
-              industries:
-                - Consulting
-                - Industrial Automation
-                - Software
-              kind: market_cap
-            yahoo_finance_data:
-              market_cap: 29612122112
-              effective_ticker: CTSH
-            image_data:
-              fileName: cognizant-technology-solutions.svg
-              hash: ULIK4yelpneNsNdtDxdnU8BPujkEmInyf5lqWDRPvko=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-12-22T13:00:55.000Z
-          - item:
             name: ConsenSys AG
             homepage_url: https://consensys.net/
             logo: consensys_ag.svg
@@ -5964,7 +5601,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-28T19:09:32.000Z
+              latest_tweet_date: 2023-01-01T20:45:09.000Z
           - item:
             name: Corsha
             homepage_url: https://corsha.com/
@@ -6002,45 +5639,6 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2022-12-22T15:44:14.000Z
-          - item:
-            name: CSEngineering
-            homepage_url: https://cse-corp.com/
-            logo: csengineering.svg
-            twitter: https://twitter.com/CSECorp
-            crunchbase: https://www.crunchbase.com/organization/constellation-software-engineering
-            crunchbase_data:
-              name: CSEngineering
-              description: CSEngineering provides DevSecOps and Blockchain Solutions, dApps, Asset Tokenization, Smart Contracts and Professional Services.
-              num_employees_min: 101
-              num_employees_max: 250
-              homepage: http://cse-corp.com
-              city: Annapolis
-              region: Maryland
-              country: United States
-              twitter: null
-              linkedin: https://www.linkedin.com/company/constellation-software-engineering/
-              acquisitions: []
-              parents: []
-              stockExchange: null
-              company_type: For Profit
-              industries:
-                - Blockchain
-                - Business Information Systems
-                - Cloud Infrastructure
-                - Government
-                - Information Technology
-                - Military
-                - Professional Services
-                - Software
-                - Software Engineering
-            image_data:
-              fileName: cs-engineering.svg
-              hash: nZufToerQVatnKmPHJelqpLwIesxlL7lSStwktAnc88=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-12-24T21:57:13.000Z
           - item:
             name: CVS Health
             homepage_url: https://cvshealth.com/
@@ -6245,7 +5843,7 @@ landscape:
                 - Telecommunications
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 99241787699
+              market_cap: 100113372610
               effective_ticker: DTE.DE
             image_data:
               fileName: deutsche-telekom-ag.svg
@@ -6254,7 +5852,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-01-01T09:46:51.000Z
+              latest_tweet_date: 2023-01-02T09:26:21.000Z
           - item:
             name: Digital Asset Holdings, LLC
             homepage_url: https://digitalasset.com/
@@ -6303,42 +5901,6 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2022-12-30T15:14:07.000Z
-          - item:
-            name: Distributed Ledger Technologies (DLT) Pte Ltd.
-            homepage_url: https://dlt.sg/
-            logo: distributed_ledger_technologies_dlt_pte_ltd.svg
-            twitter: https://twitter.com/dltledgers
-            crunchbase: https://www.crunchbase.com/organization/dltledgers
-            crunchbase_data:
-              name: dltledgers
-              description: Dltledgers develops an inter-enterprise software platform that digitizes the global trade process and extended supply chain.
-              num_employees_min: 51
-              num_employees_max: 100
-              homepage: https://dlt.sg/
-              city: Singapore
-              region: Central Region
-              country: Singapore
-              twitter: https://twitter.com/dltledgers
-              linkedin: https://www.linkedin.com/company/dltledgers
-              acquisitions: []
-              parents: []
-              funding: 18000000
-              stockExchange: null
-              company_type: For Profit
-              industries:
-                - Blockchain
-                - Information Technology
-                - Logistics
-                - Supply Chain Management
-              kind: funding
-            image_data:
-              fileName: distributed-ledger-technologies-dlt-pte-ltd.svg
-              hash: IMTLuAfWDYT+2Q5RwV9vRxlk9FIykFrsEt8mhFl/HNQ=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-12-31T11:30:04.000Z
           - item:
             name: DLT Global Inc.
             homepage_url: https://dltlabs.io/
@@ -6443,41 +6005,6 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2022-12-19T09:56:22.000Z
-          - item:
-            name: Estateably Inc.
-            homepage_url: https://estateably.com/
-            logo: estateably_inc.svg
-            twitter: https://twitter.com/estateably
-            crunchbase: https://www.crunchbase.com/organization/estateably-inc
-            crunchbase_data:
-              name: Estateably
-              description: Estateably is an estate settlement platform that allows professionals to expedite the settlement process while ensuring compliance.
-              num_employees_min: 11
-              num_employees_max: 50
-              homepage: https://www.estateably.com
-              city: Montréal
-              region: Quebec
-              country: Canada
-              twitter: https://twitter.com/estateably
-              linkedin: https://www.linkedin.com/company/estateably/
-              acquisitions: []
-              parents: []
-              stockExchange: null
-              company_type: For Profit
-              industries:
-                - Blockchain
-                - Enterprise Software
-                - Information Technology
-                - SaaS
-                - Software
-            image_data:
-              fileName: estateably-inc.svg
-              hash: Tf71QpYbH1lcQcR3tVVDr8Zw7Js7EzQxjlohabBmN7E=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-12-30T14:07:00.000Z
           - item:
             name: Federal Express
             homepage_url: https://fedex.com/
@@ -6607,37 +6134,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2022-12-29T21:30:04.000Z
           - item:
-            name: Flowchain
-            homepage_url: https://flowchain.co/
-            logo: flowchain.svg
-            twitter: https://twitter.com/realFlowchain
-            crunchbase: https://www.crunchbase.com/organization/flowchain
-            crunchbase_data:
-              name: Flowchain
-              description: Solutions and Consulting on Flowchain Distributed Ledger, Hyperledger Fabric and Hyperledger Besu
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: https://flowchain.co
-              city: Taipei
-              region: T'ai-pei
-              country: Taiwan
-              twitter: https://twitter.com/realflowchain?lang=en
-              linkedin: https://www.linkedin.com/company/flowchain/
-              acquisitions: []
-              parents: []
-              stockExchange: null
-              company_type: Non Profit
-              industries:
-                - Information Technology
-            image_data:
-              fileName: flowchain.svg
-              hash: iLOenWnWTxaEPp1bhpBmPCKCTAQlmq//txA0SAUjgGA=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2020-08-06T04:13:48.000Z
-          - item:
             name: Gen Digital
             homepage_url: https://avast.com/
             logo: gen_digital.svg
@@ -6765,7 +6261,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-01-01T08:50:36.000Z
+              latest_tweet_date: 2023-01-02T05:24:43.000Z
           - item:
             name: Huawei Technologies Co., Ltd
             homepage_url: https://huawei.com/
@@ -6821,7 +6317,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-01-01T01:16:46.000Z
+              latest_tweet_date: 2023-01-02T06:55:11.000Z
           - item:
             name: IDnow GmbH
             homepage_url: https://idnow.io/
@@ -7031,7 +6527,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-31T12:30:03.000Z
+              latest_tweet_date: 2023-01-02T09:30:01.000Z
           - item:
             name: Instnt Inc.
             homepage_url: https://instnt.org/
@@ -7147,7 +6643,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-23T15:51:49.000Z
+              latest_tweet_date: 2023-01-02T08:46:42.000Z
           - item:
             name: IO Builders Blockchain Technologies & Ventures
             homepage_url: https://io.builders/
@@ -7214,33 +6710,6 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2022-12-31T16:45:41.000Z
-          - item:
-            name: IPChain Association
-            homepage_url: https://ipchain.ru/
-            logo: ipchain_association.svg
-            crunchbase: https://www.crunchbase.com/organization/ipchain-association
-            crunchbase_data:
-              name: IPChain Association
-              description: Diversified Financial Services
-              num_employees_min: null
-              num_employees_max: null
-              homepage: null
-              city: Moscow
-              region: Moscow City
-              country: Russian Federation
-              twitter: null
-              linkedin: null
-              acquisitions: []
-              parents: []
-              stockExchange: null
-              company_type: ''
-              industries: []
-            image_data:
-              fileName: ip-chain-association.svg
-              hash: RcXnCW03dAnOmgyizYXFbY4CRUq++xGJUHGNFnQLM7Q=
-            best_practice_data:
-              badge: false
-              percentage: null
           - item:
             name: IPwe
             homepage_url: https://ipwe.com/
@@ -7309,6 +6778,80 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: JPMorgan Chase
+            homepage_url: https://jpmorganchase.com/
+            logo: jpmorgan_chase.svg
+            twitter: https://twitter.com/jpmorgan
+            crunchbase: https://www.crunchbase.com/organization/jpmorgan-chase-co
+            crunchbase_data:
+              name: JP Morgan Chase
+              description: JP Morgan Chase is a global financial services provider that offers investment banking, asset management, treasury, and other services.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.jpmorganchase.com
+              city: New York
+              region: New York
+              country: United States
+              twitter: https://twitter.com/jpmorgan
+              linkedin: https://www.linkedin.com/company/jpmorgan-chase?trk=top_nav_home
+              acquisitions:
+                - date: '1999-09-28'
+                  acquiree: Hambrecht & Quist
+                  price: 1350000000
+                - date: '2004-01-15'
+                  acquiree: Bank One
+                  price: 58000000000
+                - date: '2005-06-23'
+                  acquiree: Neovest Holdings
+                - date: '2005-12-15'
+                  acquiree: Collegiate Funding Services
+                - date: '2007-05-17'
+                  acquiree: Xign Corporation
+                - date: '2008-03-01'
+                  acquiree: Xspand
+                - date: '2008-03-17'
+                  acquiree: Bear Stearns
+                - date: '2008-09-26'
+                  acquiree: Washington Mutual
+                - date: '2009-11-19'
+                  acquiree: J.P. Morgan Cazenove
+                - date: '2017-10-17'
+                  acquiree: WePay
+                  price: 400000000
+                - date: '2019-05-17'
+                  acquiree: InstaMed
+                - date: '2020-12-28'
+                  acquiree: cxLoyalty Group-Global Loyalty business
+                - date: '2021-09-09'
+                  acquiree: The Infatuation
+                - date: '2021-09-21'
+                  acquiree: Frank Financial Aid
+                - date: '2022-02-17'
+                  acquiree: FROSCH
+                - date: '2022-03-01'
+                  acquiree: Global Shares
+              parents: []
+              ticker: JPM
+              funding: 3000000
+              stockExchange: nyse
+              company_type: For Profit
+              industries:
+                - Asset Management
+                - Banking
+                - Financial Services
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 393342124032
+              effective_ticker: JPM
+            image_data:
+              fileName: jp-morgan-chase.svg
+              hash: hPdxL2i1uuLbLvhAUdAgwL6KG8rpBJ7kbIrH1GhyK6A=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2022-12-28T13:14:42.000Z
           - item:
             name: Kaleido
             homepage_url: https://kaleido.io/
@@ -7379,66 +6922,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-27T07:19:08.000Z
-          - item:
-            name: Lenovo (United States) Inc.
-            homepage_url: https://lenovo.com/
-            logo: lenovo_united_states_inc.svg
-            twitter: https://twitter.com/Lenovo
-            crunchbase: https://www.crunchbase.com/organization/lenovo
-            crunchbase_data:
-              name: Lenovo
-              description: Lenovo Group is a computer technology company that manufactures personal computers, smartphones, televisions, and wearable devices.
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: http://www.lenovo.com
-              city: Beijing
-              region: Beijing
-              country: China
-              twitter: http://twitter.com/lenovo
-              linkedin: https://www.linkedin.com/company/lenovo
-              acquisitions:
-                - date: '2004-12-07'
-                  acquiree: IBM Personal Computing Division
-                  price: 1750000000
-                - date: '2009-11-27'
-                  acquiree: Lenovo Mobile Communication Technology
-                - date: '2011-05-31'
-                  acquiree: Medion
-                - date: '2012-09-18'
-                  acquiree: Stoneware
-                - date: '2014-01-29'
-                  acquiree: Motorola Mobility (a Lenovo Company)
-                  price: 2910000000
-                - date: '2015-02-05'
-                  acquiree: Marvell
-                - date: '2016-10-06'
-                  acquiree: Fujitsu - PC business
-                - date: '2022-06-14'
-                  acquiree: PLTS
-                  price: 613000000
-              parents: []
-              ticker: 0992.HK
-              funding: 850025000
-              stockExchange: hkg
-              company_type: For Profit
-              industries:
-                - Computer
-                - Electronics
-                - Hardware
-                - Mobile
-              kind: market_cap
-            yahoo_finance_data:
-              market_cap: 9954494956
-              effective_ticker: 0992.HK
-            image_data:
-              fileName: lenovo-united-states-inc.svg
-              hash: EIb+fHDCictE6UOZeuJlHRYWSu2jJg7tgup952UIFrg=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-01-01T10:00:00.000Z
+              latest_tweet_date: 2023-01-02T08:30:13.000Z
           - item:
             name: LTIMindtree Limited
             homepage_url: https://mindtree.com/
@@ -7555,53 +7039,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2019-04-17T17:07:26.000Z
           - item:
-            name: Mercedes-Benz Tech Innovation GmbH
-            homepage_url: https://daimler-tss.com/
-            logo: mercedes-benz_tech_innovation_gmbh.svg
-            twitter: https://twitter.com/mercedesbenz_ti
-            crunchbase: https://www.crunchbase.com/organization/daimler
-            crunchbase_data:
-              name: Mercedes-Benz Group AG
-              description: Mercedes-Benz Group AG (formerly Daimler) is an automotive company that produces premium cars and commercial vehicles with a global reach.
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: https://group.mercedes-benz.com/en/
-              city: Stuttgart
-              region: Baden-Wurttemberg
-              country: Germany
-              twitter: https://twitter.com/daimler
-              linkedin: https://www.linkedin.com/company/mercedes-benz_ag/
-              acquisitions:
-                - date: '2014-04-29'
-                  acquiree: Li-Tec Battery
-                - date: '2017-01-27'
-                  acquiree: Beat
-                  price: 43000000
-                - date: '2017-11-06'
-                  acquiree: CINTEO GmbH
-              parents: []
-              ticker: MBG.DE
-              funding: 1369439572
-              stockExchange: etr
-              company_type: For Profit
-              industries:
-                - Automotive
-                - Autonomous Vehicles
-                - Finance
-                - Manufacturing
-              kind: market_cap
-            yahoo_finance_data:
-              market_cap: 70348785744
-              effective_ticker: MBG.DE
-            image_data:
-              fileName: mercedes-benz-tech-innovation-gmb-h.svg
-              hash: bu4uACtsQ9Fbf6S1oRvA0JR+rEgcNnkIYU3YtNXlaxE=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-12-07T11:00:08.000Z
-          - item:
             name: Milligan Partners
             homepage_url: https://milliganpartners.com/
             logo: milligan_partners.svg
@@ -7664,47 +7101,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2022-07-18T07:37:08.000Z
           - item:
-            name: Moscow Exchange (MICEX-RTS)
-            homepage_url: https://moex.com/
-            logo: moscow_exchange_micex-rts.svg
-            twitter: https://twitter.com/moscow_exchange
-            crunchbase: https://www.crunchbase.com/organization/moscow-exchange
-            crunchbase_data:
-              name: Moscow Exchange
-              description: Moscow Exchange is the largest exchange group in Russia, operating trading markets in equities, bonds, derivatives, the foreign exchange
-              num_employees_min: 1001
-              num_employees_max: 5000
-              homepage: http://moex.com/
-              city: Moscow
-              region: Moscow City
-              country: Russian Federation
-              twitter: http://twitter.com/moscow_exchange
-              linkedin: null
-              acquisitions:
-                - date: '2021-05-12'
-                  acquiree: INGURU
-              parents: []
-              ticker: MOEX.ME
-              funding: 0
-              stockExchange: mcx
-              company_type: For Profit
-              industries:
-                - Asset Management
-                - Financial Exchanges
-                - Trading Platform
-              kind: market_cap
-            yahoo_finance_data:
-              market_cap: 2616833755
-              effective_ticker: MOEX.ME
-            image_data:
-              fileName: moscow-exchange-micex-rts.svg
-              hash: VB9usnx9LWjtr/So5xoKm9PT6Nw8177V3qXz2/+pexs=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-02-21T10:22:12.000Z
-          - item:
             name: NEC Corporation
             homepage_url: https://nec.com/
             logo: nec_corporation.svg
@@ -7758,7 +7154,7 @@ landscape:
                 - Telecommunications
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 9444258869
+              market_cap: 9468375681
               effective_ticker: 6701.T
             image_data:
               fileName: nec-corporation.svg
@@ -7912,7 +7308,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 20663692215
+              market_cap: 20716458915
               effective_ticker: 9613.T
             image_data:
               fileName: ntt-data.svg
@@ -7921,7 +7317,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-30T13:00:41.000Z
+              latest_tweet_date: 2023-01-02T09:00:58.000Z
           - item:
             name: Oracle America Inc.
             homepage_url: https://oracle.com/
@@ -8282,40 +7678,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-30T17:25:01.000Z
-          - item:
-            name: Palm NFT Studio
-            homepage_url: https://palm.io/
-            logo: palm_nft_studio.svg
-            twitter: https://twitter.com/PalmNft
-            crunchbase: https://www.crunchbase.com/organization/palm-nft-studio
-            crunchbase_data:
-              name: Palm NFT Studio
-              description: Palm NFT Studio is a collective of entertainment, technology, cryptoart and art industry.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: https://palm.io/
-              city: Dover
-              region: Delaware
-              country: United States
-              twitter: null
-              linkedin: https://www.linkedin.com/company/palm-nft-studio/
-              acquisitions: []
-              parents: []
-              funding: 27000000
-              stockExchange: null
-              company_type: ''
-              industries:
-                - Computer
-              kind: funding
-            image_data:
-              fileName: palm-nft-studio.svg
-              hash: nfurFDBocmu8NmySuX4IuA+nJ8qvfjDIlRKt+1+xDHY=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-12-29T17:12:23.000Z
+              latest_tweet_date: 2023-01-01T13:00:24.000Z
           - item:
             name: Paramount Software Solutions Inc.
             homepage_url: https://paramountsoft.net/
@@ -8386,7 +7749,7 @@ landscape:
                 - Packaging Services
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 12688731365
+              market_cap: 12944812777
               effective_ticker: PST.MI
             image_data:
               fileName: poste-italiane-spa.svg
@@ -8395,46 +7758,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-31T12:12:04.000Z
-          - item:
-            name: Precisely Holdings, LLC
-            homepage_url: https://precisely.com/
-            logo: precisely_holdings_llc.svg
-            twitter: https://twitter.com/PreciselyData
-            crunchbase: https://www.crunchbase.com/organization/precisely
-            crunchbase_data:
-              name: Precisely
-              description: Precisely is the user-friendly contract management platform for enterprises and disruptors. Setting a new standard for digital contracting.
-              num_employees_min: 51
-              num_employees_max: 100
-              homepage: https://preciselycontracts.com/
-              city: Göteborg
-              region: Vastra Gotaland
-              country: Sweden
-              twitter: https://twitter.com/precisely
-              linkedin: https://www.linkedin.com/company/precisely
-              acquisitions: []
-              parents: []
-              funding: 2178270
-              stockExchange: null
-              company_type: For Profit
-              industries:
-                - Contact Management
-                - Enterprise Software
-                - Legal
-                - Legal Tech
-                - Natural Language Processing
-                - SaaS
-                - Software
-              kind: funding
-            image_data:
-              fileName: precisely-holdings-llc.svg
-              hash: y/SjrvLjVQAxC3cB9wamKTYdM4XRsdEHCAr60NccJoA=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-12-30T20:02:04.000Z
+              latest_tweet_date: 2023-01-02T10:01:08.000Z
           - item:
             name: Quant Network
             homepage_url: https://quant.network/
@@ -8508,7 +7832,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-31T11:03:05.000Z
+              latest_tweet_date: 2023-01-02T09:49:00.000Z
           - item:
             name: REALTO GROUP INC
             homepage_url: https://realtoapps.com/
@@ -8559,80 +7883,6 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2022-12-25T03:47:52.000Z
-          - item:
-            name: Ripple, Inc.
-            homepage_url: https://ripple.com/
-            logo: ripple_inc.svg
-            twitter: https://twitter.com/Ripple
-            crunchbase: https://www.crunchbase.com/organization/ripple-labs
-            crunchbase_data:
-              name: Ripple
-              description: Ripple provides one frictionless experience to send money globally using the power of blockchain.
-              num_employees_min: 501
-              num_employees_max: 1000
-              homepage: http://ripple.com
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: http://twitter.com/ripple
-              linkedin: https://www.linkedin.com/company/ripple-labs/
-              acquisitions:
-                - date: '2013-04-03'
-                  acquiree: SimpleHoney
-              parents: []
-              funding: 293800000
-              stockExchange: null
-              company_type: For Profit
-              industries:
-                - Blockchain
-                - Cryptocurrency
-                - FinTech
-                - Internet
-                - Payments
-              kind: funding
-            image_data:
-              fileName: ripple-inc.svg
-              hash: 27FrCnfNl47ZsPGdvLn/+Z+H0x/qsd2rPCu2PAJWTQU=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-12-30T20:05:01.000Z
-          - item:
-            name: SecureKey Technologies, Inc.
-            homepage_url: https://securekey.com/
-            logo: securekey_technologies_inc.svg
-            twitter: https://twitter.com/SecureKey
-            crunchbase: https://www.crunchbase.com/organization/securekey-technologies
-            crunchbase_data:
-              name: SecureKey Technologies
-              description: SecureKey is the identity and authentication service provider that gives consumers secure and convenient access to critical online services.
-              num_employees_min: 51
-              num_employees_max: 100
-              homepage: http://www.securekey.com
-              city: Toronto
-              region: Ontario
-              country: Canada
-              twitter: http://twitter.com/SecureKey
-              linkedin: https://www.linkedin.com/company/481905
-              acquisitions: []
-              parents: []
-              funding: 91868456
-              stockExchange: null
-              company_type: For Profit
-              industries:
-                - Information Technology
-                - Security
-                - Service Industry
-              kind: funding
-            image_data:
-              fileName: secure-key-technologies-inc.svg
-              hash: 0IhlZHWpyjOGQCICgH61sfgytc7Hen+MQNyzStI0U8I=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-06-23T20:54:04.000Z
           - item:
             name: Shanghai Vonechain Information Technology Co., Ltd
             homepage_url: https://vonechain.com/
@@ -8690,7 +7940,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 769368708
+              market_cap: 769218148
               effective_ticker: 300468.SZ
             image_data:
               fileName: shenzhen-forms-syntron-information-co-ltd.svg
@@ -8899,7 +8149,7 @@ landscape:
                 - Insurance
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 110035514260
+              market_cap: 109951412818
               effective_ticker: SIE.DE
             image_data:
               fileName: siemens-ag.svg
@@ -9021,83 +8271,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2022-12-31T03:34:17.000Z
           - item:
-            name: Splunk Inc.
-            homepage_url: https://splunkdlt.com/
-            logo: splunk_inc.svg
-            twitter: https://twitter.com/splunk
-            crunchbase: https://www.crunchbase.com/organization/splunk
-            crunchbase_data:
-              name: Splunk
-              description: Splunk is a software company that provides operational intelligence software that monitors, reports, and analyzes real-time machine data.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: https://www.splunk.com
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: http://twitter.com/splunk
-              linkedin: https://www.linkedin.com/company/splunk
-              acquisitions:
-                - date: '2013-09-16'
-                  acquiree: BugSense
-                - date: '2013-12-10'
-                  acquiree: Cloudmeter
-                - date: '2015-06-29'
-                  acquiree: Metafor Software
-                - date: '2015-07-09'
-                  acquiree: Caspida
-                  price: 190000000
-                - date: '2017-10-17'
-                  acquiree: SignalSense, Inc.
-                - date: '2018-02-27'
-                  acquiree: Phantom
-                  price: 350000000
-                - date: '2018-06-11'
-                  acquiree: VictorOps
-                  price: 120000000
-                - date: '2018-08-01'
-                  acquiree: KryptonCloud
-                - date: '2019-08-22'
-                  acquiree: SignalFx
-                  price: 1050000000
-                - date: '2019-09-04'
-                  acquiree: Omnition
-                - date: '2019-10-21'
-                  acquiree: Streamlio
-                - date: '2020-10-20'
-                  acquiree: Plumbr
-                - date: '2020-10-20'
-                  acquiree: Rigor
-                - date: '2020-11-25'
-                  acquiree: Flowmill
-                - date: '2021-05-18'
-                  acquiree: TruSTAR
-                - date: '2022-11-08'
-                  acquiree: TwinWave
-              parents: []
-              ticker: SPLK
-              funding: 2440000000
-              stockExchange: bmv
-              company_type: For Profit
-              industries:
-                - Analytics
-                - Information Technology
-                - Intelligent Systems
-                - Real Time
-                - Software
-              kind: market_cap
-            yahoo_finance_data:
-              market_cap: 14092932096
-              effective_ticker: SPLK
-            image_data:
-              fileName: splunk-inc.svg
-              hash: w8Ej0jxrBgLI0+DJ1kSjKeMFDO82RtoUI/fyZtHVcS8=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-12-30T18:00:33.000Z
-          - item:
             name: Spydra Technologies Pvt Ltd
             homepage_url: https://spydra.app/
             logo: spydra_technologies_pvt_ltd.svg
@@ -9114,39 +8287,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-01-01T04:57:51.000Z
-          - item:
-            name: SWIFT, INC.
-            homepage_url: https://swift.com/
-            logo: swift_inc.svg
-            twitter: https://twitter.com/swiftcommunity
-            crunchbase: https://www.crunchbase.com/organization/swift
-            crunchbase_data:
-              name: SWIFT
-              description: SWIFT is a member-owned cooperative through which the financial world conducts its business operations with speed, certainty and confidence.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://www.swift.com
-              city: La Hulpe
-              region: Brabant Wallon
-              country: Belgium
-              twitter: https://twitter.com/swiftcommunity
-              linkedin: https://www.linkedin.com/company/swift
-              acquisitions: []
-              parents: []
-              stockExchange: null
-              company_type: For Profit
-              industries:
-                - Financial Services
-                - Security
-            image_data:
-              fileName: swift-inc.svg
-              hash: woITjbZOPqpbZtuiVBIkVRH0LLLzhxhvC6hM7DXCyB8=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-01-01T07:00:12.000Z
+              latest_tweet_date: 2023-01-02T06:09:09.000Z
           - item:
             name: Tangem AG
             homepage_url: https://tangem.com/
@@ -9290,7 +8431,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-01-01T03:30:31.000Z
+              latest_tweet_date: 2023-01-02T10:28:40.000Z
           - item:
             name: The Medium
             homepage_url: https://themedium.io/
@@ -9335,52 +8476,6 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
-          - item:
-            name: Verizon Corporate Services
-            homepage_url: https://verizon.com/
-            logo: verizon_corporate_services.svg
-            twitter: https://twitter.com/Verizon
-            crunchbase: https://www.crunchbase.com/organization/verizon
-            crunchbase_data:
-              name: Verizon Wireless
-              description: Verizon Wireless offers wireless telecommunications services, devices, and solutions.
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: http://www.verizonwireless.com
-              city: Washington
-              region: District of Columbia
-              country: United States
-              twitter: null
-              linkedin: https://www.linkedin.com/company/verizon-wireless
-              acquisitions:
-                - date: '2000-06-30'
-                  acquiree: GTE Corporation
-                - date: '2016-11-17'
-                  acquiree: SocialRadar
-                - date: '2017-02-16'
-                  acquiree: Skyward
-              parents:
-                - https://www.crunchbase.com/organization/verizon-communications
-              ticker: VZ
-              funding: 30103192466
-              stockExchange: null
-              company_type: For Profit
-              industries:
-                - Communication Hardware
-                - Telecommunications
-                - Wireless
-              kind: market_cap
-            yahoo_finance_data:
-              market_cap: 165472911360
-              effective_ticker: VZ
-            image_data:
-              fileName: verizon-corporate-services.svg
-              hash: NNq9+ZRBVGLqm7Qbjh2/LGeLqolW99e+UVgcLAgCQxY=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-12-31T20:11:25.000Z
           - item:
             name: Visa Inc.
             homepage_url: https://visa.com/
@@ -9533,242 +8628,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-01-01T08:12:11.000Z
-          - item:
-            name: We.Trade Innovation DAC
-            homepage_url: https://we-trade.com/
-            logo: wetrade_innovation_dac.svg
-            twitter: https://twitter.com/tradefinglobal
-            crunchbase: https://www.crunchbase.com/organization/trade-finance-global
-            crunchbase_data:
-              name: Trade Finance Global
-              description: Trade Finance Global (TFG) is the leading trade finance platform, with 120k+ monthly users and 270+ lender relationships
-              num_employees_min: 11
-              num_employees_max: 50
-              homepage: https://www.tradefinanceglobal.com
-              city: London
-              region: England
-              country: United Kingdom
-              twitter: https://twitter.com/tradefinglobal
-              linkedin: https://www.linkedin.com/company/trade-finance-global
-              acquisitions: []
-              parents: []
-              stockExchange: null
-              company_type: For Profit
-              industries:
-                - Financial Services
-            image_data:
-              fileName: we-trade-innovation-dac.svg
-              hash: txjtARmn5AZ5DrOYTpS90JM7cLddOFRK6QuwVn/8osc=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-12-30T14:45:48.000Z
-          - item:
-            name: Wipro Limited
-            homepage_url: https://wipro.com/
-            logo: wipro_limited.svg
-            twitter: https://twitter.com/Wipro
-            crunchbase: https://www.crunchbase.com/organization/wipro
-            crunchbase_data:
-              name: Wipro Technologies
-              description: Wipro is a technology services and consulting company focused on building solutions that address clients’ digital transformation needs.
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: http://www.wipro.com
-              city: Bengaluru
-              region: Karnataka
-              country: India
-              twitter: http://twitter.com/Wipro
-              linkedin: https://www.linkedin.com/company/wipro
-              acquisitions:
-                - date: '2005-12-19'
-                  acquiree: NewLogic Technologies AG
-                  price: 56394879
-                - date: '2005-12-22'
-                  acquiree: MPACT Technology Services
-                - date: '2005-12-22'
-                  acquiree: mPower Software Services
-                - date: '2006-02-21'
-                  acquiree: cMango
-                  price: 20000000
-                - date: '2006-05-15'
-                  acquiree: Quantech Global Services
-                  price: 10000000
-                - date: '2006-06-01'
-                  acquiree: Enabler
-                  price: 53000000
-                - date: '2006-06-09'
-                  acquiree: Saraware Oy
-                  price: 32500000
-                - date: '2007-07-06'
-                  acquiree: Unza
-                  price: 250518667
-                - date: '2007-08-06'
-                  acquiree: Infocrossing
-                  price: 600000000
-                - date: '2007-12-12'
-                  acquiree: Wipro Techno Centre (Singapore) Pte. Ltd.
-                - date: '2008-07-02'
-                  acquiree: Gallagher Financial Systems
-                - date: '2008-12-23'
-                  acquiree: Citi Technology Services
-                  price: 127000000
-                - date: '2011-04-01'
-                  acquiree: Global Oil and Gas Information Technology Services Business
-                  price: 150000000
-                - date: '2012-05-01'
-                  acquiree: Promax Application Group
-                - date: '2013-12-02'
-                  acquiree: Opus Capital Markets Consultants
-                - date: '2014-07-18'
-                  acquiree: ATCO I-Tek
-                  price: 195000000
-                - date: '2015-12-02'
-                  acquiree: cellent AG
-                  price: 77985078
-                - date: '2015-12-23'
-                  acquiree: Viteos Group
-                  price: 130000000
-                - date: '2016-02-11'
-                  acquiree: HealthPlan Services
-                  price: 480000000
-                - date: '2016-05-23'
-                  acquiree: Topcoder
-                  price: 500000000
-                - date: '2016-10-20'
-                  acquiree: Appirio
-                  price: 500000000
-                - date: '2017-01-25'
-                  acquiree: InfoSERVER
-                  price: 8700000
-                - date: '2019-04-19'
-                  acquiree: Splash Corporation
-                - date: '2019-06-05'
-                  acquiree: International TechneGroup
-                - date: '2020-02-21'
-                  acquiree: Rational Interaction
-                - date: '2020-07-14'
-                  acquiree: IVIA
-                - date: '2020-07-23'
-                  acquiree: We Are 4C
-                  price: 78849356
-                - date: '2020-10-13'
-                  acquiree: Eximius Design
-                  price: 79857202
-                - date: '2020-10-28'
-                  acquiree: Encore Theme Technologies
-                - date: '2020-12-23'
-                  acquiree: METRO SYSTEMS Romania
-                - date: '2020-12-23'
-                  acquiree: Metronom
-                - date: '2021-03-04'
-                  acquiree: Capco
-                  price: 1450000000
-                - date: '2021-03-31'
-                  acquiree: Ampion
-                  price: 117000000
-                - date: '2021-12-15'
-                  acquiree: LeanSwift
-                - date: '2021-12-19'
-                  acquiree: Edgile
-                  price: 230000000
-                - date: '2022-04-11'
-                  acquiree: Convergence Acceleration Solutions
-                - date: '2022-04-26'
-                  acquiree: Rizing
-                  price: 538451422
-              parents: []
-              ticker: WIPRO.NS
-              funding: 1136030420
-              stockExchange: nse
-              company_type: For Profit
-              industries:
-                - Consulting
-                - Information Services
-                - Information Technology
-              kind: market_cap
-            yahoo_finance_data:
-              market_cap: 25983828504
-              effective_ticker: WIPRO.NS
-            image_data:
-              fileName: wipro-limited.svg
-              hash: lf/3/68tJyxt33sDjwBbLGLBUQBeemREnMFlWcPJRH8=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-10-28T20:07:01.000Z
-          - item:
-            name: Xilinx Inc
-            homepage_url: https://xilinx.com/
-            logo: xilinx_inc.svg
-            twitter: https://twitter.com/XilinxInc
-            crunchbase: https://www.crunchbase.com/organization/xilinx
-            crunchbase_data:
-              name: Xilinx
-              description: Xilinx is a technology company that develops flexible and adaptive processing platforms.
-              num_employees_min: 1001
-              num_employees_max: 5000
-              homepage: http://www.xilinx.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/XilinxInc
-              linkedin: https://www.linkedin.com/company/xilinx
-              acquisitions:
-                - date: '1995-04-10'
-                  acquiree: NeoCAD
-                - date: '2000-10-03'
-                  acquiree: RocketChips, Inc.
-                - date: '2004-03-09'
-                  acquiree: Triscend
-                - date: '2004-06-07'
-                  acquiree: Hier Design
-                - date: '2006-01-13'
-                  acquiree: AccelChip
-                  price: 21500000
-                - date: '2011-01-31'
-                  acquiree: AutoESL
-                - date: '2011-03-31'
-                  acquiree: Omiino Ltd
-                - date: '2011-05-17'
-                  acquiree: Sarance Technologies
-                - date: '2012-08-28'
-                  acquiree: PetaLogix Qld Pty Ltd
-                - date: '2012-09-17'
-                  acquiree: Modesat
-                - date: '2016-10-01'
-                  acquiree: Auviz Systems
-                - date: '2018-07-17'
-                  acquiree: DeePhi Tech
-                - date: '2019-04-24'
-                  acquiree: Solarflare Communications
-                - date: '2019-07-01'
-                  acquiree: NGCode
-                - date: '2021-06-10'
-                  acquiree: Silexica
-              parents: []
-              funding: 862000
-              stockExchange: vie
-              company_type: For Profit
-              industries:
-                - Electronic Design Automation (EDA)
-                - Field-Programmable Gate Array (FPGA)
-                - Hardware
-                - Semiconductor
-                - Software
-                - Wireless
-              kind: funding
-            image_data:
-              fileName: xilinx-inc.svg
-              hash: 2hyStCKKLZ2RkZIlvYPTbD5CSQKLnHo9txdwPo7uwLc=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-12-21T22:13:35.000Z
+              latest_tweet_date: 2023-01-02T08:46:16.000Z
           - item:
             name: Zeeve Inc
             homepage_url: https://zeeve.io/
@@ -9804,7 +8664,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-01-01T04:17:23.000Z
+              latest_tweet_date: 2023-01-02T05:56:32.000Z
       - subcategory:
         name: Associate
         items:
@@ -9934,7 +8794,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-01-01T01:00:37.000Z
+              latest_tweet_date: 2023-01-01T15:00:01.000Z
           - item:
             name: Association of Blockchain Developers of Saint-Petersburg
             homepage_url: https://spblockchain.ru/
@@ -9997,7 +8857,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-30T15:18:09.000Z
+              latest_tweet_date: 2023-01-01T14:07:23.000Z
           - item:
             name: Bank of England
             homepage_url: https://bankofengland.co.uk/
@@ -10063,7 +8923,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-30T13:00:00.000Z
+              latest_tweet_date: 2023-01-02T08:57:25.000Z
           - item:
             name: Blockchain at Berkeley
             homepage_url: https://blockchain.berkeley.edu/
@@ -10257,7 +9117,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-31T22:55:10.000Z
+              latest_tweet_date: 2023-01-02T08:00:39.000Z
           - item:
             name: Chamber of Digital Commerce
             homepage_url: https://digitalchamber.org/
@@ -10290,7 +9150,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-31T17:00:13.000Z
+              latest_tweet_date: 2023-01-01T17:00:21.000Z
           - item:
             name: China Academy of Information and Communications Technology (CAICT)
             homepage_url: https://caict.ac.cn/
@@ -10414,7 +9274,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-23T17:57:54.000Z
+              latest_tweet_date: 2023-01-01T18:30:00.000Z
           - item:
             name: Decentralized Identity Foundation
             homepage_url: https://identity.foundation/
@@ -10568,7 +9428,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-30T16:12:00.000Z
+              latest_tweet_date: 2023-01-01T19:15:33.000Z
           - item:
             name: European Blockchain Association e.V.
             homepage_url: https://europeanblockchainassociation.org/
@@ -10632,7 +9492,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-01-01T01:13:05.000Z
+              latest_tweet_date: 2023-01-01T14:09:06.000Z
           - item:
             name: Fujian Blockchain Association
             homepage_url: https://fjchain.net/
@@ -10753,7 +9613,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-31T20:30:17.000Z
+              latest_tweet_date: 2023-01-01T14:30:24.000Z
           - item:
             name: Howest
             homepage_url: https://howest.be/
@@ -10984,7 +9844,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-01-01T00:46:48.000Z
+              latest_tweet_date: 2023-01-01T15:47:35.000Z
           - item:
             name: MIT Connection Science
             homepage_url: https://mit.edu/
@@ -11280,7 +10140,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-09-16T17:14:43.000Z
+              latest_tweet_date: 2023-01-01T13:16:03.000Z
           - item:
             name: Stellar Development Foundation
             homepage_url: https://stellar.org/
@@ -11429,7 +10289,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-01-01T01:53:45.000Z
+              latest_tweet_date: 2023-01-01T17:05:46.000Z
           - item:
             name: The University of Hong Kong
             homepage_url: https://hku.hk/
@@ -11529,7 +10389,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-31T22:00:08.000Z
+              latest_tweet_date: 2023-01-02T00:00:13.000Z
           - item:
             name: United Nations (International Computing Centre)
             homepage_url: https://unicc.org/
@@ -11562,7 +10422,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-31T14:57:01.000Z
+              latest_tweet_date: 2023-01-01T12:05:01.000Z
           - item:
             name: Universidad Tecnológica Nacional - Facultad Regional Córdoba
             homepage_url: https://frc.utn.edu.ar/
@@ -11667,7 +10527,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-24T08:00:01.000Z
+              latest_tweet_date: 2023-01-02T08:00:00.000Z
           - item:
             name: University of Rome Tor Vergata
             homepage_url: https://uniroma2.it/
@@ -11732,7 +10592,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-31T19:00:01.000Z
+              latest_tweet_date: 2023-01-01T19:00:00.000Z
           - item:
             name: Vilnius Gediminas Technical University
             homepage_url: https://vgtu.it/
@@ -11888,7 +10748,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-01-01T01:00:29.000Z
+              latest_tweet_date: 2023-01-01T11:28:27.000Z
   - category:
     name: Hyperledger Training Partners
     subcategories:
@@ -11945,7 +10805,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-28T19:09:32.000Z
+              latest_tweet_date: 2023-01-01T20:45:09.000Z
           - item:
             name: EMURGO (HTP)
             homepage_url: https://emurgo.io/
@@ -11978,7 +10838,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-30T18:10:01.000Z
+              latest_tweet_date: 2023-01-01T15:08:01.000Z
           - item:
             name: Information Data Systems (HTP)
             homepage_url: https://idssoft.com/
@@ -12493,7 +11353,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-01-01T05:23:54.000Z
+              latest_tweet_date: 2023-01-02T10:03:55.000Z
           - item:
             name: Kerala Blockchain Academy (HTP)
             homepage_url: https://kba.ai/
@@ -12630,4 +11490,4 @@ landscape:
 twitter_options:
   count: 14
   since_id: '1591446013515997184'
-updated_at: 2023-01-01T10:38:31.101Z
+updated_at: 2023-01-02T10:46:42.165Z
