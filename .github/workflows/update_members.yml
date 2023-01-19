@@ -47,13 +47,17 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install landscapeapp dependencies and cleanup yml files
+      - name: Yarn install
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: install # will run `yarn install` command
+        dir: landscapeapp
+
+      - name: cleanup yml files
         run: |
           cd landscapeapp
-          yarn
           PROJECT_PATH=../landscape yarn remove-quotes
           PROJECT_PATH=../landscape yarn prune
-
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
