@@ -50,6 +50,7 @@ jobs:
       - name: cleanup yml files
         run: |
           cd landscapeapp2
+          node tools/removePuppeteer
           yarn
           PROJECT_PATH=../landscape yarn remove-quotes
           PROJECT_PATH=../landscape yarn prune
