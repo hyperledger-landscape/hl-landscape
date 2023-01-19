@@ -51,9 +51,9 @@ jobs:
         run: |
           cd landscapeapp2
           node tools/removePuppeteer
-          yarn
-          PROJECT_PATH=../landscape yarn remove-quotes
-          PROJECT_PATH=../landscape yarn prune
+          npm install
+          PROJECT_PATH=../landscape node tools/removeQuotes
+          PROJECT_PATH=../landscape node tools/pruneExtraEntries
 
 
       - name: Create Pull Request
