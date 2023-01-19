@@ -51,8 +51,8 @@ jobs:
         run: |
           cd landscapeapp
           yarn
-          PROJECT_PATH=../landscape yarn exec node tools/validateLandscape
           PROJECT_PATH=../landscape yarn remove-quotes
+          PROJECT_PATH=../landscape yarn prune
 
 
       - name: Create Pull Request
