@@ -36,6 +36,25 @@ jobs:
         with:
           name: missing-members 
           path: ./landscape/missing.csv
+      - name: Checkout landscapeapp
+        uses: actions/checkout@v2
+        with:
+          repository: cncf/landscapeapp
+          path: landscapeapp
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install landscapeapp dependencies and cleanup yml files
+        run: |
+          cd landscapeapp
+          yarn
+          PROJECT_PATH=../landscape yarn exec node tools/validateLandscape
+          PROJECT_PATH=../landscape yarn remove-quotes
+
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
