@@ -46,7 +46,7 @@ landscape:
             github_data:
               languages:
                 - name: Java
-                  value: 18168622
+                  value: 18168809
                   color: '#b07219'
                 - name: C
                   value: 69723
@@ -82,20 +82,20 @@ landscape:
                   value: 490
                   color: '#701516'
               contributions: >-
-                16;17;24;11;11;11;15;23;13;28;16;20;9;20;13;23;13;25;20;21;16;9;31;19;16;22;16;20;20;34;22;7;19;7;28;21;9;38;14;26;12;8;20;32;34;9;16;16;14;9;20;16
+                10;21;19;15;7;13;15;23;17;24;15;18;16;17;14;19;17;23;20;22;12;17;29;15;22;17;15;18;32;26;19;6;20;12;26;20;13;31;16;27;10;10;21;33;30;9;21;12;13;9;20;19
               firstWeek: 2022-03-20Z
-              stars: 1158
+              stars: 1159
               license: Apache License 2.0
               description: An enterprise-grade Java-based, Apache 2.0 licensed Ethereum client https://wiki.hyperledger.org/display/besu
-              latest_commit_date: '2023-03-16T07:19:17Z'
-              latest_commit_link: /hyperledger/besu/commit/b46d903e05d667cbffb072437d198cd051009728
+              latest_commit_date: '2023-03-17T00:38:41Z'
+              latest_commit_link: /hyperledger/besu/commit/e6395c3af3012b4c4eeee6b2241486a7863b47c7
               release_date: '2023-03-07T23:46:21Z'
               release_link: https://github.com/hyperledger/besu/releases
               contributors_count: 153
               contributors_link: https://github.com/hyperledger/besu/graphs/contributors
             repos:
               - url: https://github.com/hyperledger/besu
-                stars: 1102
+                stars: 1103
               - url: https://github.com/hyperledger/besu-docs
                 stars: 43
               - url: https://github.com/hyperledger/besu-native
@@ -153,20 +153,20 @@ landscape:
             github_data:
               languages:
                 - name: Go
-                  value: 20887650
+                  value: 20512966
                   color: '#00ADD8'
                 - name: JavaScript
-                  value: 5588544
+                  value: 5262495
                   color: '#f1e05a'
                 - name: Java
-                  value: 3943777
+                  value: 3653283
                   color: '#b07219'
-                - name: TypeScript
-                  value: 1259191
-                  color: '#2b7489'
                 - name: Shell
-                  value: 1205360
+                  value: 917044
                   color: '#89e051'
+                - name: TypeScript
+                  value: 911187
+                  color: '#2b7489'
                 - name: Python
                   value: 699293
                   color: '#3572A5'
@@ -174,7 +174,7 @@ landscape:
                   value: 141200
                   color: '#5B2063'
                 - name: Makefile
-                  value: 118311
+                  value: 117326
                   color: '#427819'
                 - name: C
                   value: 117006
@@ -183,7 +183,7 @@ landscape:
                   value: 111436
                   color: '#f34b7d'
                 - name: Dockerfile
-                  value: 50497
+                  value: 43333
                   color: '#384d54'
                 - name: CMake
                   value: 26535
@@ -191,37 +191,31 @@ landscape:
                   value: 15503
                   color: '#DA5B0B'
                 - name: HTML
-                  value: 9625
+                  value: 2506
                   color: '#e34c26'
-                - name: Jinja
-                  value: 7424
-                - name: SCSS
-                  value: 289
                 - name: Emacs Lisp
                   value: 103
                   color: '#c065db'
               contributions: >-
-                19;19;24;13;22;32;35;31;30;19;23;24;32;43;11;27;20;39;4;17;13;14;14;10;9;21;14;12;15;9;23;26;12;13;18;23;19;10;32;14;0;12;19;33;32;25;12;22;20;22;17;11
+                21;20;16;9;17;33;19;25;26;16;17;31;25;31;14;26;11;35;8;9;9;17;10;6;14;12;14;13;14;11;27;16;13;8;12;19;18;9;33;5;0;14;19;29;27;18;15;19;17;16;14;8
               firstWeek: 2022-03-20Z
-              stars: 21928
+              stars: 19482
               license: Apache License 2.0
               description: >-
                 Hyperledger Fabric is an enterprise-grade permissioned distributed ledger framework for developing solutions and applications. Its modular and
                 versatile design satisfies a broad range of industry use cases. It offers a unique approach to consensus that enables performance at scale while
                 preserving privacy.
-              latest_commit_date: '2023-03-13T09:36:42Z'
-              latest_commit_link: /hyperledger/fabric/commit/077776f137e0343f90fb443c5617ca38454e0d55
+              latest_commit_date: '2023-03-16T10:59:59Z'
+              latest_commit_link: /hyperledger/fabric/commit/50eb16dd16d1997ba41f8f459f9dcb6f743b62e2
               release_date: '2023-03-14T19:31:46Z'
               release_link: https://github.com/hyperledger/fabric/releases
-              contributors_count: 618
+              contributors_count: 547
               contributors_link: https://github.com/hyperledger/fabric/graphs/contributors
             repos:
               - url: https://github.com/hyperledger/fabric
-                stars: 14428
-              - url: https://github.com/hyperledger/fabric-samples
-                stars: 2441
+                stars: 14430
               - url: https://github.com/hyperledger/fabric-sdk-java
-                stars: 1092
+                stars: 1091
               - url: https://github.com/hyperledger/fabric-sdk-go
                 stars: 863
               - url: https://github.com/hyperledger/fabric-sdk-node
@@ -233,15 +227,15 @@ landscape:
               - url: https://github.com/hyperledger/fabric-chaincode-java
                 stars: 273
               - url: https://github.com/hyperledger/fabric-chaincode-node
-                stars: 216
+                stars: 215
               - url: https://github.com/hyperledger/fabric-gateway-java
-                stars: 182
+                stars: 181
               - url: https://github.com/hyperledger/fabric-contract-api-go
                 stars: 168
               - url: https://github.com/hyperledger/fabric-test
                 stars: 150
               - url: https://github.com/hyperledger/fabric-private-chaincode
-                stars: 134
+                stars: 135
               - url: https://github.com/hyperledger/fabric-chaincode-go
                 stars: 113
               - url: https://github.com/hyperledger/fabric-gateway
@@ -258,8 +252,6 @@ landscape:
                 stars: 21
               - url: https://github.com/hyperledger/fabric-cli
                 stars: 18
-              - url: https://github.com/hyperledger/fabric-lib-go
-                stars: 5
               - url: https://github.com/hyperledger/fabric-amcl
                 stars: 4
             github_start_commit_data:
@@ -272,7 +264,7 @@ landscape:
               badge: 955
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2023-03-15T20:00:00.000Z
+              latest_tweet_date: 2023-03-16T16:12:08.000Z
           - item:
             name: Hyperledger Indy
             description: >-
@@ -332,7 +324,7 @@ landscape:
                   value: 706462
                   color: '#438eff'
                 - name: Shell
-                  value: 652872
+                  value: 653307
                   color: '#89e051'
                 - name: C
                   value: 476478
@@ -382,7 +374,7 @@ landscape:
                   value: 1797
                 - name: Jinja
                   value: 1587
-              contributions: 6;12;24;17;7;11;11;3;6;2;2;5;3;7;6;4;1;0;2;7;9;12;8;6;19;4;14;0;0;3;17;4;7;14;15;1;8;3;7;11;0;6;14;38;55;58;44;39;8;6;7;24
+              contributions: 8;16;20;16;6;11;11;4;5;2;2;6;7;3;5;5;0;2;1;10;6;13;8;5;18;4;14;0;0;3;18;5;8;11;16;0;8;4;6;11;0;12;11;40;64;54;39;35;9;6;11;21
               firstWeek: 2022-03-20Z
               stars: 1701
               license: Apache License 2.0
@@ -430,7 +422,7 @@ landscape:
               badge: 1983
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2023-03-15T20:00:00.000Z
+              latest_tweet_date: 2023-03-16T16:12:08.000Z
           - item:
             name: Hyperledger Iroha
             description: >-
@@ -501,7 +493,7 @@ landscape:
                   value: 68109
                   color: '#00ADD8'
                 - name: Shell
-                  value: 40960
+                  value: 40961
                   color: '#89e051'
                 - name: Solidity
                   value: 30123
@@ -536,9 +528,9 @@ landscape:
                 - name: Rust
                   value: 88
                   color: '#dea584'
-              contributions: 9;0;15;6;1;5;3;2;35;16;23;26;0;9;6;1;11;5;4;12;4;4;7;20;7;13;19;1;4;3;19;3;5;3;0;4;1;2;0;2;4;1;5;0;5;1;0;0;1;7;2;5
+              contributions: 9;2;14;5;1;5;3;5;32;21;25;19;3;8;4;2;10;5;7;9;6;2;14;15;7;21;9;2;4;3;18;3;6;2;0;4;1;2;0;4;3;1;4;0;6;0;0;0;1;8;4;3
               firstWeek: 2022-03-20Z
-              stars: 718
+              stars: 717
               license: Apache License 2.0
               description: Iroha - A simple, enterprise-grade decentralized ledger
               latest_commit_date: '2023-02-27T16:16:28Z'
@@ -559,7 +551,7 @@ landscape:
               - url: https://github.com/hyperledger/iroha-ed25519
                 stars: 28
               - url: https://github.com/hyperledger/iroha-java
-                stars: 28
+                stars: 27
               - url: https://github.com/hyperledger/iroha-2-docs
                 stars: 3
               - url: https://github.com/hyperledger/iroha-deploy
@@ -578,7 +570,7 @@ landscape:
               badge: 960
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2023-03-15T20:00:00.000Z
+              latest_tweet_date: 2023-03-16T16:12:08.000Z
           - item:
             name: Hyperledger Sawtooth
             description: >-
@@ -629,7 +621,7 @@ landscape:
                   value: 260962
                   color: '#00ADD8'
                 - name: Shell
-                  value: 163194
+                  value: 154799
                   color: '#89e051'
                 - name: JavaScript
                   value: 127185
@@ -640,9 +632,6 @@ landscape:
                 - name: C
                   value: 103781
                   color: '#555555'
-                - name: Java
-                  value: 90668
-                  color: '#b07219'
                 - name: HTML
                   value: 25393
                   color: '#e34c26'
@@ -671,22 +660,22 @@ landscape:
                   color: '#438eff'
                 - name: SCSS
                   value: 77
-              contributions: 2;0;3;16;0;22;12;7;16;23;2;11;5;0;4;30;20;16;27;9;3;6;5;2;19;12;1;11;1;0;0;9;0;0;0;0;2;0;1;0;0;0;0;0;18;7;0;0;0;0;0;0
+              contributions: 2;0;4;15;10;12;17;2;19;21;3;10;4;0;4;32;20;19;25;6;1;6;5;19;5;8;1;10;1;0;1;8;0;0;0;0;2;1;0;0;0;0;0;0;24;1;0;0;0;0;0;0
               firstWeek: 2022-03-20Z
-              stars: 1780
+              stars: 1764
               license: Apache License 2.0
               description: Core repository for Sawtooth Distributed Ledger
               latest_commit_date: '2022-09-23T15:55:00Z'
               latest_commit_link: /hyperledger/sawtooth-core/commit/e01124bec7a8ecb7ee82afdc507d2c559697f3a8
-              contributors_count: 107
+              contributors_count: 106
               contributors_link: https://github.com/hyperledger/sawtooth-core/graphs/contributors
             repos:
               - url: https://github.com/hyperledger/sawtooth-core
-                stars: 1411
+                stars: 1412
               - url: https://github.com/hyperledger/sawtooth-seth
                 stars: 73
               - url: https://github.com/hyperledger/sawtooth-pbft
-                stars: 68
+                stars: 69
               - url: https://github.com/hyperledger/sawtooth-sabre
                 stars: 49
               - url: https://github.com/hyperledger/sawtooth-sdk-javascript
@@ -699,8 +688,6 @@ landscape:
                 stars: 22
               - url: https://github.com/hyperledger/sawtooth-sdk-python
                 stars: 19
-              - url: https://github.com/hyperledger/sawtooth-sdk-java
-                stars: 18
               - url: https://github.com/hyperledger/sawtooth-poet
                 stars: 9
               - url: https://github.com/hyperledger/sawtooth-lib
@@ -725,7 +712,7 @@ landscape:
               badge: 954
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2023-03-15T20:00:00.000Z
+              latest_tweet_date: 2023-03-16T16:12:08.000Z
       - subcategory:
         name: Libraries
         items:
@@ -804,7 +791,7 @@ landscape:
                 - name: Objective-C
                   value: 90
                   color: '#438eff'
-              contributions: 7;12;4;13;0;7;5;9;7;0;5;1;4;5;10;2;14;6;6;7;8;1;9;0;3;2;0;7;13;5;8;27;19;31;11;15;10;5;23;6;3;29;42;25;55;26;22;28;3;9;31;15
+              contributions: 5;13;4;12;0;8;4;9;7;0;5;2;4;4;10;2;14;8;4;10;5;1;9;0;3;2;5;9;6;5;11;26;25;24;10;15;10;9;22;3;3;33;45;25;62;22;14;27;2;15;28;12
               firstWeek: 2022-03-20Z
               stars: 59
               license: Apache License 2.0
@@ -832,7 +819,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T20:00:00.000Z
+              latest_tweet_date: 2023-03-16T16:12:08.000Z
           - item:
             name: Hyperledger Aries
             description: >-
@@ -945,9 +932,9 @@ landscape:
                   value: 158
                   color: '#ffac45'
               contributions: >-
-                94;144;158;152;119;76;109;89;113;59;94;98;119;142;88;72;20;56;84;76;79;77;108;79;54;53;65;71;64;64;97;112;76;79;39;53;46;49;42;41;61;15;67;53;55;67;58;103;63;65;52;65
+                91;161;148;176;81;102;86;96;101;65;96;105;116;133;88;61;29;67;83;71;74;81;112;68;57;50;81;61;64;67;114;106;54;91;26;54;48;49;44;67;26;26;75;42;73;56;52;102;64;65;47;60
               firstWeek: 2022-03-20Z
-              stars: 1769
+              stars: 1770
               license: Apache License 2.0
               description: Hyperledger Aries is infrastructure for blockchain-rooted, peer-to-peer interactions
               latest_commit_date: '2022-07-06T02:54:16Z'
@@ -966,7 +953,7 @@ landscape:
               - url: https://github.com/hyperledger/aries-framework-javascript
                 stars: 166
               - url: https://github.com/hyperledger/aries-mobile-agent-react-native
-                stars: 90
+                stars: 91
               - url: https://github.com/hyperledger/aries-framework-dotnet
                 stars: 77
               - url: https://github.com/hyperledger/aries-agent-test-harness
@@ -1007,7 +994,7 @@ landscape:
               badge: 4088
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2023-03-15T20:00:00.000Z
+              latest_tweet_date: 2023-03-16T16:12:08.000Z
           - item:
             name: Hyperledger Transact
             description: >-
@@ -1068,7 +1055,7 @@ landscape:
                 - name: Shell
                   value: 2128
                   color: '#89e051'
-              contributions: 2;0;2;16;0;10;10;7;11;19;2;8;4;1;0;6;0;6;8;0;0;3;0;0;5;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+              contributions: 2;0;3;15;7;3;15;2;14;17;1;9;3;1;0;6;1;12;1;0;0;3;0;5;0;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
               firstWeek: 2022-03-20Z
               stars: 79
               license: Apache License 2.0
@@ -1100,7 +1087,7 @@ landscape:
               badge: 4092
               percentage: 15
             twitter_data:
-              latest_tweet_date: 2023-03-15T20:00:00.000Z
+              latest_tweet_date: 2023-03-16T16:12:08.000Z
           - item:
             name: Hyperledger Ursa
             description: >-
@@ -1169,9 +1156,9 @@ landscape:
                 - name: Batchfile
                   value: 258
                   color: '#C1F12E'
-              contributions: 0;0;0;0;0;5;5;0;0;0;1;0;0;1;1;0;0;0;0;2;4;0;0;0;0;1;2;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;1;2;1;5;0;0;1;0;0
+              contributions: 0;0;0;0;0;5;5;0;0;1;0;0;0;1;1;0;0;0;0;4;2;0;0;0;1;0;2;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;2;2;0;5;0;0;1;0;0
               firstWeek: 2022-03-20Z
-              stars: 350
+              stars: 351
               license: Apache License 2.0
               description: Hyperledger Ursa is a shared cryptography library
               latest_commit_date: '2023-03-15T15:30:05Z'
@@ -1180,7 +1167,7 @@ landscape:
               contributors_link: https://github.com/hyperledger/ursa/graphs/contributors
             repos:
               - url: https://github.com/hyperledger/ursa
-                stars: 315
+                stars: 316
               - url: https://github.com/hyperledger/ursa-rfcs
                 stars: 13
               - url: https://github.com/hyperledger/ursa-wrapper-go
@@ -1199,7 +1186,7 @@ landscape:
               badge: 2447
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2023-03-15T20:00:00.000Z
+              latest_tweet_date: 2023-03-16T16:12:08.000Z
       - subcategory:
         name: Tools
         items:
@@ -1268,7 +1255,7 @@ landscape:
                   color: '#e34c26'
                 - name: Mustache
                   value: 1992
-              contributions: 3;1;2;29;3;6;4;10;0;9;9;9;8;9;6;2;1;0;5;2;3;6;2;0;4;2;9;5;2;4;4;3;3;7;9;5;3;3;2;24;2;3;6;0;2;5;7;0;3;4;5;4
+              contributions: 2;1;4;29;3;4;4;10;0;11;8;8;8;9;7;2;0;0;5;3;3;6;1;1;4;2;11;2;4;3;5;3;3;6;8;6;2;3;24;3;1;4;5;0;2;5;7;0;4;8;10;5
               firstWeek: 2022-03-20Z
               stars: 295
               license: Apache License 2.0
@@ -1292,7 +1279,7 @@ landscape:
               badge: 3548
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2023-03-15T20:00:00.000Z
+              latest_tweet_date: 2023-03-16T16:12:08.000Z
           - item:
             name: Hyperledger Cacti
             description: Hyperledger Cacti is a blockchain integration tool designed to allow users to securely integrate different blockchains.
@@ -1327,32 +1314,32 @@ landscape:
             github_data:
               languages:
                 - name: TypeScript
-                  value: 5403676
+                  value: 5404911
                   color: '#2b7489'
                 - name: Kotlin
-                  value: 1043938
+                  value: 1044352
                   color: '#F18E33'
                 - name: Go
-                  value: 1014856
+                  value: 1012572
                   color: '#00ADD8'
                 - name: Rust
                   value: 479756
                   color: '#dea584'
                 - name: JavaScript
-                  value: 271318
+                  value: 271227
                   color: '#f1e05a'
                 - name: Shell
-                  value: 260302
+                  value: 262050
                   color: '#89e051'
                 - name: Solidity
                   value: 79033
                   color: '#AA6746'
-                - name: Makefile
-                  value: 58826
-                  color: '#427819'
                 - name: Dockerfile
                   value: 58207
                   color: '#384d54'
+                - name: Makefile
+                  value: 57754
+                  color: '#427819'
                 - name: Python
                   value: 41786
                   color: '#3572A5'
@@ -1379,13 +1366,13 @@ landscape:
                   color: '#ecdebe'
                 - name: EJS
                   value: 98
-              contributions: 15;13;14;17;18;20;5;18;18;55;36;22;13;12;10;40;40;22;20;8;15;9;12;10;13;12;7;19;16;60;45;9;7;6;11;16;28;19;14;23;35;18;26;27;25;8;14;7;0;3;0;0
+              contributions: 17;11;11;19;28;10;5;25;9;63;43;7;16;9;11;51;32;25;17;12;7;12;14;5;16;10;13;14;25;63;36;4;10;3;12;24;20;20;15;27;33;22;19;34;16;11;17;1;1;3;0;2
               firstWeek: 2022-03-20Z
               stars: 251
               license: Apache License 2.0
               description: Hyperledger Cacti is a new approach to the blockchain interoperability problem
-              latest_commit_date: '2023-02-28T19:07:32Z'
-              latest_commit_link: /hyperledger/cacti/commit/63357870004e5031c95d85663921ee15e3402339
+              latest_commit_date: '2023-03-17T03:10:57Z'
+              latest_commit_link: /hyperledger/cacti/commit/139026e2edc108e69b771175d86919aa764e1836
               release_date: '2022-12-19T21:04:52Z'
               release_link: https://github.com/hyperledger/cactus/releases
               contributors_count: 88
@@ -1403,7 +1390,7 @@ landscape:
               badge: 4089
               percentage: 97
             twitter_data:
-              latest_tweet_date: 2023-03-15T20:00:00.000Z
+              latest_tweet_date: 2023-03-16T16:12:08.000Z
           - item:
             name: Hyperledger Caliper
             description: >-
@@ -1469,7 +1456,7 @@ landscape:
                 - name: TypeScript
                   value: 1988
                   color: '#2b7489'
-              contributions: 2;1;5;3;2;10;2;3;10;3;3;0;1;4;5;10;8;3;5;15;6;0;0;0;0;0;0;2;1;2;4;5;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
+              contributions: 3;0;5;3;2;10;2;7;8;1;3;0;1;4;7;12;4;5;4;16;4;0;0;0;0;0;1;1;1;2;5;4;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0
               firstWeek: 2022-03-20Z
               stars: 652
               license: Apache License 2.0
@@ -1495,7 +1482,7 @@ landscape:
               badge: 2381
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2023-03-15T20:00:00.000Z
+              latest_tweet_date: 2023-03-16T16:12:08.000Z
           - item:
             name: Hyperledger Cello
             description: >-
@@ -1551,7 +1538,7 @@ landscape:
                   color: '#427819'
                 - name: EJS
                   value: 4678
-              contributions: 9;8;4;2;2;2;0;2;3;2;9;2;2;3;5;5;6;1;6;0;4;2;3;3;2;2;5;5;0;4;3;0;6;8;4;3;0;2;5;0;4;0;9;4;0;2;5;0;11;0;9;2
+              contributions: 13;4;4;2;2;2;0;2;5;0;9;2;5;0;5;7;4;5;2;0;5;4;3;1;1;2;5;5;0;5;2;0;6;8;5;2;0;2;5;0;4;1;8;4;0;2;5;0;11;0;9;2
               firstWeek: 2022-03-20Z
               stars: 853
               license: Apache License 2.0
@@ -1577,7 +1564,7 @@ landscape:
               badge: 4090
               percentage: 21
             twitter_data:
-              latest_tweet_date: 2023-03-15T20:00:00.000Z
+              latest_tweet_date: 2023-03-16T16:12:08.000Z
           - item:
             name: Hyperledger Firefly
             description: >-
@@ -1615,10 +1602,10 @@ landscape:
             github_data:
               languages:
                 - name: Go
-                  value: 7128658
+                  value: 5965669
                   color: '#00ADD8'
                 - name: TypeScript
-                  value: 2635545
+                  value: 2469358
                   color: '#2b7489'
                 - name: Java
                   value: 180962
@@ -1626,54 +1613,50 @@ landscape:
                 - name: PLpgSQL
                   value: 55189
                 - name: Shell
-                  value: 29539
+                  value: 28656
                   color: '#89e051'
                 - name: Smarty
                   value: 24874
                 - name: Makefile
-                  value: 20170
+                  value: 17392
                   color: '#427819'
                 - name: JavaScript
-                  value: 11331
+                  value: 9887
                   color: '#f1e05a'
                 - name: Dockerfile
-                  value: 6984
+                  value: 5258
                   color: '#384d54'
-                - name: Solidity
-                  value: 4822
-                  color: '#AA6746'
                 - name: HTML
                   value: 3993
                   color: '#e34c26'
                 - name: CSS
                   value: 2110
                   color: '#563d7c'
+                - name: Solidity
+                  value: 1036
+                  color: '#AA6746'
               contributions: >-
-                150;159;195;391;251;266;146;75;59;75;55;61;67;79;66;40;82;39;53;91;120;105;93;98;90;27;42;41;20;24;17;15;7;42;18;11;7;15;20;25;24;43;90;63;37;36;21;10;48;15;24;18
+                127;153;226;335;276;195;148;55;57;70;54;64;61;78;59;42;68;39;62;97;113;86;91;87;72;29;46;22;20;17;23;8;10;40;26;3;6;19;22;22;23;54;83;49;19;36;16;26;34;12;28;15
               firstWeek: 2022-03-20Z
-              stars: 590
+              stars: 503
               license: Apache License 2.0
               description: >-
                 Hyperledger FireFly is the first open source Supernode: a complete stack for enterprises to build and scale secure Web3 applications. The
                 FireFly API for digital assets, data flows, and blockchain transactions makes it radically faster to build production-ready apps on popular
                 chains and protocols.
-              latest_commit_date: '2023-03-14T15:08:00Z'
-              latest_commit_link: /hyperledger/firefly/commit/35319a22f7a468381105e7f79a4363fe5778879a
+              latest_commit_date: '2023-03-17T02:52:42Z'
+              latest_commit_link: /hyperledger/firefly/commit/f6c590cb60a47700ac5d707995e887a1be24c0db
               release_date: '2023-02-06T13:58:34Z'
               release_link: https://github.com/hyperledger/firefly/releases
-              contributors_count: 57
+              contributors_count: 52
               contributors_link: https://github.com/hyperledger/firefly/graphs/contributors
             repos:
               - url: https://github.com/hyperledger/firefly
-                stars: 337
-              - url: https://github.com/hyperledger/firefly-ethconnect
-                stars: 69
+                stars: 338
               - url: https://github.com/hyperledger/firefly-cli
                 stars: 39
               - url: https://github.com/hyperledger/firefly-ui
                 stars: 27
-              - url: https://github.com/hyperledger/firefly-tokens-erc1155
-                stars: 20
               - url: https://github.com/hyperledger/firefly-fabconnect
                 stars: 19
               - url: https://github.com/hyperledger/firefly-transaction-manager
@@ -1682,9 +1665,9 @@ landscape:
                 stars: 13
               - url: https://github.com/hyperledger/firefly-tokens-erc20-erc721
                 stars: 13
-              - url: https://github.com/hyperledger/firefly-dataexchange-https
-                stars: 8
               - url: https://github.com/hyperledger/firefly-helm-charts
+                stars: 9
+              - url: https://github.com/hyperledger/firefly-dataexchange-https
                 stars: 8
               - url: https://github.com/hyperledger/firefly-cordaconnect
                 stars: 6
@@ -1706,7 +1689,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T20:00:00.000Z
+              latest_tweet_date: 2023-03-16T16:12:08.000Z
           - item:
             name: Hyperledger Solang
             description: >-
@@ -1743,10 +1726,10 @@ landscape:
             github_data:
               languages:
                 - name: Rust
-                  value: 3760334
+                  value: 3772048
                   color: '#dea584'
                 - name: Solidity
-                  value: 406710
+                  value: 408402
                   color: '#AA6746'
                 - name: TypeScript
                   value: 177720
@@ -1763,13 +1746,13 @@ landscape:
                 - name: Dockerfile
                   value: 389
                   color: '#384d54'
-              contributions: 4;5;5;9;11;17;16;20;10;18;9;9;6;8;8;10;15;10;8;8;12;9;8;9;7;5;11;4;4;12;6;6;5;0;9;7;4;6;7;7;6;2;7;3;8;12;10;15;13;6;6;6
+              contributions: 5;6;4;9;13;19;14;22;10;14;9;10;7;9;6;12;11;13;8;6;14;7;8;9;7;7;10;2;10;6;9;3;5;0;10;6;4;6;8;8;4;6;3;3;12;13;11;12;11;7;7;4
               firstWeek: 2022-03-20Z
               stars: 968
               license: Apache License 2.0
               description: Solidity Compiler for Solana and Substrate
-              latest_commit_date: '2023-03-15T13:31:26Z'
-              latest_commit_link: /hyperledger/solang/commit/25b4877293ed07dab614618cd0ea6098f9c2ca1d
+              latest_commit_date: '2023-03-16T13:50:33Z'
+              latest_commit_link: /hyperledger/solang/commit/07b02e072a5320659264784af4fe0f0c6880e7c2
               release_date: '2023-02-20T18:18:53Z'
               release_link: https://github.com/hyperledger/solang/releases
               contributors_count: 30
@@ -1787,7 +1770,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T20:00:00.000Z
+              latest_tweet_date: 2023-03-16T16:12:08.000Z
       - subcategory:
         name: Domain Specific
         items:
@@ -1858,7 +1841,7 @@ landscape:
                   color: '#2b7489'
                 - name: HCL
                   value: 1725
-              contributions: 7;19;7;7;5;16;15;15;9;10;19;12;9;16;8;4;5;10;18;3;0;2;4;1;4;2;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
+              contributions: 9;17;10;3;17;6;17;13;10;13;16;15;5;15;8;5;5;12;17;0;0;2;4;5;0;2;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0
               firstWeek: 2022-03-20Z
               stars: 244
               license: Apache License 2.0
@@ -1888,7 +1871,7 @@ landscape:
               badge: 4091
               percentage: 16
             twitter_data:
-              latest_tweet_date: 2023-03-15T20:00:00.000Z
+              latest_tweet_date: 2023-03-16T16:12:08.000Z
   - category:
     name: Hyperledger Certified Service Providers
     subcategories:
@@ -2471,7 +2454,7 @@ landscape:
                 - Outsourcing
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 154987737578
+              market_cap: 159854757339
               effective_ticker: CSA.F
             image_data:
               fileName: accenture-hcsp.svg
@@ -2737,7 +2720,7 @@ landscape:
                 - Public Relations
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 45215360856
+              market_cap: 46622994825
               effective_ticker: 6501.T
             image_data:
               fileName: hitachi-hcsp.svg
@@ -2746,7 +2729,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T07:00:08.000Z
+              latest_tweet_date: 2023-03-17T09:41:51.000Z
           - item:
             name: IBM (HCSP)
             description: >-
@@ -3230,7 +3213,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 110498324480
+              market_cap: 111771099136
               effective_ticker: IBM
             image_data:
               fileName: ibm-hcsp.svg
@@ -3361,7 +3344,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T19:34:18.000Z
+              latest_tweet_date: 2023-03-16T18:01:03.000Z
           - item:
             name: KrypC Corp (HCSP)
             description: >-
@@ -3511,7 +3494,7 @@ landscape:
                 - Telecommunications
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 9834785510
+              market_cap: 9938087792
               effective_ticker: 6701.T
             image_data:
               fileName: nec-corporation-hcsp.svg
@@ -3520,7 +3503,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T08:16:53.000Z
+              latest_tweet_date: 2023-03-17T08:43:34.000Z
           - item:
             name: Snapper Future Tech (HCSP)
             description: >-
@@ -3673,7 +3656,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T08:24:56.000Z
+              latest_tweet_date: 2023-03-17T08:06:30.000Z
           - item:
             name: Wipro Limited (HCSP)
             homepage_url: https://wipro.com/
@@ -3796,7 +3779,7 @@ landscape:
                 - Information Technology
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 24922659181
+              market_cap: 24988347568
               effective_ticker: WIPRO.NS
             image_data:
               fileName: wipro-limited-hcsp.svg
@@ -4387,7 +4370,7 @@ landscape:
                 - Outsourcing
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 154987737578
+              market_cap: 159854757339
               effective_ticker: CSA.F
             image_data:
               fileName: accenture-global-solutions-limited.svg
@@ -4512,7 +4495,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 26215570915
+              market_cap: 26828540979
               effective_ticker: 6702.T
             image_data:
               fileName: fujitsu-limited.svg
@@ -4584,7 +4567,7 @@ landscape:
                 - Public Relations
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 45215360856
+              market_cap: 46622994825
               effective_ticker: 6501.T
             image_data:
               fileName: hitachi-ltd.svg
@@ -4593,7 +4576,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T07:00:08.000Z
+              latest_tweet_date: 2023-03-17T09:41:51.000Z
           - item:
             name: International Business Machines Corporation
             homepage_url: https://ibm.com/
@@ -5071,7 +5054,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 110498324480
+              market_cap: 111771099136
               effective_ticker: IBM
             image_data:
               fileName: international-business-machines-corporation.svg
@@ -5080,7 +5063,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T01:08:43.000Z
+              latest_tweet_date: 2023-03-17T10:09:07.000Z
       - subcategory:
         name: General
         items:
@@ -5116,7 +5099,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T08:27:03.000Z
+              latest_tweet_date: 2023-03-17T08:10:00.000Z
           - item:
             name: American Express Banking Corp.
             homepage_url: https://americanexpress.com/
@@ -5176,7 +5159,7 @@ landscape:
                 - Payments
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 118929481728
+              market_cap: 119614144512
               effective_ticker: AXP
             image_data:
               fileName: american-express-banking-corp.svg
@@ -5185,7 +5168,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-14T16:58:07.000Z
+              latest_tweet_date: 2023-03-16T15:13:25.000Z
           - item:
             name: Avanza Innovations IT Solutions LLC
             homepage_url: https://avanzainnovations.com/
@@ -5406,7 +5389,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T09:02:19.000Z
+              latest_tweet_date: 2023-03-17T09:01:12.000Z
           - item:
             name: CasperLabs LLC
             homepage_url: https://casperlabs.io/
@@ -5440,7 +5423,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T08:17:56.000Z
+              latest_tweet_date: 2023-03-17T08:31:18.000Z
           - item:
             name: Chainyard
             homepage_url: https://chainyard.com/
@@ -5602,7 +5585,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T23:32:39.000Z
+              latest_tweet_date: 2023-03-16T13:06:08.000Z
           - item:
             name: ConsenSys AG
             homepage_url: https://consensys.net/
@@ -5653,7 +5636,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T01:32:32.000Z
+              latest_tweet_date: 2023-03-16T23:05:39.000Z
           - item:
             name: Corsha
             homepage_url: https://corsha.com/
@@ -5769,7 +5752,7 @@ landscape:
                 - Sales
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 96821895168
+              market_cap: 97374060544
               effective_ticker: CVS
             image_data:
               fileName: cvs-health.svg
@@ -5778,7 +5761,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-14T17:47:05.000Z
+              latest_tweet_date: 2023-03-16T18:24:00.000Z
           - item:
             name: Data Storage Research, LLC d/b/a DSR Corporation
             homepage_url: https://dsr-corporation.com/
@@ -5896,7 +5879,7 @@ landscape:
                 - Telecommunications
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 115077281893
+              market_cap: 115702617735
               effective_ticker: DTE.DE
             image_data:
               fileName: deutsche-telekom-ag.svg
@@ -5905,7 +5888,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T09:54:15.000Z
+              latest_tweet_date: 2023-03-16T18:25:29.000Z
           - item:
             name: Digital Asset Holdings, LLC
             homepage_url: https://digitalasset.com/
@@ -5988,7 +5971,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T07:30:00.000Z
+              latest_tweet_date: 2023-03-16T10:30:11.000Z
           - item:
             name: DLT Global Inc.
             homepage_url: https://dltlabs.io/
@@ -6120,7 +6103,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T02:00:00.000Z
+              latest_tweet_date: 2023-03-16T22:11:05.000Z
           - item:
             name: GSBN
             homepage_url: https://gsbn.trade/
@@ -6181,7 +6164,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T20:08:26.000Z
+              latest_tweet_date: 2023-03-17T05:49:54.000Z
           - item:
             name: Huawei Technologies Co., Ltd
             homepage_url: https://huawei.com/
@@ -6236,7 +6219,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T10:02:05.000Z
+              latest_tweet_date: 2023-03-17T10:19:58.000Z
           - item:
             name: Indicio
             homepage_url: https://indicio.tech/
@@ -6274,7 +6257,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T20:11:38.000Z
+              latest_tweet_date: 2023-03-16T18:48:52.000Z
           - item:
             name: Information Data Systems
             homepage_url: https://idssoft.com/
@@ -6393,7 +6376,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 71260061696
+              market_cap: 72435564544
               effective_ticker: INFY
             image_data:
               fileName: infosys-limited.svg
@@ -6402,7 +6385,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T10:00:14.000Z
+              latest_tweet_date: 2023-03-17T10:00:24.000Z
           - item:
             name: Instnt Inc.
             homepage_url: https://instnt.org/
@@ -6438,7 +6421,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T17:30:00.000Z
+              latest_tweet_date: 2023-03-16T17:30:00.000Z
           - item:
             name: Integra Ledger
             homepage_url: https://integraledger.com/
@@ -6580,7 +6563,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T17:41:01.000Z
+              latest_tweet_date: 2023-03-17T08:12:41.000Z
           - item:
             name: IPwe
             homepage_url: https://ipwe.com/
@@ -6711,7 +6694,7 @@ landscape:
                 - Financial Services
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 377515343872
+              market_cap: 384844333056
               effective_ticker: JPM
             image_data:
               fileName: jp-morgan-chase.svg
@@ -6757,7 +6740,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T19:34:18.000Z
+              latest_tweet_date: 2023-03-16T18:01:03.000Z
           - item:
             name: Krypc Corporation
             homepage_url: https://krypc.com/
@@ -6840,7 +6823,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T13:00:08.000Z
+              latest_tweet_date: 2023-03-17T09:43:59.000Z
           - item:
             name: MediConCen Limited
             homepage_url: https://mediconcen.com/
@@ -6892,7 +6875,7 @@ landscape:
               acquisitions: []
               parents: []
               stockExchange: null
-              company_type: ''
+              company_type: For Profit
               industries: []
             image_data:
               fileName: milligan-partners.svg
@@ -6901,7 +6884,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-14T18:00:10.000Z
+              latest_tweet_date: 2023-03-16T18:18:43.000Z
           - item:
             name: NEC Corporation
             homepage_url: https://nec.com/
@@ -6956,7 +6939,7 @@ landscape:
                 - Telecommunications
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 9834785510
+              market_cap: 9938087792
               effective_ticker: 6701.T
             image_data:
               fileName: nec-corporation.svg
@@ -7082,7 +7065,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 17601843679
+              market_cap: 17908690524
               effective_ticker: 9613.T
             image_data:
               fileName: ntt-data.svg
@@ -7091,7 +7074,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T07:00:43.000Z
+              latest_tweet_date: 2023-03-17T07:00:43.000Z
           - item:
             name: Oracle America Inc.
             homepage_url: https://oracle.com/
@@ -7442,7 +7425,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 224029425664
+              market_cap: 228997038080
               effective_ticker: ORCL
             image_data:
               fileName: oracle-america-inc.svg
@@ -7451,7 +7434,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T16:20:01.000Z
+              latest_tweet_date: 2023-03-16T17:25:36.000Z
           - item:
             name: Paramount Software Solutions Inc.
             homepage_url: https://paramountsoft.net/
@@ -7482,7 +7465,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T12:38:51.000Z
+              latest_tweet_date: 2023-03-16T15:42:00.000Z
           - item:
             name: Poste Italiane SPA
             homepage_url: https://posteitaliane.it/
@@ -7522,7 +7505,7 @@ landscape:
                 - Packaging Services
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 12769967230
+              market_cap: 12759779559
               effective_ticker: PST.MI
             image_data:
               fileName: poste-italiane-spa.svg
@@ -7531,7 +7514,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T06:30:08.000Z
+              latest_tweet_date: 2023-03-16T14:28:00.000Z
           - item:
             name: R3 LLC
             homepage_url: https://r3cev.com/
@@ -7568,7 +7551,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T21:55:29.000Z
+              latest_tweet_date: 2023-03-17T07:36:05.000Z
           - item:
             name: REALTO GROUP INC
             homepage_url: https://realtoapps.com/
@@ -7656,7 +7639,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T00:19:00.000Z
+              latest_tweet_date: 2023-03-16T23:39:00.000Z
           - item:
             name: Shanghai Vonechain Information Technology Co., Ltd
             homepage_url: https://vonechain.com/
@@ -7714,7 +7697,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 893198196
+              market_cap: 923437032
               effective_ticker: 300468.SZ
             image_data:
               fileName: shenzhen-forms-syntron-information-co-ltd.svg
@@ -7920,7 +7903,7 @@ landscape:
                 - Insurance
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 108917779286
+              market_cap: 110574311589
               effective_ticker: SIE.DE
             image_data:
               fileName: siemens-ag.svg
@@ -7929,7 +7912,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T10:00:00.000Z
+              latest_tweet_date: 2023-03-16T16:00:01.000Z
           - item:
             name: SIMBA Chain
             homepage_url: https://simbachain.com/
@@ -8058,7 +8041,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T08:39:33.000Z
+              latest_tweet_date: 2023-03-17T08:42:00.000Z
           - item:
             name: Tangem AG
             homepage_url: https://tangem.com/
@@ -8095,7 +8078,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T10:13:55.000Z
+              latest_tweet_date: 2023-03-16T12:24:55.000Z
           - item:
             name: Tech Mahindra Limited
             homepage_url: https://techmahindra.com/
@@ -8201,7 +8184,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T08:24:56.000Z
+              latest_tweet_date: 2023-03-17T08:06:30.000Z
           - item:
             name: The Medium
             homepage_url: https://themedium.io/
@@ -8311,7 +8294,7 @@ landscape:
                 - Payments
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 454764265472
+              market_cap: 457034203136
               effective_ticker: V
             image_data:
               fileName: visa-inc.svg
@@ -8388,7 +8371,7 @@ landscape:
                 - Retail Technology
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 376581160960
+              market_cap: 372913504256
               effective_ticker: WMT
             image_data:
               fileName: walmart-inc.svg
@@ -8397,7 +8380,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T09:28:47.000Z
+              latest_tweet_date: 2023-03-17T07:45:33.000Z
           - item:
             name: Wipro Limited
             homepage_url: https://wipro.com/
@@ -8520,7 +8503,7 @@ landscape:
                 - Information Technology
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 24922659181
+              market_cap: 24988347568
               effective_ticker: WIPRO.NS
             image_data:
               fileName: wipro-limited.svg
@@ -8564,7 +8547,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T10:09:00.000Z
+              latest_tweet_date: 2023-03-17T05:34:52.000Z
       - subcategory:
         name: Associate
         items:
@@ -8599,7 +8582,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T18:00:02.000Z
+              latest_tweet_date: 2023-03-16T14:29:59.000Z
           - item:
             name: Alastria Blockchain Ecosystem
             homepage_url: https://alastria.io/
@@ -8630,7 +8613,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T17:20:55.000Z
+              latest_tweet_date: 2023-03-16T22:17:51.000Z
           - item:
             name: Alliance of Blockchain Industry, Z-park
             homepage_url: https://zgc-blockchain.cn/
@@ -8693,7 +8676,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T07:00:45.000Z
+              latest_tweet_date: 2023-03-17T03:00:28.000Z
           - item:
             name: Association of Blockchain Developers of Saint-Petersburg
             homepage_url: https://spblockchain.ru/
@@ -8756,7 +8739,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T04:03:44.000Z
+              latest_tweet_date: 2023-03-17T03:13:43.000Z
           - item:
             name: Bank of England
             homepage_url: https://bankofengland.co.uk/
@@ -8820,7 +8803,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T10:01:48.000Z
+              latest_tweet_date: 2023-03-17T09:31:09.000Z
           - item:
             name: Blockchain at Berkeley
             homepage_url: https://blockchain.berkeley.edu/
@@ -8884,7 +8867,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-14T14:56:57.000Z
+              latest_tweet_date: 2023-03-17T04:34:19.000Z
           - item:
             name: Budapest University of Technology and Economics
             homepage_url: https://mit.bme.hu/
@@ -8977,7 +8960,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T08:30:00.000Z
+              latest_tweet_date: 2023-03-17T08:30:00.000Z
           - item:
             name: Central Bank of Nigeria
             homepage_url: https://cbn.gov.ng/
@@ -9042,7 +9025,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T21:01:17.000Z
+              latest_tweet_date: 2023-03-16T21:00:53.000Z
           - item:
             name: China Academy of Information and Communications Technology (CAICT)
             homepage_url: https://caict.ac.cn/
@@ -9102,7 +9085,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T22:03:43.000Z
+              latest_tweet_date: 2023-03-16T22:04:18.000Z
           - item:
             name: Construction Blockchain Consortium
             homepage_url: https://constructionblockchain.org/
@@ -9226,7 +9209,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T10:00:03.000Z
+              latest_tweet_date: 2023-03-17T10:00:01.000Z
           - item:
             name: Digital Identity Laboratory of Canada
             homepage_url: https://idlab.org/
@@ -9278,7 +9261,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T12:50:31.000Z
+              latest_tweet_date: 2023-03-17T03:55:16.000Z
           - item:
             name: ETC Cooperative (The Ethereum Classic Cooperative)
             homepage_url: https://etccooperative.org/
@@ -9308,7 +9291,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T16:04:29.000Z
+              latest_tweet_date: 2023-03-16T22:30:20.000Z
           - item:
             name: Ethereum Foundation
             homepage_url: https://ethereum.org/
@@ -9349,7 +9332,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-11T17:27:07.000Z
+              latest_tweet_date: 2023-03-16T11:31:18.000Z
           - item:
             name: European Blockchain Association e.V.
             homepage_url: https://europeanblockchainassociation.org/
@@ -9380,7 +9363,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T10:15:07.000Z
+              latest_tweet_date: 2023-03-17T10:00:46.000Z
           - item:
             name: Federal Reserve Bank of Boston
             homepage_url: https://bostonfed.org/
@@ -9412,7 +9395,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-14T21:28:05.000Z
+              latest_tweet_date: 2023-03-16T21:22:05.000Z
           - item:
             name: Fujian Blockchain Association
             homepage_url: https://fjchain.net/
@@ -9472,7 +9455,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T21:11:32.000Z
+              latest_tweet_date: 2023-03-16T21:09:31.000Z
           - item:
             name: Government of Bermuda
             homepage_url: https://gov.bm/
@@ -9501,7 +9484,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T15:00:45.000Z
+              latest_tweet_date: 2023-03-16T19:00:47.000Z
           - item:
             name: GS1 US
             homepage_url: https://gs1us.org/
@@ -9534,7 +9517,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T10:15:14.000Z
+              latest_tweet_date: 2023-03-16T22:45:11.000Z
           - item:
             name: Howest
             homepage_url: https://howest.be/
@@ -9564,7 +9547,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-02-27T16:17:54.000Z
+              latest_tweet_date: 2023-03-17T07:59:01.000Z
           - item:
             name: INATBA
             homepage_url: https://inatba.org/
@@ -9596,7 +9579,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T15:12:42.000Z
+              latest_tweet_date: 2023-03-16T11:00:45.000Z
           - item:
             name: Initiative for CryptoCurrencies and Contracts (IC3)
             homepage_url: https://initc3.org/
@@ -9626,7 +9609,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T00:29:12.000Z
+              latest_tweet_date: 2023-03-16T22:22:30.000Z
           - item:
             name: Inter-American Development Bank (dba LACChain)
             homepage_url: https://lacchain.net/
@@ -9766,7 +9749,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T17:05:15.000Z
+              latest_tweet_date: 2023-03-16T17:05:16.000Z
           - item:
             name: Mobility Open Blockchain Initiative (MOBI)
             homepage_url: https://dlt.mobi/
@@ -9796,7 +9779,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T19:40:36.000Z
+              latest_tweet_date: 2023-03-16T16:42:08.000Z
           - item:
             name: Monetary Authority of Singapore
             homepage_url: https://mas.gov.sg/
@@ -9860,7 +9843,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T15:41:32.000Z
+              latest_tweet_date: 2023-03-16T21:14:03.000Z
           - item:
             name: Peking University
             homepage_url: https://pku.edu.cn/
@@ -9893,7 +9876,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T10:07:23.000Z
+              latest_tweet_date: 2023-03-17T01:54:30.000Z
           - item:
             name: Portland State University
             homepage_url: https://pdx.edu/
@@ -9928,7 +9911,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T22:14:49.000Z
+              latest_tweet_date: 2023-03-16T23:39:06.000Z
           - item:
             name: Province of British Columbia - Ministry of Citizens Services
             homepage_url: https://gov.bc.ca/
@@ -9960,7 +9943,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T22:08:26.000Z
+              latest_tweet_date: 2023-03-16T18:55:06.000Z
           - item:
             name: Saintgits College of Engineering
             homepage_url: https://saintgits.org/
@@ -10094,7 +10077,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T23:14:26.000Z
+              latest_tweet_date: 2023-03-16T22:57:32.000Z
           - item:
             name: Sun Yat-sen University
             homepage_url: https://sysu.edu.cn/
@@ -10156,7 +10139,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T10:19:33.000Z
+              latest_tweet_date: 2023-03-17T10:18:54.000Z
           - item:
             name: The Digital Dollar Project
             homepage_url: https://digitaldollarproject.org/
@@ -10205,7 +10188,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T22:01:17.000Z
+              latest_tweet_date: 2023-03-17T01:07:49.000Z
           - item:
             name: The University of Hong Kong
             homepage_url: https://hku.hk/
@@ -10304,7 +10287,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T03:00:02.000Z
+              latest_tweet_date: 2023-03-17T04:09:05.000Z
           - item:
             name: United Nations (International Computing Centre)
             homepage_url: https://unicc.org/
@@ -10337,7 +10320,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-14T20:00:35.000Z
+              latest_tweet_date: 2023-03-16T17:02:20.000Z
           - item:
             name: Universidad Tecnológica Nacional - Facultad Regional Córdoba
             homepage_url: https://frc.utn.edu.ar/
@@ -10410,7 +10393,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T17:23:02.000Z
+              latest_tweet_date: 2023-03-16T18:12:30.000Z
           - item:
             name: University of Nicosia
             homepage_url: https://unic.ac.cy/
@@ -10441,7 +10424,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T09:09:23.000Z
+              latest_tweet_date: 2023-03-17T09:37:40.000Z
           - item:
             name: University of Rome Tor Vergata
             homepage_url: https://uniroma2.it/
@@ -10505,7 +10488,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T23:01:42.000Z
+              latest_tweet_date: 2023-03-17T00:00:00.000Z
           - item:
             name: Vilnius Gediminas Technical University
             homepage_url: https://vgtu.it/
@@ -10566,7 +10549,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-02T15:27:21.000Z
+              latest_tweet_date: 2023-03-16T14:03:18.000Z
           - item:
             name: XPRIZE
             homepage_url: https://xprize.org/
@@ -10659,7 +10642,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-15T12:01:02.000Z
+              latest_tweet_date: 2023-03-16T12:06:03.000Z
   - category:
     name: Hyperledger Training Partners
     subcategories:
@@ -10716,7 +10699,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T01:32:32.000Z
+              latest_tweet_date: 2023-03-16T23:05:39.000Z
           - item:
             name: EMURGO (HTP)
             homepage_url: https://emurgo.io/
@@ -10749,7 +10732,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T04:23:16.000Z
+              latest_tweet_date: 2023-03-16T13:55:11.000Z
           - item:
             name: Information Data Systems (HTP)
             homepage_url: https://idssoft.com/
@@ -11257,7 +11240,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 110498324480
+              market_cap: 111771099136
               effective_ticker: IBM
             image_data:
               fileName: international-business-machines-corporation-htp.svg
@@ -11266,7 +11249,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-16T01:08:43.000Z
+              latest_tweet_date: 2023-03-17T10:09:07.000Z
           - item:
             name: Kerala Blockchain Academy (HTP)
             homepage_url: https://kba.ai/
@@ -11403,4 +11386,4 @@ landscape:
 twitter_options:
   count: 20
   since_id: '1632955094873395200'
-updated_at: 2023-03-16T10:33:06.120Z
+updated_at: 2023-03-17T10:33:00.173Z
