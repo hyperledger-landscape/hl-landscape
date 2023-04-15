@@ -1,35 +1,57 @@
 global:
-  name: Hyperledger Landscape
-  short_name: Hyperledger
-  repo: hyperledger-landscape/hl-landscape
+  name: Hyperledger DLT Landscape
+  short_name: HyperledgerDLTLandscape
+  repo: dltlandscape/dlt-landscape
   website: https://landscape.hyperledger.org
   short_domain: l.hyperledger.org
   company_url: https://hyperledger.org
   email: info@hyperledger.org
   self: https://www.crunchbase.com/organization/hyperledger-2
-  slack_channel: T08PSQ7BQ/BNJ3M745N/SuoWYz5SmLz0D0T76ErdM8ba
-  meta:
-    title: Hyperledger Landscape
-    fb_admin: alex.contini.94
-    description: Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets
-    twitter: '@hyperledger'
-    google_site_verification: 02nZnXMMckSXVC6dBaHQQgMbpymdaQr-2l8zRKLgsaY
-    ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
   membership: Hyperledger Members
+  meta:
+    title: Hyperledger DLT Landscape
+    description:
+    twitter: '@hyperledger'
+    extra: >
+      <meta property="og:image" content="https://landscape.cncf.io/images/social.jpg" />
+      <meta property="og:image:width" content="1800" />
+      <meta property="og:image:height" content="945" />
+      <meta property="og:locale" content="en_US" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="DLT Landscape" />
+      <meta property="og:description" content="A living market landscape with a technology foundation, created by and for the DLT community" />
+
+      <meta property="og:url" content="https://dltlandscape.org/" />
+      <meta property="og:site_name" content="Landscape" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Landscape" />
+      <meta name="twitter:description" content="The Landscape organizes all cloud native open source projects and proprietary products into categories,
+      providing an overview of the current ecosystem" />
+      <meta name="twitter:image" content="https://landscape.cncf.io/images/social.jpg" />
+      <meta name="twitter:image:width" content="1800" />
+      <meta name="twitter:image:height" content="945" />
+      <script>document.addEventListener('DOMContentLoaded', function() {
+        const options = JSON.parse(document.querySelector('[data-name=project]').getAttribute('data-options'));
+        const newOptions = options.filter( (x) => ["company", "project", "member", false].indexOf(x.id) === -1);
+        document.querySelector('[data-name=project]').setAttribute('data-options', JSON.stringify(newOptions));
+      });</script>
+
   flags:
-    companies: Hyperledger Members
+    gray_large_items: true
+    companies: false
     hide_license_for_categories:
-      - Hyperledger Certified Service Providers
+      - Hyperledger Members
+  hide_best_practices: true
 twitter:
-  search: landscape.hyperledger.org
-  url: https://landscape.hyperledger.org
-  text: Hyperledger Landscape
+  search: dltlandscape.org
+  url: https://dltlandscape.org
+  text: DLT Landscape
 relation:
   label: Hyperledger Relation
   url: hyperledger
   values:
     - id: hosted
-      label: Hyperledger Projects
+      label: Projects
       children:
         - id: graduated
           label: Graduated Hyperledger Projects
@@ -47,24 +69,63 @@ relation:
           big_picture_order: 2
           big_picture_label: Incubating
           big_picture_color: rgb(83, 113, 189)
-        - id: dormant
-          label: Dormant Hyperledger Projects
-          prefix: Hyperledger
-          tag: Dormant
-          color: '#8f4210'
-          big_picture_order: 3
-          big_picture_label: Dormant
-          big_picture_color: rgb(143,66,16)
-    - id: company
-      label: Hyperledger Members
-      tag: Company
-      big_picture_order: 3
-    - id: member
-      label: Hyperledger Project Member Products/Projects
+    - id: hyperledger-member-services
+      label: Hyperledger Member Services
+      big_picture_label: Hyperledger Services
+      big_picture_color: rgb(24,54,114)
+      tag: Hyperledger Member Services
+    - id: hyperledger-member-products
+      label: Hyperledger Member Products/Projects
+      big_picture_label: Hyperledger Products
+      big_picture_color: rgb(24,54,114)
       tag: Hyperledger Member
+    - id: non-hyperledger-member-services
+      label: Non-Hyperledger Member Services
+      big_picture_label: Other Services
+      big_picture_color: rgb(24,54,114)
+      tag: Hyperledger Member
+    - id: non-hyperledger-member-products
+      label: Non-Hyperledger Member Products/Projects
+      big_picture_label: Other Products
+      big_picture_color: rgb(24,54,114)
+      tag: Hyperledger Member
+    - id: organization
+      tag: Organization
+      label: Standards Organization
+      color: '#00cbff'
+      big_picture_label: Organization
+      big_picture_order: 1
+      big_picture_color: rgb(24,54,114)
+    - id: network
+      tag: Network
+      label: Network
+      color: '#00cbff'
+      big_picture_label: Network
+      big_picture_order: 1
+      big_picture_color: rgb(24,54,114)
+    - id: company
+      tag: Company
+      label: Company
+      big_picture_label: Company
+      big_picture_color: rgb(24,54,114)
+      color: rgb(24,54,114)
+    - id: project
+      tag: Project
+      label: Project
+      big_picture_label: Project
+      big_picture_color: rgb(0,0,0)
+      color: '#000000'
+    - id: member
+      tag: Member
+      label: Member
+      big_picture_label: Member
+      big_picture_color: rgb(24,54,114)
     - id: false
-      label: Non-Hyperledger Project Member Products/Projects
-      url: 'no'
+      tag: Other
+      label: Other
+      big_picture_label: Other
+      big_picture_color: rgb(0,0,0)
+      color: '#000000'
 membership:
   Premier:
     name: Hyperledger
@@ -88,15 +149,14 @@ membership:
     funding: 'No'
 home:
   header: >
-    <h1>Hyperledger Landscape</h1> The Hyperledger landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
-    href="images/landscape.pdf">pdf</a>) is dynamically generated below. It is modeled after the <a href="http://landscape.cncf.io">CNCF landscape</a> and based
-    on the same open source code.
+    <h1>DLT Landscape</h1> The DLT landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank" href="images/landscape.pdf">pdf</a>) is
+    dynamically generated below. It is modeled after the <a href="http://landscape.cncf.io">CNCF landscape</a> and based on the same open source code.
   footer: |
     Crunchbase data is used under license from Crunchbase to CNCF.
 ads:
-  - url: https://events.linuxfoundation.org/hyperledger-global-forum/
+  - url: https://www.hyperledger.org/event/hyperledger-global-forum-2022-dublin-ireland
     image: /images/HGF2022.jpg
-    title: Hyperledger Global Forum 2022
+    title: Hyperledger Global Forum | 12-14 Sep 2022
 presets:
   - url: /format=card-mode&grouping=no&license=open-source&sort=first-commit
     label: Open source cards by age
@@ -115,82 +175,138 @@ big_picture:
     tab_index: -1
     url: landscape
     name: Landscape
-    title: Hyperledger Landscape
-    fullscreen_header: See the interactive landscape at l.hyperledger.org
+    title: DLT Landscape
+    fullscreen_header: See the interactive landscape at dltlandscape.org
     elements:
-      - type: HorizontalCategory
-        category: Hyperledger Certified Service Providers
-        rows: 3
-        width: 730
-        height: 160
+      - type: VerticalCategory
+        category: Platforms
+        cols: 4
+        width: 175
+        height: 1520
         top: 0
         left: 0
-        color: rgb(19,105,73)
-        fit_width: true
+        color: rgb(153,153,0)
+        is_large: true
       - type: HorizontalCategory
-        category: Hyperledger Training Partners
+        category: Multiparty Applications
         rows: 4
-        width: 730
-        height: 160
-        top: 165
-        left: 0
-        color: rgb(126,115,14)
-        fit_width: true
-      - type: HorizontalCategory
-        category: Hyperledger Members
-        rows: 7
-        width: 730
-        height: 1200
-        top: 330
-        left: 0
-        color: rgb(143,66,16)
-        fit_width: true
-      - type: HorizontalCategory
-        category: Hyperledger Projects
-        rows: 6
-        width: 730
-        height: 600
-        top: 1535
-        left: 0
-        color: rgb(4,81,49)
-        fit_width: true
-      - type: LandscapeInfo
-        width: 365
-        height: 200
+        width: 900
+        height: 180
         top: 0
-        left: 745
+        left: 200
+        color: rgb(0,181,226)
+        is_large: true
+      - type: HorizontalCategory
+        category: Application Tooling/Integrations
+        rows: 4
+        width: 900
+        height: 180
+        top: 200
+        left: 200
+        color: rgb(0,128,255)
+        fit_width: false
+        is_large: true
+      - type: HorizontalCategory
+        category: Smart Contracts/Tokenization
+        rows: 6
+        width: 900
+        height: 240
+        top: 400
+        left: 200
+        color: rgb(0,128,255)
+        fit_width: false
+        is_large: true
+      - type: HorizontalCategory
+        category: Interoperability
+        rows: 4
+        width: 900
+        height: 180
+        top: 680
+        left: 200
+        color: rgb(0,128,255)
+        fit_width: false
+        is_large: true
+      - type: HorizontalCategory
+        category: Technology Intersections
+        rows: 4
+        width: 900
+        height: 180
+        top: 900
+        left: 200
+        color: rgb(0,128,255)
+        fit_width: false
+        is_large: true
+      - type: HorizontalCategory
+        category: Distributed Ledgers
+        rows: 6
+        width: 900
+        height: 220
+        top: 1100
+        left: 200
+        color: rgb(0,128,255)
+        fit_width: false
+        is_large: true
+      - type: HorizontalCategory
+        category: Computing Infrastructure
+        rows: 4
+        width: 900
+        height: 180
+        top: 1340
+        left: 200
+        color: rgb(160,160,160)
+        fit_width: false
+        is_large: true
+      - type: VerticalCategory
+        category: Standards
+        cols: 4
+        width: 175
+        height: 1520
+        top: 0
+        left: 1125
+        color: rgb(218,165,32)
+        is_large: true
+      - type: VerticalCategory
+        category: Services
+        cols: 4
+        width: 175
+        height: 1520
+        top: 0
+        left: 1320
+        color: rgb(204,0,102)
+        is_large: true
+      - type: LandscapeInfo
+        width: 430
+        height: 280
+        top: 1540
+        left: 0
         children:
           - type: text
             text: |
-              This landscape is intended as a map to explore the Hyperledger community, and also shows the member organizations of Hyperledger.
-            top: 45
-            left: 100
-            right: 120
-            font_size: 10
+               This is a living segmentation of the evolving blockchain, and distributed ledger technology (DLT) space, more broadly. Its creation was inspired by the growing complexity of this emerging market, and in particular, all the innovation happening outside the core DLT development area.
+
+               This landscape both reflects and deciphers the complexity of today's vendor landscape. It includes all the Hyperledger Foundation projects - graduated and incubating - and places them in the broader market context.
+            top: 80
+            left: 130
+            right: 20
+            font_size: 11
           - type: image
             image: qr.svg
-            top: 40
-            left: 5
+            top: 80
+            left: 20
             width: 90
             height: 90
             title: QR Code
           - type: title
-            title: l.hyperledger.org
-            top: 129
-            left: 19
-            font_size: 21
+            title: dltlandscape.org
+            top: 195
+            left: 24
+            font_size: 16
           - type: image
-            image: left-logo.svg
-            width: 110
-            right: 5
-            top: 45
+            image: logo.svg
+            width: 120
+            left: 20
+            top: 20
             title: Landscape Logo
-          - type: image
-            image: right-logo.svg
-            width: 109
-            right: 5
-            top: 85
-            title: Hyperledger Logo
   third:
     tab_index: 1
     url: projects
@@ -225,6 +341,15 @@ big_picture:
         left: 0
         color: rgb(126,115,14)
         fit_width: true
+      - type: HorizontalCategory
+        category: Domain Specific
+        rows: 4
+        width: 240
+        height: 160
+        top: 510
+        left: 0
+        color: rgb(87,43,10)
+        fit_width: true
     category: Hyperledger Projects
   fourth:
     tab_index: 2
@@ -235,7 +360,7 @@ big_picture:
     elements:
       - type: HorizontalCategory
         category: Premier
-        width: 700
+        width: 900
         height: 180
         top: 0
         left: 0
@@ -244,8 +369,8 @@ big_picture:
         is_large: true
       - type: HorizontalCategory
         category: General
-        width: 700
-        height: 800
+        width: 900
+        height: 600
         top: 175
         left: 0
         color: '#d4af37'
@@ -254,9 +379,9 @@ big_picture:
       - type: HorizontalCategory
         category: Associate
         cols: 30
-        width: 700
-        height: 270
-        top: 975
+        width: 1200
+        height: 370
+        top: 775
         left: 0
         color: '#C0C0C0'
         fit_width: true
@@ -272,8 +397,8 @@ big_picture:
       - type: HorizontalCategory
         category: Hyperledger Fabric CSPs
         rows: 3
-        width: 525
-        height: 160
+        width: 725
+        height: 460
         top: 0
         left: 0
         color: rgb(19,105,73)
@@ -289,18 +414,14 @@ big_picture:
       - type: HorizontalCategory
         category: Hyperledger Training Partners
         rows: 4
-        width: 240
-        height: 160
+        width: 740
+        height: 460
         top: 0
         left: 0
         color: rgb(126,115,14)
         fit_width: true
     category: Hyperledger Training Partners
 test:
-  header: Hyperledger Landscape
-  section: Hyperledger Members
-  logo: fujitsu-limited.svg
-prerender:
-  hcsp: /card-mode?category=hyperledger-certified-service-providers&grouping=category
-  csp: /card-mode?category=hyperledger-fabric-csp&grouping=category&embed=yes
-  members: /card-mode?grouping=category&project=company&embed=yes&style=borderless
+  header: DLT Landscape
+  section: Project
+  logo: google.svg

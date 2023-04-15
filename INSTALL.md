@@ -1,55 +1,34 @@
-# Installation
+# Local Installation
 
-## Install on Mac
+## Install node with homebrew
 1. Install [Homebrew](https://brew.sh/)
-2. `brew install node`
-3. `git clone git@github.com:LFDLFoundation/lfdl-landscape.git`
+1. Install Node: `$ brew install node`
+1. Create a dltlandscape directory: `$ mkdir dltlandscape`
+1. Switch to dltlandscape directory: `$ cd dltlandscape`
+1. Clone the landscape app: `$ git clone git@github.com:cncf/landscapeapp.git`
+1. Setup the landscape app: `$ cd landscapeapp`
+1. `$ npm install -g yarn@latest`
+1. `$ yarn`
+1. `$ cd ../`
+1. Clone the dlt-landscape: `$ git clone git@github.com:dltlandscape/dlt-landscape.git`
+1. Add the following to your .zshrc or .bashrc updating the directory paths for your local setup:
 
-## Install on Linux
-1. `git clone git@github.com:LFDLFoundation/lfdl-landscape.git`
-2. Please follow [this script](https://github.com/cncf/landscapeapp/blob/master/update_server/setup.template) to install correct versions of `nodejs` and other packages on Linux.
-
-## Local development
-1. `git pull`
-2. `npm install` (installs dependencies)
-* `npm run open:src` (starts a development server) or
-* `npm run build`, then `npm run open:dist` (compiles and opens a production build)
-
-## Review build details
-1. `npm run build`
-1. `open dist/report.html`
-
-## Updating data
-
-After making your changes to `landscape.yml`, run `npm run fetch` to fetch any needed data and generate [processed_landscape.yml](processed_landscape.yml) and [data.json](. /src/data.json).
-
-`npm run fetch` runs in 4 modes of increasingly aggressive downloading, with a default to easy. Reading data from the cache (meaning from processed_landscape.yml) means that no new data is fetched if the project/product already exists. The modes are:
-
-| Data cached            | easy   | medium   | hard   | complete   |
-|------------------------|--------|----------|--------|------------|
-| **Crunchbase**         | true   | false    | false  | false      |
-| **GitHub basic stats** | true   | false    | false  | false      |
-| **GitHub start dates** | true   | true     | false  | false      |
-| **Image data**         | true   | true     | true   | false      |
-
-* **Easy** mode just fetches any data needed for new projects/products.
-* **Medium** fetches Crunchbase and basic GitHub data for all projects/products.
-* **Hard** also fetches GitHub start dates. These should not change so this should not be necessary.
-* **Complete** also re-fetches all images. This is problematic because images tend to become unavailable (404) over time, even though the local cache is fine.
-
-Easy mode (the default) is what you should use if you update `landscape.yml` and want to see the results locally. The Netlify build server runs easy mode, which makes it possible to just commit a change to landscape.yml and have the results reflected in production. Run with `npm run fetch`.
-
-Medium mode is what is run by the update server, with commits back to the repo. It needs to be run regularly to update last commit date, stars, and Crunchbase info. Run with `npm run update`.
-
-Hard and complete modes should be unnecessary except in cases of possible data corruption. Even then, it's better to just delete any problematic entries from `processed_landscape.yml` and easy mode will recreate them with up-to-date information.
-
-### Adding a custom image
-
-If you can't find the right logo on the web, you can create a custom one and host it in this repo:
-
-1. Save the logo to `src/hosted_logos/`, for example, `src/hosted_logos/apex.svg`. Use lowercase spinal case (i.e., hyphens) for the name.
-1. Update landscape.yml, for example, `logo: ./src/hosted_logos/apex.svg`. The location must start with`./src/hosted_logos`.
-1. If you've updated the local logo since a previous commit, you need to delete the cached version in `.src/cached_logos/`. E.g., delete `./src/cached_logos/apex.svg`.
-1. Update `processed_landscape.yml` with `npm run fetch`.
-1. Commit and push. Double-check your work in the Netlify preview after opening a pull request.
+    ```
+    function y { export PROJECT_PATH=`pwd` && (cd ../landscapeapp && yarn run "$@")}
+    export -f y
+    # yf does a normal build and full test run
+    alias yf='y fetch'
+    alias yl='y check-links'
+    alias yq='y remove-quotes'
+    # yp does a build and then opens up the landscape in your browser ( can view the PDF and PNG files )
+    alias yp='y build && y open:dist'
+    # yo does a quick build and opens up the landscape in your browser
+    alias yo='y open:src'
+    alias a='for path in /Users/user/dltlandscape/{landscapeapp,finos-landscape}; do echo $path; git -C $path pull -p; done; (cd /Users/user/dltlandscape/landscapeapp && yarn);'
+    ```
+1. Source your bashrc or zshrc, for example: `$ source ~/.zshrc` or open a new terminal window.
+1. Got to the dlt-landscape directory` $cd dlt-landscape`
+1. You can now use the alias you added earlier to run a local version of the app. 
+1. First use `yf` to fetch all the data. If this fails you'll need to set the Crunchbase key as an ENV VAR like `$export CRUNCHBASE_KEY_4=yourkeydata`
+1. You can then run a quick build and open a local server at localhost:3000 with `$ yo` or a production build with `yf`
 

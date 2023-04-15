@@ -1,13 +1,14 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e1406ffe-c3a1-451d-9ff5-9d607e286881/deploy-status)](https://app.netlify.com/sites/hl-landscape/deploys)
+# DLT Landscape
 
-# Hyperledger Landscape
+[![Netlify Status](https://api.netlify.com/api/v1/badges/78ae7ad4-157c-421d-97ea-f3fca9136a05/deploy-status)](https://app.netlify.com/sites/dltlandscape/deploys)
 
-![Hyperledger Landscape Logo](https://landscape.hyperledger.org/images/left-logo.svg)
+![DLT Landscape Logo](https://github.com/dltlandscape/dlt-landscape/raw/main/images/left-logo.svg?sanitize=true)
 
-- [Hyperledger Landscape](#cloud-native-landscape)
+- [DLT Landscape](#cloud-native-landscape)
   * [Current Version](#current-version)
   * [Interactive Version](#interactive-version)
   * [New Entries](#new-entries)
+  * [Commit Sign-off](#commit-sign-off)
   * [Logos](#logos)
   * [Proper SVGs](#proper-svgs)
   * [Corrections](#corrections)
@@ -20,21 +21,18 @@
   * [Vulnerability reporting](#vulnerability-reporting)
   * [Adjusting the Landscape View](#adjusting-the-landscape-view)
 
-This landscape is intended as a map to explore the Hyperledger Ecosystem, and also shows the member companies of the GrapahQL Foundation. It is modelled after the Cloud Native Computing Foundation (CNCF) [landscape](https://landscape.cncf.io) and based on the same open source code.
+Welcome to a living segmentation of the evolving DLT market! DLT Landscape is a business stack with a technology foundation. BTP has created the DLT Landscape for the whole blockchain/DLT community to benefit from and contribute to. The DLT Landscape is open source, curated and hosted by BTP, but independent of the company. It is modeled after the Cloud Native Computing Foundation (CNCF) [landscape](https://landscape.cncf.io) and based on the same open source code.
 
 ## Current Version
 
-[![Hyperledger Landscape](https://landscape.hyperledger.org/images/landscape.png)](https://landscape.hyperledger.org/images/landscape.png)
+[![DLT Landscape](https://dltlandscape.org/images/landscape.png)](https://dltlandscape.org/images/landscape.png)
 
 ## Interactive Version
 
-Please see [landscape.hyperledger.org](https://landscape.hyperledger.org).
+Please see [dltlandscape.org](https://dltlandscape.org).
 
 ## New Entries
 
-* Projects must be open source and hosted on or mirrored to GitHub.
-* Projects with at least 300 GitHub stars that clearly fit in an existing category are generally included. Put the project in the single category where it best fits.
-* We are unlikely to create a new category for projects as we'd rather find the best home with the current options.
 * Your project or company needs a logo and the logo needs to include the name.
 * Crunchbase organization should be the company or organization that controls the software. That is normally the owner of the trademark, whether or not a trademark has been formally filed.
 
@@ -42,15 +40,31 @@ If you think your project should be included, please open a pull request to add 
 
 Netlify will generate a staging server for you to preview your updates. Please check that the logo and information appear correctly and then add `LGTM` to the pull request confirming your review and requesting a merge.
 
+## Commit Sign-off
+All commits should be signed off confirming the [Developer Certificate of Origin](https://developercertificate.org)
+
+You can do this by adding a line to your commit message: 
+```
+This is my commit message
+
+Signed-off-by: Random Developer <random@developer.example.org>
+```
+Or via cli:
+
+```
+$ git commit -s -m 'This is my commit message'
+```
+
+We use the [Github DCO app](https://github.com/apps/dco) to check all commits in a pull request are signed off.
+
 ## Logos
 
 The following rules will produce the most readable and attractive logos:
 
 1. We require SVGs, as they are smaller, display correctly at any scale, and work on all modern browsers. If you only have the logo in another vector format (like AI or EPS), please open an issue and we'll convert it to an SVG for you, or you can often do it yourself at https://cloudconvert.com/. Note that you may need to zip your file to attach it to a GitHub issue. Please note that we require pure SVGs and will reject SVGs that contain embedded PNGs since they have the same problems of being bigger and not scaling seamlessly. We also require that SVGs convert fonts to outlines so that they will render correctly whether or not a font is installed. See [Proper SVGs](#proper-svgs) below.
-1. When multiple variants exist, use stacked (not horizontal) logos. For example, we use the second column (stacked), not the first (horizontal), of CNCF project [logos](https://github.com/cncf/artwork/#cncf-incubating-logos).
 1. Don't use reversed logos (i.e., with a non-white, non-transparent background color). If you only have a reversed logo, create an issue with it attached and we'll produce a non-reversed version for you.
 1. Logos must include the company, product or project name in English. It's fine to also include words from another language. If you don't have a version of your logo with the name in it, please open an issue and we'll create one for you (and please specify the font).
-1. Match the item name to the English words in the logos. So an Acme Rocket logo that shows "Rocket" should have product name "Rocket", while if the logo shows "Acme Rocket", the product name should be "Acme Rocket". Otherwise, logos looks out of place when you sort alphabetically.
+1. Match the item name to the English words in the logos. So an Acme Rocket logo that shows "Rocket" should have product name "Rocket", while if the logo shows "Acme Rocket", the product name should be "Acme Rocket". Otherwise, logos look out of place when you sort alphabetically.
 1. Google images is often the best way to find a good version of the logo (but ensure it's the up-to-date version). Search for [grpc logo filetype:svg](https://www.google.com/search?q=grpc+logo&tbs=ift:svg,imgo:1&tbm=isch) but substitute your project or product name for grpc.
 1. You can either upload an SVG to the `hosted_logos` directory or put a URL as the value, and it will be fetched.
 
@@ -83,21 +97,6 @@ The canonical source for all data is [landscape.yml](landscape.yml). Once a day,
 
 The update server enhances the source data with the fetched data and saves the result in [processed_landscape.yml](processed_landscape.yml). The app loads a JSON representation of processed_landscape.yml to display data.
 
-## Best Practices Badge
-
-As explained at https://bestpractices.coreinfrastructure.org/:
->The Linux Foundation (LF) Core Infrastructure Initiative (CII) Best Practices badge is a way for Free/Libre and Open Source Software (FLOSS) projects to show that they follow best practices. Projects can voluntarily self-certify, at no cost, by using this web application to explain how they follow each best practice. The CII Best Practices Badge is inspired by the many badges available to projects on GitHub. Consumers of the badge can quickly assess which FLOSS projects are following best practices and as a result are more likely to produce higher-quality secure software.
-
-The interactive landscape displays the status (or non-existence) of a badge for each open-source project. There's also a feature not available through the filter bar to see all items [with](https://landscape.hyperledger.org/bestpractices=yes) and [without](https://landscape.hyperledger.org/bestpractices=no) badges. Note that a passing badge is a requirement for projects to [graduate](https://github.com/cncf/toc/blob/master/process/graduation_criteria.adoc) in the CNCF.
-
-## Non-Updated Items
-
-We generally remove open source projects that have not had a commit in over 3 months. Note that for projects not hosted on GitHub, we need them to mirror to GitHub to fetch updates, and we try to work with projects when their mirrors are broken. Here is view of projects sorted by last update: https://landscape.hyperledger.org/format=card-mode&grouping=no&license=open-source&sort=latest-commit
-
-We generally remove closed source products when they have not tweeted in over 3 months. This doesn't apply to Chinese companies without Twitter accounts, since Twitter is blocked there. Here is a view of products sorted by last tweet: https://landscape.hyperledger.org/format=card-mode&grouping=no&license=not-open-source&sort=latest-tweet
-
-Items that have been removed can apply to be re-added using the regular New Entries criteria above.
-
 ## License
 
 This repository contains data received from [Crunchbase](http://www.crunchbase.com). This data is not licensed pursuant to the Apache License. It is subject to Crunchbase’s Data Access Terms, available at [https://data.crunchbase.com/v3.1/docs/terms](https://data.crunchbase.com/v3.1/docs/terms), and is only permitted to be used with this Landscape Project which is hosted by the Linux Foundation.
@@ -106,33 +105,33 @@ Everything else is under the Apache License, Version 2.0, except for project and
 
 ## Formats
 
-The Hyperledger Landscape is available in these formats:
+The DLT Landscape is available in these formats:
 
-* [PNG](https://landscape.hyperledger.org/images/landscape.png)
-* [PDF](https://landscape.hyperledger.org/images/landscape.pdf)
+* [PNG](landscape.png)
+* [PDF](landscape.pdf)
 
 ## Installation
 
 You can install and run locally with the [install directions](INSTALL.md). It's not necessary to install locally if you just want to edit [landscape.yml](landscape.yml). You can do so via the GitHub web interface.
 
-## Vulnerability reporting
+## Issue and Vulnerability reporting
 
-Please open an [issue](https://github.com/cncf/landscape/issues/new) or, for sensitive information, email info@cncf.io.
+Please open an [issue](https://github.com/dltlandscape/dlt-landscape/issues/new) or, for sensitive information, email  Original source code inquiries: info@cncf.io
 
 ## Adjusting the Landscape View
 The file src/components/MainContent2.js describes the key elements of a
 landscape big picture. It specifies where to put these sections: App Definition
-and Development, Orchesteration & Management, Runtime,  Provisioning, Cloud,
-    Platform, Observability and Analyzis, Special. Also it specifies where to
-    locate the link to the serverless preview and an info with a QR code.
+and Development, Orchestration & Management, Runtime,  Provisioning, Cloud, 
+Platform, Observability and Analysis, Special. Also it specifies where to
+locate the link to the serverless preview and an info with a QR code.
 
 All these elements should have `top`, `left`, `width` and `height` properties to
 position them. `rows` and `cols` specify how much columns or rows we expect in a
-given horizontal or vertical section. 
+given horizontal or vertical section.
 
 When we see that those elements can not fit the sections, we need to either increase
 the width of all the horizontal sections, or increase height and amount of rows
-in a single horitzontal section and adjust the position of sections below.
+in a single horizontal section and adjust the position of sections below.
 
 Beside that, we have to adjust the width of a parent div (1620), the width in a
 `src/components/BigPicture/FullscreenLandscape.js` (1640) and the width in a
@@ -142,7 +141,7 @@ Sometimes the total height is changed too, then we need to adjust the height the
 same way as we adjust the width.
 
 We have an experimental `fitWidth` property, it is good when you want to get rid of
-an extra space on the right of a section.
+extra space on the right of a section.
 
 The best way to test that layout is ok, is to visit `/landscape`, and if it looks ok, run `PORT=3000 babel-node
 tools/renderLandscape` and see the rendered png files, they are in src/images folder.

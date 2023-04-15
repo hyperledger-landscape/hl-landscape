@@ -1,5 +1,890 @@
 landscape:
   - category:
+    name: Computing Infrastructure
+    subcategories:
+      - subcategory:
+        name: Cloud, On-premises, Orchestration
+        items:
+          - item:
+            name: Amazon Web Services
+            homepage_url: https://aws.amazon.com
+            project: company
+            logo: amazon-web-services.svg
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+          - item:
+            name: Equinix
+            homepage_url: https://www.equinix.com/
+            project: company
+            logo: equinix-logo-vertical.svg
+            crunchbase: https://www.crunchbase.com/organization/equinix
+          - item:
+            name: Google
+            homepage_url: https://www.google.com
+            project: company
+            logo: google.svg
+            crunchbase: https://www.crunchbase.com/organization/google
+          - item:
+            name: IBM
+            homepage_url: https://www.ibm.com
+            project: company
+            logo: ibm.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
+            name: Kubernetes
+            homepage_url: https://kubernetes.io
+            project: project
+            repo_url: https://github.com/kubernetes/kubernetes
+            logo: kubernetes.svg
+            crunchbase: https://www.crunchbase.com/organization/kubernetes
+          - item:
+            name: Microsoft
+            homepage_url: https://www.microsoft.com
+            project: company
+            logo: microsoft.svg
+            crunchbase: https://www.crunchbase.com/organization/microsoft
+          - item:
+            name: Oracle
+            homepage_url: https://www.oracle.com
+            project: company
+            logo: oracle.svg
+            crunchbase: https://www.crunchbase.com/organization/oracle
+          - item:
+            name: RackN
+            homepage_url: https://www.rackn.com
+            project: company
+            logo: rackn-v3.svg
+            crunchbase: https://www.crunchbase.com/organization/rackn-inc
+          - item:
+            name: Ridge
+            homepage_url: https://www.ridge.co/
+            project: company
+            logo: ridge-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/tectonic-c189
+          - item:
+            name: SUSE Rancher
+            homepage_url: https://www.suse.com/
+            project: project
+            repo_url: https://github.com/rancher/rancher
+            logo: rancher-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/suse
+          - item:
+            name: VMware
+            homepage_url: https://www.vmware.com
+            project: company
+            logo: vmware.svg
+            crunchbase: https://www.crunchbase.com/organization/vmware
+  - category:
+    name: Distributed Ledgers
+    subcategories:
+      - subcategory:
+        name: Permissioned
+        items:
+          - item:
+            name: ConsenSys Quorum
+            homepage_url: https://consensys.net/quorum/
+            project: project
+            repo_url: https://github.com/ConsenSys/quorum
+            logo: consensys-quorum.svg
+            crunchbase: https://www.crunchbase.com/organization/quorum-abb7
+          - item:
+            name: MultiChain
+            homepage_url: https://www.multichain.com
+            project: project
+            repo_url: https://github.com/MultiChain/multichain
+            logo: multichain-logo-vector-2.svg
+            crunchbase: https://www.crunchbase.com/organization/multichain
+          - item:
+            name: R3 Corda
+            homepage_url: https://www.r3.com
+            project: project
+            repo_url: https://github.com/corda/corda
+            logo: corda.svg
+            crunchbase: https://www.crunchbase.com/organization/r3-cev
+      - subcategory:
+        name: Hybrid
+        items:
+          - item:
+            name: Dragonchain protocol
+            homepage_url: https://dragonchain.com
+            project: project
+            repo_url: https://github.com/dragonchain/dragonchain
+            logo: dragonchain.svg
+            crunchbase: https://www.crunchbase.com/organization/dragonchain-87e5
+          - item:
+            name: Kadena
+            homepage_url: https://www.kadena.io
+            project: company
+            logo: kadena.svg
+            crunchbase: https://www.crunchbase.com/organization/kadena-llc
+      - subcategory:
+        name: Permissionless
+        items:
+          - item:
+            name: Algorand
+            homepage_url: https://www.algorand.com/
+            project: project
+            repo_url: https://github.com/algorand/go-algorand
+            logo: algorand.svg
+            crunchbase: https://www.crunchbase.com/organization/algorand
+          - item:
+            name: Bitcoin
+            homepage_url: https://bitcoin.org/en/
+            project: project
+            repo_url: https://github.com/bitcoin/bitcoin
+            logo: bitcoin.svg
+            crunchbase: https://www.crunchbase.com/organization/bitcoin
+          - item:
+            name: Cardano
+            homepage_url: https://cardano.org/
+            project: project
+            repo_url: https://github.com/cardano-foundation/developer-portal
+            logo: cardano-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/cardano-foundation
+          - item:
+            name: dfinity
+            homepage_url: https://dfinity.org/
+            project: project
+            repo_url: https://github.com/dfinity/ic
+            logo: dfinity-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/dfinity
+          - item:
+            name: EOSIO
+            homepage_url: https://eos.io
+            project: project
+            repo_url: https://github.com/EOSIO/eos
+            logo: eosio.svg
+            crunchbase: https://www.crunchbase.com/organization/block-one
+          - item:
+            name: Ethereum
+            homepage_url: https://ethereum.org/en
+            project: project
+            repo_url: https://github.com/ethereum/go-ethereum
+            logo: ethereum.svg
+            crunchbase: https://www.crunchbase.com/organization/ethereum
+          - item:
+            name: Hedera Hashgraph
+            homepage_url: https://hedera.com
+            project: company
+            logo: hedera-hashgraph.svg
+            crunchbase: https://www.crunchbase.com/organization/hashgraph
+          - item:
+            name: IOTA
+            homepage_url: https://www.iota.org
+            project: project
+            repo_url: https://github.com/iotaledger/protocol-rfcs
+            logo: Iota.svg
+            crunchbase: https://www.crunchbase.com/organization/iota-foundation
+          - item:
+            name: Solana
+            homepage_url: https://solana.com/
+            project: project
+            repo_url: https://github.com/solana-labs/solana
+            logo: solana-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/solana-io
+          - item:
+            name: Stellar
+            homepage_url: https://www.stellar.org/
+            project: project
+            repo_url: https://github.com/stellar/stellar-protocol
+            logo: stellar.svg
+            crunchbase: https://www.crunchbase.com/organization/stellar
+          - item:
+            name: Zilliqa
+            homepage_url: https://www.zilliqa.com/
+            project: project
+            repo_url: https://github.com/Zilliqa/Zilliqa
+            logo: zilliqa.svg
+            crunchbase: https://www.crunchbase.com/organization/zilliqa
+  - category:
+    name: Technology Intersections
+    subcategories:
+      - subcategory:
+        name: Blockchain databases
+        items:
+          - item:
+            name: Amazon QLDB
+            homepage_url: https://aws.amazon.com/qldb/
+            project: company
+            logo: amazon-web-services.svg
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+          - item:
+            name: BigchainDB
+            homepage_url: https://www.bigchaindb.com
+            project: project
+            repo_url: https://github.com/bigchaindb/bigchaindb
+            logo: bigchaindb.svg
+            crunchbase: https://www.crunchbase.com/organization/bigchaindb
+          - item:
+            name: Fluree
+            homepage_url: https://flur.ee
+            project: company
+            repo_url: https://github.com/fluree/db
+            logo: fluree.svg
+            crunchbase: https://www.crunchbase.com/organization/fluree-pbc
+          - item:
+            name: Modex
+            homepage_url: https://modex.tech
+            project: company
+            logo: modex-purple.svg
+            crunchbase: https://www.crunchbase.com/organization/modex-2
+          - item:
+            name: ProvenDB
+            homepage_url: https://www.provendb.com
+            project: company
+            logo: provendb.svg
+            crunchbase: https://www.crunchbase.com/organization/provendb
+      - subcategory:
+        name: Distributed storage/file systems
+        items:
+          - item:
+            name: Filebase
+            homepage_url: https://filebase.com/
+            project: company
+            logo: filebase-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/filebase-484f
+          - item:
+            name: Iagon
+            homepage_url: https://www.iagon.com/index.html
+            project: project
+            repo_url: https://github.com/Iagonorg/IagonCloudApp
+            logo: iagon-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/iagon
+          - item:
+            name: IPFS
+            homepage_url: https://ipfs.io/
+            project: project
+            repo_url: https://github.com/ipfs/ipfs
+            logo: ipfs.svg
+            crunchbase: https://www.crunchbase.com/organization/ipfs
+          - item:
+            name: Storj
+            homepage_url: https://www.storj.io/
+            project: project
+            repo_url: https://github.com/storj/storj
+            logo: storj-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/storj
+          - item:
+            name: Taekion
+            homepage_url: https://taekion.com
+            project: company
+            logo: taekion-silver-outline.svg
+            crunchbase: https://www.crunchbase.com/organization/taekion
+      - subcategory:
+        name: Artificial Intelligence
+        items:
+          - item:
+            name: Attestiv
+            homepage_url: https://attestiv.com/
+            project: company
+            logo: attestiv.svg
+            crunchbase: https://www.crunchbase.com/organization/attestiv
+          - item:
+            name: Fetch.AI
+            homepage_url: https://fetch.ai
+            project: company
+            logo: fetchai.svg
+            crunchbase: https://www.crunchbase.com/organization/fetch-ai
+      - subcategory:
+        name: Internet of Things
+        items:
+          - item:
+            name: Helium
+            homepage_url: https://www.helium.com/
+            project: company
+            logo: helium.svg
+            crunchbase: https://www.crunchbase.com/organization/helium-systems-inc
+          - item:
+            name: IoTex
+            homepage_url: https://iotex.io/
+            project: company
+            logo: iotex-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/iotex
+      - subcategory:
+        name: Cybersecurity
+        items:
+          - item:
+            name: ALTR
+            homepage_url: https://www.altr.com/
+            project: company
+            logo: altr.svg
+            crunchbase: https://www.crunchbase.com/organization/altr-6b82
+          - item:
+            name: Chainkit
+            homepage_url: https://chainkit.com
+            project: company
+            logo: chainkit.svg
+            crunchbase: https://www.crunchbase.com/organization/pencildata-inc
+          - item:
+            name: Cryptowerk
+            homepage_url: https://cryptowerk.com
+            project: company
+            logo: dlt-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/cryptowerk
+  - category:
+    name: Interoperability
+    subcategories:
+      - subcategory:
+        name: Network of ledgers projects
+        items:
+          - item:
+            name: Aion
+            homepage_url: https://aion.theoan.com/
+            project: project
+            repo_url: https://github.com/aionnetwork/aion
+            logo: aion.svg
+            crunchbase: https://www.crunchbase.com/organization/the-aion-network
+          - item:
+            name: Cosmos
+            homepage_url: https://cosmos.network
+            project: project
+            repo_url: https://github.com/cosmos/cosmos
+            logo: cosmos.svg
+            crunchbase: https://www.crunchbase.com/organization/cosmos-network
+          - item:
+            name: Polkadot
+            homepage_url: https://polkadot.network
+            project: project
+            repo_url: https://github.com/paritytech/polkadot
+            logo: polkadot.svg
+            crunchbase: https://www.crunchbase.com/organization/polkadot
+          - item:
+            name: Polygon
+            homepage_url: https://polygon.technology/
+            project: project
+            repo_url: https://github.com/0xPolygon/polygon-edge
+            logo: polygon.svg
+            crunchbase: https://www.crunchbase.com/organization/polygontechnology
+      - subcategory:
+        name: Point-to-point and overlayer approaches
+        items:
+          - item:
+            name: Canton
+            homepage_url: https://www.canton.io/
+            project: company
+            logo: digital-asset.svg
+            crunchbase: https://www.crunchbase.com/organization/digital-asset-2
+          - item:
+            name: Chainlink
+            homepage_url: https://chain.link/
+            project: company
+            repo_url: https://github.com/smartcontractkit/chainlink
+            logo: chainlink.svg
+            crunchbase: https://www.crunchbase.com/organization/chainlink
+          - item:
+            name: Interledger
+            homepage_url: https://interledger.org/
+            project: project
+            repo_url: https://github.com/interledger/rfcs
+            logo: interledger-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/interledger
+          - item:
+            name: Quant Network/Overledger
+            homepage_url: https://www.quant.network
+            project: company
+            logo: quant-network.svg
+            crunchbase: https://www.crunchbase.com/organization/quant-network
+  - category:
+    name: Smart Contracts/Tokenization
+    subcategories:
+      - subcategory:
+        name: Smart contract languages/execution environments
+        items:
+          - item:
+            name: Chaincode
+            homepage_url: https://www.hyperledger.org/use/fabric
+            project: project
+            repo_url: https://github.com/hyperledger/fabric-chaincode-go
+            logo: hyperledger-fabric.svg
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+          - item:
+            name: Daml
+            homepage_url: https://daml.com
+            project: project
+            repo_url: https://github.com/digital-asset/daml
+            logo: daml.svg
+            crunchbase: https://www.crunchbase.com/organization/digital-asset-2
+          - item:
+            name: Pact
+            homepage_url: https://www.kadena.io
+            project: company
+            repo_url: https://github.com/kadena-io/pact
+            logo: kadena.svg
+            crunchbase: https://www.crunchbase.com/organization/kadena-llc
+          - item:
+            name: Scilla
+            homepage_url: https://scilla-lang.org/
+            project: project
+            repo_url: https://github.com/Zilliqa/scilla
+            logo: zilliqa.svg
+            crunchbase: https://www.crunchbase.com/organization/zilliqa
+          - item:
+            name: Script
+            homepage_url: https://bitcoin.org/en
+            project: project
+            repo_url: https://github.com/bitcoin-core/btcdeb
+            logo: bitcoin.svg
+            crunchbase: https://www.crunchbase.com/organization/bitcoin
+          - item:
+            name: Smart Filter
+            homepage_url: https://www.multichain.com
+            project: company
+            repo_url: https://github.com/MultiChain/smart-filter-examples
+            logo: multichain-logo-vector-2.svg
+            crunchbase: https://www.crunchbase.com/organization/multichain
+          - item:
+            name: Solidity
+            homepage_url: https://ethereum.org/en/developers/docs/smart-contracts/languages/
+            project: project
+            repo_url: https://github.com/ethereum/solidity
+            logo: solidity.svg
+            crunchbase: https://www.crunchbase.com/organization/ethereum
+          - item:
+            name: Vyper
+            homepage_url: https://ethereum.org/en/developers/docs/smart-contracts/languages/
+            project: project
+            repo_url: https://github.com/vyperlang/vyper
+            logo: vyper-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/ethereum
+          - item:
+            name: WebAssembly
+            homepage_url: https://webassembly.org/
+            project: project
+            repo_url: https://github.com/WebAssembly/binaryen
+            logo: wasm-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/webassembly
+      - subcategory:
+        name: Legal contracts
+        items:
+          - item:
+            name: Accord Project
+            homepage_url: https://accordproject.org/
+            project: project
+            repo_url: https://github.com/accordproject/cicero
+            logo: accord.svg
+            crunchbase: https://www.crunchbase.com/organization/accord-project
+          - item:
+            name: Chronicled
+            homepage_url: https://www.chronicled.com
+            project: company
+            logo: chronicled.svg
+            crunchbase: https://www.crunchbase.com/organization/chronicled
+          - item:
+            name: Clause
+            homepage_url: https://clause.io
+            project: company
+            repo_url: https://github.com/clauseHQ/clause-model-library
+            logo: clauseio.svg
+            crunchbase: https://www.crunchbase.com/organization/clause
+          - item:
+            name: Monax
+            homepage_url: https://monax.io
+            project: company
+            logo: monax.svg
+            crunchbase: https://www.crunchbase.com/organization/eris-industries
+          - item:
+            name: OpenLaw
+            homepage_url: https://www.openlaw.io
+            project: project
+            repo_url: https://github.com/openlawteam/openlaw-core
+            logo: openlaw.svg
+            crunchbase: https://www.crunchbase.com/organization/openlaw
+      - subcategory:
+        name: Digital token frameworks
+        items:
+          - item:
+            name: ERC
+            homepage_url: https://ethereum.org/en
+            project: project
+            repo_url: https://github.com/ethereum/EIPs
+            logo: ethereum.svg
+            crunchbase: https://www.crunchbase.com/organization/ethereum
+      - subcategory:
+        name: Digital wallets
+        items:
+          - item:
+            name: Block.io
+            homepage_url: https://block.io/
+            project: company
+            repo_url: https://github.com/BlockIo/block_io-php
+            logo: blockio.svg
+            crunchbase: https://www.crunchbase.com/organization/block-io-inc-
+          - item:
+            name: Chainweaver
+            homepage_url: https://www.kadena.io
+            project: company
+            repo_url: https://github.com/kadena-io/chainweaver
+            logo: kadena.svg
+            crunchbase: https://www.crunchbase.com/organization/kadena-llc
+          - item:
+            name: DFNS
+            homepage_url: https://www.dfns.co/
+            project: company
+            logo: dfns.svg
+            crunchbase: https://www.crunchbase.com/organization/xkey
+          - item:
+            name: MetaMask
+            homepage_url: https://metamask.io
+            project: project
+            repo_url: https://github.com/MetaMask/metamask-docs
+            logo: metamask.svg
+            crunchbase: https://www.crunchbase.com/organization/metamask
+  - category:
+    name: Application Tooling/Integrations
+    subcategories:
+      - subcategory:
+        name: Development tools/platforms
+        items:
+          - item:
+            name: Azure Blockchain Workbench
+            homepage_url: https://azure.microsoft.com/en-us/features/blockchain-workbench/
+            project: company
+            logo: microsoft.svg
+            crunchbase: https://www.crunchbase.com/organization/microsoft
+          - item:
+            name: Truffle Suite
+            homepage_url: https://www.trufflesuite.com
+            project: company
+            repo_url: https://github.com/trufflesuite/truffle
+            logo: truffle-suite.svg
+            crunchbase: https://www.crunchbase.com/organization/truffle-suite
+          - item:
+            name: Web3 Labs/Epirus
+            homepage_url: https://www.web3labs.com
+            project: company
+            logo: web3-labs-primary.svg
+            crunchbase: https://www.crunchbase.com/organization/web3-labs
+      - subcategory:
+        name: Analytics/Monitoring tools
+        items:
+          - item:
+            name: Elliptic
+            homepage_url: https://www.elliptic.co/
+            project: company
+            logo: elliptic-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/elliptic
+          - item:
+            name: Metrika
+            homepage_url: https://www.metrika.co/
+            project: company
+            logo: metrika-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/metrika-3908
+          - item:
+            name: Quant Network/seeQ
+            homepage_url: https://www.quant.network
+            project: company
+            logo: quant-network.svg
+            crunchbase: https://www.crunchbase.com/organization/quant-network
+      - subcategory:
+        name: Application integrations
+        items:
+          - item:
+            name: Chronicle
+            homepage_url: https://btp.works/chronicle
+            project: project
+            repo_url: https://github.com/btpworks/chronicle
+            logo: chronicle-dark.svg
+            crunchbase: https://www.crunchbase.com/organization/btpworks
+          - item:
+            name: Finboot Track&Trace/Blockstamp
+            homepage_url: https://www.finboot.com/
+            project: company
+            logo: finboot.svg
+            crunchbase: https://www.crunchbase.com/organization/finboot
+          - item:
+            name: Ping Identity/Shocard
+            homepage_url: https://www.shocard.com
+            project: company
+            logo: ping-identity.svg
+            crunchbase: https://www.crunchbase.com/organization/shocard-inc
+          - item:
+            name: Salesforce Blockchain
+            homepage_url: https://www.salesforce.com
+            project: company
+            logo: salesforce.svg
+            crunchbase: https://www.crunchbase.com/organization/salesforce
+          - item:
+            name: SAP ICH for Life Sciences
+            homepage_url: https://www.sap.com/index.html
+            project: company
+            logo: sap.svg
+            crunchbase: https://www.crunchbase.com/organization/sap
+          - item:
+            name: Vottun Credentials
+            homepage_url: https://vottun.com
+            project: company
+            logo: votton.svg
+            crunchbase: https://www.crunchbase.com/organization/vottun
+  - category:
+    name: Multiparty Applications
+    subcategories:
+      - subcategory:
+        name: Industry-specific applications and decentralized marketplaces
+        items:
+          - item:
+            name: AgriLedger
+            homepage_url: http://www.agriledger.io/
+            project: company
+            logo: dlt-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/agriledger
+          - item:
+            name: BondbloX
+            homepage_url: https://www.bondblox.com/
+            project: non-hyperledger-member-services
+            logo: bondblox.svg
+            crunchbase: https://www.crunchbase.com/organization/bondevalue
+          - item:
+            name: Databroker
+            homepage_url: https://www.databroker.global
+            project: company
+            logo: databroker.svg
+            crunchbase: https://www.crunchbase.com/organization/databroker-dao
+          - item:
+            name: Epidaurus Health
+            homepage_url: https://www.epidaurus.health/
+            project: company
+            logo: epidaurus-RGB.svg
+            crunchbase: https://www.crunchbase.com/organization/epidaurus-health
+          - item:
+            name: GrainChain
+            homepage_url: https://www.grainchain.io
+            project: company
+            logo: dlt-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/grainchain
+          - item:
+            name: IBM Food Trust
+            homepage_url: https://www.ibm.com/blockchain/solutions/food-trust
+            project: company
+            logo: ibm.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
+            name: LiquidShare
+            homepage_url: https://liquidshare.io/
+            project: company
+            logo: liquidshare-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/liquidshare
+          - item:
+            name: MediLedger
+            homepage_url: https://www.mediledger.com
+            project: network
+            logo: mediledger.svg
+            crunchbase: https://www.crunchbase.com/organization/mediledger
+          - item:
+            name: PharmaLedger
+            homepage_url: https://pharmaledger.eu/
+            project: network
+            logo: pharmaledger.svg
+            crunchbase: https://www.crunchbase.com/organization/pharmaledger
+          - item:
+            name: Public Mint
+            homepage_url: https://publicmint.com/
+            project: company
+            logo: publicmint.svg
+            crunchbase: https://www.crunchbase.com/organization/public-mint
+          - item:
+            name: WAX Marketplace
+            homepage_url: https://marketplace.wax.io
+            project: company
+            logo: wax.svg
+            crunchbase: https://www.crunchbase.com/organization/wax-f984
+  - category:
+    name: Platforms
+    subcategories:
+      - subcategory:
+        name: Management/Operations
+        items:
+          - item:
+            name: Amazon Managed Blockchain
+            homepage_url: https://aws.amazon.com/managed-blockchain/
+            project: company
+            logo: amazon-web-services.svg
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+          - item:
+            name: BlockApps STRATO
+            homepage_url: https://blockapps.net
+            project: company
+            logo: dlt-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/blockapps
+          - item:
+            name: Blockdaemon
+            homepage_url: https://blockdaemon.com/
+            project: company
+            logo: blockdaemon.svg
+            crunchbase: https://www.crunchbase.com/organization/blockdaemon
+          - item:
+            name: BTP
+            homepage_url: https://btp.works
+            project: company
+            logo: btp-works.svg
+            crunchbase: https://www.crunchbase.com/organization/btpworks
+          - item:
+            name: Chainstack
+            homepage_url: https://chainstack.com
+            project: company
+            logo: chainstack.svg
+            crunchbase: https://www.crunchbase.com/organization/chainstack
+          - item:
+            name: Dragonchain
+            homepage_url: https://dragonchain.com
+            project: company
+            logo: dragonchain.svg
+            crunchbase: https://www.crunchbase.com/organization/dragonchain-87e5
+          - item:
+            name: Finboot MARCO
+            homepage_url: https://www.finboot.com
+            project: company
+            logo: finboot.svg
+            crunchbase: https://www.crunchbase.com/organization/finboot
+          - item:
+            name: First Genesis Xenese
+            homepage_url: https://firstgenesis.com
+            project: company
+            logo: dlt-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/first-genesis
+          - item:
+            name: IBM Blockchain Platform
+            homepage_url: https://www.ibm.com/blockchain/platform
+            project: company
+            logo: ibm.svg
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
+            name: IntellectEU Catalyst Blockchain Platform
+            homepage_url: https://catalyst.intellecteu.com
+            project: company
+            logo: intellecteu.svg
+            crunchbase: https://www.crunchbase.com/organization/intellecteu
+          - item:
+            name: Oracle Blockchain Platform
+            homepage_url: https://www.oracle.com/blockchain
+            project: company
+            logo: oracle.svg
+            crunchbase: https://www.crunchbase.com/organization/oracle
+          - item:
+            name: SettleMint
+            homepage_url: https://www.settlemint.com
+            project: company
+            logo: settlemint.svg
+            crunchbase: https://www.crunchbase.com/organization/settlemint-nv
+          - item:
+            name: VMware Blockchain
+            homepage_url: https://www.vmware.com/products/blockchain.html
+            project: company
+            logo: vmware.svg
+            crunchbase: https://www.crunchbase.com/organization/vmware
+  - category:
+    name: Standards
+    subcategories:
+      - subcategory:
+        name: Standards
+        items:
+          - item:
+            name: BSI PAS 19668
+            homepage_url: https://www.bsigroup.com/
+            project: organization
+            logo: bsi-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/bsi
+          - item:
+            name: EEA
+            homepage_url: https://entethalliance.org/
+            project: organization
+            logo: eea-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/enterprise-ethereum-alliance
+          - item:
+            name: GS1
+            homepage_url: https://www.gs1.org/
+            project: organization
+            logo: GS1-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/gs1
+          - item:
+            name: TTF
+            homepage_url: https://interwork.org
+            project: organization
+            logo: iwa.svg
+            crunchbase: https://www.crunchbase.com/organization/interwork-alliance-e317
+          - item:
+            name: W3C
+            homepage_url: https://www.w3.org/
+            project: organization
+            logo: W3C-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/w3c-e64a
+  - category:
+    name: Services
+    subcategories:
+      - subcategory:
+        name: Consulting/Professional Services
+        items:
+          - item:
+            name: Accenture
+            homepage_url: https://www.accenture.com/
+            project: company
+            logo: accenture.svg
+            crunchbase: https://www.crunchbase.com/organization/accenture
+          - item:
+            name: Atos
+            homepage_url: https://atos.net/en
+            project: company
+            logo: atos.svg
+            crunchbase: https://www.crunchbase.com/organization/atos
+          - item:
+            name: Capgemini
+            homepage_url: https://www.capgemini.com
+            project: company
+            logo: capgemini.svg
+            crunchbase: https://www.crunchbase.com/organization/cap-gemini
+          - item:
+            name: Deloitte
+            homepage_url: https://www2.deloitte.com
+            project: company
+            logo: deloitte.svg
+            crunchbase: https://www.crunchbase.com/organization/deloitte
+          - item:
+            name: Ernst & Young
+            homepage_url: https://www.ey.com/en_gl
+            project: company
+            logo: ey.svg
+            crunchbase: https://www.crunchbase.com/organization/ernst-young
+          - item:
+            name: Fujitsu
+            homepage_url: https://www.fujitsu.com/global
+            project: company
+            logo: fujitsu.svg
+            crunchbase: https://www.crunchbase.com/organization/fujitsu
+          - item:
+            name: GFT
+            homepage_url: https://www.gft.com
+            project: company
+            logo: gft.svg
+            crunchbase: https://www.crunchbase.com/organization/gft-com
+          - item:
+            name: Infosys
+            homepage_url: https://www.infosys.com
+            project: company
+            logo: infosys-limited.svg
+            crunchbase: https://www.crunchbase.com/organization/infosys
+          - item:
+            name: Innominds
+            homepage_url: https://www.innominds.com
+            project: company
+            logo: Innomindsnew.svg
+            crunchbase: https://www.crunchbase.com/organization/innominds-software-pvt-ltd
+          - item:
+            name: Rethink Ledgers
+            homepage_url: https://www.rtledgers.com
+            project: company
+            logo: rethinkledgers.svg
+            crunchbase: https://www.crunchbase.com/organization/rethink-ledgers
+          - item:
+            name: UST
+            homepage_url: https://www.ust.com
+            project: company
+            logo: ust.svg
+            crunchbase: https://www.crunchbase.com/organization/ust
+          - item:
+            name: Web3 Labs
+            homepage_url: https://www.web3labs.com
+            project: company
+            logo: web3-labs-primary.svg
+            crunchbase: https://www.crunchbase.com/organization/web3-labs
+  - category:
     name: Hyperledger Projects
     subcategories:
       - subcategory:
@@ -7,6 +892,7 @@ landscape:
         items:
           - item:
             name: Hyperledger Besu
+            second_path: Distributed Ledgers / Hybrid
             description: >-
               Hyperledger Besu is an Ethereum client designed to be enterprise-friendly for both public and private permissioned network use cases, with an
               extractable EVM implementation. It can also be run on test networks such as Sepolia and Görli. Hyperledger Besu includes several consensus
@@ -29,6 +915,7 @@ landscape:
               documentation: https://besu.hyperledger.org/en/stable/
           - item:
             name: Hyperledger Fabric
+            second_path: Distributed Ledgers / Permissioned
             description: >-
               Hyperledger Fabric is intended as a foundation for developing applications or solutions with a modular architecture. Hyperledger Fabric allows
               components, such as consensus and membership services, to be plug-and-play. Its modular and versatile design satisfies a broad range of industry
@@ -67,6 +954,7 @@ landscape:
               documentation: https://hyperledger-fabric.readthedocs.io/en/latest/
           - item:
             name: Hyperledger Indy
+            second_path: Distributed Ledgers / Permissioned
             description: >-
               Hyperledger Indy provides tools, libraries, and reusable components for providing digital identities rooted on blockchains or other distributed
               ledgers so that they are interoperable across administrative domains, applications, and any other silo. Indy is interoperable with other
@@ -95,6 +983,7 @@ landscape:
               documentation: https://indy.readthedocs.io/en/latest/
           - item:
             name: Hyperledger Iroha
+            second_path: Distributed Ledgers / Permissioned
             description: >-
               Hyperledger Iroha is designed to be simple and easy to incorporate into infrastructural or IoT projects requiring distributed ledger technology.
               Hyperledger Iroha features a simple construction, modular, domain-driven C++ design, emphasis on client application development and a new, crash
@@ -120,6 +1009,7 @@ landscape:
               documentation: https://iroha.readthedocs.io/en/main/
           - item:
             name: Hyperledger Sawtooth
+            second_path: Distributed Ledgers / Hybrid
             description: >-
               Hyperledger Sawtooth offers a flexible and modular architecture separates the core system from the application domain, so smart contracts can
               specify the business rules for applications without needing to know the underlying design of the core system. Hyperledger Sawtooth supports a
@@ -170,6 +1060,7 @@ landscape:
               wiki: https://wiki.hyperledger.org/display/anoncreds
           - item:
             name: Hyperledger Aries
+            second_path: Technology Intersections / Cybersecurity
             description: >-
               Hyperledger Aries provides a shared, reusable, interoperable tool kit designed for initiatives and solutions focused on creating, transmitting and
               storing verifiable digital credentials. It is infrastructure for blockchain-rooted, peer-to-peer interactions. This project consumes the
@@ -207,6 +1098,7 @@ landscape:
               developer_course: https://www.edx.org/course/becoming-a-hyperledger-aries-developer
           - item:
             name: Hyperledger Transact
+            second_path: Smart Contracts/Tokenization / Legal contracts
             description: >-
               Hyperledger Transact aims to reduce the development effort in writing distributed ledger software by providing a standard interface for executing
               smart contracts that is separate from the distributed ledger implementation. Hyperledger Transact takes an extensible approach to implementing new
@@ -226,6 +1118,7 @@ landscape:
               chat: https://discord.com/channels/905194001349627914/941414396704477234
           - item:
             name: Hyperledger Ursa
+            second_path: Technology Intersections / Cybersecurity
             description: >-
               Hyperledger Ursa is a shared cryptographic library, it enables implementations to avoid duplicating other cryptographic work and hopefully
               increase security in the process. The library is an opt-in repository (for Hyperledger and non Hyperledger projects) to place and use crypto.
@@ -248,6 +1141,7 @@ landscape:
         items:
           - item:
             name: Hyperledger Bevel
+            second_path: Platforms / Management/Operations
             description: >-
               Hyperledger Bevel is an accelerator by which developers can consistently deploy production-ready distributed networks across public and private
               cloud providers.
@@ -262,6 +1156,7 @@ landscape:
               documentation: https://hyperledger-bevel.readthedocs.io/en/latest/
           - item:
             name: Hyperledger Cacti
+            second_path: Interoperability / Point-to-point and overlayer approaches
             description: Hyperledger Cacti is a blockchain integration tool designed to allow users to securely integrate different blockchains.
             homepage_url: https://www.hyperledger.org/use/cacti
             project: incubating
@@ -273,6 +1168,7 @@ landscape:
               chat: https://discord.com/channels/905194001349627914/908379366650703943
           - item:
             name: Hyperledger Caliper
+            second_path: Application Tooling/Integrations / Analytics/Monitoring tools
             description: >-
               Hyperledger Caliper is a blockchain benchmark tool, it allows users to measure the performance of a blockchain implementation with a set of
               predefined use cases. Hyperledger Caliper will produce reports containing a number of performance indicators to serve as a reference when using
@@ -289,6 +1185,7 @@ landscape:
               chat: https://discord.com/channels/905194001349627914/941417677778473031
           - item:
             name: Hyperledger Cello
+            second_path: Application Tooling/Integrations / Development tools/platforms
             description: >-
               Hyperledger Cello aims to serve as the operational dashboard for Blockchain, which reduces the effort required for creating, managing and using
               blockchains. Besides, it can also be used to facilitate creating Blockchain as a Service. Cello provides an operational console  for managing
@@ -305,6 +1202,7 @@ landscape:
               chat: https://discord.com/channels/905194001349627914/941475454378991646
           - item:
             name: Hyperledger Firefly
+            second_path: Application Tooling/Integrations / Development tools/platforms
             description: >-
               Hyperledger FireFly is the first open source Supernode, a complete stack for enterprises to build and scale secure Web3 applications. The FireFly
               API for digital assets, data flows, and blockchain transactions makes it radically faster to build production-ready apps on popular chains and
@@ -346,176 +1244,29 @@ landscape:
             extra:
               wiki: https://wiki.hyperledger.org/display/SOL/Hyperledger+Solang
               chat: https://discord.com/channels/905194001349627914/905834552965103638
-  - category:
-    name: Hyperledger Certified Service Providers
-    subcategories:
       - subcategory:
-        name: Hyperledger Fabric CSPs
+        name: Domain Specific
         items:
           - item:
-            name: Accenture (HCSP)
-            description: Accenture, a technology independent HF-CSP and trusted advisor, can help on your path to digital transformation.
-            homepage_url: https://www.accenture.com/us-en/insights/blockchain-index
-            logo: accenture-horizontal-color.svg
-            twitter: https://twitter.com/Accenture
-            crunchbase: https://www.crunchbase.com/organization/accenture
-          - item:
-            name: Avanza Innovations IT Solutions LLC (HCSP)
+            name: Hyperledger Grid
+            second_path: Application Tooling/Integrations / Development tools/platforms
             description: >-
-              Avanza is a thought leader, best expert, and the go-to company for national and city-scale blockchain implementations. We help governments take
-              the next leap in automation and prepare them for the 4th Industrial Revolution through the use of nascent technologies. Avanza has enabled
-              numerous tier 1  government entities, regulators, and large enterprises to take on pioneering automation within their eco-systems in areas of
-              Digital Government Transformation, Financial Regulation & Supervision, Health Care, Supply Chain, Ports & Logistics, Manufacturing, Trade Finance,
-              Oil & Gas, E-Commerce and many more. Avanza’s tremendous success and by far the biggest market share in enterprise blockchain implementations is
-              made possible through an all-star and ace technology team - and on the back of our un-paralleled blockchain Orchestration and governance platform
-              – Cipher.
-            homepage_url: https://avanzainnovations.com/
-            logo: avanza_innovations_it_solutions_llc.svg
-            crunchbase: https://www.crunchbase.com/organization/avanza-innovations
-          - item:
-            name: BONbLOC Inc (HCSP)
-            description: >-
-              BONbLOC builds SaaS solutions that address many Private, Commercial and Public Sector supply chain or operations management challenges using
-              Blockchain, Data Science and IOT technologies.  We love what we do and are grateful to our customers, who trust us to lead them on a path to
-              collaborative situations that touch daily lives using modern technologies.
-            homepage_url: https://bonbloc.com/
-            logo: bonbloc_inc.svg
-            crunchbase: https://www.crunchbase.com/organization/bonbloc
-          - item:
-            name: Chainyard (HCSP)
-            description: >-
-              Chainyard, a leader in blockchain consulting, is a dynamic team of blockchain enthusiasts with the expertise, process, and technology required to
-              develop world-class business and software solutions. With a focus on enterprise use cases, Chainyard is helping companies navigate blockchain by
-              working with them to identify value, prioritize opportunities, develop solutions, and operate production blockchain networks.
-            homepage_url: https://chainyard.com/
-            logo: chainyard-horizontal-color.svg
-            crunchbase: https://www.crunchbase.com/organization/chainyard-an-it-people-company
-          - item:
-            name: CPQD (HCSP)
-            description: >-
-              Consulting services for innovation in business networks -- design thinking and design sprint techniques to co-create an application. Application
-              and DLTs implementation for (1) traceability of things (IoT), (2) digital identity and (3) contract automation.
-            homepage_url: https://www.cpqd.com.br/blockchain/
-            logo: cpqd-horizontal-color.svg
-            crunchbase: https://www.crunchbase.com/organization/cpqd
-          - item:
-            name: Espeo Software (HCSP)
-            description: >-
-              Espeo Software is a digital consultancy that specializes in the development of enterprise blockchain projects. We’re focused on building
-              Hyperledger Fabric solutions. We’re your full-service partner for transforming your blockchain concept into a complete decentralized product. As
-              blockchain consultants, we’ll walk you through the process of complex blockchain development. With over a decade of experience, our expert team
-              will turn your concept into a leading product.
-            homepage_url: https://espeo.eu/
-            logo: espeo_software.svg
-            crunchbase: https://www.crunchbase.com/organization/espeo-software
-          - item:
-            name: Hitachi (HCSP)
-            description: >-
-              Utilizing the blockchain technology provided by Hitachi, the speed of transactions between companies can be dramatically increased, and it becomes
-              possible to create business that overcome the barriers between different industries. Hitachi has a wealth of understanding and know-how covering a
-              wide variety of different industries. By using blockchains and other technologies and know-how that we have developed up till now, Hitachi will
-              contribute to the building of new customer businesses.
-            homepage_url: https://www.hitachi.co.jp/products/it/blockchain/service/hyperledger/index.html
-            logo: hitachi-stacked-color.svg
-            crunchbase: https://www.crunchbase.com/organization/hitachi
-          - item:
-            name: IBM (HCSP)
-            description: >-
-              IBM has several blockchain products and services that will help accelerate a client’s blockchain success. The IBM Blockchain Platform adds
-              enterprise grade production requirements to Hyperledger Fabric helping clients to build, govern, operate and grow their enterprise blockchain
-              solutions throughout their solutions lifecycle.  This platform is available as SaaS on the IBM Cloud or as Software for multicloud (3 party public
-              clouds) or on-premise infrastructures of your choice.
-            homepage_url: https://www.ibm.com/blockchain
-            logo: ibm-horizontal-color.svg
-            twitter: https://twitter.com/ibmblockchain
-            crunchbase: https://www.crunchbase.com/organization/ibm
-          - item:
-            name: Information Data Systems (HCSP)
-            description: >-
-              We at IDS, build fit for purpose enterprise blockchain applications with various degrees of decentralization. We have a proprietary Blockchain
-              Transformation Framework to design, develop and deliver blockchain solutions with outcome driven tactical short term and strategic long term value
-              proposition. We have one of our flagship application "Trustflow - coherent supply chain management" and couple of blockchain solutions are powered
-              by Hyperledger Fabric.
-            homepage_url: https://idssoft.com/
-            logo: information_data_systems.svg
-            twitter: https://twitter.com/IDSSOFT
-            crunchbase: https://www.crunchbase.com/organization/information-data-systems-de20
-          - item:
-            name: IntellectEU (HCSP)
-            description: >-
-              IntellectEU is a founding member of the Hyperledger Foundation and has built several production-grade solutions built on Hyperledger Fabric
-              centered around areas such as tokenization and KYC.  Building on our experience with Hyperledger Fabric, we have created the Catalyst Blockchain
-              Platform to simplify the deployment, maintenance, and management of Fabric networks for enterprises.
-            homepage_url: https://intellecteu.com/
-            logo: intellecteu.svg
-            crunchbase: https://www.crunchbase.com/organization/intellecteu
-          - item:
-            name: Kaleido (HCSP)
-            description: >-
-              Kaleido is an enterprise-grade, web3 platform making blockchain and digital assets radically simple for organizations to adopt. Kaleido makes it
-              easy to launch multi-region, multi-cloud blockchain networks on protocols including Hyperledger Fabric, Hyperledger Besu, Ethereum, Polygon Edge,
-              Quorum, and Corda, all backed by Hyperledger FireFly. Kaleido has been powering enterprise blockchain since its inception and is the driving force
-              behind Hyperledger FireFly. We serve on the Governing Board and Technical Oversight Committee for Hyperledger Foundation, and our team contains
-              founding members of Hyperledger Fabric, plus long time committers and maintainers.
-            homepage_url: https://kaleido.io/
-            logo: kaleido.svg
-            crunchbase: https://www.crunchbase.com/organization/kaleido
-          - item:
-            name: KrypC Corp (HCSP)
-            description: >-
-              KrypC is a Blockchain technology venture, backed by seasoned professionals, focused on accelerating adoption of blockchain technology We research,
-              develop and go to market with blockchain-based products; for large enterprises and blockchain start-up ventures to adopt and realize business
-              value. KrypC is a Hyperledger Certified Service Provider (HCSP) with over 150 person years of experience. Since 2016 KrypC has been deploying and
-              managing many HLF programs in production across multiple domains.
-            homepage_url: https://krypc.com/
-            logo: KrypC-logo.svg
-            crunchbase: https://www.crunchbase.com/organization/krypc
-          - item:
-            name: Mindtree (HCSP)
-            description: >-
-              Mindtree has been developing capabilities around Hyperledger for the last four years, started contributing to the Hyperledger community since
-              2017. Mindtree has a product for ‘Loyalty Exchange Platform’, named ‘$wap’, using Hyperledger Fabric. 'Merchant On-Boarding' on blockchain using
-              Hyperledger Fabric, is another product which is also in MVP state. Both the products can be customized easily as per the requirement of the
-              customers.
-            homepage_url: https://www.mindtree.com
-            logo: mindtree-horizontal-color.svg
-            crunchbase: https://www.crunchbase.com/organization/mindtree
-          - item:
-            name: NEC Corporation (HCSP)
-            description: >-
-              NEC Corporation is a leader in the integration of IT and network technologies that benefit businesses and people around the world. NEC brings more
-              than 120 years of expertise in technological innovation to empower people, businesses and society. Recently we are making efforts to resolve the
-              difficulties of traditional blockchain and developing new technology for enterprise use.
-            homepage_url: https://www.nec.com/
-            logo: nec-400x245.svg
-            crunchbase: https://www.crunchbase.com/organization/nec
-          - item:
-            name: Snapper Future Tech (HCSP)
-            description: >-
-              Snapper Future Tech is a global services & technology products company, leading digital transformation for enterprises using blockchain. It offers
-              services in Blockchain application development, training & consulting, along with an innovative suite of specialized products for e-Governance,
-              Financial Services, Insurance, Sustainable Supply Chain & Healthcare. A Hyperledger Certified Service Provider (HCSP) & Training partner (HTP),
-              the company participates in open-source initiatives across the globe & has robust technological alliances & partnerships with Hyperledger, Oracle,
-              Amazon Web Services, IBM, Trust over IP & Sovrin.
-            homepage_url: https://snapperfuturetech.com/
-            logo: snapper_logo_horizontal.svg
-            crunchbase: https://www.crunchbase.com/organization/snapper-future-tech
-          - item:
-            name: Tech Mahindra (HCSP)
-            description: >-
-              Tech Mahindra is one of the leading Blockchain Service Providers in the world with demonstrated product development capabilities using Hyperledger
-              projects by developing 25+ Blockchain platforms and also implemented one of the world’s largest Blockchain networks covering 500 million+
-              subscribers in India to fight spam calls and text. With 250+ global engagements and 100+ core Blockchain team members trained on Hyperledger, we
-              have extensive experience in developing and deploying several transformative implementations for governments, large and mid-sized enterprises
-              across diverse industry verticals that have helped our clients solve complex business problems.
-            homepage_url: https://www.techmahindra.com/en-in/techmnxt/techbets/blockchain/
-            logo: techmahindra-stacked-color.svg
-            crunchbase: https://www.crunchbase.com/organization/tech-mahindra
-          - item:
-            name: Wipro Limited (HCSP)
-            homepage_url: https://wipro.com/
-            logo: wipro_limited.svg
-            crunchbase: https://www.crunchbase.com/organization/wipro
+              Hyperledger Grid intends to provide reference implementations of supply chain-centric data types, data models, and smart contract based business
+              logic – all anchored on existing, open standards and industry best practices. It showcases in authentic and practical ways how to combine
+              components from the Hyperledger stack into a single, effective business solution.
+            homepage_url: https://www.hyperledger.org/use/grid
+            project: incubating
+            repo_url: https://github.com/hyperledger/grid
+            additional_repos:
+              - repo_url: https://github.com/hyperledger/grid-contrib
+              - repo_url: https://github.com/hyperledger/grid-docs
+              - repo_url: https://github.com/hyperledger/grid-rfcs
+            logo: hyperledger-grid.svg
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            extra:
+              wiki: https://wiki.hyperledger.org/display/grid
+              chat: https://discord.com/channels/905194001349627914/941369415608451142
+              documentation: https://grid.hyperledger.org/docs
   - category:
     name: Hyperledger Members
     subcategories:
@@ -580,7 +1331,6 @@ landscape:
             name: Blockchain Technology Partners, Inc.
             homepage_url: https://btp.works/
             logo: blockchain_technology_partners_inc.svg
-            twitter: https://twitter.com/btpworx
             crunchbase: https://www.crunchbase.com/organization/btpworks
           - item:
             name: BONbLOC Inc
@@ -603,10 +1353,11 @@ landscape:
             name: CasperLabs LLC
             homepage_url: https://casperlabs.io/
             logo: casperlabs_llc.svg
-            twitter: https://twitter.com/Casper_Network
             crunchbase: https://www.crunchbase.com/organization/casperlabs
           - item:
             name: Chainyard
+            project: company
+            second_path: Services / Consulting/Professional Services
             homepage_url: https://chainyard.com/
             logo: chainyard.svg
             crunchbase: https://www.crunchbase.com/organization/chainyard-an-it-people-company
@@ -616,6 +1367,7 @@ landscape:
             logo: change_healthcare.svg
             twitter: https://twitter.com/Change_HC
             crunchbase: https://www.crunchbase.com/organization/change-healthcare
+            stock_ticker: null
           - item:
             name: China Systems Holdings Limited
             homepage_url: https://chinasystems.com/
@@ -639,12 +1391,6 @@ landscape:
             logo: corsha.svg
             twitter: https://twitter.com/Corsha_APIs
             crunchbase: https://www.crunchbase.com/organization/corsha
-          - item:
-            name: CSEngineering
-            homepage_url: https://cse-corp.com/
-            logo: csengineering.svg
-            twitter: https://twitter.com/CSECorp
-            crunchbase: https://www.crunchbase.com/organization/constellation-software-engineering
           - item:
             name: CVS Health
             homepage_url: https://cvshealth.com/
@@ -671,7 +1417,6 @@ landscape:
             name: Digital Asset Holdings, LLC
             homepage_url: https://digitalasset.com/
             logo: digital_asset_holdings_llc.svg
-            twitter: https://twitter.com/Damldriven
             crunchbase: https://www.crunchbase.com/organization/digital-asset-2
           - item:
             name: Distributed Ledger Technologies (DLT) Pte Ltd.
@@ -694,11 +1439,24 @@ landscape:
             logo: espeo_software.svg
             crunchbase: https://www.crunchbase.com/organization/espeo-software
           - item:
+            name: Federal Express
+            homepage_url: https://fedex.com/
+            logo: federal_express.svg
+            twitter: https://twitter.com/FedEx
+            crunchbase: https://www.crunchbase.com/organization/fedex
+          - item:
             name: Filecoin Foundation
             homepage_url: https://fil.org/
             logo: filecoin_foundation.svg
             twitter: https://twitter.com/FilFoundation
             crunchbase: https://www.crunchbase.com/organization/filecoin-foundation
+          - item:
+            name: Gen Digital
+            homepage_url: https://avast.com/
+            logo: gen_digital.svg
+            twitter: https://twitter.com/Avast
+            crunchbase: https://www.crunchbase.com/organization/avast
+            stock_ticker: null
           - item:
             name: GSBN
             homepage_url: https://gsbn.trade/
@@ -746,6 +1504,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/integra-ledger
           - item:
             name: IntellectEU
+            project: company
+            second_path: Services / Consulting/Professional Services
             homepage_url: https://intellecteu.com/
             logo: intellecteu.svg
             crunchbase: https://www.crunchbase.com/organization/intellecteu
@@ -777,6 +1537,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/jpmorgan-chase-co
           - item:
             name: Kaleido
+            second_path: Platforms / Management/Operations
+            project: company
             homepage_url: https://kaleido.io/
             logo: kaleido.svg
             crunchbase: https://www.crunchbase.com/organization/kaleido
@@ -789,8 +1551,12 @@ landscape:
             name: LTIMindtree Limited
             homepage_url: https://mindtree.com/
             logo: ltimindtree_limited.svg
-            twitter: https://twitter.com/LTIMindtreeOFCL
             crunchbase: https://www.crunchbase.com/organization/mindtree
+          - item:
+            name: Marketnode
+            homepage_url: https://marketnode.com/
+            logo: marketnode.svg
+            crunchbase: https://www.crunchbase.com/organization/marketnode
           - item:
             name: MediConCen Limited
             homepage_url: https://mediconcen.com/
@@ -812,10 +1578,17 @@ landscape:
             name: New H3C Technologies Co., Ltd
             homepage_url: https://h3c.com/
             logo: new_h3c_technologies_co_ltd.svg
-            twitter: https://twitter.com/H3CGlobal
+            twitter: https://twitter.com/H3CGroup
             crunchbase: https://www.crunchbase.com/organization/h3c-technologies
           - item:
+            name: NextGen Tek Consulting
+            homepage_url: https://nextgentek.io/
+            logo: nextgen_tek_consulting.svg
+            crunchbase: https://www.crunchbase.com/organization/nextgen-tek-consulting
+          - item:
+            project: company
             name: NTT DATA
+            second_path: Services / Consulting/Professional Services
             homepage_url: https://nttdata.com/
             logo: ntt_data.svg
             twitter: https://twitter.com/NTTDATA
@@ -855,12 +1628,6 @@ landscape:
             logo: red_date_hong_kong_technology_limited.svg
             crunchbase: https://www.crunchbase.com/organization/red-date-technology
           - item:
-            name: Ripple Labs Inc.
-            homepage_url: https://ripple.com/
-            logo: ripple_labs_inc.svg
-            twitter: https://twitter.com/Ripple
-            crunchbase: https://www.crunchbase.com/organization/ripple-labs
-          - item:
             name: Shanghai Vonechain Information Technology Co., Ltd
             homepage_url: https://vonechain.com/
             logo: shanghai_vonechain_information_technology_co_ltd.svg
@@ -877,6 +1644,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/siemens
           - item:
             name: SIMBA Chain
+            second_path: Platforms / Management/Operations
+            project: company
             homepage_url: https://simbachain.com/
             logo: simba_chain.svg
             twitter: https://twitter.com/SIMBAchain
@@ -1055,11 +1824,6 @@ landscape:
             logo: decentralized_identity_foundation.svg
             crunchbase: https://www.crunchbase.com/organization/decentralized-identity-foundation
           - item:
-            name: Digital Euro Association (DEA)
-            homepage_url: https://digital-euro-association.de/
-            logo: digital_euro_association_dea.svg
-            crunchbase: https://www.crunchbase.com/organization/digital-euro-association
-          - item:
             name: Digital Identity Laboratory of Canada
             homepage_url: https://idlab.org/
             logo: digital_identity_laboratory_of_canada.svg
@@ -1122,6 +1886,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/hogeschool-west-vlaanderen
           - item:
             name: INATBA
+            project: company
+            second_path: Standards / Standards
             homepage_url: https://inatba.org/
             logo: inatba.svg
             twitter: https://twitter.com/INATBA_org
@@ -1134,7 +1900,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/initiative-for-cryptocurrencies-and-contracts
           - item:
             name: Inter-American Development Bank (dba LACChain)
-            homepage_url: https://lacchain.net/
+            homepage_url: https://www.lacchain.net/home
             logo: inter-american_development_bank_dba_lacchain.svg
             twitter: https://twitter.com/LACChain
             crunchbase: https://www.crunchbase.com/organization/inter-american-development-bank
@@ -1149,6 +1915,12 @@ landscape:
             logo: kiva.svg
             twitter: https://twitter.com/Kiva
             crunchbase: https://www.crunchbase.com/organization/kiva
+          - item:
+            name: Ministry of Citizens Services
+            homepage_url: https://gov.bc.ca/
+            logo: ministry_of_citizens_services.svg
+            twitter: https://twitter.com/BCGovNews
+            crunchbase: https://www.crunchbase.com/organization/government-of-british-columbia
           - item:
             name: MIT Connection Science
             homepage_url: https://mit.edu/
@@ -1183,12 +1955,6 @@ landscape:
             twitter: https://twitter.com/Portland_State
             crunchbase: https://www.crunchbase.com/organization/portland-state-university
           - item:
-            name: Province of British Columbia - Ministry of Citizens Services
-            homepage_url: https://gov.bc.ca/
-            logo: province_of_british_columbia_-_ministry_of_citizens_services.svg
-            twitter: https://twitter.com/BCGovNews
-            crunchbase: https://www.crunchbase.com/organization/government-of-british-columbia
-          - item:
             name: Saintgits College of Engineering
             homepage_url: https://saintgits.org/
             logo: saintgits_college_of_engineering.svg
@@ -1215,7 +1981,6 @@ landscape:
             name: Sun Yat-sen University
             homepage_url: https://sysu.edu.cn/
             logo: sun_yat-sen_university.svg
-            twitter: https://twitter.com/SunYatsen_Uni
             crunchbase: https://www.crunchbase.com/organization/sun-yat-sen-university
           - item:
             name: Tecnalia Corporation
@@ -1312,6 +2077,176 @@ landscape:
             homepage_url: https://www.zju.edu.cn/
             logo: zhejiang_university.svg
             crunchbase: https://www.crunchbase.com/organization/zhejiang-university
+  - category:
+    name: Hyperledger Certified Service Providers
+    subcategories:
+      - subcategory:
+        name: Hyperledger Fabric CSPs
+        items:
+          - item:
+            name: Accenture (HCSP)
+            description: Accenture, a technology independent HF-CSP and trusted advisor, can help on your path to digital transformation.
+            homepage_url: https://www.accenture.com/us-en/insights/blockchain-index
+            logo: accenture-horizontal-color.svg
+            twitter: https://twitter.com/Accenture
+            crunchbase: https://www.crunchbase.com/organization/accenture
+          - item:
+            name: Avanza Innovations IT Solutions LLC (HCSP)
+            description: >-
+              Avanza is a thought leader, best expert, and the go-to company for national and city-scale blockchain implementations. We help governments take
+              the next leap in automation and prepare them for the 4th Industrial Revolution through the use of nascent technologies. Avanza has enabled
+              numerous tier 1  government entities, regulators, and large enterprises to take on pioneering automation within their eco-systems in areas of
+              Digital Government Transformation, Financial Regulation & Supervision, Health Care, Supply Chain, Ports & Logistics, Manufacturing, Trade Finance,
+              Oil & Gas, E-Commerce and many more. Avanza’s tremendous success and by far the biggest market share in enterprise blockchain implementations is
+              made possible through an all-star and ace technology team - and on the back of our un-paralleled blockchain Orchestration and governance platform
+              – Cipher.
+            homepage_url: https://avanzainnovations.com/
+            logo: avanza_innovations_it_solutions_llc.svg
+            crunchbase: https://www.crunchbase.com/organization/avanza-innovations
+          - item:
+            name: BONbLOC Inc (HCSP)
+            description: >-
+              BONbLOC builds SaaS solutions that address many Private, Commercial and Public Sector supply chain or operations management challenges using
+              Blockchain, Data Science and IOT technologies.  We love what we do and are grateful to our customers, who trust us to lead them on a path to
+              collaborative situations that touch daily lives using modern technologies.
+            homepage_url: https://bonbloc.com/
+            logo: bonbloc_inc.svg
+            crunchbase: https://www.crunchbase.com/organization/bonbloc
+          - item:
+            name: Chainyard (HCSP)
+            description: >-
+              Chainyard, a leader in blockchain consulting, is a dynamic team of blockchain enthusiasts with the expertise, process, and technology required to
+              develop world-class business and software solutions. With a focus on enterprise use cases, Chainyard is helping companies navigate blockchain by
+              working with them to identify value, prioritize opportunities, develop solutions, and operate production blockchain networks.
+            homepage_url: https://chainyard.com/
+            logo: chainyard-horizontal-color.svg
+            crunchbase: https://www.crunchbase.com/organization/chainyard-an-it-people-company
+          - item:
+            name: CPQD (HCSP)
+            description: >-
+              Consulting services for innovation in business networks -- design thinking and design sprint techniques to co-create an application. Application
+              and DLTs implementation for (1) traceability of things (IoT), (2) digital identity and (3) contract automation.
+            homepage_url: https://www.cpqd.com.br/blockchain/
+            logo: cpqd-horizontal-color.svg
+            crunchbase: https://www.crunchbase.com/organization/cpqd
+          - item:
+            name: Espeo Software (HCSP)
+            description: >-
+              Espeo Software is a digital consultancy that specializes in the development of enterprise blockchain projects. We’re focused on building
+              Hyperledger Fabric solutions. We’re your full-service partner for transforming your blockchain concept into a complete decentralized product. As
+              blockchain consultants, we’ll walk you through the process of complex blockchain development. With over a decade of experience, our expert team
+              will turn your concept into a leading product.
+            homepage_url: https://espeo.eu/
+            logo: espeo_software.svg
+            crunchbase: https://www.crunchbase.com/organization/espeo-software
+          - item:
+            name: Hitachi (HCSP)
+            description: >-
+              Utilizing the blockchain technology provided by Hitachi, the speed of transactions between companies can be dramatically increased, and it becomes
+              possible to create business that overcome the barriers between different industries. Hitachi has a wealth of understanding and know-how covering a
+              wide variety of different industries. By using blockchains and other technologies and know-how that we have developed up till now, Hitachi will
+              contribute to the building of new customer businesses.
+            homepage_url: https://www.hitachi.co.jp/products/it/blockchain/service/hyperledger/index.html
+            logo: hitachi-stacked-color.svg
+            crunchbase: https://www.crunchbase.com/organization/hitachi
+          - item:
+            name: IBM (HCSP)
+            description: >-
+              IBM has several blockchain products and services that will help accelerate a client’s blockchain success. The IBM Blockchain Platform adds
+              enterprise grade production requirements to Hyperledger Fabric helping clients to build, govern, operate and grow their enterprise blockchain
+              solutions throughout their solutions lifecycle.  This platform is available as SaaS on the IBM Cloud or as Software for multicloud (3 party public
+              clouds) or on-premise infrastructures of your choice.
+            homepage_url: https://www.ibm.com/blockchain
+            logo: ibm-horizontal-color.svg
+            twitter: https://twitter.com/ibmblockchain
+            crunchbase: https://www.crunchbase.com/organization/ibm
+          - item:
+            name: Information Data Systems (HCSP)
+            description: >-
+              We at IDS, build fit for purpose enterprise blockchain applications with various degrees of decentralization. We have a proprietary Blockchain
+              Transformation Framework to design, develop and deliver blockchain solutions with outcome driven tactical short term and strategic long term value
+              proposition. We have one of our flagship application "Trustflow - coherent supply chain management" and couple of blockchain solutions are powered
+              by Hyperledger Fabric.
+            homepage_url: https://idssoft.com/
+            logo: information_data_systems.svg
+            twitter: https://twitter.com/IDSSOFT
+            crunchbase: https://www.crunchbase.com/organization/information-data-systems-de20
+          - item:
+            name: IntellectEU (HCSP)
+            description: >-
+              IntellectEU is a founding member of the Hyperledger Foundation and has built several production-grade solutions built on Hyperledger Fabric
+              centered around areas such as tokenization and KYC.  Building on our experience with Hyperledger Fabric, we have created the Catalyst Blockchain
+              Platform to simplify the deployment, maintenance, and management of Fabric networks for enterprises.
+            homepage_url: https://intellecteu.com/
+            logo: intellecteu.svg
+            crunchbase: https://www.crunchbase.com/organization/intellecteu
+          - item:
+            name: Kaleido (HCSP)
+            description: >-
+              Kaleido is an enterprise-grade, web3 platform making blockchain and digital assets radically simple for organizations to adopt. Kaleido makes it
+              easy to launch multi-region, multi-cloud blockchain networks on protocols including Hyperledger Fabric, Hyperledger Besu, Ethereum, Polygon Edge,
+              Quorum, and Corda, all backed by Hyperledger FireFly. Kaleido has been powering enterprise blockchain since its inception and is the driving force
+              behind Hyperledger FireFly. We serve on the Governing Board and Technical Oversight Committee for Hyperledger Foundation, and our team contains
+              founding members of Hyperledger Fabric, plus long time committers and maintainers.
+            homepage_url: https://kaleido.io/
+            logo: kaleido.svg
+            crunchbase: https://www.crunchbase.com/organization/kaleido
+          - item:
+            name: KrypC Corp (HCSP)
+            description: >-
+              KrypC is a Blockchain technology venture, backed by seasoned professionals, focused on accelerating adoption of blockchain technology We research,
+              develop and go to market with blockchain-based products; for large enterprises and blockchain start-up ventures to adopt and realize business
+              value. KrypC is a Hyperledger Certified Service Provider (HCSP) with over 150 person years of experience. Since 2016 KrypC has been deploying and
+              managing many HLF programs in production across multiple domains.
+            homepage_url: https://krypc.com/
+            logo: KrypC-logo.svg
+            crunchbase: https://www.crunchbase.com/organization/krypc
+          - item:
+            name: Mindtree (HCSP)
+            description: >-
+              Mindtree has been developing capabilities around Hyperledger for the last four years, started contributing to the Hyperledger community since
+              2017. Mindtree has a product for ‘Loyalty Exchange Platform’, named ‘$wap’, using Hyperledger Fabric. 'Merchant On-Boarding' on blockchain using
+              Hyperledger Fabric, is another product which is also in MVP state. Both the products can be customized easily as per the requirement of the
+              customers.
+            homepage_url: https://www.mindtree.com
+            logo: mindtree-horizontal-color.svg
+            crunchbase: https://www.crunchbase.com/organization/mindtree
+          - item:
+            name: NEC Corporation (HCSP)
+            description: >-
+              NEC Corporation is a leader in the integration of IT and network technologies that benefit businesses and people around the world. NEC brings more
+              than 120 years of expertise in technological innovation to empower people, businesses and society. Recently we are making efforts to resolve the
+              difficulties of traditional blockchain and developing new technology for enterprise use.
+            homepage_url: https://www.nec.com/
+            logo: nec-400x245.svg
+            crunchbase: https://www.crunchbase.com/organization/nec
+          - item:
+            name: Snapper Future Tech (HCSP)
+            description: >-
+              Snapper Future Tech is a global services & technology products company, leading digital transformation for enterprises using blockchain. It offers
+              services in Blockchain application development, training & consulting, along with an innovative suite of specialized products for e-Governance,
+              Financial Services, Insurance, Sustainable Supply Chain & Healthcare. A Hyperledger Certified Service Provider (HCSP) & Training partner (HTP),
+              the company participates in open-source initiatives across the globe & has robust technological alliances & partnerships with Hyperledger, Oracle,
+              Amazon Web Services, IBM, Trust over IP & Sovrin.
+            homepage_url: https://snapperfuturetech.com/
+            logo: snapper_logo_horizontal.svg
+            crunchbase: https://www.crunchbase.com/organization/snapper-future-tech
+          - item:
+            name: Tech Mahindra (HCSP)
+            description: >-
+              Tech Mahindra is one of the leading Blockchain Service Providers in the world with demonstrated product development capabilities using Hyperledger
+              projects by developing 25+ Blockchain platforms and also implemented one of the world’s largest Blockchain networks covering 500 million+
+              subscribers in India to fight spam calls and text. With 250+ global engagements and 100+ core Blockchain team members trained on Hyperledger, we
+              have extensive experience in developing and deploying several transformative implementations for governments, large and mid-sized enterprises
+              across diverse industry verticals that have helped our clients solve complex business problems.
+            homepage_url: https://www.techmahindra.com/en-in/techmnxt/techbets/blockchain/
+            logo: techmahindra-stacked-color.svg
+            crunchbase: https://www.crunchbase.com/organization/tech-mahindra
+          - item:
+            name: Wipro Limited (HCSP)
+            homepage_url: https://wipro.com/
+            logo: wipro_limited.svg
+            crunchbase: https://www.crunchbase.com/organization/wipro
   - category:
     name: Hyperledger Training Partners
     subcategories:
